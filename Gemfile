@@ -35,6 +35,9 @@ gem 'pg_search'
 # For CMS-like admin interface
 gem 'activeadmin'
 
+# Gemfile
+gem 'sassc-rails'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 

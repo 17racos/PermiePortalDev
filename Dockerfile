@@ -1,8 +1,14 @@
 # Use an official Ruby image as the base
 FROM ruby:3.2
 
-# Install necessary packages
-RUN apt-get update -qq && apt-get install -y build-essential nodejs postgresql-client
+# Install necessary packages, including libraries for sassc
+RUN apt-get update -qq && apt-get install -y \
+  build-essential \
+  nodejs \
+  postgresql-client \
+  libsass-dev \
+  libxml2-dev \
+  libxslt1-dev
 
 # Set the working directory
 WORKDIR /app
@@ -12,10 +18,13 @@ COPY Gemfile Gemfile.lock ./
 RUN gem install bundler && bundle install
 
 # Copy the rest of the application code
-COPY . .
+COPY . ./
 
-# Set environment variables
+# Set environment variables (optional; Docker Compose handles this)
 ENV RAILS_ENV=development
+
+# Expose the port on which the Rails server will run
+EXPOSE 3000
 
 # Run the Rails server
 CMD ["rails", "server", "-b", "0.0.0.0"]

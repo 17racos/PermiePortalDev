@@ -1,16 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>App</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PermiePortal | Your Hub for Permaculture Knowledge</title>
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="PermiePortal: Your central resource for permaculture education and community networking.">
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%= javascript_importmap_tags %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body class="flex flex-col min-h-screen">
+    <header class="bg-green-600">
+      <div class="max-w-screen-lg mx-auto py-3 px-3 sm:px-6 lg:px-8 flex items-center justify-between">
+        <h1 class="text-lg font-semibold text-white"><%= link_to 'PermiePortal', root_path %></h1>
+        <nav>
+          <% if user_signed_in? %>
+            <span class="text-white">Logged in as <%= current_user.email %></span>
+            <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: 'ml-4 text-white' %>
+          <% else %>
+            <%= link_to 'Login', new_user_session_path, class: 'text-white' %> |
+            <%= link_to 'Sign Up', new_user_registration_path, class: 'text-white' %>
+          <% end %>
+        </nav>
+      </div>
+    </header>
+
+    <main class="flex-grow max-w-screen-lg mx-auto py-8 px-4 sm:px-6 lg:px-8">
+      <%= yield %>
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center py-4">
+      <p class="text-gray-400">
+        &copy; <%= Time.current.year %> PermiePortal. All rights reserved.
+      </p>
+    </footer>
   </body>
 </html>
+
