@@ -38,6 +38,9 @@ gem 'activeadmin'
 # Gemfile
 gem 'sassc-rails'
 
+#Tailwinds css
+gem 'tailwindcss-rails'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
