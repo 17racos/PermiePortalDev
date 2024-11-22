@@ -9,34 +9,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="PermiePortal: Your central resource for permaculture education and community networking.">
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
-
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
-  <body class="flex flex-col min-h-screen">
-    <header class="bg-green-600">
-      <div class="max-w-screen-lg mx-auto py-3 px-3 sm:px-6 lg:px-8 flex items-center justify-between">
-        <h1 class="text-lg font-semibold text-white"><%= link_to 'PermiePortal', root_path %></h1>
-        <nav>
+  <body class="bg-green-50 font-sans text-gray-800 flex flex-col min-h-screen">
+    <!-- Header with Nature-inspired colors -->
+    <header class="bg-gradient-to-r from-green-600 to-green-500 text-white shadow-md">
+      <div class="max-w-screen-lg mx-auto py-4 px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+        <!-- Logo/Title -->
+        <h1 class="text-2xl font-bold">
+          <%= link_to 'PermiePortal', root_path, class: "hover:text-green-200" %>
+        </h1>
+
+        <!-- Navigation Links -->
+        <nav class="text-sm font-semibold">
           <% if user_signed_in? %>
             <span class="text-white">Logged in as <%= current_user.email %></span>
-            <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: 'ml-4 text-white' %>
+            <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: 'ml-4 text-white hover:text-green-200' %>
           <% else %>
-            <%= link_to 'Login', new_user_session_path, class: 'text-white' %> |
-            <%= link_to 'Sign Up', new_user_registration_path, class: 'text-white' %>
+            <%= link_to 'Login', new_user_session_path, class: 'text-white hover:text-green-200' %> |
+            <%= link_to 'Sign Up', new_user_registration_path, class: 'text-white hover:text-green-200' %>
           <% end %>
         </nav>
       </div>
     </header>
 
-    <main class="flex-grow max-w-screen-lg mx-auto py-8 px-4 sm:px-6 lg:px-8">
+    <!-- Main Content Area -->
+    <main class="flex-grow max-w-screen-lg mx-auto py-8 px-6 sm:px-8 lg:px-10">
       <%= yield %>
     </main>
 
-    <footer class="bg-gray-800 text-white text-center py-4">
+    <!-- Footer with Subtle Earthy Colors -->
+    <footer class="bg-gray-800 text-white text-center py-4 mt-auto">
       <p class="text-gray-400">
-        &copy; <%= Time.current.year %> PermiePortal. All rights reserved.
+        &copy; <%= Time.current.year %> PermiePortal. All rights reserved. 
+        <br>
+        <a href="https://permaculture.org" target="_blank" class="text-green-400 hover:text-green-300">Permaculture.org</a>
       </p>
     </footer>
   </body>
