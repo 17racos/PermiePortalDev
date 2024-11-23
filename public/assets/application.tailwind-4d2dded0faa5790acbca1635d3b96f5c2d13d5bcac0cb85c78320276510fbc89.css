@@ -1,0 +1,29 @@
+/* app/assets/stylesheets/application.tailwind.css */
+/* app/assets/stylesheets/application.tailwind.css */
+
+/* Base Tailwind Styles - Make sure Tailwind's base styles are applied */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add your custom styles below */
+
+/* Example: Customizing body styles */
+body {
+  /* You can add padding or other styles if needed */
+  background-color: #f8fafc; /* Light background color */
+  font-family: 'Inter', sans-serif; /* Ensure you are using the Inter font if applicable */
+  color: #333; /* Text color */
+  min-height: 100vh; /* Ensure the body takes the full height */
+  box-sizing: border-box; /* Ensure padding doesn't overflow the layout */
+}
+
+/* Example of custom utility class usage */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* You can extend your custom classes below if necessary */
+

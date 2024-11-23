@@ -1,0 +1,13 @@
+/* app/assets/stylesheets/application.tailwind.css */
+
+body {
+  position: relative;
+  padding: 40px; /* Adjust padding to create space between the content and the border */
+  background-image: url(/assets/permaculture-border.png); /* Path to your permaculture border image */
+  background-repeat: repeat; /* Ensures the image repeats along the border */
+  background-size: auto 40px; /* Adjust the size of each image pattern */
+  background-position: center;
+  min-height: 100vh; /* Ensures the border extends to the bottom of the page */
+  box-sizing: border-box; /* Prevents content from overflowing beyond the border */
+}
+

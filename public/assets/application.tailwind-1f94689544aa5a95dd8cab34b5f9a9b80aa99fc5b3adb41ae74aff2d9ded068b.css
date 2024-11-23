@@ -1,0 +1,26 @@
+/* app/assets/stylesheets/application.tailwind.css */
+
+/* Create a border with the leaf image */
+body {
+  position: relative;
+  padding: 40px; /* Adjust padding to create space between the content and the border */
+  min-height: 100vh; /* Ensures the body takes up full height */
+  box-sizing: border-box;
+}
+
+/* Add the border using pseudo-elements */
+body::before,
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(/assets/permaculture-border.png); /* Path to your permaculture border image */
+  background-repeat: repeat;
+  background-size: 40px 40px; /* Adjust size of the repeating pattern */
+  pointer-events: none; /* Ensures this doesn’t block content interactions */
+  z-index: -1; /* Keeps the border behind the content */
+}
+
