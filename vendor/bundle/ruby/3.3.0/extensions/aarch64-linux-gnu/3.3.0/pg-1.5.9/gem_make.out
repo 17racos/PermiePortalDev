@@ -1,0 +1,8 @@
+current directory: /home/dracos/app/permieportal/vendor/bundle/ruby/3.3.0/gems/pg-1.5.9/ext
+/usr/bin/ruby3.3 -I/usr/lib/ruby/vendor_ruby extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
