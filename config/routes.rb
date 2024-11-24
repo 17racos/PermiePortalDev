@@ -4,7 +4,8 @@ Rails.application.routes.draw do
 
   # Resources routes
   resources :resources, only: [:index] do
-    get 'whatisperm', on: :collection # The 'whatisperm' action under the resources collection
+    get 'whatisperm', on: :collection, as: :whatisperm  # Action for "What is Permaculture?"
+    get 'whyitmatters', on: :collection, as: :whyitmatters  # Action for "Why Permaculture Matters?"
   end
 
   # Other custom routes
