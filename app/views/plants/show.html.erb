@@ -1,13 +1,13 @@
 <div class="max-w-screen-lg mx-auto bg-green-50 shadow-md rounded-lg p-8 space-y-8">
   <!-- Plant Image -->
   <div class="text-center">
-    <%= image_tag @plant.picture, alt: @plant.common_name, class: "w-full h-64 object-cover rounded-md mb-6 shadow-lg" %>
+    <%= image_tag @plant.picture, alt: h(@plant.common_name), class: "w-full h-64 object-cover rounded-md mb-6 shadow-lg" %>
   </div>
 
   <!-- Plant Name and Scientific Name -->
   <div class="text-center">
-    <h1 class="text-4xl font-bold text-green-700 mb-2"><%= @plant.common_name %></h1>
-    <p class="text-xl italic text-gray-700"><%= @plant.scientific_name %></p>
+    <h1 class="text-4xl font-bold text-green-700 mb-2"><%= h(@plant.common_name) %></h1>
+    <p class="text-xl italic text-gray-700"><%= h(@plant.scientific_name) %></p>
   </div>
 
   <!-- Plant Details -->
@@ -15,9 +15,9 @@
     <!-- Basic Information -->
     <div class="bg-white rounded-lg shadow p-6">
       <h2 class="text-xl font-semibold text-green-600 mb-4">Basic Information</h2>
-      <p><strong>🌿 Family:</strong> <%= @plant.family %></p>
-      <p><strong>🌍 Zone:</strong> <%= @plant.zone %></p>
-      <p><strong>🌱 Type:</strong> <%= @plant.perennial ? "Perennial" : "Annual" %></p>
+      <p><strong>🌿 Family:</strong> <%= h(@plant.family) %></p>
+      <p><strong>🌍 Zone:</strong> <%= h(@plant.zone) %></p>
+      <p><strong>🌱 Type:</strong> <%= h(@plant.perennial ? "Perennial" : "Annual") %></p>
     </div>
 
     <!-- Layers -->
@@ -26,7 +26,7 @@
       <% if @plant.layers_array.present? %>
         <ul class="list-disc pl-6 space-y-1">
           <% @plant.layers_array.each do |layer| %>
-            <li><%= layer %></li>
+            <li><%= h(layer) %></li>
           <% end %>
         </ul>
       <% else %>
@@ -41,7 +41,7 @@
     <% if @plant.functions_array.present? %>
       <ul class="list-disc pl-6 space-y-1">
         <% @plant.functions_array.each do |func| %>
-          <li><%= func %></li>
+          <li><%= h(func) %></li>
         <% end %>
       </ul>
     <% else %>

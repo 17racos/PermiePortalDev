@@ -5,13 +5,13 @@ class Plant < ApplicationRecord
 
   # === Scopes ===
   scope :filter_by_functions, ->(functions) { 
-    where("function ILIKE ANY (array[?])", functions.map { |f| "%#{f}%" }) if functions.present? 
+    where("function ILIKE ANY (array[?])", prepare_filters(functions)) if functions.present?
   }
   scope :filter_by_layers, ->(layers) { 
-    where("layers ILIKE ANY (array[?])", layers.map { |l| "%#{l}%" }) if layers.present? 
+    where("layers ILIKE ANY (array[?])", prepare_filters(layers)) if layers.present?
   }
   scope :filter_by_zones, ->(zones) { 
-    where(zone: zones) if zones.present? 
+    where(zone: zones) if zones.present?
   }
 
   # === Overrides ===
@@ -26,25 +26,33 @@ class Plant < ApplicationRecord
     perennial ? "Perennial" : "Annual"
   end
 
-  # Converts layers into an array for easier iteration
+  # Parses and returns `layers` as an array
   def layers_array
     parse_to_array(layers)
   end
 
-  # Converts functions into an array for easier iteration
+  # Parses and returns `functions` as an array
   def functions_array
     parse_to_array(function)
   end
 
-  # Finds a plant using a case-insensitive match for `common_name`
-  def self.find_by_common_name(slug)
-    where("LOWER(common_name) = ?", slug.tr('-', ' ').downcase).first!
+  # === Class Methods ===
+  class << self
+    # Finds a plant by `common_name` using a case-insensitive slug match
+    def find_by_common_name(slug)
+      where("LOWER(common_name) = ?", slug.tr('-', ' ').downcase).first!
+    end
+
+    # Prepares filters for SQL ILIKE ANY
+    def prepare_filters(values)
+      values.map { |value| "%#{value}%" }
+    end
   end
 
   private
 
   # Helper to parse a comma-separated string into a trimmed array
   def parse_to_array(field)
-    field.to_s.split(",").map(&:strip)
+    JSON.parse(field) rescue field.to_s.split(",").map(&:strip)
   end
 end
