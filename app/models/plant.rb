@@ -1,6 +1,7 @@
 class Plant < ApplicationRecord
   # === Validations ===
   validates :common_name, :scientific_name, :zone, :layers, :function, presence: true
+  validates :description, length: { maximum: 5000 }, allow_blank: true
   validates :perennial, inclusion: { in: [true, false] }
 
   # === Scopes ===
