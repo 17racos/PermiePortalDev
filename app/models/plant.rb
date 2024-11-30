@@ -4,9 +4,21 @@ class Plant < ApplicationRecord
   validates :perennial, inclusion: { in: [true, false] }
 
   # === Scopes ===
-  scope :filter_by_functions, ->(functions) { where("function ILIKE ANY (array[?])", functions.map { |f| "%#{f}%" }) if functions.present? }
-  scope :filter_by_layers, ->(layers) { where("layers ILIKE ANY (array[?])", layers.map { |l| "%#{l}%" }) if layers.present? }
-  scope :filter_by_zones, ->(zones) { where(zone: zones) if zones.present? }
+  scope :filter_by_functions, ->(functions) {
+    if functions.present?
+      where("LOWER(function) SIMILAR TO ?", "%(#{functions.map { |f| Regexp.escape(f.downcase) }.join('|')})%")
+    end
+  }
+
+  scope :filter_by_layers, ->(layers) {
+    if layers.present?
+      where("LOWER(layers) SIMILAR TO ?", "%(#{layers.map { |l| Regexp.escape(l.downcase) }.join('|')})%")
+    end
+  }
+
+  scope :filter_by_zones, ->(zones) {
+    where(zone: zones) if zones.present?
+  }
 
   # === Instance Methods ===
 
@@ -29,6 +41,6 @@ class Plant < ApplicationRecord
 
   # Helper to split a string into an array, trimming whitespace
   def split_field(field)
-    field.split(",").map(&:strip) if field.present?
+    field.to_s.split(",").map(&:strip).reject(&:blank?)
   end
 end

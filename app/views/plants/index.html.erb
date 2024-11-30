@@ -2,13 +2,15 @@
 
 <!-- Filter Form -->
 <div class="mb-8 bg-white shadow-md rounded-lg p-6">
-  <%= form_with url: plants_path, method: :get, local: true do %>
+<%= form_with url: plants_path, method: :get, local: true, html: { id: "plant-filter-form", class: "auto-filter" } do %>
+<%= link_to "Clear Filters", plants_path, class: "text-blue-500 hover:underline" %>
+  
     <!-- Function Filters -->
     <div class="mb-6">
       <h2 class="text-lg font-semibold mb-2">Filter by Functions</h2>
       <% ["Edible", "Medicinal", "Nitrogen Fixer", "Wildlife Attractor", "Mulcher"].each do |function| %>
         <label class="inline-flex items-center">
-          <%= check_box_tag "search[functions][]", function, params.dig(:search, :functions)&.include?(function), class: "mr-2" %>
+          <%= check_box_tag "search[functions][]", function, params.dig(:search, :functions)&.include?(function), class: "mr-2 filter-checkbox" %>
           <%= function %>
         </label><br>
       <% end %>
@@ -19,7 +21,7 @@
       <h2 class="text-lg font-semibold mb-2">Filter by Layers</h2>
       <% ["Canopy", "Sub-canopy", "Shrub", "Herbaceous", "Groundcover", "Root", "Climbers"].each do |layer| %>
         <label class="inline-flex items-center">
-          <%= check_box_tag "search[layers][]", layer, params.dig(:search, :layers)&.include?(layer), class: "mr-2" %>
+          <%= check_box_tag "search[layers][]", layer, params.dig(:search, :layers)&.include?(layer), class: "mr-2 filter-checkbox" %>
           <%= layer %>
         </label><br>
       <% end %>
@@ -30,16 +32,10 @@
       <h2 class="text-lg font-semibold mb-2">Filter by Zones</h2>
       <% ["3", "4", "5", "6", "7", "8", "9", "10"].each do |zone| %>
         <label class="inline-flex items-center">
-          <%= check_box_tag "search[zones][]", zone, params.dig(:search, :zones)&.include?(zone), class: "mr-2" %>
+          <%= check_box_tag "search[zones][]", zone, params.dig(:search, :zones)&.include?(zone), class: "mr-2 filter-checkbox" %>
           <%= zone %>
         </label><br>
       <% end %>
-    </div>
-
-    <!-- Submit Button -->
-    <div class="flex justify-end gap-4">
-      <%= submit_tag "Search", class: "px-6 py-2 bg-green-600 text-white font-semibold rounded-md shadow hover:bg-green-500" %>
-      <%= link_to "Clear Filters", plants_path, class: "px-6 py-2 bg-gray-300 text-gray-700 font-semibold rounded-md shadow hover:bg-gray-200" %>
     </div>
   <% end %>
 </div>
