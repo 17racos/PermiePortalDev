@@ -2,9 +2,12 @@
 
 <!-- Filter Form -->
 <div class="mb-8 bg-white shadow-md rounded-lg p-6">
-<%= form_with url: plants_path, method: :get, local: true, html: { id: "plant-filter-form", class: "auto-filter" } do %>
-<%= link_to "Clear Filters", plants_path, class: "text-blue-500 hover:underline" %>
-  
+  <%= form_with url: plants_path, method: :get, local: true, html: { id: "plant-filter-form", class: "auto-filter" } do %>
+    <!-- Clear Filters Link -->
+    <div class="mb-4">
+      <%= link_to "Clear Filters", plants_path, class: "text-blue-500 hover:underline" %>
+    </div>
+
     <!-- Function Filters -->
     <div class="mb-6">
       <h2 class="text-lg font-semibold mb-2">Filter by Functions</h2>

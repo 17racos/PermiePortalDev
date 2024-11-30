@@ -4,43 +4,47 @@ class Plant < ApplicationRecord
   validates :perennial, inclusion: { in: [true, false] }
 
   # === Scopes ===
-  scope :filter_by_functions, ->(functions) {
-    if functions.present?
-      where("LOWER(function) SIMILAR TO ?", "%(#{functions.map { |f| Regexp.escape(f.downcase) }.join('|')})%")
-    end
+  scope :filter_by_functions, ->(functions) { 
+    where("function ILIKE ANY (array[?])", functions.map { |f| "%#{f}%" }) if functions.present? 
+  }
+  scope :filter_by_layers, ->(layers) { 
+    where("layers ILIKE ANY (array[?])", layers.map { |l| "%#{l}%" }) if layers.present? 
+  }
+  scope :filter_by_zones, ->(zones) { 
+    where(zone: zones) if zones.present? 
   }
 
-  scope :filter_by_layers, ->(layers) {
-    if layers.present?
-      where("LOWER(layers) SIMILAR TO ?", "%(#{layers.map { |l| Regexp.escape(l.downcase) }.join('|')})%")
-    end
-  }
-
-  scope :filter_by_zones, ->(zones) {
-    where(zone: zones) if zones.present?
-  }
+  # === Overrides ===
+  # Use `common_name` for URLs
+  def to_param
+    common_name.to_s.parameterize
+  end
 
   # === Instance Methods ===
-
   # Returns "Perennial" or "Annual" for easier display in views
   def type
     perennial ? "Perennial" : "Annual"
   end
 
-  # Splits layers into an array for easier iteration
+  # Converts layers into an array for easier iteration
   def layers_array
-    split_field(layers)
+    parse_to_array(layers)
   end
 
-  # Splits functions into an array for easier iteration
+  # Converts functions into an array for easier iteration
   def functions_array
-    split_field(function)
+    parse_to_array(function)
+  end
+
+  # Finds a plant using a case-insensitive match for `common_name`
+  def self.find_by_common_name(slug)
+    where("LOWER(common_name) = ?", slug.tr('-', ' ').downcase).first!
   end
 
   private
 
-  # Helper to split a string into an array, trimming whitespace
-  def split_field(field)
-    field.to_s.split(",").map(&:strip).reject(&:blank?)
+  # Helper to parse a comma-separated string into a trimmed array
+  def parse_to_array(field)
+    field.to_s.split(",").map(&:strip)
   end
 end
