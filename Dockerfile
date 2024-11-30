@@ -1,7 +1,7 @@
 # Use an official Ruby image as the base
 FROM ruby:3.2
 
-# Install necessary packages, including libraries for sassc, pg, and other gems
+# Install necessary packages
 RUN apt-get update -qq && apt-get install -y \
   build-essential \
   libpq-dev \
@@ -12,7 +12,14 @@ RUN apt-get update -qq && apt-get install -y \
   libsass-dev \
   libxml2-dev \
   libxslt1-dev \
-  && rm -rf /var/lib/apt/lists/*  # Clean up the apt cache to reduce image size
+  zlib1g-dev \
+  libreadline-dev \
+  imagemagick \
+  tzdata \
+  libyaml-dev \
+  pkg-config \ 
+  && apt-get clean \
+  && rm -rf /var/lib/apt/lists/*  # Clean up apt cache to reduce image size
 
 # Set the working directory
 WORKDIR /app

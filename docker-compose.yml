@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   app:
     build: .
@@ -11,6 +9,8 @@ services:
       - db
     env_file:
       - .env  # This loads the environment variables from the .env file
+    environment:
+      DATABASE_URL: postgres://postgres:password@db/permieportal_dev   # Explicitly define database URL here
     command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails db:create db:migrate && bundle exec rails s -b '0.0.0.0'"
 
   db:

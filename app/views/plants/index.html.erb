@@ -1,3 +1,14 @@
-<h1 class="text-center text-3xl font-bold mb-4">Permaculture Plants</h1>
-<p class="text-center">Discover the best plants for permaculture and how to grow them effectively.</p>
+<h1 class="text-3xl font-bold mb-6">Plant Catalog</h1>
 
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  <% @plants.each do |plant| %>
+    <div class="bg-white shadow-md rounded-lg p-4">
+      <!-- Use a placeholder image if no picture is available -->
+      <%= image_tag(plant.picture.present? ? plant.picture : 'default_plant_image.jpg', alt: plant.common_name, class: "w-full h-40 object-cover rounded-md mb-4") %>
+      <h2 class="text-xl font-semibold">
+        <%= link_to plant.common_name, plant_path(plant) %>
+      </h2>
+      <p class="text-gray-600 italic"><%= plant.scientific_name %></p>
+    </div>
+  <% end %>
+</div>
