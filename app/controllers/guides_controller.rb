@@ -7,3 +7,7 @@ class GuidesController < InheritedResources::Base
     end
 
 end
+
+  def vermicomposting
+    # Add any logic here for vermicomposting
+  end

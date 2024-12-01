@@ -1,20 +1,30 @@
-<div class="w-full">
-  <% if notice.present? %>
-    <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"><%= notice %></p>
-  <% end %>
+<div class="max-w-screen-lg mx-auto bg-green-50 shadow-md rounded-lg p-8 space-y-8">
+  <!-- Header Section -->
+  <div class="text-center">
+    <h1 class="text-4xl font-bold text-green-700">Guides and Information</h1>
+    <p class="text-lg text-gray-600 mt-2">Explore our comprehensive guides to enrich your permaculture knowledge and practices.</p>
+  </div>
 
-  <% content_for :title, "Guides and Information" %>
-
-  <div class="flex justify-between items-center">
-    <h1 class="font-bold text-4xl">Guides and Information</h1>
+  <!-- Guides List -->
+  <div id="guides" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- Vermicomposting Guide -->
+    <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
+      <h2 class="text-2xl font-semibold text-green-600">Vermicomposting</h2>
+      <p class="text-gray-700 mt-2">Discover how to use worms to create nutrient-rich compost for your garden.</p>
+      <div class="mt-4">
+        <%= link_to "Read More", vermicomposting_path, class: "px-4 py-2 bg-green-600 text-white text-sm font-semibold rounded hover:bg-green-500" %>
       </div>
+    </div>
 
-  <div id="guides" class="min-w-full">
+    <%# Additional Guides - Example of rendering other guides dynamically %>
     <% @guides.each do |guide| %>
-      <%= render guide %>
-      <p>
-        <%= link_to "Show this guide", guide, class: "ml-2 rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
-      </p>
+      <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
+        <h2 class="text-2xl font-semibold text-green-600"><%= guide.title %></h2>
+        <p class="text-gray-700 mt-2"><%= truncate(guide.description, length: 100) %></p>
+        <div class="mt-4">
+          <%= link_to "Read More", guide_path(guide), class: "px-4 py-2 bg-green-600 text-white text-sm font-semibold rounded hover:bg-green-500" %>
+        </div>
+      </div>
     <% end %>
   </div>
 </div>

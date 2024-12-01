@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'guides/vermicomposting', to: 'guides#vermicomposting', as: :vermicomposting
+  get 'pages/vermicomposting'
   resources :guides
   devise_for :users
   root 'home#index'
