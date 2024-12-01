@@ -1,9 +1,9 @@
 class Plant < ApplicationRecord
   # === Validations ===
   validates :common_name, :scientific_name, :zone, :layers, :function, presence: true
-  validates :description, length: { maximum: 10000 }, allow_blank: true
+  validates :description, length: { maximum: 65535 }, allow_blank: true
   validates :perennial, inclusion: { in: [true, false] }
-  validates :purpose, length: { maximum: 10000 }, presence: true # Optional field
+  validates :purpose, length: { maximum: 65535 }, presence: true # Optional field
 
   # === Scopes ===
   scope :filter_by_functions, ->(functions) { 
