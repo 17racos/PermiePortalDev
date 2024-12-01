@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :guides
   devise_for :users
   root 'home#index'
   
@@ -19,5 +20,6 @@ end
 
 #Plant Routes
 Rails.application.routes.draw do
+  resources :guides
   resources :plants, only: [:index, :show]
 end
