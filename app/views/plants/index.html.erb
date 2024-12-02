@@ -8,37 +8,40 @@
       <%= link_to "Clear Filters", plants_path, class: "text-blue-500 hover:underline" %>
     </div>
 
-    <!-- Function Filters -->
-    <div class="mb-6">
-      <h2 class="text-lg font-semibold mb-2">Filter by Functions</h2>
-      <% ["Edible", "Medicinal", "Nitrogen Fixer", "Wildlife Attractor", "Mulcher"].each do |function| %>
-        <label class="inline-flex items-center">
-          <%= check_box_tag "search[functions][]", function, params.dig(:search, :functions)&.include?(function), class: "mr-2 filter-checkbox" %>
-          <%= function %>
-        </label><br>
-      <% end %>
-    </div>
+    <!-- Filters in a Responsive Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Function Filters -->
+      <div>
+        <h3 class="text-md font-semibold mb-2">Filter by Functions</h3>
+        <% ["Edible", "Medicinal", "Nitrogen Fixer", "Wildlife Attractor", "Mulcher", "Dynamic Accumulator", "Erosion Control", "Animal Fodder", "Windbreaker", "Pollinator"].each do |function| %>
+          <label class="inline-flex items-center mb-1">
+            <%= check_box_tag "search[functions][]", function, params.dig(:search, :functions)&.include?(function), class: "mr-2 filter-checkbox" %>
+            <%= function %>
+          </label><br>
+        <% end %>
+      </div>
 
-    <!-- Layer Filters -->
-    <div class="mb-6">
-      <h2 class="text-lg font-semibold mb-2">Filter by Layers</h2>
-      <% ["Canopy", "Sub-canopy", "Shrub", "Herbaceous", "Groundcover", "Root", "Climbers"].each do |layer| %>
-        <label class="inline-flex items-center">
-          <%= check_box_tag "search[layers][]", layer, params.dig(:search, :layers)&.include?(layer), class: "mr-2 filter-checkbox" %>
-          <%= layer %>
-        </label><br>
-      <% end %>
-    </div>
+      <!-- Layer Filters -->
+      <div>
+        <h3 class="text-md font-semibold mb-2">Filter by Layers</h3>
+        <% ["Canopy", "Sub-canopy", "Shrub", "Herbaceous", "Groundcover", "Root", "Climbers"].each do |layer| %>
+          <label class="inline-flex items-center mb-1">
+            <%= check_box_tag "search[layers][]", layer, params.dig(:search, :layers)&.include?(layer), class: "mr-2 filter-checkbox" %>
+            <%= layer %>
+          </label><br>
+        <% end %>
+      </div>
 
-    <!-- Zone Filters -->
-    <div class="mb-6">
-      <h2 class="text-lg font-semibold mb-2">Filter by Zones</h2>
-      <% ["3", "4", "5", "6", "7", "8", "9", "10"].each do |zone| %>
-        <label class="inline-flex items-center">
-          <%= check_box_tag "search[zones][]", zone, params.dig(:search, :zones)&.include?(zone), class: "mr-2 filter-checkbox" %>
-          <%= zone %>
-        </label><br>
-      <% end %>
+      <!-- Zone Filters -->
+      <div>
+        <h3 class="text-md font-semibold mb-2">Filter by Zones</h3>
+        <% ["3", "4", "5", "6", "7", "8", "9", "10"].each do |zone| %>
+          <label class="inline-flex items-center mb-1">
+            <%= check_box_tag "search[zones][]", zone, params.dig(:search, :zones)&.include?(zone), class: "mr-2 filter-checkbox" %>
+            <%= zone %>
+          </label><br>
+        <% end %>
+      </div>
     </div>
   <% end %>
 </div>
