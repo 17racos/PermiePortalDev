@@ -11,13 +11,13 @@
   </div>
 
   <!-- Plant Description -->
-  <% if @plant.description.present? %>
+  <% if @plant.conditions.present? %>
     <div class="bg-white rounded-lg shadow p-6">
       <h2 class="text-2xl font-semibold text-green-600 mb-4">Description</h2>
-      <p class="text-gray-800"><%= simple_format(h(@plant.description)) %></p>
+      <p class="text-gray-800"><%= simple_format(h(@plant.conditions)) %></p>
     </div>
   <% else %>
-    <p class="text-gray-500 text-center">No description available for this plant.</p>
+    <p class="text-gray-500 text-center">No conditions available for this plant.</p>
   <% end %>
 
   <!-- Plant Purpose -->
@@ -53,16 +53,26 @@
         <p class="text-gray-500">No layers specified.</p>
       <% end %>
     </div>
+  </div>
 
-    <!-- Companions (New Section) -->
+  <!-- Growing Conditions -->
+  <% if @plant.conditions.present? %>
     <div class="bg-white rounded-lg shadow p-6">
-      <h2 class="text-xl font-semibold text-green-600 mb-4">Companions</h2>
-      <% if @plant.companions.present? %>
-        <p class="text-gray-800"><%= simple_format(h(@plant.companions)) %></p>
-      <% else %>
-        <p class="text-gray-500">No companions specified for this plant.</p>
-      <% end %>
+      <h2 class="text-2xl font-semibold text-green-600 mb-4">Growing Conditions</h2>
+      <p class="text-gray-800"><%= simple_format(h(@plant.conditions)) %></p>
     </div>
+  <% else %>
+    <p class="text-gray-500 text-center">No growing conditions specified for this plant.</p>
+  <% end %>
+
+  <!-- Companions -->
+  <div class="bg-white rounded-lg shadow p-6">
+    <h2 class="text-xl font-semibold text-green-600 mb-4">Companions</h2>
+    <% if @plant.companions.present? %>
+      <p class="text-gray-800"><%= simple_format(h(@plant.companions)) %></p>
+    <% else %>
+      <p class="text-gray-500">No companions specified for this plant.</p>
+    <% end %>
   </div>
 
   <!-- Plants to Avoid -->
@@ -71,20 +81,20 @@
     <% if @plant.avoid.present? %>
       <p class="text-gray-800"><%= simple_format(h(@plant.avoid)) %></p>
     <% else %>
-      <p class="text-gray-500">No avoid specified for this plant.</p>
+      <p class="text-gray-500">No plants to avoid specified for this plant.</p>
     <% end %>
   </div>
-  
+
   <!-- Pests -->
   <div class="bg-white rounded-lg shadow p-6">
     <h2 class="text-xl font-semibold text-green-600 mb-4">Pests</h2>
     <% if @plant.pests.present? %>
       <p class="text-gray-800"><%= simple_format(h(@plant.pests)) %></p>
     <% else %>
-      <p class="text-gray-500">No avoid specified for this plant.</p>
+      <p class="text-gray-500">No pests specified for this plant.</p>
     <% end %>
   </div>
-  
+
   <!-- Plant Functions -->
   <div class="bg-white rounded-lg shadow p-6">
     <h2 class="text-2xl font-semibold text-green-600 mb-4">Functions</h2>
