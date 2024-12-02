@@ -65,6 +65,26 @@
     </div>
   </div>
 
+  <!-- Plants to Avoid -->
+  <div class="bg-white rounded-lg shadow p-6">
+    <h2 class="text-xl font-semibold text-green-600 mb-4">Plants to Avoid</h2>
+    <% if @plant.avoid.present? %>
+      <p class="text-gray-800"><%= simple_format(h(@plant.avoid)) %></p>
+    <% else %>
+      <p class="text-gray-500">No avoid specified for this plant.</p>
+    <% end %>
+  </div>
+  
+  <!-- Pests -->
+  <div class="bg-white rounded-lg shadow p-6">
+    <h2 class="text-xl font-semibold text-green-600 mb-4">Pests</h2>
+    <% if @plant.pests.present? %>
+      <p class="text-gray-800"><%= simple_format(h(@plant.pests)) %></p>
+    <% else %>
+      <p class="text-gray-500">No avoid specified for this plant.</p>
+    <% end %>
+  </div>
+  
   <!-- Plant Functions -->
   <div class="bg-white rounded-lg shadow p-6">
     <h2 class="text-2xl font-semibold text-green-600 mb-4">Functions</h2>
