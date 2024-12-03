@@ -17,6 +17,7 @@ RUN apt-get update -qq && apt-get install -y \
   imagemagick \
   tzdata \
   libyaml-dev \
+  npm \
   pkg-config \ 
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*  # Clean up apt cache to reduce image size

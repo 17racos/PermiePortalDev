@@ -10,6 +10,12 @@
     <!-- Vermicomposting Guide -->
     <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
       <h2 class="text-2xl font-semibold text-green-600">Vermicomposting</h2>
+      
+      <!-- Vermicomposting Image -->
+      <div class="mt-4">
+        <%= image_tag 'vermicompost.jpg', alt: 'Vermicomposting', class: 'w-full h-auto rounded-lg' %>
+      </div>
+      
       <p class="text-gray-700 mt-2">Discover how to use worms to create nutrient-rich compost for your garden.</p>
       <div class="mt-4">
         <%= link_to "Read More", vermicomposting_path, class: "px-4 py-2 bg-green-600 text-white text-sm font-semibold rounded hover:bg-green-500" %>
