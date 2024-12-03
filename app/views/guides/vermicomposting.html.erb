@@ -8,30 +8,33 @@
   <style>
     body {
       font-family: 'Roboto', sans-serif;
-      background-color: #f4f4f9;
+      background-color: #f4f8f7; /* Soft light green */
       color: #333;
       margin: 0;
       padding: 0;
     }
 
-    h1, h2 {
+    h1, h2, h3 {
       font-family: 'Source Serif Pro', serif;
-      color: #2c6e49;
+      color: #2b6e4d; /* Dark green */
       text-align: center;
       margin-bottom: 20px;
     }
 
     h2 {
-      color: #5a8f7d;
+      color: #4b7a4e; /* Slightly lighter green */
     }
 
     .container {
       max-width: 1200px;
       margin: 40px auto;
-      padding: 20px;
+      padding: 30px;
       background-color: white;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      background-image: url('background-pattern.png'); /* Optional nature background pattern */
+      background-size: cover;
+      background-position: center;
     }
 
     .section {
@@ -55,7 +58,7 @@
     }
 
     .highlight {
-      color: #62b45d;
+      color: #62b45d; /* Lighter green for highlights */
       font-weight: bold;
     }
 
@@ -81,6 +84,54 @@
       text-decoration: none;
       font-weight: bold;
     }
+
+    /* Call to action button style */
+    .call-to-action {
+      background-color: #62b45d; /* Green background for the action button */
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      color: white;
+      margin-top: 40px;
+    }
+
+    .call-to-action a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      border: 2px solid white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .call-to-action a:hover {
+      background-color: #4b7a4e;
+    }
+
+    /* Card-like containers for sections */
+    .card {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .card h3 {
+      color: #5b8c5a;
+    }
+
+    /* Image styles */
+    .section img {
+      width: 100%;
+      max-width: 800px;
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
   </style>
 </head>
 <body>
@@ -91,6 +142,11 @@
       <p>
         Vermicomposting is the process of using worms, particularly red wigglers (<span class="highlight">Eisenia fetida</span>), to break down organic waste into nutrient-rich compost. The digestion of organic materials by earthworms results in the excretion of castings rich in beneficial microorganisms, nutrients, and minerals. These castings, also known as <strong>vermicompost</strong> or <strong>worm castings</strong>, are dark, crumbly, odorless, and nutrient-dense.
       </p>
+    </div>
+
+    <!-- Vermiculture Image -->
+    <div class="section">
+      <img src="<%= asset_path('vermicompost.jpg') %>" alt="Vermiculture in action">
     </div>
 
     <div class="section">
@@ -113,123 +169,128 @@
         <li><strong>Odorless Process:</strong> When done properly, vermicomposting is odorless, making it a more pleasant option for composting indoors or in urban environments.</li>
         <li><strong>Educational Value:</strong> Vermicomposting offers an excellent educational tool to teach sustainable practices and soil ecology to individuals and communities.</li>
       </ul>
+    </div>    
+
+    <!-- Tips for Feeding -->
+    <div class="section">
+      <h2 class="text-3xl font-semibold text-green-600 mb-4">Tips for Feeding Your Worms</h2>
+      <ul class="list-disc pl-6 space-y-2 text-gray-700">
+        <li><strong>Chop or shred the food:</strong> Smaller food pieces decompose faster and are easier for the worms to process.</li>
+        <li><strong>Balance carbon and nitrogen:</strong> Make sure to balance high-nitrogen foods (like food scraps) with high-carbon materials (like shredded paper or cardboard).</li>
+        <li><strong>Avoid overfeeding:</strong> Feed small amounts regularly. Overfeeding can lead to excess food that decomposes too slowly, attracting pests and creating an unpleasant odor.</li>
+        <li><strong>Keep it moist:</strong> Ensure that the food is kept moist but not too wet. The ideal moisture level is about the consistency of a wrung-out sponge.</li>
+        <li>By providing a diverse range of organic materials and keeping the conditions right, <strong>Eisenia fetida</strong> will thrive, and you’ll produce rich, high-quality vermicompost for your plants and garden.</li>
+      </ul>
     </div>
 
-    <div class="footer">
-      <p>Start your vermicomposting journey today! <a href="#">Learn more</a> about how to integrate this eco-friendly practice into your permaculture system.</p>
+    <!-- Additional Info for Ideal Food for Eisenia fetida -->
+    <div class="section">
+      <h2 class="text-3xl font-semibold text-green-600 mb-4">Ideal Food for Eisenia fetida</h2>
+      <div class="card">
+        <h3 class="text-2xl font-semibold text-green-600 mb-4">Fruit and Vegetable Scraps:</h3>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+          <li><strong>Peels:</strong> Banana peels, apple cores, and carrot tops.</li>
+          <li><strong>Leftovers:</strong> Lettuce, spinach, and other leafy greens.</li>
+          <li><strong>Citrus:</strong> Small amounts of citrus (like oranges, lemons, or grapefruits), but not too much as they are acidic and can harm the worms in large quantities.</li>
+          <li><strong>Overripe fruits:</strong> Such as tomatoes, melons, and berries.</li>
+          <h3 class="text-2xl font-semibold text-green-600 mb-4">Coffee Grounds and Tea Bags:</h3>
+          <li><strong>Coffee Grounds:</strong> Worms love coffee grounds, and they provide a great nitrogen source.</li>
+          <li><strong>Tea Bags:</strong> Tea bags (without synthetic materials) can also be used, but avoid adding too many as they can acidify the bin.</li>
+          <li><strong>Crushed eggshells:</strong> Provide calcium, which helps with worm health and also balances the pH of the compost.</li>
+          <li><strong>Grass clippings:</strong> (small amounts), weeds (without seeds), and other plant material are excellent worm food.</li>
+          <li><strong>Shredded leaves:</strong> Also work well when mixed in the bedding.</li>
+          <li><strong>Oatmeal, rice, or other grains:</strong> Small amounts are suitable. It is best to feed them cooked grains and in moderation, as they can attract pests if left uneaten.</li>
+          <li><strong>Crushed nuts and seeds:</strong> Can be fed to worms, but they should be given in small quantities as they can be fatty and may cause the compost bin to become too oily.</li>          
+        </ul>
+      </div>
     </div>
 
-    <div>
-  <!-- Tips for Feeding -->
-  <h2 class="text-3xl font-semibold text-green-600 mb-4">Tips for Feeding Your Worms</h2>
-  <div>
-    <ul class="list-disc pl-6 space-y-2 text-gray-700">
-      <li><strong>Chop or shred the food:</strong> Smaller food pieces decompose faster and are easier for the worms to process.</li>
-      <li><strong>Balance carbon and nitrogen:</strong> Make sure to balance high-nitrogen foods (like food scraps) with high-carbon materials (like shredded paper or cardboard).</li>
-      <li><strong>Avoid overfeeding:</strong> Feed small amounts regularly. Overfeeding can lead to excess food that decomposes too slowly, attracting pests and creating an unpleasant odor.</li>
-      <li><strong>Keep it moist:</strong> Ensure that the food is kept moist but not too wet. The ideal moisture level is about the consistency of a wrung-out sponge.</li>
-    </ul>
-  </div>
+    <!-- What Not to Feed Your Worms -->
+    <div class="section">
+      <h2 class="text-2xl font-semibold text-green-600 mb-4">What Not to Feed Your Worms</h3>
+      <div class="card">
+        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+          <li><strong>Meat, dairy, and fats:</strong> These can rot, produce odors, and attract pests.</li>
+          <li><strong>Onions and garlic:</strong> These can be too strong for worms and may harm them.</li>
+          <li><strong>Spicy foods:</strong> Avoid feeding chili peppers or other spicy foods that can irritate the worms.</li>
+          <li><strong>Citrus fruits in large amounts:</strong> Excess citrus can be too acidic for worms.</li>
+          <li><strong>Diseased plants:</strong> Avoid feeding plants that have been treated with pesticides or herbicides.</li>
+          <li><strong>Pet waste or human waste:</strong> These contain harmful bacteria and should never be fed to worms.</li>
+        </ul>
+      </div>
 
-  <p class="text-lg text-gray-800 mt-4">
-    By providing a diverse range of organic materials and keeping the conditions right, <strong>Eisenia fetida</strong> will thrive, and you’ll produce rich, high-quality vermicompost for your plants and garden.
-  </p>
-
-  <!-- Ideal Food for Eisenia fetida -->
-  <h2 class="text-3xl font-semibold text-green-600 mb-4">Ideal Food for Eisenia fetida</h2>
-  <div class="bg-white rounded-lg shadow p-6">
-    <h3 class="text-2xl font-semibold text-green-600 mb-4">Fruit and Vegetable Scraps:</h3>
-    <ul class="list-disc pl-6 space-y-2 text-gray-700">
-      <li><strong>Peels:</strong> Banana peels, apple cores, and carrot tops.</li>
-      <li><strong>Leftovers:</strong> Lettuce, spinach, and other leafy greens.</li>
-      <li><strong>Citrus:</strong> Small amounts of citrus (like oranges, lemons, or grapefruits), but not too much as they are acidic and can harm the worms in large quantities.</li>
-      <li><strong>Overripe fruits:</strong> Such as tomatoes, melons, and berries.</li>
-    </ul>
-  </div>
-
-  <div class="bg-white rounded-lg shadow p-6 mt-6">
-    <h3 class="text-2xl font-semibold text-green-600 mb-4">Coffee Grounds and Tea Bags:</h3>
-    <ul class="list-disc pl-6 space-y-2 text-gray-700">
-      <li><strong>Coffee Grounds:</strong> Worms love coffee grounds, and they provide a great nitrogen source.</li>
-      <li><strong>Tea Bags:</strong> Tea bags (without synthetic materials) can also be used, but avoid adding too many as they can acidify the bin.</li>
-    </ul>
-  </div>
-
-  <div class="bg-white rounded-lg shadow p-6 mt-6">
-    <h3 class="text-2xl font-semibold text-green-600 mb-4">Eggshells:</h3>
-    <ul class="list-disc pl-6 space-y-2 text-gray-700">
-      <li><strong>Crushed eggshells:</strong> Provide calcium, which helps with worm health and also balances the pH of the compost.</li>
-    </ul>
-  </div>
-
-  <div class="bg-white rounded-lg shadow p-6 mt-6">
-    <h3 class="text-2xl font-semibold text-green-600 mb-4">Leafy Greens and Plant Material:</h3>
-    <ul class="list-disc pl-6 space-y-2 text-gray-700">
-      <li><strong>Grass clippings:</strong> (small amounts), weeds (without seeds), and other plant material are excellent worm food.</li>
-      <li><strong>Shredded leaves:</strong> Also work well when mixed in the bedding.</li>
-    </ul>
-  </div>
-
-  <div class="bg-white rounded-lg shadow p-6 mt-6">
-    <h3 class="text-2xl font-semibold text-green-600 mb-4">Grains and Cereals:</h3>
-    <ul class="list-disc pl-6 space-y-2 text-gray-700">
-      <li><strong>Oatmeal, rice, or other grains:</strong> Small amounts are suitable. It is best to feed them cooked grains and in moderation, as they can attract pests if left uneaten.</li>
-    </ul>
-  </div>
-
-  <div class="bg-white rounded-lg shadow p-6 mt-6">
-    <h3 class="text-2xl font-semibold text-green-600 mb-4">Nuts and Seeds:</h3>
-    <ul class="list-disc pl-6 space-y-2 text-gray-700">
-      <li><strong>Crushed nuts and seeds:</strong> Can be fed to worms, but they should be given in small quantities as they can be fatty and may cause the compost bin to become too oily.</li>
-    </ul>
-  </div>
-
-  <div class="bg-white rounded-lg shadow p-6 mt-6">
-    <h3 class="text-2xl font-semibold text-green-600 mb-4">Bread and Pasta:</h3>
-    <ul class="list-disc pl-6 space-y-2 text-gray-700">
-      <li><strong>Bread and pasta:</strong> In small amounts, worms can consume bread and pasta, but avoid feeding them too much as it can turn into a mushy, moldy mess.</li>
-    </ul>
-  </div>
-
-  <div class="bg-white rounded-lg shadow p-6 mt-6">
-    <h3 class="text-2xl font-semibold text-green-600 mb-4">Shredded Paper and Cardboard:</h3>
-    <ul class="list-disc pl-6 space-y-2 text-gray-700">
-      <li><strong>Plain shredded paper:</strong> (no glossy prints or colored inks) and cardboard can be fed to worms as carbon sources to balance the nitrogen from food scraps.</li>
-    </ul>
-  </div>
-
-  <!-- What Not to Feed Your Worms -->
-  <div class="bg-white rounded-lg shadow p-6 mt-6">
-    <h3 class="text-2xl font-semibold text-green-600 mb-4">What Not to Feed Your Worms:</h3>
-    <ul class="list-disc pl-6 space-y-2 text-gray-700">
-      <li>Meat, dairy, and fats: These can rot and produce odors, and they attract pests and flies.</li>
-      <li>Onions and garlic: These can be too strong for worms and may harm them.</li>
-      <li>Spicy foods: Avoid feeding foods like chili peppers that can be irritating to the worms.</li>
-      <li>Citrus fruits in large amounts: Too much citrus can be too acidic for worms.</li>
-      <li>Diseased plants: Avoid feeding plants that have been treated with pesticides or herbicides.</li>
-      <li>Pet waste or human waste: These contain harmful bacteria and should never be fed to worms.</li>
-    </ul>
-  </div>
-
-  <!-- Tips for Feeding -->
-  <div class="bg-white rounded-lg shadow p-6 mt-6">
-    <h3 class="text-2xl font-semibold text-green-600 mb-4">Tips for Feeding Your Worms:</h3>
-    <ul class="list-disc pl-6 space-y-2 text-gray-700">
-      <li>Chop or shred the food: Smaller food pieces decompose faster and are easier for worms to process.</li>
-      <li>Balance carbon and nitrogen: Feed a balance of nitrogen-rich foods (e.g., food scraps) and carbon-rich materials (e.g., cardboard).</li>
-      <li>Avoid overfeeding: Feed in small amounts regularly. Overfeeding can lead to excess food that decomposes too slowly.</li>
-      <li>Keep it moist: Ensure the food is moist but not too wet. The ideal moisture is like a wrung-out sponge.</li>
-    </ul>
-  </div>
-
-  <!-- Conclusion -->
-  <p class="text-lg text-gray-800 mt-8">
-    By providing a diverse range of organic materials and keeping the conditions right, <strong>Eisenia fetida</strong> will thrive, and you’ll produce rich, high-quality vermicompost for your plants and garden.
-  </p>
-</div>
-
+      <div class="container">
+      <div class="section">
+        <h1 class="text-2xl font-semibold text-green-600 mb-4">How to Make a Vermicomposting Setup</h1>
+    
+        <div class="bg-white rounded-lg shadow p-6 mt-6">
+          <h2 class="text-2xl font-semibold text-green-600 mb-4">Choose a Container</h2>
+          <p class="text-gray-700">
+            Use a plastic bin or wooden box. Ensure it's large enough for your needs (about 1 square foot of space per pound of food scraps per week).
+            Drill small holes in the container for ventilation and drainage. If you use a lid, ensure it has some ventilation holes.
+          </p>
+        
+    
+  
+          <h2 class="text-2xl font-semibold text-green-600 mb-4">Prepare Bedding</h2>
+          <p class="text-gray-700">
+            Shred newspaper, cardboard, leaves, or straw. Moisten the bedding until it feels like a wrung-out sponge (not too wet). Fill the container with 3-4 inches of bedding to create a comfortable home for the worms.
+          </p>
+        
+    
+   
+          <h2 class="text-2xl font-semibold text-green-600 mb-4">Add Worms</h2>
+          <p class="text-gray-700">
+            The most common worm used for vermiculture is the red wiggler worm (<span class="highlight">Eisenia fetida</span>). Start with about 1 lb (500-1,000 worms) for every 1 square foot of surface area in your bin.
+          </p>
+    
+    
+        
+          <h2 class="text-2xl font-semibold text-green-600 mb-4">Add Food Scraps</h2>
+          <p class="text-gray-700">
+            Start adding food scraps such as vegetable peels, coffee grounds, and fruit waste. Avoid adding meat, dairy, oils, or processed foods. Bury food scraps in the bedding to avoid attracting pests and to help worms feed more easily.
+          </p>
+       
+    
+        <div class="bg-white rounded-lg shadow p-6 mt-6">
+          <h2 class="text-2xl font-semibold text-green-600 mb-4">Maintain the Bin</h2>
+          <p class="text-gray-700">
+            Keep the bin in a warm, dark place (ideally between 55–77°F / 13–25°C). Maintain moisture levels. If the bin gets too dry, add a bit of water. If it's too wet, add more bedding. Add fresh food scraps regularly, rotating the feeding area to help worms process food evenly.
+          </p>
+        </div>
+    
+        <div class="bg-white rounded-lg shadow p-6 mt-6">
+          <h2 class="text-2xl font-semibold text-green-600 mb-4">Harvesting Vermicompost</h2>
+          <p class="text-gray-700">
+            After a few months, you can begin harvesting the finished compost (<strong>vermicompost</strong>). Separate the worms from the compost by moving the food to one side and allowing the worms to migrate to the fresh food. Remove the finished compost for use in your garden or plants.
+          </p>
+        </div>
+    
+        <div class="bg-white rounded-lg shadow p-6 mt-6">
+          <h2 class="text-2xl font-semibold text-green-600 mb-4">Troubleshooting</h2>
+          <ul class="list-disc pl-6 space-y-2 text-gray-700">
+            <li>If you see pests (like fruit flies), make sure you're not adding too much food or excess moisture.</li>
+            <li>If it smells, your bin might be too wet or have too much food. Add more bedding and avoid overfeeding.</li>
+          </ul>
+        </div>
+    
+        <div class="bg-white rounded-lg shadow p-6 mt-6">
+          <h2 class="text-2xl font-semibold text-green-600 mb-4">Tips:</h2>
+          <ul class="list-disc pl-6 space-y-2 text-gray-700">
+            <li><strong>Balance Food Scraps:</strong> A good mix of nitrogen-rich (food scraps) and carbon-rich (paper, cardboard) materials will keep the worms healthy.</li>
+            <li><strong>Proper Ventilation and Moisture:</strong> Keep the bin well-ventilated and the bedding moist but not soggy to maintain an ideal environment for the worms.</li>
+          </ul>
+        </div>
+    
+        <p class="text-lg text-gray-800 mt-8">
+          By following these steps, you'll have a successful and low-maintenance vermicomposting system that produces nutrient-rich compost for your garden while reducing food waste.
+        </p>
+      </div>      
+      
+      <!-- Call to Action Section -->
+      <div class="call-to-action">
+        <p>Start your vermiculture journey today and transform your waste into a valuable resource for your garden and about how to integrate this eco-friendly practice into your permaculture system.</p>
+        <a href="#">Get Started with Vermiculture</a>
+      </div>
 </body>
 </html>
-
-  
-  
