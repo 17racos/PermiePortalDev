@@ -12,7 +12,8 @@
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
-  <body class="bg-green-50 font-sans text-gray-800 flex flex-col min-h-screen">
+  <body class="bg-green-50 font-sans text-gray-800 min-h-screen">
+
     <!-- Header Section -->
     <header class="bg-gradient-to-r from-green-600 to-green-500 text-white shadow-lg">
       <div class="max-w-screen-lg mx-auto flex items-center justify-between py-4 px-4 sm:px-6 lg:px-8">
@@ -35,7 +36,7 @@
     </header>
 
     <!-- Main Content -->
-    <main class="flex-grow max-w-screen-lg mx-auto py-8 px-6 sm:px-8 lg:px-10">
+    <main class="flex-grow max-w-screen-lg mx-auto py-8 px-6 sm:px-8 lg:px-10 min-h-full">
       <%= yield %>
     </main>
 
