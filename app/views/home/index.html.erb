@@ -17,7 +17,15 @@
           Join us in creating a sustainable future for all.
         </p>
       </div>
-
+      <!-- Explore Permaculture Sidebar Section -->
+      <aside class="lg:col-span-1 sticky top-8 bg-green-50 rounded-lg shadow-md p-6 border border-green-700 z-10">
+        <h3 class="text-2xl font-semibold text-green-700 mb-6">Explore Permaculture</h3>
+        <div class="space-y-4 text-lg">
+          <%= link_to 'Plant Portal', plants_path, class: 'block text-green-800 hover:text-green-600' %>
+          <%= link_to 'Guides and Information', guides_path, class: 'block text-green-800 hover:text-green-600' %>
+          <%= link_to 'Community', community_path, class: 'block text-green-800 hover:text-green-600' %>
+        </div>
+      </aside>
       <!-- What is Permaculture Section -->      
       <main class="lg:col-span-3">
       <div class="bg-white rounded-lg shadow p-8 space-y-6 mb-12">
@@ -133,18 +141,6 @@
           </ul>
         </div>
       </main>
-
-      <!-- Explore Permaculture Sidebar Section -->
-      <aside class="lg:col-span-1 sticky top-8 bg-green-50 rounded-lg shadow-md p-6 border border-green-700 z-10">
-        <h3 class="text-2xl font-semibold text-green-700 mb-6">Explore Permaculture</h3>
-        <div class="space-y-4 text-lg">
-    <%= link_to 'Plant Portal', plants_path, class: 'block text-green-800 hover:text-green-600' %>
-    <%= link_to 'Guides and Information', guides_path, class: 'block text-green-800 hover:text-green-600' %>
-    <%= link_to 'Community', community_path, class: 'block text-green-800 hover:text-green-600' %>
-        </div>
-      </aside>
-
     </div>
-
   </body>
 </html>
