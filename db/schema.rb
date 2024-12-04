@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_12_01_234238) do
+ActiveRecord::Schema[7.0].define(version: 2024_12_04_014907) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -61,9 +61,9 @@ ActiveRecord::Schema[7.0].define(version: 2024_12_01_234238) do
     t.text "description"
     t.text "purpose"
     t.text "companions"
-    t.text "conditions"
     t.text "avoid"
-    t.text "pests"
+    t.text "conditions"
+    t.string "pests", default: "[]"
   end
 
   create_table "resources", force: :cascade do |t|
