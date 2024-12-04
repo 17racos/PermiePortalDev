@@ -1,13 +1,13 @@
 class Plant < ApplicationRecord
   # === Validations ===
-  validates :common_name, :scientific_name, :zone, :layers, :function, presence: true
+  validates :common_name, :scientific_name, :zone, :layers, :plant_function, presence: true
   validates :description, length: { maximum: 65535 }, allow_blank: true
   validates :perennial, inclusion: { in: [true, false] }
   validates :purpose, length: { maximum: 65535 }, presence: true # Optional field
 
   # === Scopes ===
   scope :filter_by_functions, ->(functions) { 
-    where("function ILIKE ANY (array[?])", prepare_filters(functions)) if functions.present?
+    where("plant_function ILIKE ANY (array[?])", prepare_filters(functions)) if functions.present?
   }
   scope :filter_by_layers, ->(layers) { 
     where("layers ILIKE ANY (array[?])", prepare_filters(layers)) if layers.present?
@@ -35,7 +35,7 @@ class Plant < ApplicationRecord
 
   # Parses and returns `functions` as an array
   def functions_array
-    parse_to_array(function)
+    parse_to_array(plant_function)
   end
 
   # === Class Methods ===

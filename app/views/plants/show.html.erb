@@ -38,8 +38,9 @@
       <p><strong>🌿 Family:</strong> <%= h(@plant.family) %></p>
       <p><strong>🌍 Zone:</strong> <%= h(@plant.zone) %></p>
       <p><strong>🌱 Type:</strong> <%= h(@plant.perennial ? "Perennial" : "Annual") %></p>    
-    <!-- Layers -->    
-      <h2 class="text-xl font-semibold text-green-600 mb-4">Layers</h2>
+ 
+      <!-- Layers -->    
+      <h3 class="text-xl font-semibold text-green-600 mb-4">Layers</h3>
       <% if @plant.layers_array.present? %>
         <ul class="list-disc pl-6 space-y-1">
           <% @plant.layers_array.each do |layer| %>
@@ -50,8 +51,21 @@
         <p class="text-gray-500">No layers specified.</p>
       <% end %>
     </div>
+  
+  <!-- Plant Functions -->
+  <div class="bg-white rounded-lg shadow p-6">
+    <h2 class="text-xl font-semibold text-green-600 mb-4">Functions</h2>
+    <% if @plant.functions_array.present? %>
+      <ul class="list-disc pl-6 space-y-1">
+        <% @plant.functions_array.each do |func| %>
+          <li><%= h(func) %></li>
+        <% end %>
+      </ul>
+    <% else %>
+      <p class="text-gray-500">No functions specified.</p>
+    <% end %>
   </div>
-
+</div>
   <!-- Growing Conditions -->
   <% if @plant.conditions.present? %>
     <div class="bg-white rounded-lg shadow p-6">
@@ -92,19 +106,7 @@
     <% end %>
   </div>
 
-  <!-- Plant Functions -->
-  <div class="bg-white rounded-lg shadow p-6">
-    <h2 class="text-2xl font-semibold text-green-600 mb-4">Functions</h2>
-    <% if @plant.functions_array.present? %>
-      <ul class="list-disc pl-6 space-y-1">
-        <% @plant.functions_array.each do |func| %>
-          <li><%= h(func) %></li>
-        <% end %>
-      </ul>
-    <% else %>
-      <p class="text-gray-500">No functions specified.</p>
-    <% end %>
-  </div>
+
 
   <!-- Back Button -->
   <div class="text-center">
