@@ -12,7 +12,7 @@ if comfrey
     purpose: "Comfrey is a powerful medicinal herb and dynamic accumulator. It’s excellent for enriching soil, composting, mulching, and providing medicinal properties such as wound healing.",
     conditions: "Climate & Temperature: Thrives in temperate regions. Can tolerate a range of temperatures. Sunlight: Prefers full sun to partial shade. Soil: Prefers moist, well-drained soil with a neutral pH.",
     companions: "Apple Tree, Borage, Calendula, Yarrow",
-    avoid: "None specified",
+    avoid: "Shallow rooted plants because they may compete with Comfreys root system",
     pests: "Slugs, Snails"
   )
 else
