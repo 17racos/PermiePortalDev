@@ -146,6 +146,13 @@ plants.each { |attributes| create_or_update_plant(attributes) }
     perennial: true,
     layers: ["Canopy", "Sub-canopy"],
     plant_function: ["Edible", "Wildlife attractor", "Windbreaker"],
+    conditions: "Apple trees generally thrive in areas with cold winters and moderate summers. Some varieties can tolerate more extreme temperatures. Apple trees require full sun to thrive, which means they need at least 6–8 hours of direct sunlight per day. More sunlight improves fruit quality and promotes healthy growth. Apple trees prefer well-drained soil, as they do not tolerate standing water around their roots however, they do like consistent moisture. Heavy clay or waterlogged soil can lead to root rot and poor growth. Apple trees prefer lightly acidic soil with a pH of 6.0 to 6.5. Soil that is too alkaline or too acidic can affect nutrient uptake and overall tree health. Most apple trees require cross-pollination from a different apple variety to produce fruit.",
+    companions: "Garlic, Chives, Comfrey, Borage, Clover",
+    avoid: "Brassicas, Potatoes",
+    pests: "Aphids, Codling Moths, Apple Maggot, Spider Mites, Japanese Beetles, Scale Insects"
+  }
+  ]
+  {
     description: "Apple trees are one of the most widely cultivated fruit trees in the world, known for their delicious, nutritious fruit. They are an integral part of permaculture systems due to their multiple benefits, including producing edible fruit, improving soil health, and supporting biodiversity. Apple trees have deep roots that help break up compacted soil, improving water infiltration and enriching the soil when their leaves decompose. They also provide shade, creating cool microclimates for other plants and reducing evaporation rates. Apple trees attract pollinators, such as bees and butterflies, and offer habitat for wildlife. Additionally, they can be used to mitigate climate change by sequestering carbon. Apples are enjoyed fresh, juiced, or turned into products such as cider, applesauce, and jams.",
     purpose: <<-DESCRIPTION
     1. Edible Fruit Production
@@ -185,19 +192,8 @@ plants.each { |attributes| create_or_update_plant(attributes) }
     Summary:
     Apple trees are highly valuable in both agricultural and permaculture systems. They provide edible fruit, contribute to soil health, support biodiversity by attracting pollinators, and offer environmental benefits like carbon sequestration and soil erosion control. They also play an important role in windbreaks and shade, support sustainable gardening, and can help create a more resilient and diverse ecosystem.
   DESCRIPTION
-  }
 
-]
-
-  # Seed plants
-plants.each { |attributes| create_or_update_plant(attributes) }
-
-  {
-    conditions: "Apple trees generally thrive in areas with cold winters and moderate summers. Some varieties can tolerate more extreme temperatures. Apple trees require full sun to thrive, which means they need at least 6–8 hours of direct sunlight per day. More sunlight improves fruit quality and promotes healthy growth. Apple trees prefer well-drained soil, as they do not tolerate standing water around their roots however, they do like consistent moisture. Heavy clay or waterlogged soil can lead to root rot and poor growth. Apple trees prefer lightly acidic soil with a pH of 6.0 to 6.5. Soil that is too alkaline or too acidic can affect nutrient uptake and overall tree health. Most apple trees require cross-pollination from a different apple variety to produce fruit. Plant at least two different apple varieties near each other to ensure proper pollination.",
-    companions: "Garlic, Chives, Comfrey, Borage, Clover",
-    avoid: "Brassicas, Potatoes",
-    pests: "Aphids, Codling Moths, Apple Maggot, Spider Mites, Japanese Beetles, Scale Insects"
-  }
+  }  
   # Seed plants
   plants.each { |attributes| create_or_update_plant(attributes) }
 

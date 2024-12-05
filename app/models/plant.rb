@@ -4,6 +4,7 @@ class Plant < ApplicationRecord
   validates :description, length: { maximum: 65535 }, allow_blank: true
   validates :perennial, inclusion: { in: [true, false] }
   validates :purpose, length: { maximum: 65535 }, presence: true # Optional field
+  validates :conditions, length: { maximum: 65535 }, presence: true # Optional field
 
   # === Scopes ===
   scope :filter_by_functions, ->(functions) { 
