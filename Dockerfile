@@ -1,5 +1,5 @@
 # Use an official Ruby image as the base
-FROM ruby:3.2
+FROM ruby:3.3.6
 
 # Install necessary packages
 RUN apt-get update -qq && apt-get install -y \
