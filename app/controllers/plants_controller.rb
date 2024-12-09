@@ -3,12 +3,13 @@ class PlantsController < ApplicationController
 
   # GET /plants
   def index
+    # Apply filters or display all plants
     @plants = apply_filters(Plant.all)
   end
 
   # GET /plants/:id
   def show
-    # @plant is set by the `set_plant` before_action
+    # @plant is already set by the `set_plant` before_action
   end
 
   private
@@ -23,7 +24,7 @@ class PlantsController < ApplicationController
     return plants unless params[:search].present?
 
     search_params.each do |filter, values|
-      next unless values.present? && plants.respond_to?("filter_by_#{filter}")
+      next if values.blank? || !plants.respond_to?("filter_by_#{filter}")
       plants = plants.public_send("filter_by_#{filter}", values)
     end
 
@@ -32,6 +33,6 @@ class PlantsController < ApplicationController
 
   # Permits nested search parameters for filtering
   def search_params
-    params.fetch(:search, {}).permit(functions: [], layers: [], zones: [])
+    params.fetch(:search, {}).permit(plant_function: [], layers: [], zones: [])
   end
 end

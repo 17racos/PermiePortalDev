@@ -13,10 +13,10 @@
       <!-- Function Filters -->
       <div>
         <h3 class="text-md font-semibold mb-2">Filter by Functions</h3>
-        <% ["Edible", "Medicinal", "Nitrogen Fixer", "Wildlife Attractor", "Mulcher", "Dynamic Accumulator", "Erosion Control", "Animal Fodder", "Windbreaker", "Pollinator"].each do |function| %>
+        <% ["Edible", "Medicinal", "Nitrogen Fixer", "Wildlife Attractor", "Mulcher", "Dynamic Accumulator", "Erosion Control", "Animal Fodder", "Windbreaker", "Pollinator"].each do |plant_function| %>
           <label class="inline-flex items-center mb-1">
-            <%= check_box_tag "search[functions][]", function, params.dig(:search, :functions)&.include?(function), class: "mr-2 filter-checkbox" %>
-            <%= function %>
+            <%= check_box_tag "search[plant_functions][]", plant_function, params.dig(:search, :plant_function)&.include?(plant_function), class: "mr-2 filter-checkbox" %>
+            <%= plant_function %>
           </label><br>
         <% end %>
       </div>

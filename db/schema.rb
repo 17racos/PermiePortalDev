@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_12_04_182829) do
+ActiveRecord::Schema[7.2].define(version: 2024_12_09_200844) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -55,7 +55,6 @@ ActiveRecord::Schema[7.2].define(version: 2024_12_04_182829) do
     t.string "zone"
     t.boolean "perennial"
     t.text "layers"
-    t.text "plant_function"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.text "description"
@@ -64,7 +63,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_12_04_182829) do
     t.text "avoid"
     t.text "conditions"
     t.text "pests"
-    t.string "functions", default: [], array: true
+    t.string "plant_function", default: [], array: true
   end
 
   create_table "resources", force: :cascade do |t|
