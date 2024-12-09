@@ -64,7 +64,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_12_04_182829) do
     t.text "avoid"
     t.text "conditions"
     t.text "pests"
-    t.string "functions"
+    t.string "functions", default: [], array: true
   end
 
   create_table "resources", force: :cascade do |t|
