@@ -1,16 +1,9 @@
-// app/javascript/controllers/filter_controller.js
-import { Controller } from "stimulus";
+import { Controller } from "@hotwired/stimulus";
 
+// Connects to data-controller="filter"
 export default class extends Controller {
-  static targets = ["form"];  // Define the targets in your view
-
-  connect() {
-    console.log("Filter controller connected");
-  }
-
-  submit(event) {
-    // Prevent default form submission and trigger Turbo submission
-    event.preventDefault();
-    this.formTarget.requestSubmit();
+  submit() {
+    // Submit the form when a filter input changes
+    this.element.requestSubmit();
   }
 }

@@ -14,12 +14,11 @@
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
 
-    <!-- Include JavaScript files with Turbo and deferred loading -->
-    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
-  
+    <!-- Include JavaScript with Import Maps -->
+    <%= javascript_importmap_tags %>
+  </head>
 
   <body class="bg-green-50 font-sans text-gray-800">
-
     <div class="min-h-screen flex flex-col">
 
       <!-- Header Section -->
@@ -50,7 +49,7 @@
           <%= yield %>
         </div>
       </main>
-  </head>
+
       <!-- Footer -->
       <footer class="bg-gray-800 text-white py-6">
         <div class="max-w-screen-lg mx-auto text-center">

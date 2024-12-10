@@ -2,12 +2,7 @@
 
 # Rails defaults
 pin "application"
-pin "@hotwired/turbo-rails", to: "turbo.min.js"
-pin "@hotwired/stimulus", to: "stimulus.min.js"
-pin "@hotwired/stimulus-loading", to: "stimulus-loading.js"
 
-# Pin all Stimulus controllers
-pin_all_from "app/javascript/controllers", under: "controllers"
-
-# Pin custom JavaScript modules
-pin "auto_filter", to: "auto_filter.js"
+pin "@hotwired/turbo", to: "@hotwired--turbo.js" # @8.0.12
+pin "@rails/actioncable/src", to: "@rails--actioncable--src.js" # @7.2.200
+pin "@hotwired/turbo-rails", to: "@hotwired--turbo-rails.js" # @8.0.12

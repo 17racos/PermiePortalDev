@@ -1,30 +1,21 @@
-class PlantsController < ApplicationController 
-  before_action :set_plant, only: [:show]
-
-  # GET /plants
+class PlantsController < ApplicationController
   def index
-    # Apply filters or display all plants
     @plants = apply_filters(Plant.all)
-    respond_to do |format|
-      format.html  # for regular HTML requests
-      format.turbo_stream { 
-        render turbo_stream: turbo_stream.replace("plants-list", partial: "plants/plants_list", locals: { plants: @plants }) 
-      }  # for Turbo requests
-    end
-  end
 
-  # GET /plants/:id
-  def show
-    # @plant is already set by the `set_plant` before_action
+    respond_to do |format|
+      format.html # Full-page response
+      format.turbo_stream do
+        render turbo_stream: turbo_stream.replace(
+          "plants-list",
+          partial: "plants/plants_list",
+          locals: { plants: @plants }
+        )
+      end
+    end
   end
 
   private
 
-  def set_plant
-    @plant = Plant.find(params[:id])  # Use id to find the plant
-  end
-
-  # Applies search filters to the plants
   def apply_filters(plants)
     return plants unless params[:search].present?
 
@@ -36,7 +27,6 @@ class PlantsController < ApplicationController
     plants
   end
 
-  # Permits nested search parameters for filtering
   def search_params
     params.fetch(:search, {}).permit(plant_function: [], layers: [], zones: [])
   end

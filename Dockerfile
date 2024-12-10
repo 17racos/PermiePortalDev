@@ -18,27 +18,27 @@ RUN apt-get update -qq && apt-get install -y \
   tzdata \
   libyaml-dev \
   npm \
-  pkg-config \ 
+  pkg-config \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*  # Clean up apt cache to reduce image size
 
 # Set the working directory
 WORKDIR /app
 
-# Install gems in a separate step to utilize Docker cache more effectively
+# Install gems
 COPY Gemfile Gemfile.lock ./
 RUN gem install bundler && bundle install
 
 # Copy the rest of the application code
 COPY . ./
 
-# Set environment variables (optional; Docker Compose handles this)
-ENV RAILS_ENV=development
+
+# Precompile assets for production (optional for development)
+# Uncomment for production:
+# RUN RAILS_ENV=production bin/rails assets:precompile
 
 # Expose the port on which the Rails server will run
 EXPOSE 3000
 
 # Run the Rails server
 CMD ["rails", "server", "-b", "0.0.0.0"]
-
-

@@ -7,16 +7,19 @@ class Plant < ApplicationRecord
   validates :conditions, length: { maximum: 65535 }, presence: true
 
 # === Scopes ===
-# Scope to filter by plant_function
-  scope :filter_by_plant_function, ->(functions) { where(plant_function: functions) }
-  
-  # Filter plants by layers
-  scope :filter_by_layers, ->(layers) { where(layers: layers) }
-  
 
+
+  # Scope to filter by plant_function
+  scope :filter_by_plant_function, ->(functions) { 
+    where("plant_function && ARRAY[?]::varchar[]", functions) }
+  # Filter plants by layers
+  scope :filter_by_layers, ->(layers) { 
+    where("layers && ARRAY[?]::varchar[]", layers) }
   # Filter plants by zones
-  scope :filter_by_zones, ->(zones) { where(zones: zones) }
+  scope :filter_by_zones, ->(zones) { 
+    where("zones && ARRAY[?]::varchar[]", zones) }
   end
+  
 
   # === Overrides ===
   # Use `common_name` for URLs
