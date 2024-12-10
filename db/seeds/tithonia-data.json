@@ -4,7 +4,7 @@
        "picture": "tithonia.jpg",
        "scientific_name": "Tithonia diversifolia",
        "family": "Asteraceae",
-       "zone": "9-11",
+       "zones": ["9", "10", "11"],
        "perennial": true,
        "layers": ["Herbaceous", "Shrub", "Groundcover"],
        "plant_function": ["Wildlife Attractor", "Edible", "Medicinal", "Windbreaker", "Nitrogen Fixer", "Animal Fodder", "Mulcher"],

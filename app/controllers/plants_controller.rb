@@ -14,10 +14,10 @@ class PlantsController < ApplicationController
 
   private
 
-  # Finds the plant by its common_name from the parameterized URL
   def set_plant
-    @plant = Plant.find_by_common_name(params[:id])
+    @plant = Plant.find(params[:id])  # Use id to find the plant
   end
+  
 
   # Applies search filters to the plants
   def apply_filters(plants)

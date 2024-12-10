@@ -15,7 +15,6 @@ Rails.application.routes.draw do
   resources :plants, only: [:index, :show]
 
   # Other custom routes
-  get 'plants', to: 'plants#index'
   get 'community', to: 'community#index'
   get 'get_involved', to: 'get_involved#index'
 end

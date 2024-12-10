@@ -4,7 +4,7 @@
     "picture": "malibar.jpg",
     "scientific_name": "Basella alba",
     "family": "Basellaceae",
-    "zone": "9-11",
+    "zones": ["9", "10", "11"],
     "perennial": true,
     "layers": ["Climber", "Groundcover"],
     "plant_function": ["Culinary", "Medicinal", "Wildlife Attractor"],

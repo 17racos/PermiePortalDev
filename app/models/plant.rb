@@ -1,21 +1,22 @@
 class Plant < ApplicationRecord
   # === Validations ===
-  validates :common_name, :scientific_name, :zone, :layers, :plant_function, presence: true
+  validates :common_name, :scientific_name, :zones, :layers, :plant_function, presence: true
   validates :description, length: { maximum: 65535 }, allow_blank: true
   validates :perennial, inclusion: { in: [true, false] }
-  validates :purpose, length: { maximum: 65535 }, presence: true # Optional field
-  validates :conditions, length: { maximum: 65535 }, presence: true # Optional field
+  validates :purpose, length: { maximum: 65535 }, presence: true
+  validates :conditions, length: { maximum: 65535 }, presence: true
 
-  # === Scopes ===
-  scope :filter_by_functions, ->(functions) { 
-    where("plant_function ILIKE ANY (array[?])", prepare_filters(functions)) if functions.present?
-  }
-  scope :filter_by_layers, ->(layers) { 
-    where("layers ILIKE ANY (array[?])", prepare_filters(layers)) if layers.present?
-  }
-  scope :filter_by_zones, ->(zones) { 
-    where(zone: zones) if zones.present?
-  }
+# === Scopes ===
+# Scope to filter by plant_function
+  scope :filter_by_plant_function, ->(functions) { where(plant_function: functions) }
+  
+  # Filter plants by layers
+  scope :filter_by_layers, ->(layers) { where(layers: layers) }
+  
+
+  # Filter plants by zones
+  scope :filter_by_zones, ->(zones) { where(zones: zones) }
+  end
 
   # === Overrides ===
   # Use `common_name` for URLs
@@ -36,7 +37,8 @@ class Plant < ApplicationRecord
 
   # Parses and returns `functions` as an array
   def functions_array
-    parse_to_array(plant_function)
+    # Ensure that plant_function is treated as an array
+    plant_function
   end
 
   # === Class Methods ===
@@ -45,12 +47,6 @@ class Plant < ApplicationRecord
     def find_by_common_name(slug)
       where("LOWER(common_name) = ?", slug.tr('-', ' ').downcase).first!
     end
-
-    # Prepares filters for SQL ILIKE ANY
-    def prepare_filters(values)
-      values.map { |value| "%#{value}%" }
-    end
-  end
 
   private
 

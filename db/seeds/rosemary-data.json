@@ -4,7 +4,7 @@
     "picture": "rosemary.png",
     "scientific_name": "Rosmarinus officinalis",
     "family": "Lamiaceae",
-    "zone": "7-10",
+    "zones": ["7", "8", "9","10"],
     "perennial": true,
     "layers": ["Herbaceous"],
     "plant_function": ["Culinary", "Medicinal", "Companion plant"],

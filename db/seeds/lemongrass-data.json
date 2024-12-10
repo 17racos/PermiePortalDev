@@ -4,7 +4,7 @@
    "picture": "lemongrass.jpg",
    "scientific_name": "Cymbopogon citratus",
    "family": "Poaceae",
-   "zone": "10-11",
+   "zones": ["10", "11"],
    "perennial": true,
    "layers": ["Herbaceous"],
    "plant_function": ["Culinary", "Medicinal", "Aromatic"],

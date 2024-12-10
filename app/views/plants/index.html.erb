@@ -2,7 +2,7 @@
 
 <!-- Filter Form -->
 <div class="mb-8 bg-white shadow-md rounded-lg p-6">
-  <%= form_with url: plants_path, method: :get, local: true, html: { id: "plant-filter-form", class: "auto-filter" } do %>
+  <%= form_with url: plants_path, method: :get, local: false, html: { id: "plant-filter-form", class: "auto-filter", data: { controller: "filter", action: "change->filter#submit" } } do %>
     <!-- Clear Filters Link -->
     <div class="mb-4">
       <%= link_to "Clear Filters", plants_path, class: "text-blue-500 hover:underline" %>
@@ -15,7 +15,7 @@
         <h3 class="text-md font-semibold mb-2">Filter by Functions</h3>
         <% ["Edible", "Medicinal", "Nitrogen Fixer", "Wildlife Attractor", "Mulcher", "Dynamic Accumulator", "Erosion Control", "Animal Fodder", "Windbreaker", "Pollinator"].each do |plant_function| %>
           <label class="inline-flex items-center mb-1">
-            <%= check_box_tag "search[plant_functions][]", plant_function, params.dig(:search, :plant_function)&.include?(plant_function), class: "mr-2 filter-checkbox" %>
+            <%= check_box_tag "search[plant_function][]", plant_function, params.dig(:search, :plant_function)&.include?(plant_function), class: "mr-2 filter-checkbox" %>
             <%= plant_function %>
           </label><br>
         <% end %>
@@ -35,30 +35,32 @@
       <!-- Zone Filters -->
       <div>
         <h3 class="text-md font-semibold mb-2">Filter by Zones</h3>
-        <% ["3", "4", "5", "6", "7", "8", "9", "10"].each do |zone| %>
+        <% ["3", "4", "5", "6", "7", "8", "9", "10"].each do |zones| %>
           <label class="inline-flex items-center mb-1">
-            <%= check_box_tag "search[zones][]", zone, params.dig(:search, :zones)&.include?(zone), class: "mr-2 filter-checkbox" %>
-            <%= zone %>
+            <%= check_box_tag "search[zones][]", zones, params.dig(:search, :zones)&.include?(zones), class: "mr-2 filter-checkbox" %>
+            <%= zones %>
           </label><br>
         <% end %>
       </div>
     </div>
-  <% end %>
+  <% end %> <!-- This closes the form_with block -->
 </div>
 
-<!-- Display Plants -->
-<% if @plants.any? %>
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <% @plants.each do |plant| %>
-      <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition">
-        <%= image_tag(plant.picture.presence || 'default_plant_image.jpg', alt: plant.common_name, class: "w-full h-40 object-cover rounded-md mb-4") %>
-        <h2 class="text-xl font-semibold text-green-700 hover:text-green-500">
-          <%= link_to plant.common_name, plant_path(plant) %>
-        </h2>
-        <p class="text-gray-600 italic"><%= plant.scientific_name %></p>
-      </div>
-    <% end %>
-  </div>
-<% else %>
-  <p class="text-center text-gray-500 mt-8">No plants match your search criteria.</p>
-<% end %>
+<%= turbo_frame_tag "plants-list" do %>
+  <!-- Display Plants -->
+  <% if @plants.any? %>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <% @plants.each do |plant| %>
+        <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition">
+          <%= image_tag(plant.picture.presence || 'default_plant_image.jpg', alt: plant.common_name, class: "w-full h-40 object-cover rounded-md mb-4") %>
+          <h2 class="text-xl font-semibold text-green-700 hover:text-green-500">
+            <%= link_to plant.common_name, plant_path(plant) %>
+          </h2>
+          <p class="text-gray-600 italic"><%= plant.scientific_name %></p>
+        </div>
+      <% end %>
+    </div>
+  <% else %>
+    <p class="text-center text-gray-500 mt-8">No plants match your search criteria.</p>
+  <% end %> <!-- This closes the if block for @plants.any? -->
+<% end %> <!-- This closes the turbo_frame_tag block -->

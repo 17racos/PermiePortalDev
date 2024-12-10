@@ -5,10 +5,10 @@ class CreatePlants < ActiveRecord::Migration[7.0]
       t.string :common_name
       t.string :scientific_name
       t.string :family
-      t.string :zone
+      t.string :zones, array: true, default: []  # Changed to an array column
       t.boolean :perennial
-      t.text :layers
-      t.text :function
+      t.text :layers, array: true, default: []  # Assuming layers should be an array
+      t.text :function, array: true, default: [] # Assuming plant_function should be an array
 
       t.timestamps
     end

@@ -4,7 +4,7 @@
     "picture": "moringa.jpg",
     "scientific_name": "Moringa oleifera",
     "family": "Moringaceae",
-    "zone": "9-11",
+    "zones": ["9", "10", "11"],
     "perennial": true,
     "layers": ["Canopy", "Sub-canopy", "Shrub"],
     "plant_function": ["Nitrogen fixers", "Mulchers", "Dynamic Accumulator", "Erosion Control", "Insectary", "Wildlife Attractor", "Edible", "Medicinal", "Animal fodder", "Windbreaker"],

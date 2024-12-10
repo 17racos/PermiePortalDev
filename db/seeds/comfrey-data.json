@@ -4,7 +4,7 @@
     "picture": "comfrey.png",
     "scientific_name": "Symphytum officinale",
     "family": "Boraginaceae",
-    "zone": "3-9",
+    "zones": ["3", "4", "5", "6", "7", "8", "9"],
     "perennial": true,
     "layers": ["Herbaceous"],
     "plant_function": ["Medicinal", "Dynamic Accumulator", "Mulcher"],
