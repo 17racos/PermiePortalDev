@@ -11,4 +11,3 @@ pin_all_from "app/javascript/controllers", under: "controllers"
 
 # Pin custom JavaScript modules
 pin "auto_filter", to: "auto_filter.js"
-

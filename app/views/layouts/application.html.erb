@@ -14,9 +14,9 @@
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
 
-    <!-- JavaScript -->
+    <!-- Include JavaScript files with Turbo and deferred loading -->
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
-  </head>
+  
 
   <body class="bg-green-50 font-sans text-gray-800">
 
@@ -50,7 +50,7 @@
           <%= yield %>
         </div>
       </main>
-
+  </head>
       <!-- Footer -->
       <footer class="bg-gray-800 text-white py-6">
         <div class="max-w-screen-lg mx-auto text-center">

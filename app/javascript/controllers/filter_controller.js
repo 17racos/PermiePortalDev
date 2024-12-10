@@ -1,11 +1,16 @@
-import { Controller } from "stimulus"
+// app/javascript/controllers/filter_controller.js
+import { Controller } from "stimulus";
 
 export default class extends Controller {
-  static targets = ["form"]
+  static targets = ["form"];  // Define the targets in your view
+
+  connect() {
+    console.log("Filter controller connected");
+  }
 
   submit(event) {
-    event.preventDefault()  // Prevent the default form submission
-    this.formTarget.requestSubmit()  // Submit the form via Turbo (this triggers Turbo)
+    // Prevent default form submission and trigger Turbo submission
+    event.preventDefault();
+    this.formTarget.requestSubmit();
   }
 }
-

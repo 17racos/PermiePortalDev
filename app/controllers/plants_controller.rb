@@ -5,10 +5,11 @@ class PlantsController < ApplicationController
   def index
     # Apply filters or display all plants
     @plants = apply_filters(Plant.all)
-
     respond_to do |format|
       format.html  # for regular HTML requests
-      format.turbo_stream { render turbo_stream: turbo_stream.replace("plants-list", partial: "plants/plants_list", locals: { plants: @plants }) }  # for Turbo requests
+      format.turbo_stream { 
+        render turbo_stream: turbo_stream.replace("plants-list", partial: "plants/plants_list", locals: { plants: @plants }) 
+      }  # for Turbo requests
     end
   end
 
