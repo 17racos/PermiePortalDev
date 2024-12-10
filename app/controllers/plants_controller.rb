@@ -1,10 +1,15 @@
-class PlantsController < ApplicationController
+class PlantsController < ApplicationController 
   before_action :set_plant, only: [:show]
 
   # GET /plants
   def index
     # Apply filters or display all plants
     @plants = apply_filters(Plant.all)
+
+    respond_to do |format|
+      format.html  # for regular HTML requests
+      format.turbo_stream { render turbo_stream: turbo_stream.replace("plants-list", partial: "plants/plants_list", locals: { plants: @plants }) }  # for Turbo requests
+    end
   end
 
   # GET /plants/:id
@@ -17,7 +22,6 @@ class PlantsController < ApplicationController
   def set_plant
     @plant = Plant.find(params[:id])  # Use id to find the plant
   end
-  
 
   # Applies search filters to the plants
   def apply_filters(plants)

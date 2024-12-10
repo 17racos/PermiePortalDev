@@ -1,20 +1,22 @@
 // Configure your import map in config/importmap.rb
-// Read more: https://github.com/rails/importmap-rails
+// For more details on import maps in Rails, visit: https://github.com/rails/importmap-rails
 
 // === Import Rails utilities ===
-import "@hotwired/turbo-rails"; // Turbo for SPA-like navigation
-import "controllers"; // Stimulus controllers
-import Rails from "@rails/ujs"; // Rails utilities
-import * as ActiveStorage from "@rails/activestorage"; // File uploads and storage
-import "channels"; // ActionCable channels
+import "@hotwired/turbo-rails";  // Turbo for SPA-like navigation
+import "controllers";             // Stimulus controllers (automatically loads controllers from 'app/javascript/controllers')
+import Rails from "@rails/ujs";    // Rails utilities (e.g., form submission, links, etc.)
+import * as ActiveStorage from "@rails/activestorage"; // For file uploads and storage
+import "channels";                // ActionCable channels for WebSockets
 
 // === Import custom JavaScript ===
-import "auto_filter"; // Auto-submit filters for plant filtering
+import "auto_filter";  // Custom module for auto-submit filters (e.g., for plant filtering)
 
 // === Initialize Rails utilities ===
-Rails.start();
-Turbo.start(); // Start Turbo (no need for Turbolinks)
+Rails.start();               // Start Rails UJS (Unobtrusive JavaScript)
+ActiveStorage.start();       // Start ActiveStorage (if you're using file uploads)
+Turbo.start();               // Start Turbo (replaces Turbolinks for faster navigation and updates)
 
-// === Debugging (optional) ===
-console.log("Application.js loaded successfully with all modules initialized.");
+// === Optional Debugging ===
+// Log a success message to confirm that all modules are loaded and initialized
+console.log("Application.js successfully loaded and all modules initialized.");
 

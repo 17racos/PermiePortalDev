@@ -2,7 +2,7 @@
 
 <!-- Filter Form -->
 <div class="mb-8 bg-white shadow-md rounded-lg p-6">
-  <%= form_with url: plants_path, method: :get, local: false, html: { id: "plant-filter-form", class: "auto-filter", data: { controller: "filter", action: "change->filter#submit" } } do %>
+  <%= form_with url: plants_path, method: :get, local: false, data: { controller: "filter", action: "change->filter#submit" } do %>
     <!-- Clear Filters Link -->
     <div class="mb-4">
       <%= link_to "Clear Filters", plants_path, class: "text-blue-500 hover:underline" %>
