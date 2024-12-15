@@ -10,7 +10,7 @@
     "plant_function": ["Edible", "Wildlife Attractor", "Pollinator", "Border Plant"],
     "description": "Strawberries are low-growing perennials that produce small, sweet red fruit. The plants are well known for their ability to produce fruit quickly, making them a popular choice for home gardens and commercial farms alike. They grow in a rosette pattern, with leaves that are serrated and green, and produce runners that can spread to form new plants. The fruits are highly nutritious, packed with vitamin C, antioxidants, and fiber.",
     "purpose": "Strawberries serve both as a highly nutritious food crop and as a soil cover, preventing erosion. They are also attractive to pollinators and beneficial insects. Strawberries can be used in culinary dishes, juices, desserts, and preserves.",
-    "grow_conditions": ["Strawberries thrive in temperate climates, preferring full sun and well-drained, slightly acidic soil. They do best in zones 3-10, with some protection from extreme heat and cold. They require moderate watering and benefit from mulching to retain moisture and keep the soil cool."],
+    "grow_conditions": "Strawberries thrive in temperate climates, preferring full sun and well-drained, slightly acidic soil. They do best in zones 3-10, with some protection from extreme heat and cold. They require moderate watering and benefit from mulching to retain moisture and keep the soil cool.",
     "companions": "Beans, Borage, Lettuce, Spinach, and Peas.",
     "avoid": "Cabbage, Eggplant, Kale, and other Brassicas.",
     "pests": "Slugs, Aphids, Spider Mites, and Whiteflies."

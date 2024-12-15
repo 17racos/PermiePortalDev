@@ -41,7 +41,7 @@ json_files.each do |seeds|
         layers: plant_data['layers'],
         plant_function: plant_data['plant_function'],
         description: plant_data['description'],
-        grow_conditions: plant_data['conditions'],
+        grow_conditions: plant_data['grow_conditions'],
         purpose: plant_data['purpose'],
         companions: plant_data['companions'],
         avoid: plant_data['avoid'],
