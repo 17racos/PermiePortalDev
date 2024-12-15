@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_12_09_224640) do
+ActiveRecord::Schema[7.2].define(version: 2024_12_01_171913) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -52,18 +52,20 @@ ActiveRecord::Schema[7.2].define(version: 2024_12_09_224640) do
     t.string "common_name"
     t.string "scientific_name"
     t.string "family"
-    t.string "zones", default: [], array: true
+    t.string "zone", default: [], array: true
     t.boolean "perennial"
-    t.string "layers", default: [], array: true
+    t.text "layers", default: [], array: true
+    t.text "function", default: [], array: true
+    t.text "description"
+    t.text "purpose", default: [], array: true
+    t.text "plant_function", default: [], array: true
+    t.text "companions"
+    t.text "pests"
+    t.text "conditions"
+    t.text "avoid"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.text "description"
-    t.text "purpose"
-    t.text "companions"
-    t.text "avoid"
-    t.text "conditions"
-    t.text "pests"
-    t.string "plant_function", default: [], array: true
+    t.index ["common_name"], name: "index_plants_on_common_name", unique: true
   end
 
   create_table "resources", force: :cascade do |t|

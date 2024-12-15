@@ -4,7 +4,7 @@
     "picture": "turmeric.jpg",
     "scientific_name": "Curcuma longa",
     "family": "Zingiberaceae",
-    "zones": ["9", "10","11"],
+    "zone": ["9", "10","11"],
     "perennial": true,
     "layers": ["Herbaceous"],
     "plant_function": ["Culinary", "Medicinal", "Pollinator"],

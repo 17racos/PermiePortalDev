@@ -1,6 +1,6 @@
 class Plant < ApplicationRecord
   # === Validations ===
-  validates :common_name, :scientific_name, :zones, :layers, :plant_function, presence: true
+  validates :common_name, :scientific_name, :zone, :layers, :plant_function, presence: true
   validates :description, length: { maximum: 65535 }, allow_blank: true
   validates :perennial, inclusion: { in: [true, false] }
   validates :purpose, length: { maximum: 65535 }, presence: true
@@ -15,9 +15,9 @@ class Plant < ApplicationRecord
   # Filter plants by layers
   scope :filter_by_layers, ->(layers) { 
     where("layers && ARRAY[?]::varchar[]", layers) }
-  # Filter plants by zones
-  scope :filter_by_zones, ->(zones) { 
-    where("zones && ARRAY[?]::varchar[]", zones) }
+  # Filter plants by zone
+  scope :filter_by_zones, ->(zone) { 
+    where("zone && ARRAY[?]::varchar[]", zone) }
   end
   
 

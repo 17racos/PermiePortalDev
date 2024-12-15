@@ -4,7 +4,7 @@
     "picture": "apple.png",
     "scientific_name": "Malus domestica",
     "family": "Rosaceae",
-    "zones": ["4", "5", "6", "7", "8"],
+    "zone": ["4", "5", "6", "7", "8"],
     "perennial": true,
     "layers": ["Canopy", "Sub-canopy"],
     "plant_function": ["Edible", "Wildlife attractor", "Windbreaker"],

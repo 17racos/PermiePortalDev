@@ -4,7 +4,7 @@
     "picture": "ginger.jpg",
     "scientific_name": "Zingiber officinale",
     "family": "Zingiberaceae",
-    "zones": ["9", "10", "11"],
+    "zone": ["9", "10", "11"],
     "perennial": true,
     "layers": ["Herbaceous"],
     "plant_function": ["Culinary", "Medicinal", "Aromatic"],
