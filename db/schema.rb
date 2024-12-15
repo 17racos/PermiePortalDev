@@ -49,7 +49,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_12_01_171913) do
 
   create_table "plants", force: :cascade do |t|
     t.string "picture"
-    t.string "common_name"
+    t.string "common_name", null: false
     t.string "scientific_name"
     t.string "family"
     t.string "zone", default: [], array: true

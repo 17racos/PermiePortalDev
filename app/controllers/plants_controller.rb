@@ -1,5 +1,6 @@
 class PlantsController < ApplicationController
   before_action :set_plant, only: [:show]
+
   def index
     @plants = apply_filters(Plant.all)
 
@@ -16,13 +17,16 @@ class PlantsController < ApplicationController
   end
 
   def show
-    # The @plant is already set by the before_action :set_plant
+    # @plant is already set by the before_action :set_plant
   end
 
   private
   
   def set_plant
-    @plant = Plant.find_by("LOWER(common_name) = ?", params[:id].downcase)  # Ensure case-insensitive match
+    # Call the model's find_by_common_name method to find the plant
+    @plant = Plant.find_by_common_name(params[:id]) 
+
+    # Redirect if the plant is not found
     redirect_to plants_path, alert: "Plant not found" if @plant.nil?
   end
 

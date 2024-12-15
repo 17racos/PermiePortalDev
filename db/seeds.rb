@@ -1,6 +1,7 @@
 # Helper method to create or update a plant
 def create_or_update_plant(attributes)
-  plant = Plant.find_by(common_name: attributes[:common_name])
+  # Use case-insensitive lookup for common_name to match the controller logic
+  plant = Plant.find_by("(common_name) = ?", attributes[:common_name])
   if plant
     puts "Updating #{attributes[:common_name]}"
     plant.update!(attributes)

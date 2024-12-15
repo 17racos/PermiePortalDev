@@ -1,27 +1,27 @@
 Rails.application.routes.draw do
+  # Other routes
   get 'guides/vermicomposting', to: 'guides#vermicomposting', as: :vermicomposting
   get 'pages/vermicomposting'
-  resources :guides
-  devise_for :users
-  root 'home#index'
-  resources :plants, param: :common_name, only: [:index, :show]
   
+  # Guides routes
+  resources :guides
+
+  # Devise routes for users
+  devise_for :users
+  
+  # Root route
+  root 'home#index'
+
+  # Plant routes, using common_name as the URL param
+  resources :plants, param: :common_name, only: [:index, :show]
 
   # Resources routes
   resources :resources, only: [:index] do
-    get 'whatisperm', on: :collection, as: :whatisperm  # Action for "What is Permaculture?"
-    get 'whyitmatters', on: :collection, as: :whyitmatters  # Action for "Why Permaculture Matters?"
+    get 'whatisperm', on: :collection, as: :whatisperm
+    get 'whyitmatters', on: :collection, as: :whyitmatters
   end
   
-  
-
-
-  # Other custom routes
+  # Custom routes
   get 'community', to: 'community#index'
   get 'get_involved', to: 'get_involved#index'
-end
-
-#Plant Routes
-Rails.application.routes.draw do
-  resources :guides
 end
