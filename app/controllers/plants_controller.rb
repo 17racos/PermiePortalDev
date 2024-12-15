@@ -23,11 +23,13 @@ class PlantsController < ApplicationController
   private
 
   def set_plant
-    # Find the plant by its common_name (exact match with case sensitivity)
-    @plant = Plant.find_by(common_name: params[:id]) # Use common_name directly as URL param
-
-    # Redirect if the plant is not found
-    redirect_to plants_path, alert: "Plant not found" if @plant.nil?
+    # Use the common_name directly, as per your controller's expected behavior
+    @plant = Plant.find_by_common_name(params[:id])
+    
+    # If the plant is not found, redirect with an error message
+    if @plant.nil?
+      redirect_to plants_path, alert: "Plant not found"
+    end
   end 
 
   def apply_filters(plants)
@@ -40,6 +42,6 @@ class PlantsController < ApplicationController
   end
 
   def search_params
-    params.fetch(:search, {}).permit(plant_function: [], layers: [], zones: [])
+    params.fetch(:search, {}).permit(plant_function: [], layers: [], zone: [])
   end
 end

@@ -9,7 +9,7 @@ class Plant < ApplicationRecord
 
   # === Instance Methods ===
   def to_param
-    common_name.to_s.parameterize  # Use the common_name directly without changing the case
+    common_name.parameterize  # Ensure that common_name is used in the URL
   end
 
   def type
