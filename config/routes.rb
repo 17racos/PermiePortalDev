@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :guides
   devise_for :users
   root 'home#index'
+  resources :plants, param: :common_name, only: [:index, :show]
   
 
   # Resources routes
@@ -12,7 +13,8 @@ Rails.application.routes.draw do
     get 'whyitmatters', on: :collection, as: :whyitmatters  # Action for "Why Permaculture Matters?"
   end
   
-  resources :plants, only: [:index, :show]
+  
+
 
   # Other custom routes
   get 'community', to: 'community#index'
@@ -22,5 +24,4 @@ end
 #Plant Routes
 Rails.application.routes.draw do
   resources :guides
-  resources :plants, only: [:index, :show]
 end
