@@ -9,12 +9,12 @@ class CreatePlants < ActiveRecord::Migration[7.0]
       t.boolean :perennial
       t.text :layers, array: true, default: []  # Array column for layers
       t.text :function, array: true, default: []  # Array column for plant functions
-      t.text :description
+      t.text :description, array: true, default: []  # Array column for plant functions
       t.text :purpose, array: true, default: []  # Array column for purposes
       t.text :plant_function, array: true, default: []  # Array column for plant functions
       t.text :companions
       t.text :pests
-      t.text :conditions
+      t.text :grow_conditions, array: true, default: []  # Array column for plant functions
       t.text :avoid
 
       t.timestamps

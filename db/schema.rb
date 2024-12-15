@@ -56,12 +56,12 @@ ActiveRecord::Schema[7.2].define(version: 2024_12_01_171913) do
     t.boolean "perennial"
     t.text "layers", default: [], array: true
     t.text "function", default: [], array: true
-    t.text "description"
+    t.text "description", default: [], array: true
     t.text "purpose", default: [], array: true
     t.text "plant_function", default: [], array: true
     t.text "companions"
     t.text "pests"
-    t.text "conditions"
+    t.text "grow_conditions", default: [], array: true
     t.text "avoid"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

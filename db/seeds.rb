@@ -7,11 +7,14 @@ def create_or_update_plant(attributes)
     plant.update!(attributes)
   else
     puts "Creating #{attributes[:common_name]}"
-    Plant.create!(attributes)
+    # Ensure that 'grow_conditions' is handled correctly if there's a discrepancy
+    attributes[:grow_conditions] = attributes.delete("Grow Conditions") if attributes.key?("Grow Conditions")
+    Plant.create!(attributes)  # Only call create once
   end
 rescue ActiveRecord::RecordInvalid => e
   puts "Failed to seed #{attributes[:common_name]}: #{e.message}"
 end
+
 
 # Directory where JSON files are stored
 seeds_directory = Rails.root.join('db', 'seeds')  # Adjust to your folder if needed
@@ -38,7 +41,7 @@ json_files.each do |seeds|
         layers: plant_data['layers'],
         plant_function: plant_data['plant_function'],
         description: plant_data['description'],
-        conditions: plant_data['conditions'],
+        grow_conditions: plant_data['conditions'],
         purpose: plant_data['purpose'],
         companions: plant_data['companions'],
         avoid: plant_data['avoid'],

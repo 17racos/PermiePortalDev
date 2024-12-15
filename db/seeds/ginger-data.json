@@ -1,16 +1,16 @@
 [
   {
-    "common_name": "Ginger",
+    "common_name": "ginger",
     "picture": "ginger.jpg",
     "scientific_name": "Zingiber officinale",
     "family": "Zingiberaceae",
     "zone": ["9", "10", "11"],
     "perennial": true,
-    "layers": ["Herbaceous"],
-    "plant_function": ["Culinary", "Medicinal", "Aromatic"],
+    "layers": ["Herbaceous", "Root"],
+    "plant_function": ["Culinary", "Medicinal", "Aromatic", "Border Plant", "Winbreaker", "Mulcher", "Pest Control"],
     "description": "Ginger (*Zingiber officinale*) is a flowering plant in the Zingiberaceae family, native to Southeast Asia. It is widely cultivated for its rhizomes, which are used as a spice and in traditional medicine.\n\nDescription:\n- Size: Ginger plants grow to about 1 meter (3 feet) tall, with annual leafy stems.\n- Leaves: The leaves are narrow, 15 to 30 cm (6 to 12 inches) long, and arranged alternately.\n- Flowers: Ginger produces dense, conelike spikes of pale yellow flowers with purple edges.\n- Rhizomes: The edible rhizomes are knobby, aromatic underground stems.",
     "purpose": "Ginger adds a zesty flavor to various dishes and is a key ingredient in many cuisines. It has been used in traditional medicine for its potential health benefits, including anti-inflammatory and antioxidant properties. Ginger's essential oil is used in perfumes and as a flavoring agent.",
-    "conditions": "Climate: Ginger thrives in warm, humid environments with temperatures between 20°C to 30°C (68°F to 86°F).\nSoil: It prefers well-drained, fertile soil with a slightly acidic pH between 5.5 and 7.0.\nWatering: Regular watering is essential to keep the soil consistently moist but not waterlogged.\nSunlight: Ginger grows best in partial to full shade, especially in hot climates.",
+    "grow_conditions": ["Climate: Ginger thrives in warm, humid environments with temperatures between 20°C to 30°C (68°F to 86°F).\nSoil: It prefers well-drained, fertile soil with a slightly acidic pH between 5.5 and 7.0.\nWatering: Regular watering is essential to keep the soil consistently moist but not waterlogged.\nSunlight: Ginger grows best in partial to full shade, especially in hot climates."],
     "companions": "Ginger benefits from being planted with leafy greens like lettuce and spinach, which provide partial shade and help retain soil moisture.",
     "avoid": "Avoid planting ginger near crops that require full sun and dry conditions, such as succulents or certain herbs like rosemary, as it prefers consistently moist soil.",
     "pests": "Common pests affecting ginger include aphids, whiteflies, and spider mites. Regular monitoring and appropriate pest management strategies are essential to maintain healthy plants."

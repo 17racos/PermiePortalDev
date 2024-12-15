@@ -21,23 +21,21 @@ class PlantsController < ApplicationController
   end
 
   private
-  
+
   def set_plant
-    # Call the model's find_by_common_name method to find the plant
-    @plant = Plant.find_by_common_name(params[:id]) 
+    # Find the plant by its common_name (exact match with case sensitivity)
+    @plant = Plant.find_by(common_name: params[:id]) # Use common_name directly as URL param
 
     # Redirect if the plant is not found
     redirect_to plants_path, alert: "Plant not found" if @plant.nil?
-  end
+  end 
 
   def apply_filters(plants)
     return plants unless params[:search].present?
-
     search_params.each do |filter, values|
       next if values.blank? || !plants.respond_to?("filter_by_#{filter}")
       plants = plants.public_send("filter_by_#{filter}", values)
     end
-
     plants
   end
 

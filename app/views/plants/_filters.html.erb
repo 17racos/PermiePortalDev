@@ -5,7 +5,7 @@
     <!-- Function Filters -->
     <div class="mb-6 w-full sm:w-1/3">
       <h3 class="text-md font-semibold mb-2">Filter by Functions</h3>
-      <% ["Edible", "Medicinal", "Nitrogen Fixer", "Wildlife Attractor", "Mulcher", "Dynamic Accumulator", "Erosion Control", "Animal Fodder", "Windbreaker", "Pollinator"].each do |plant_function| %>
+      <% ["Edible", "Medicinal", "Nitrogen Fixer", "Wildlife Attractor", "Mulcher", "Dynamic Accumulator", "Erosion Control", "Animal Fodder", "Windbreaker", "Pollinator", "Border Plant", "Pest Management"].each do |plant_function| %>
         <label class="inline-flex items-center mb-1">
           <%= check_box_tag "search[plant_function][]", plant_function, params.dig(:search, :plant_function)&.include?(plant_function), class: "mr-2", onchange: "this.form.requestSubmit()" %>
           <%= plant_function %>

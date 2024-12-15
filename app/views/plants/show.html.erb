@@ -83,14 +83,14 @@
   <% else %>
     <p class="text-gray-500 text-center">No purpose specified for this plant.</p>
   <% end %>
-  <!-- Growing Conditions -->
-  <% if @plant.conditions.present? %>
+  <!-- Ideal Growing conditions -->
+  <% if @plant.grow_conditions.present? %>
     <div class="bg-white rounded-lg shadow p-6">
-      <h2 class="text-2xl font-semibold text-green-600 mb-4">Growing Conditions</h2>
-      <p class="text-gray-800"><%= simple_format(h(@plant.conditions)) %></p>
+      <h2 class="text-2xl font-semibold text-green-600 mb-4">Growing grow_conditions</h2>
+      <p class="text-gray-800"><%= simple_format(h(@plant.grow_conditions)) %></p>
     </div>
   <% else %>
-    <p class="text-gray-500 text-center">No growing conditions specified for this plant.</p>
+    <p class="text-gray-500 text-center">No growing grow_conditions specified for this plant.</p>
   <% end %>
 
   <!-- Plants to Avoid -->
