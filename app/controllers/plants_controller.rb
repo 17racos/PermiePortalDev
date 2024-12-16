@@ -17,20 +17,24 @@ class PlantsController < ApplicationController
   end
 
   def show
-    # @plant is already set by the before_action :set_plant
+    puts "Rendering plant details for #{@plant.common_name}"  # Debugging line
   end
 
   private
 
+  # app/controllers/plants_controller.rb
   def set_plant
-    # Use the common_name directly, as per your controller's expected behavior
-    @plant = Plant.find_by_common_name(params[:id])
-    
-    # If the plant is not found, redirect with an error message
+    puts "Searching for plant with common_name: #{params[:common_name]}"  # Debugging line
+    @plant = Plant.find_by_common_name(params[:common_name])  # Ensure correct param key
+  
     if @plant.nil?
+      puts "Plant not found"  # Debugging line
       redirect_to plants_path, alert: "Plant not found"
+    else
+      puts "Found plant: #{@plant.common_name}"  # Debugging line
     end
-  end 
+  end
+ 
 
   def apply_filters(plants)
     return plants unless params[:search].present?

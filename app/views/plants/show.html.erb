@@ -1,4 +1,13 @@
+<%= turbo_frame_tag "plants-list" do %>
 <div class="max-w-screen-lg mx-auto bg-green-50 shadow-md rounded-lg p-8 space-y-8">
+<!-- Stylesheets -->
+<%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+<%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+
+<!-- Include JavaScript with Import Maps -->
+<%= javascript_importmap_tags %>
+</head>
+
   <!-- Plant Image -->
   <div class="text-center">
     <% if @plant&.picture.present? %>
@@ -120,3 +129,4 @@
     <%= link_to "← Back to Plant List", plants_path, class: "inline-block px-6 py-3 bg-green-600 text-white text-lg font-semibold rounded-md shadow hover:bg-green-500" %>
   </div>
 </div>
+<% end %>

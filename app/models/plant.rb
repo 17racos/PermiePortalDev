@@ -1,4 +1,8 @@
 class Plant < ApplicationRecord
+  def self.find_by_common_name(common_name)
+    where("LOWER(common_name) = ?", common_name.downcase).first
+  end
+  
   # === Validations ===
   validates :common_name, uniqueness: true
   validates :common_name, :scientific_name, :zone, :layers, :plant_function, presence: true
@@ -37,12 +41,7 @@ class Plant < ApplicationRecord
     where("zone && ARRAY[:zone]::text[]", zone: zone)
   }
 
-  class << self
-    # Find by common_name directly (no downcase here)
-    def find_by_common_name(common_name)
-      where("common_name = ?", common_name).first  # No case manipulation
-    end
-  end
+
 
   private
 
