@@ -1,42 +1,39 @@
 # Helper method to create or update a plant
 def create_or_update_plant(attributes)
-  # Use case-insensitive lookup for common_name to match the controller logic
+  puts "Attributes being passed to create/update: #{attributes.inspect}"  # Debugging line
   plant = Plant.find_by("(common_name) = ?", attributes[:common_name])
   if plant
     puts "Updating #{attributes[:common_name]}"
     plant.update!(attributes)
   else
     puts "Creating #{attributes[:common_name]}"
-    # Ensure that 'grow_conditions' is handled correctly if there's a discrepancy
-    attributes[:grow_conditions] = attributes.delete("Grow Conditions") if attributes.key?("Grow Conditions")
     Plant.create!(attributes)  # Only call create once
   end
 rescue ActiveRecord::RecordInvalid => e
   puts "Failed to seed #{attributes[:common_name]}: #{e.message}"
 end
 
-
-# Directory where JSON files are stored
+# Directory where YAML files are stored
 seeds_directory = Rails.root.join('db', 'seeds')  # Adjust to your folder if needed
 
-# Find all JSON files ending in -data.json
-json_files = Dir.glob("#{seeds_directory}/*-data.json")
+# Find all YAML files ending in -data.yml
+yaml_files = Dir.glob("#{seeds_directory}/*-data.yml")
 
-# Process each JSON file
-json_files.each do |seeds|
-  # Load and parse the JSON data
+# Process each YAML file
+yaml_files.each do |yaml_file|
+  # Assuming you're reading from a YAML file
   begin
-    puts "Processing file: #{seeds}"
-    file_data = JSON.parse(File.read(seeds))
+    puts "Processing file: #{yaml_file}"
+    file_data = YAML.load_file(yaml_file)
 
-    # Seed data from the file
+    # Example usage of the structure within `file_data`
     file_data.each do |plant_data|
       plant_attributes = {
         common_name: plant_data['common_name'],
         picture: plant_data['picture'],
         scientific_name: plant_data['scientific_name'],
         family: plant_data['family'],
-        zone: plant_data['zone'],
+        zone: plant_data['zone'].map(&:to_i), # Ensure zone is an array of integers
         perennial: plant_data['perennial'],
         layers: plant_data['layers'],
         plant_function: plant_data['plant_function'],
@@ -47,14 +44,14 @@ json_files.each do |seeds|
         avoid: plant_data['avoid'],
         pests: plant_data['pests']
       }
-
+    
       create_or_update_plant(plant_attributes)
     end
 
-    puts "Successfully processed: #{seeds}"
-  rescue JSON::ParserError => e
-    puts "Failed to parse file #{seeds}: #{e.message}"
+    puts "Successfully processed: #{yaml_file}"
+  rescue Psych::SyntaxError => e
+    puts "Failed to parse file #{yaml_file}: #{e.message}"
   rescue => e
-    puts "Error processing file #{seeds}: #{e.message}"
+    puts "Error processing file #{yaml_file}: #{e.message}"
   end
 end

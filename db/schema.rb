@@ -52,17 +52,16 @@ ActiveRecord::Schema[7.2].define(version: 2024_12_01_171913) do
     t.string "common_name", null: false
     t.string "scientific_name"
     t.string "family"
-    t.string "zone", default: [], array: true
+    t.integer "zone", default: [], array: true
     t.boolean "perennial"
     t.text "layers", default: [], array: true
-    t.text "function", default: [], array: true
-    t.text "description", default: [], array: true
-    t.text "purpose", default: [], array: true
     t.text "plant_function", default: [], array: true
-    t.text "companions"
-    t.text "pests"
-    t.text "grow_conditions", default: [], array: true
+    t.text "description"
+    t.text "purpose"
+    t.text "grow_conditions"
     t.text "avoid"
+    t.text "pests"
+    t.text "companions"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["common_name"], name: "index_plants_on_common_name", unique: true

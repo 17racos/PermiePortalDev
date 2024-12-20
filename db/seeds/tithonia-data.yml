@@ -1,0 +1,93 @@
+---
+- common_name: tithonia
+  picture: tithonia.jpg
+  scientific_name: Tithonia diversifolia
+  family: Asteraceae
+  zone:
+  - '9'
+  - '10'
+  - '11'
+  perennial: true
+  layers:
+  - Herbaceous
+  - Shrub
+  - Groundcover
+  plant_function:
+  - Wildlife Attractor
+  - Edible
+  - Medicinal
+  - Windbreaker
+  - Nitrogen Fixer
+  - Animal Fodder
+  - Mulcher
+  description: |-
+    Tithonia, commonly known as the Mexican sunflower, is a vibrant, flowering plant that is part of the Asteraceae family. Its scientific name is Tithonia diversifolia, and it is native to Central America and parts of Mexico. This plant is widely cultivated for ornamental purposes as well as for its ecological benefits in gardens, permaculture systems, and agroforestry.
+
+    Size: Tithonia is a fast-growing, perennial shrub that can reach heights of 6 to 10 feet (1.8 to 3 meters). The plant typically has a bushy, upright form with large, broad leaves.
+
+    Leaves: The leaves are large, lance-shaped, and deeply lobed, with a rich green color. They provide excellent shade and are also useful in the composting process, adding organic matter to the soil.
+
+    Flowers: Tithonia produces striking, bright orange or red daisy-like flowers that are 3 to 5 inches in diameter. The flowers are known for attracting pollinators like bees, butterflies, and hummingbirds. These showy flowers bloom in late summer and fall, providing a burst of color in the garden.
+
+    Roots: The root system of Tithonia is strong and helps prevent soil erosion. The deep roots also make it a good candidate for improving soil structure in poor or compacted soils.
+
+    Benefits of Tithonia:
+    1. Pollinator Support: The vibrant flowers of Tithonia attract a wide range of pollinators, making it an excellent choice for supporting biodiversity in gardens and permaculture systems.
+    2. Soil Improvement: Tithonia is often used in agroforestry systems as a dynamic accumulator. It pulls up nutrients from the soil and, when used as mulch or green manure, helps enrich the soil with organic matter, particularly nitrogen.
+    3. Erosion Control: The deep and extensive root system of Tithonia helps stabilize the soil, preventing erosion in areas prone to soil degradation.
+    4. Medicinal Uses: Some parts of the Tithonia plant, particularly the leaves, have been used in traditional medicine for their anti-inflammatory properties. However, it should be used with caution, as some parts of the plant can be toxic if consumed in large quantities.
+    5. Companion Planting: In permaculture, Tithonia is often used as a companion plant to attract beneficial insects while providing shade and improving soil fertility. It is also used to act as a natural windbreak.
+
+    Growing Conditions:
+    Sunlight: Tithonia thrives in full sun but can tolerate partial shade. It performs best when given at least 6 hours of direct sunlight per day.
+    Soil: Prefers well-drained soil but is adaptable to a variety of soil types, including sandy, loamy, or even poor soils. It thrives in slightly acidic to neutral pH.
+    Watering: While Tithonia is drought-tolerant once established, it benefits from consistent watering during dry periods to maintain healthy growth and flower production.
+    Climate: Best suited to tropical and subtropical climates, though it can be grown in temperate regions as an annual or in greenhouses.
+
+    Key Considerations: While Tithonia is a hardy and beneficial plant, it can become invasive in some regions if not managed properly, as it spreads rapidly through its seeds. It's important to control its growth, especially in areas outside its native range.
+
+    In permaculture and agroforestry, Tithonia serves multiple roles, from attracting pollinators to enriching the soil and controlling erosion, making it a versatile and valuable plant in sustainable agriculture.
+  purpose: |-
+    Tithonia plays several important roles in permaculture systems:
+
+    1. **Nitrogen Fixation**: Tithonia is often used as a nitrogen fixer, enhancing soil fertility by fixing nitrogen in the soil. It works well as a green manure, and its deep roots can bring up nutrients from lower soil layers, enriching the upper soil.
+
+    2. **Soil Enrichment**: Tithonia adds organic matter to the soil when its leaves decompose. This helps improve soil structure, increase moisture retention, and encourage the growth of beneficial microbes. The plant’s deep root system also helps break up compacted soils, improving water infiltration.
+
+    3. **Pollinator Attractor**: The vibrant orange flowers of Tithonia attract bees, butterflies, and other pollinators, making it an excellent addition to any permaculture garden. Its blooms are especially important in supporting the health of pollinator populations.
+
+    4. **Compost and Mulch**: Tithonia’s fast-growing nature makes it an excellent source of green material for composting. The plant can be chopped and added to compost piles to help create nutrient-rich compost. It can also be used as mulch around other plants to help retain moisture and suppress weeds.
+
+    5. **Animal Fodder**: Tithonia is also used as livestock fodder in some permaculture systems. Its leaves are rich in nutrients and can be fed to animals, particularly goats and cattle. However, it should be used in moderation as it can be toxic in large quantities.
+
+    In summary, Tithonia serves as a multi-functional plant in permaculture systems. Its ability to fix nitrogen, improve soil health, attract pollinators, and provide organic matter for compost or animal fodder makes it an invaluable resource for creating sustainable, regenerative ecosystems.
+  grow_conditions: Tithonia is known for its robust growing conditions and versatility
+    in the garden. It thrives in full sun and can tolerate a variety of soil types,
+    though it prefers well-drained, slightly acidic to neutral soil. The plant is
+    drought-tolerant once established, making it ideal for dry climates, but it also
+    performs well with moderate watering. Tithonia can reach up to 6 feet in height
+    and produces bright orange or yellow daisy-like flowers that attract pollinators,
+    especially bees and butterflies. It can be grown as a windbreak or as a soil-improving
+    plant due to its deep roots that help break up compacted soil and add organic
+    matter. Tithonia is often used in permaculture systems for its role in improving
+    soil fertility, supporting biodiversity, and providing aesthetic value with its
+    vibrant flowers. Its deep taproot and dense growth also make it effective for
+    preventing soil erosion in areas prone to degradation. Tithonia is ideal for planting
+    in garden beds, agroforestry systems, or as a hedge or border plant in permaculture
+    designs.
+  companions:
+  - Beans
+  - Corn
+  - Squash
+  - Sunflowers
+  - Marigolds
+  avoid: "Plants prone to pests. Tithonia can attract a lot of pollinators, but it
+    can also attract certain pests like aphids and caterpillars. Avoid planting it
+    near plants that are susceptible to these pests or diseases, as they could spread
+    quickly.\n\n Tithonia can attract a lot of pollinators, but it can also attract
+    certain pests like aphids and caterpillars. Avoid planting it near plants that
+    are susceptible to these pests or diseases, as they could spread quickly.\n\n
+    Plants with shallow roots and slow growing plants. Tithonia has a deep taproot
+    and can grow quite tall (up to 6 feet or 1.8 meters), and its bushy growth can
+    overshadow smaller plants, especially those that need full sunlight.   "
+  pests: Whiteflies, Spider Mites
