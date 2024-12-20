@@ -30,10 +30,19 @@
   purpose: Strawberries serve both as a highly nutritious food crop and as a soil
     cover, preventing erosion. They are also attractive to pollinators and beneficial
     insects. Strawberries can be used in culinary dishes, juices, desserts, and preserves.
-  grow_conditions: Strawberries thrive in temperate climates, preferring full sun
-    and well-drained, slightly acidic soil. They do best in zones 3-10, with some
-    protection from extreme heat and cold. They require moderate watering and benefit
-    from mulching to retain moisture and keep the soil cool.
-  companions: Beans, Borage, Lettuce, Spinach, and Peas.
-  avoid: Cabbage, Eggplant, Kale, and other Brassicas.
-  pests: Slugs, Aphids, Spider Mites, and Whiteflies.
+  companions:
+  - Beans
+  - Borage
+  - Lettuce
+  - Spinach
+  - Peas
+  avoid:
+  - Cabbage
+  - Eggplant
+  - Kale
+  - Brassicas
+  pests:
+  - Slugs
+  - Aphids
+  - Spider Mites
+  - Whiteflies.

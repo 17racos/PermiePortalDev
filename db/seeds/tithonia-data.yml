@@ -61,19 +61,6 @@
     5. **Animal Fodder**: Tithonia is also used as livestock fodder in some permaculture systems. Its leaves are rich in nutrients and can be fed to animals, particularly goats and cattle. However, it should be used in moderation as it can be toxic in large quantities.
 
     In summary, Tithonia serves as a multi-functional plant in permaculture systems. Its ability to fix nitrogen, improve soil health, attract pollinators, and provide organic matter for compost or animal fodder makes it an invaluable resource for creating sustainable, regenerative ecosystems.
-  grow_conditions: Tithonia is known for its robust growing conditions and versatility
-    in the garden. It thrives in full sun and can tolerate a variety of soil types,
-    though it prefers well-drained, slightly acidic to neutral soil. The plant is
-    drought-tolerant once established, making it ideal for dry climates, but it also
-    performs well with moderate watering. Tithonia can reach up to 6 feet in height
-    and produces bright orange or yellow daisy-like flowers that attract pollinators,
-    especially bees and butterflies. It can be grown as a windbreak or as a soil-improving
-    plant due to its deep roots that help break up compacted soil and add organic
-    matter. Tithonia is often used in permaculture systems for its role in improving
-    soil fertility, supporting biodiversity, and providing aesthetic value with its
-    vibrant flowers. Its deep taproot and dense growth also make it effective for
-    preventing soil erosion in areas prone to degradation. Tithonia is ideal for planting
-    in garden beds, agroforestry systems, or as a hedge or border plant in permaculture
     designs.
   companions:
   - Beans
@@ -81,13 +68,12 @@
   - Squash
   - Sunflowers
   - Marigolds
-  avoid: "Plants prone to pests. Tithonia can attract a lot of pollinators, but it
-    can also attract certain pests like aphids and caterpillars. Avoid planting it
-    near plants that are susceptible to these pests or diseases, as they could spread
-    quickly.\n\n Tithonia can attract a lot of pollinators, but it can also attract
-    certain pests like aphids and caterpillars. Avoid planting it near plants that
-    are susceptible to these pests or diseases, as they could spread quickly.\n\n
-    Plants with shallow roots and slow growing plants. Tithonia has a deep taproot
-    and can grow quite tall (up to 6 feet or 1.8 meters), and its bushy growth can
-    overshadow smaller plants, especially those that need full sunlight.   "
-  pests: Whiteflies, Spider Mites
+  avoid:
+  - Mint
+  - Lettuce
+  - Spinach
+  - Basil
+  - Parsley
+  pests:
+  - Whiteflies
+  - Spider Mites

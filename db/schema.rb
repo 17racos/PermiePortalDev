@@ -59,9 +59,9 @@ ActiveRecord::Schema[7.2].define(version: 2024_12_01_171913) do
     t.text "description"
     t.text "purpose"
     t.text "grow_conditions"
-    t.text "avoid"
-    t.text "pests"
-    t.text "companions"
+    t.text "avoid", default: [], array: true
+    t.text "pests", default: [], array: true
+    t.text "companions", default: [], array: true
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["common_name"], name: "index_plants_on_common_name", unique: true

@@ -31,16 +31,12 @@
     many cuisines. It has been used in traditional medicine for its potential health
     benefits, including anti-inflammatory and antioxidant properties. Ginger's essential
     oil is used in perfumes and as a flavoring agent.
-  grow_conditions: |-
-    Climate: Ginger thrives in warm, humid environments with temperatures between 20°C to 30°C (68°F to 86°F).
-    Soil: It prefers well-drained, fertile soil with a slightly acidic pH between 5.5 and 7.0.
-    Watering: Regular watering is essential to keep the soil consistently moist but not waterlogged.
-    Sunlight: Ginger grows best in partial to full shade, especially in hot climates.
-  companions: Ginger benefits from being planted with leafy greens like lettuce and
-    spinach, which provide partial shade and help retain soil moisture.
-  avoid: Avoid planting ginger near crops that require full sun and dry conditions,
-    such as succulents or certain herbs like rosemary, as it prefers consistently
-    moist soil.
-  pests: Common pests affecting ginger include aphids, whiteflies, and spider mites.
-    Regular monitoring and appropriate pest management strategies are essential to
-    maintain healthy plants.
+  companions:
+  - Lettuces
+  - Spinach
+  avoid:
+  - Rosemary  
+  pests:
+  - Aphids
+  - Whiteflies
+  - Spider mites 

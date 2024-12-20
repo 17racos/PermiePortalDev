@@ -27,9 +27,6 @@
     Medicinally, comfrey has been used for centuries to treat wounds, bruises, and
     inflammation, as it promotes tissue healing. It’s a versatile plant that also
     attracts pollinators and supports biodiversity in permaculture systems.
-  grow_conditions: 'Climate and Temperature: Thrives in temperate regions. Prefers
-    moist, well-drained soil. Sunlight: Full sun to partial shade. Soil: Prefers slightly
-    acidic to neutral soil.'
   purpose: |-
     1. Medicinal Uses:
     Comfrey has been used for centuries in traditional medicine, primarily for its ability to promote healing. The plant contains allantoin, a compound known to help stimulate cell growth, making it useful for:
@@ -72,11 +69,13 @@
 
     Key Considerations:
     While comfrey is highly beneficial in many contexts, it is important to be cautious about its use, particularly for internal consumption, due to the presence of pyrrolizidine alkaloids (PAs) in the roots and leaves. These compounds can be toxic to the liver if consumed in large quantities over time, so comfrey should only be used externally or under the guidance of a healthcare professional.
-  companions: Comfrey is often paired with other nutrient-hungry plants in permaculture
-    systems, such as fruit trees, where it can enhance the soil's fertility and attract
-    pollinators.
-  avoid: Avoid planting comfrey near plants that may compete with it for nutrients,
-    particularly delicate annuals that require light, well-drained soil.
-  pests: Comfrey is generally resistant to pests but can attract aphids and slugs,
-    especially in humid environments. Regular monitoring and natural pest control
-    can help reduce infestations.
+  companions: 
+    -Nurient-hungry plants
+    -Fruit trees 
+  avoid:
+  - Basil
+  - Parsley
+  - Spinach
+  pests: 
+  - Aphids
+  - Slugs

@@ -65,31 +65,20 @@
     7. **Sustainable Agriculture:** Moringa is a valuable addition to sustainable farming practices. It can be used to improve soil health, provide fodder for livestock, produce food, and offer medicinal benefits—all while being easy to grow and maintain in various climates.
 
     By incorporating Moringa into permaculture designs, you can create a multi-functional, sustainable system that benefits both the environment and the people who depend on it.
-  grow_conditions: |-
-    The Moringa tree thrives in warm, tropical and subtropical climates with the following conditions:
-
-    1. **Temperature:** Moringa prefers warm temperatures and is most suitable for areas with temperatures between 25°C and 35°C (77°F and 95°F). It can tolerate brief periods of frost but is best grown in frost-free zones.
-
-    2. **Sunlight:** Moringa trees require full sun to grow optimally. They need at least 6–8 hours of direct sunlight each day to produce healthy leaves and pods. In permaculture systems, it is important to plant them in areas that receive abundant sunlight.
-
-    3. **Soil:** Moringa trees thrive in well-drained, sandy or loamy soil with a slightly acidic to neutral pH (6.0-7.0). They do not tolerate waterlogged or heavy clay soils. Proper drainage is essential to avoid root rot. In permaculture, it is often recommended to improve soil drainage by incorporating organic matter such as compost.
-
-    4. **Watering:** While Moringa is drought-resistant, it still requires consistent moisture, especially during the early stages of growth. Once established, it can tolerate dry conditions but prefers regular watering during hot periods. Overwatering should be avoided, as it can lead to root rot.
-
-    5. **Wind Protection:** Moringa trees have fragile branches that can break under strong winds. In permaculture systems, planting Moringa near other trees or using windbreaks can help protect the tree from wind damage.
-
-    6. **Elevation:** Moringa grows best at low to moderate elevations, but it can also be grown at higher altitudes, as long as the temperature remains within its tolerance range.
-
-    7. **Spacing:** In permaculture, Moringa trees should be spaced properly to allow for adequate sunlight and airflow. Space the trees at least 3-5 meters apart to ensure they have room to grow.
-
-    8. **Fertilization:** Moringa is a low-maintenance plant when it comes to fertilization. However, it benefits from occasional organic compost or manure to promote growth and enhance soil fertility. Adding nutrients to the soil can improve the tree’s overall health and yield.
-
-    9. **Pruning:** Moringa trees benefit from regular pruning to maintain a manageable size, especially in permaculture systems where the tree is grown for multiple uses like mulch, compost, and food. Pruning helps increase leaf production, which is crucial for harvesting the nutrient-dense leaves.
-
-    10. **Tolerance to Harsh Conditions:** Moringa trees are well-suited for dry, arid regions and can tolerate poor soil conditions. They are often used in permaculture systems for reforestation or soil improvement in degraded land.
-  companions: Peas, Beans, Sweet Potatoes, Okra, Basil, Mint, Garlic, Onions
-  avoid: |-
-    Shallow-Rooted Plants Reason: Moringa has a deep taproot, which helps it access nutrients from deep within the soil.
-
-    1 Other Trees with Similar Growth Patterns Reason: Avoid planting Moringa too close to other large trees, such as fig trees or mango trees, that have similarly deep root systems and may compete for space, water, and nutrients. Also, the dense canopy of Moringa could block sunlight for smaller, shade-loving plants
-  pests: Leafhoppers, Aphids, Caterpillars
+  companions:
+  - Peas
+  - Beans
+  - Sweet Potatoes
+  - Okra
+  - Basil
+  - Mint
+  - Garlic
+  - Onions
+  avoid:
+  - Shallow-Rooted Plants
+  - Fig trees
+  - Mango Tree
+  pests:
+  - Leafhoppers
+  - Aphids
+  - Caterpillars

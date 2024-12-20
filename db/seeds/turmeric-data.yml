@@ -60,13 +60,21 @@
     - **Companion Planting:** Turmeric can be used in companion planting schemes, where it works well with other crops like leafy greens that benefit from partial shade and moisture retention. It can also improve the health of other nearby plants by preventing soil depletion and creating a richer growing environment.
 
     Overall, turmeric is a valuable addition to any permaculture system, providing a wide range of benefits from improving soil health and supporting biodiversity to offering medicinal and culinary uses, all while being a low-maintenance, sustainable crop.
-  grow_conditions: Turmeric thrives in tropical climates with temperatures between
-    68°F and 95°F (20°C to 35°C). It requires organically rich, fertile, well-drained
-    soil with a slightly acidic pH between 5.5 to 6.5. Turmeric requires consistent
-    moisture and partial shade to full sun for optimal growth.
-  companions: Turmeric benefits from being planted with leafy greens like lettuce
-    and spinach, which provide partial shade and help retain soil moisture.
-  avoid: Avoid planting turmeric near crops that require full sun and dry conditions,
-    as these plants can compete for resources and hinder turmeric's growth.
-  pests: Common pests affecting turmeric include aphids, whiteflies, and spider mites.
-    Regular monitoring and pest management are necessary to maintain healthy plants.
+  companions:
+  - Lettuce
+  - Spinach
+  - Peppers
+  - Ginger
+  - Lemongrass
+  - Beans
+  avoid:
+  - Corn
+  - Tomatoes 
+  - Mint
+  - Lemon Balm
+  - Oregano
+  pests:
+  - Aphids
+  - Whiteflies
+  - Spider mites.
+  
