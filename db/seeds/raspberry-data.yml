@@ -1,0 +1,43 @@
+- common_name: Raspberry
+  picture: raspberry.jpg
+  scientific_name: Rubus idaeus
+  aka:
+    - Red Raspberry
+    - European Raspberry
+  family: Rosaceae
+  zone:
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: true
+  layers:
+    - Shrub
+  plant_function:
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Erosion Control
+    - Pollinator
+    - Border Plant
+  description: |-
+    Raspberries are perennial shrubs producing sweet, red, black, or golden berries depending on the variety. They typically grow to a height of 3-5 feet and spread through underground runners. Their stems, known as canes, are either biennial or perennial, depending on the fruiting variety. Raspberries prefer well-drained soils and thrive in full sun. They are known for their high nutrient content and antioxidant properties.
+  purpose: |-
+    In permaculture, raspberries are grown primarily for their delicious and nutritious fruits, which can be eaten fresh or preserved. They attract pollinators and other beneficial wildlife, enhancing biodiversity in the garden. Their dense root system helps prevent soil erosion, and they can act as a natural border plant or windbreak. Medicinally, raspberry leaves are often used in teas for their health benefits.
+  companions:
+    - Garlic
+    - Onions
+    - Rue
+    - Clover
+    - Nasturtium
+  avoid:
+    - Potatoes
+    - Tomatoes
+    - Peppers
+  pests:
+    - Raspberry Cane Borer
+    - Spider Mites
+    - Japanese Beetles
+    - Aphids

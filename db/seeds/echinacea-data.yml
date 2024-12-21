@@ -1,0 +1,42 @@
+- common_name: Echinacea
+  picture: echinacea.jpg
+  scientific_name: Echinacea purpurea
+  aka:
+    - Purple Coneflower
+    - Eastern Purple Coneflower
+  family: Asteraceae
+  zone:
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: true
+  layers:
+    - Herbaceous
+  plant_function:
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Pollinator
+    - Border Plant
+    - Pest Management
+  description: |-
+    Echinacea, commonly known as Purple Coneflower, is a hardy perennial native to North America. It features large, daisy-like flowers with purple petals surrounding a prominent, spiky central cone. The plant typically grows up to 4 feet tall and thrives in well-drained soils under full sun. Its long blooming period and vibrant flowers make it a popular choice for gardens and natural landscapes.
+  purpose: |-
+    In permaculture, Echinacea serves multiple functions: its flowers attract pollinators such as bees and butterflies, enhancing biodiversity; it has medicinal properties, traditionally used to boost the immune system and treat infections; it can act as a border plant, defining garden spaces; and its presence can aid in pest management by attracting beneficial insects.
+  companions:
+    - Bee Balm
+    - Black-eyed Susan
+    - Yarrow
+    - Lavender
+    - Ornamental Grasses
+  avoid:
+    - None
+  pests:
+    - Aphids
+    - Japanese Beetles
+    - Leafhoppers
+    - Powdery Mildew

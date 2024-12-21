@@ -1,0 +1,40 @@
+- common_name: Rue
+  picture: rue.jpg
+  scientific_name: Ruta graveolens
+  aka:
+    - Herb-of-Grace
+    - Garden Rue
+  family: Rutaceae
+  zone:
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: true
+  layers:
+    - Herbaceous
+  plant_function:
+    - Medicinal
+    - Pest Management
+    - Border Plant
+  description: |-
+    Rue is a woody perennial herb native to the Mediterranean region, characterized by its blue-green foliage and clusters of small, yellow flowers. It typically grows up to 2 to 3 feet in height and prefers well-drained soils with full sun exposure. The plant emits a strong, pungent aroma and contains compounds that can cause skin irritation in sensitive individuals.
+  purpose: |-
+    In permaculture, rue is valued for its pest-repellent properties, deterring insects such as aphids and fleas, thus aiding in natural pest management. Medicinally, it has been traditionally used for its anti-inflammatory and antispasmodic effects, though caution is advised due to its potential toxicity. As a border plant, rue can define garden boundaries and protect other plants from pests.
+  companions:
+    - Roses
+    - Raspberries
+    - Figs
+    - Onions
+  avoid:
+    - Basil
+    - Sage
+    - Cabbage
+    - Cucumbers
+    - Mint
+  pests:
+    - Aphids
+    - Fleas
+    - Japanese Beetles

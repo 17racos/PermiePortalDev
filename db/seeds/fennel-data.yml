@@ -1,0 +1,47 @@
+- common_name: Fennel
+  picture: fennel.jpg
+  scientific_name: Foeniculum vulgare
+  aka:
+    - Sweet Fennel
+    - Finocchio
+  family: Apiaceae
+  zone:
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+  perennial: true
+  layers:
+    - Herbaceous
+  plant_function:
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Pollinator
+    - Dynamic Accumulator
+    - Pest Management
+  description: |-
+    Fennel is a perennial herb native to the Mediterranean region, characterized by its feathery, aromatic leaves and yellow flowers. It can grow up to 5 feet tall and thrives in well-drained soils under full sun. The plant has a distinct anise-like flavor, and all parts—including the bulb, leaves, and seeds—are edible. Fennel is known for its allelopathic properties, which can inhibit the growth of certain other plants.
+  purpose: |-
+    In permaculture, fennel serves multiple purposes: its edible parts are used in various culinary dishes; medicinally, it has been traditionally used to aid digestion and relieve bloating; it attracts beneficial wildlife, including pollinators like bees and butterflies, enhancing biodiversity; as a dynamic accumulator, it draws up nutrients from deep soil layers, enriching the topsoil; and its strong aroma can help in pest management by deterring certain insects.
+  companions:
+    - Dill
+    - Sage
+    - Marigold
+    - Nasturtium
+    - Lavender
+  avoid:
+    - Tomatoes
+    - Beans
+    - Broccoli
+    - Carrots
+    - Peas
+  pests:
+    - Aphids
+    - Whiteflies
+    - Slugs
+    - Snails
+    - Swallowtail Caterpillars

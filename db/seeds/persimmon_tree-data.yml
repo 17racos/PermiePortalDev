@@ -1,0 +1,43 @@
+- common_name: Persimmon
+  picture: persimmon.jpg
+  scientific_name: Diospyros spp.
+  aka:
+    - Kaki
+    - Sharon Fruit
+  family: Ebenaceae
+  zone:
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: true
+  layers:
+    - Canopy
+    - Sub-canopy
+  plant_function:
+    - Edible
+    - Wildlife Attractor
+    - Erosion Control
+    - Animal Fodder
+    - Pollinator
+  description: |-
+    Persimmon trees are deciduous, medium-sized trees known for their sweet, orange-colored fruits. They can grow up to 25 feet in height and spread, featuring broad, ovate leaves that turn vibrant colors in the fall. The tree produces small, bell-shaped flowers, which develop into the distinctive fleshy fruits. Persimmons are adaptable to various soil types but prefer well-drained, slightly acidic soils. They are drought-tolerant once established and can withstand a range of temperatures, making them suitable for diverse climates.
+  purpose: |-
+    In permaculture, persimmon trees provide multiple benefits. Their edible fruits are rich in vitamins and can be consumed fresh or dried. The trees attract wildlife, including birds and beneficial insects, enhancing biodiversity. Their root systems help in erosion control, stabilizing soil on slopes. Additionally, fallen fruits can serve as fodder for animals, and the flowers attract pollinators, supporting the overall health of the ecosystem.
+  companions:
+    - Comfrey
+    - Borage
+    - Clover
+    - Bee Balm
+    - Garlic
+  avoid:
+    - Black Walnut
+    - Corn
+    - Potatoes
+  pests:
+    - Persimmon Trunk Borer
+    - Aphids
+    - Scale Insects
+    - Spider Mites

@@ -1,0 +1,41 @@
+- common_name: Bee Balm
+  picture: beebalm.jpg
+  scientific_name: Monarda didyma
+  aka:
+    - Wild Bergamot
+    - Oswego Tea
+    - Horsemint
+  family: Lamiaceae
+  zone:
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: true
+  layers:
+    - Herbaceous
+  plant_function:
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Pollinator
+    - Border Plant
+    - Pest Management
+  description: |-
+    Bee Balm is a perennial herbaceous plant native to North America, reaching heights of 2 to 4 feet. It features vibrant, tubular flowers in shades of red, pink, purple, or white, blooming from mid-summer to early fall. The aromatic foliage emits a minty fragrance when crushed. Preferring full sun to partial shade and moist, well-drained soils, Bee Balm is known for its susceptibility to powdery mildew in humid conditions.
+  purpose: |-
+    In permaculture, Bee Balm serves multiple roles: its edible flowers and leaves can be used in teas and salads; medicinally, it's traditionally employed to treat colds and digestive issues; it attracts pollinators like bees, butterflies, and hummingbirds, enhancing biodiversity; as a border plant, it defines garden edges; and its aromatic properties help deter pests, aiding in natural pest management.
+  companions:
+    - Echinacea
+    - Phlox
+    - Black-eyed Susan
+    - Yarrow
+    - Lavender
+  avoid:
+    - None
+  pests:
+    - Aphids
+    - Spider Mites
+    - Powdery Mildew

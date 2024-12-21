@@ -1,0 +1,44 @@
+- common_name: Borage
+  picture: borage.jpg
+  scientific_name: Borago officinalis
+  aka:
+    - Starflower
+  family: Boraginaceae
+  zone:
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+  perennial: false
+  layers:
+    - Herbaceous
+  plant_function:
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Pollinator
+    - Mulcher
+    - Dynamic Accumulator
+    - Pest Management
+  description: |-
+    Borage, commonly known as Starflower, is an annual herb notable for its vibrant blue, star-shaped flowers and hairy stems and leaves. It typically grows to a height of 1 to 3 feet and thrives in full sun with well-drained soil. Borage is renowned for its rapid growth and self-seeding ability, making it a resilient addition to gardens.
+  purpose: |-
+    In permaculture, borage serves multiple functions: its edible flowers and leaves, with a mild cucumber flavor, are used in culinary dishes; medicinally, it has been traditionally utilized for its anti-inflammatory properties; it attracts beneficial wildlife, including pollinators like bees and butterflies, enhancing biodiversity; as a dynamic accumulator, it draws up essential minerals, enriching the soil; its foliage can be used as mulch, improving soil health; and it aids in pest management by deterring harmful insects.
+  companions:
+    - Tomatoes
+    - Cabbage
+    - Strawberries
+    - Squash
+    - Cucumbers
+  avoid:
+    - Potatoes
+    - Fennel
+  pests:
+    - Aphids
+    - Tomato Hornworms
+    - Cabbage Worms

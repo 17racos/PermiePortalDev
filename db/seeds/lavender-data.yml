@@ -1,0 +1,41 @@
+- common_name: Lavender
+  picture: lavender.jpg
+  scientific_name: Lavandula angustifolia
+  aka:
+    - English Lavender
+    - True Lavender
+  family: Lamiaceae
+  zone:
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: true
+  layers:
+    - Herbaceous
+  plant_function:
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Pollinator
+    - Border Plant
+    - Pest Management
+  description: |-
+    Lavender is a perennial shrub native to the Mediterranean, characterized by its fragrant, purple-blue flowers and silvery-green foliage. It typically grows 1 to 3 feet tall and thrives in full sun and well-drained, sandy soils. Its aromatic oils are released when brushed against or crushed, making it a popular choice for sensory gardens.
+  purpose: |-
+    In permaculture, lavender serves multiple functions: its edible flowers are used in culinary dishes and teas; medicinally, it's known for its calming and antiseptic properties; it attracts pollinators like bees and butterflies, enhancing biodiversity; as a border plant, it defines garden edges and deters pests with its strong scent; and it contributes to pest management by repelling insects such as mosquitoes and moths.
+  companions:
+    - Echinacea
+    - Yarrow
+    - Rosemary
+    - Thyme
+    - Sage
+  avoid:
+    - Mint
+    - Fennel
+    - Rue
+  pests:
+    - Aphids
+    - Spittlebugs
+    - Whiteflies
