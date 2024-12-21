@@ -1,0 +1,40 @@
+- common_name: Carrot
+  picture: carrot.jpg
+  scientific_name: Daucus carota subsp. sativus
+  aka:
+    - Garden Carrot
+  family: Apiaceae
+  zone:
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+  perennial: false
+  layers:
+    - Root
+    - Herbaceous
+  plant_function:
+    - Edible
+    - Dynamic Accumulator
+    - Groundcover
+  description: |-
+    Carrots are biennial plants typically grown as annuals for their edible taproots. They feature finely divided, feathery leaves and produce a crisp, sweet root that varies in color, including orange, purple, red, white, and yellow. The plant forms a rosette of leaves above ground, while the taproot develops underground, reaching lengths of up to 12 inches. In their second year, if not harvested, carrots produce umbrella-like clusters of small white flowers known as umbels.
+  purpose: |-
+    In permaculture, carrots are valued for their edible roots and their role as dynamic accumulators, drawing up nutrients from deeper soil layers. Their deep taproots help to break up compacted soil, enhancing soil structure and aeration. Carrots can also serve as groundcover in garden beds, suppressing weed growth and protecting the soil surface.
+  companions:
+    - Leeks
+    - Onions
+    - Tomatoes
+    - Lettuce
+    - Peas
+  avoid:
+    - Dill
+    - Fennel
+  pests:
+    - Carrot Rust Fly
+    - Aphids
+    - Root-Knot Nematodes

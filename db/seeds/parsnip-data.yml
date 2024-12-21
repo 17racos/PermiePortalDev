@@ -1,0 +1,40 @@
+- common_name: Parsnip
+  picture: parsnip.jpg
+  scientific_name: Pastinaca sativa
+  aka:
+    - None
+  family: Apiaceae
+  zone:
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: false
+  layers:
+    - Root
+    - Herbaceous
+  plant_function:
+    - Edible
+    - Dynamic Accumulator
+    - Groundcover
+  description: |-
+    Parsnips are biennial plants typically grown as annuals for their sweet, nutty-flavored taproots. They feature pinnate, feathery green leaves and produce elongated, cream-colored roots that can grow up to 12 inches long. If allowed to overwinter, parsnips develop small, yellow umbrella-shaped flowers in their second year. They prefer deep, well-drained soils and thrive in cooler climates, with their flavor often improving after exposure to light frosts.
+  purpose: |-
+    In permaculture, parsnips are valued for their edible roots and their role as dynamic accumulators, drawing nutrients from deeper soil layers to the surface. Their deep taproots help break up compacted soil, enhancing soil structure and aeration. Additionally, parsnips can serve as groundcover, suppressing weed growth and protecting the soil surface. When left to flower, they attract beneficial insects, contributing to pest management and biodiversity in the garden.
+  companions:
+    - Onions
+    - Garlic
+    - Peas
+    - Radishes
+    - Lettuce
+  avoid:
+    - Carrots
+    - Celery
+  pests:
+    - Carrot Rust Fly
+    - Aphids
+    - Parsnip Canker

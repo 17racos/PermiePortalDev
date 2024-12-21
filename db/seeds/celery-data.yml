@@ -1,0 +1,42 @@
+- common_name: Celery
+  picture: celery.jpg
+  scientific_name: Apium graveolens
+  aka:
+    - Pascal Celery
+    - Garden Celery
+  family: Apiaceae
+  zone:
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: false
+  layers:
+    - Herbaceous
+  plant_function:
+    - Edible
+    - Medicinal
+    - Dynamic Accumulator
+    - Pest Management
+  description: |-
+    Celery is a biennial plant commonly cultivated as an annual for its crisp, fibrous stalks and aromatic leaves. It grows to a height of 40-60 cm (16-24 inches) and features pinnate, finely divided leaves. In its second year, if left unharvested, celery produces clusters of small, creamy-white flowers arranged in dense umbels. The plant thrives in cool, moist conditions and requires consistent watering for optimal growth.
+  purpose: |-
+    In permaculture, celery serves multiple functions. Its edible stalks and leaves provide nutritional value, rich in vitamins and minerals. As a dynamic accumulator, celery's deep roots draw up nutrients from the soil, enhancing soil fertility when plant residues are composted. Additionally, celery's aromatic properties can aid in pest management by deterring certain insects, making it a beneficial companion plant in diverse garden ecosystems.
+  companions:
+    - Beans
+    - Cabbage
+    - Onions
+    - Marigolds
+    - Lettuce
+  avoid:
+    - Carrots
+    - Parsnips
+  pests:
+    - Aphids
+    - Slugs
+    - Snails
+    - Celery Leaf Miner

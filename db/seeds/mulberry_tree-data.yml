@@ -1,0 +1,39 @@
+- common_name: Mulberry Tree
+  picture: mulberry.jpg
+  scientific_name: Morus spp.
+  aka:
+    - Morus
+    - Tut (in Persian)
+    - Shahtoot (in Hindi)
+  family: Moraceae
+  zone:
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: true
+  layers:
+    - Canopy
+    - Sub-canopy
+  plant_function:
+    - Edible
+    - Wildlife Attractor
+    - Animal Fodder
+    - Pollinator
+    - Border Plant
+  description: |-
+    Mulberry trees are deciduous and can grow up to 30-50 feet tall, depending on the species. They have a spreading habit with a dense canopy of broad, lobed leaves. The trees produce small, sweet, blackberry-like fruits that change color as they ripen, typically from white or green to red and finally to dark purple or black. Mulberries are known for their rapid growth and ability to thrive in a variety of soil conditions. Their deep root systems help in stabilizing soil, making them valuable in erosion control.
+  purpose: |-
+    In permaculture, mulberry trees serve multiple purposes. They provide a reliable source of edible fruits for humans and wildlife, attracting birds and beneficial insects to the garden. The leaves can be used as fodder for livestock, and the tree's extensive root system aids in soil stabilization. Mulberries can also function as a canopy or sub-canopy layer in food forests, offering shade and creating microclimates for understory plants. Their ability to tolerate pruning makes them suitable for use as living fences or border plants.
+  companions:
+    - Comfrey
+    - Nasturtium
+    - Alliums
+    - Other fruit trees
+  avoid:
+    - Black Walnut
+  pests:
+    - Spider Mites
+    - Whiteflies
+    - Scale Insects

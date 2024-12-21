@@ -1,0 +1,40 @@
+- common_name: Pomegranate Tree
+  picture: 
+  scientific_name: Punica granatum
+  aka:
+    - Punica
+    - Anar (Hindi)
+    - Granada (Spanish)
+  family: Lythraceae
+  zone:
+    - '8'
+    - '9'
+    - '10'
+    - '11'
+  perennial: true
+  layers:
+    - Sub-canopy
+    - Shrub
+  plant_function:
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Erosion Control
+    - Border Plant
+    - Pollinator
+  description: |-
+    The pomegranate tree is a small deciduous or evergreen tree, depending on the climate, growing up to 20–30 feet tall. It has glossy, narrow leaves and striking orange-red flowers that give way to round, leathery fruits containing juicy, jewel-like seeds known as arils. The tree is drought-tolerant and thrives in warm, dry climates with well-drained soils. Its vibrant flowers and fruits attract pollinators and wildlife.
+  purpose: |-
+    In permaculture, the pomegranate tree serves as a multipurpose plant. It provides nutrient-rich edible fruits, attracts pollinators, and offers erosion control with its strong root system. The tree can be used as a border plant or incorporated into food forests as a sub-canopy layer. Its medicinal properties, which include anti-inflammatory and antioxidant benefits, make it a valuable addition to any holistic permaculture design.
+  companions:
+    - Comfrey
+    - Nasturtium
+    - Herbs (e.g., Mint, Basil)
+    - Garlic
+  avoid:
+    - Walnut
+  pests:
+    - Aphids
+    - Whiteflies
+    - Pomegranate Butterfly
+    - Scale Insects

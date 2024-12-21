@@ -1,0 +1,39 @@
+- common_name: Nasturtium
+  picture: nasturtium.jpg
+  scientific_name: Tropaeolum majus
+  aka:
+    - Indian Cress
+    - Monks Cress
+  family: Tropaeolaceae
+  zone:
+    - '9'
+    - '10'
+    - '11'
+  perennial: false
+  layers:
+    - Herbaceous
+    - Groundcover
+  plant_function:
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Pollinator
+    - Pest Management
+    - Border Plant
+    - Groundcover
+  description: |-
+    Nasturtiums are fast-growing annual plants known for their vibrant, funnel-shaped flowers and rounded, shield-like leaves. They exhibit a trailing or climbing habit, making them versatile for various garden settings. The flowers come in shades of red, orange, and yellow, and both the leaves and flowers are edible, offering a peppery flavor. Nasturtiums are also known for their ability to thrive in poor soils and their natural pest-repellent properties.
+  purpose: |-
+    In permaculture, nasturtiums serve multiple functions. They act as companion plants, deterring pests such as aphids and squash bugs, and can serve as trap crops, luring pests away from more vulnerable plants. Their flowers attract pollinators, enhancing biodiversity in the garden. As groundcover, they help suppress weeds and protect the soil. Additionally, their edible leaves and flowers add culinary value, and their medicinal properties have been utilized in traditional remedies.
+  companions:
+    - Tomatoes
+    - Cucumbers
+    - Brassicas
+    - Radishes
+    - Squash
+  avoid:
+    - Potatoes
+  pests:
+    - Aphids
+    - Whiteflies
+    - Cabbage Loopers

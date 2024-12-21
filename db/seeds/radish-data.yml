@@ -1,0 +1,42 @@
+- common_name: Radish
+  picture:  radish.jpg
+  scientific_name: Raphanus sativus
+  aka:
+    - Garden Radish
+    - Table Radish
+  family: Brassicaceae
+  zone:
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+  perennial: false
+  layers:
+    - Herbaceous
+    - Root
+  plant_function:
+    - Edible
+    - Dynamic Accumulator
+    - Pest Management
+    - Groundcover
+  description: |-
+    Radishes are fast-growing, cool-season annuals known for their crisp, peppery roots and edible leaves. They exhibit a variety of shapes and colors, from round red to elongated white forms. Radishes mature quickly, often ready for harvest within 3 to 6 weeks after sowing, making them ideal for successive plantings. Their ability to break up compacted soil with their taproots enhances soil structure and fertility.
+  purpose: |-
+    In permaculture, radishes serve multiple functions. Their rapid growth makes them excellent pioneer species for new garden beds, aiding in soil aeration and acting as dynamic accumulators by bringing up nutrients from deeper soil layers. Radishes can be used as trap crops to attract pests away from more vulnerable plants, contributing to pest management. Additionally, their dense foliage provides groundcover, suppressing weeds and protecting soil moisture.
+  companions:
+    - Lettuce
+    - Carrots
+    - Cucumbers
+    - Peas
+    - Spinach
+  avoid:
+    - Hyssop
+  pests:
+    - Flea Beetles
+    - Root Maggots
+    - Aphids

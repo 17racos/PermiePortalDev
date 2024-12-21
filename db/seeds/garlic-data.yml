@@ -1,0 +1,60 @@
+- common_name: Garlic
+  picture: garlic.jpg
+  scientific_name: Allium sativum
+  aka:
+    - None
+  family: Amaryllidaceae
+  zone:
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: true
+  layers:
+    - Herbaceous
+  plant_function:
+    - Edible
+    - Medicinal
+    - Pest Management
+  description: |-
+    Garlic is a hardy perennial plant known for its culinary and medicinal uses. It typically grows 2 to 3 feet tall, featuring long, slender, green leaves and a central flowering stalk that produces a spherical cluster of small, white to purple flowers. The plant forms a bulb underground, composed of multiple cloves encased in a papery sheath. Garlic is renowned for its pungent aroma and flavor, which intensifies when crushed or chopped. It thrives in well-drained, fertile soils and requires full sun exposure. Garlic is typically planted in the fall and harvested in mid-summer. :contentReference[oaicite:0]{index=0}
+  purpose: |-
+    - Edible: Used globally to enhance the flavor of various dishes.
+    - Medicinal: Known for its antibacterial, antiviral, and antifungal properties; used to boost the immune system and lower blood pressure.
+    - Pest Management: Acts as a natural repellent against pests like aphids, mosquitoes, and rodents.
+  companions:
+    - Tomatoes
+    - Carrots
+    - Cabbage
+    - Spinach
+    - Strawberries
+    - Peppers
+    - Lettuce
+    - Beets
+    - Chard
+    - Asparagus
+  avoid:
+    - Beans
+    - Peas
+    - Asparagus
+    - Cabbage
+    - Cauliflower
+    - Broccoli
+    - Brussels Sprouts
+    - Kale
+    - Collard Greens
+    - Mustard Greens
+  pests:
+    - Aphids
+    - Whiteflies
+    - Cabbage Moths
+    - Flea Beetles
+    - Spider Mites
+    - Leafhoppers
+    - Cutworms
+    - Japanese Beetles
+    - Tomato Hornworms
+    - Cucumber Beetles
