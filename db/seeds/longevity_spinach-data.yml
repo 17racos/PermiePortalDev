@@ -1,0 +1,46 @@
+- common_name: Longevity Spinach
+  picture: longevity.jpg
+  scientific_name: Gynura procumbens
+  aka:
+    - Sambung Nyawa
+    - Sambung Nyawa Spinach
+    - Gynura
+    - Purple Spinach
+  family: Asteraceae
+  zone:
+    - 9
+    - 10
+    - 11
+  perennial: true
+  layers:
+    - Herbaceous Layer
+    - Groundcover
+  plant_function:
+    - Edible
+    - Medicinal Herb
+  description: |-
+    Longevity Spinach is a low-growing, semi-succulent plant that typically reaches 1–3 feet in height and spreads up to 3–5 feet wide. It features broad, dark green leaves with a slightly serrated edge and a mild, slightly bitter flavor. The plant thrives in tropical and subtropical climates, preferring partial shade to full sun and well-draining, nutrient-rich soil. Its rapid growth and spreading habit make it an excellent ground cover, helping to suppress weeds and retain soil moisture.
+  purpose: |-
+    In permaculture, Longevity Spinach serves multiple functions:
+    
+    - Edible Green: The leaves are rich in vitamins and minerals, suitable for consumption raw in salads, blended into smoothies, or cooked in various dishes.
+    - Medicinal Herb: Traditionally, it has been used to treat ailments such as hypertension, diabetes, and inflammation.
+    - Ground Cover: Its spreading nature makes it effective in preventing soil erosion and maintaining soil health.
+  companions:
+    - Basil
+    - Mint
+    - Oregano
+    - Lettuce
+    - Kale
+    - Arugula
+  avoid:
+    - Tomatoes
+    - Peppers
+    - Eggplants
+    - Cucumbers
+    - Melons
+    - Squash
+  pests:
+    - Aphids
+    - Whiteflies
+    - Spider Mites

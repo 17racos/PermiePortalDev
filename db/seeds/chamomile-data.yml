@@ -1,0 +1,50 @@
+- common_name: Chamomile
+  picture: chamomile.jpg
+  scientific_name: Matricaria chamomilla  
+  aka:
+    - German Chamomile (Matricaria chamomilla)
+    - Roman Chamomile (Chamaemelum nobile)
+    - Wild Chamomile
+  family: Asteraceae
+  zone:
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: true
+  layers:
+    - Herbaceous
+    - Groundcover
+  plant_function:
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Mulcher
+    - Pollinator
+    - Border Plant
+    - Pest Management
+  description: |-
+    Chamomile is a low-growing herbaceous plant known for its delicate, daisy-like flowers with white petals and yellow centers. German Chamomile (*Matricaria chamomilla*) is an annual, while Roman Chamomile (*Chamaemelum nobile*) is a perennial. Both varieties emit a pleasant, apple-like fragrance and thrive in well-drained soils with full sun exposure. Chamomile typically reaches heights of 6 to 24 inches (15 to 60 cm) and spreads to form a dense ground cover, making it suitable for suppressing weeds and providing habitat for beneficial insects.
+  purpose: |-
+    - Edible: Chamomile flowers are commonly used to make herbal teas and can be incorporated into culinary dishes for flavoring.
+    - Medicinal: Traditionally used for its calming effects, aiding in digestion, and as a mild sedative to promote sleep.
+    - Wildlife Attractor: The flowers attract pollinators such as bees and butterflies, enhancing biodiversity in the garden.
+    - Mulcher: When used as a ground cover, chamomile helps retain soil moisture and suppress weed growth.
+    - Pollinator: Provides nectar and pollen for various pollinating insects.
+    - Border Plant: Its compact growth habit makes it suitable for edging garden beds and pathways.
+    - Pest Management: Chamomile has been known to repel certain insect pests and can be used in companion planting to protect neighboring plants.
+  companions:
+    - Brassicas
+    - Cucumbers
+    - Onions
+    - Mint
+    - Basil
+  avoid:
+    - Potatoes
+  pests:
+    - Aphids
+    - Thrips
+    - Powdery Mildew

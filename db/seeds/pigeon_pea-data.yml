@@ -1,0 +1,76 @@
+- common_name: Pigeon Pea
+  picture: pigeonpea.jpg
+  scientific_name: Cajanus cajan
+  aka:
+    - Red Gram
+    - Tur
+    - Arhar
+  family: Fabaceae
+  zone:
+    - '10'
+    - '11'
+  perennial: true
+  layers:
+    - Shrub
+    - Groundcover
+  plant_function:
+    - Edible
+    - Medicinal
+    - Nitrogen Fixer
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Erosion Control
+    - Animal Fodder
+    - Windbreaker
+    - Pollinator
+    - Border Plant
+    - Pest Management
+  description: |-
+    Pigeon Pea is a perennial leguminous shrub native to the Indian subcontinent. It typically grows between 1 to 4 meters tall, featuring woody stems near the base and trifoliate leaves with a silvery-grayish-green hue. The plant produces clusters of small, pea-like flowers that can be white, pink, or purple, followed by elongated pods containing edible seeds. Pigeon Pea is known for its resilience, drought tolerance, and ability to improve soil fertility through nitrogen fixation. It thrives in tropical and subtropical climates and is often used in agroforestry systems for its multiple benefits. :contentReference[oaicite:0]{index=0}
+  purpose: |-
+    - Edible: Seeds are consumed in various culinary dishes, especially in tropical regions.
+    - Medicinal: Used in traditional medicine for its anti-inflammatory and antioxidant properties.
+    - Nitrogen Fixer: Enhances soil fertility by converting atmospheric nitrogen into a form usable by plants.
+    - Wildlife Attractor: Flowers attract bees and other pollinators; seeds are a food source for birds.
+    - Mulcher: Leaves and stems can be used as mulch to improve soil health.
+    - Dynamic Accumulator: Deep roots access nutrients unavailable to shallow-rooted plants.
+    - Erosion Control: Root system stabilizes soil, preventing erosion.
+    - Animal Fodder: Leaves and pods are used as feed for livestock.
+    - Windbreaker: Tall growth provides wind protection for other crops.
+    - Pollinator: Flowers attract beneficial insects, aiding in pollination.
+    - Border Plant: Can be used to define garden beds or pathways.
+    - Pest Management: Attracts beneficial insects that prey on harmful pests.
+  companions:
+    - Corn
+    - Squash
+    - Lettuce
+    - Melons
+    - Tomatoes
+    - Chili Peppers
+    - Okra
+    - Sweet Potatoes
+    - Spinach
+    - Cucumbers
+  avoid:
+    - Beans
+    - Peas
+    - Garlic
+    - Onions
+    - Leeks
+    - Shallots
+    - Chives
+    - Asparagus
+    - Cabbage
+    - Cauliflower
+  pests:
+    - Helicoverpa armigera Gram Pod Borer
+    - Cutworms
+    - Thrips
+    - Mirids
+    - Green Stink Bugs Nezara viridula
+    - Pod Borers Lycaena boetica
+    - Bean Weevils
+    - Root Lesion Nematodes Pratylenchus spp.
+    - Aphids
+    - Whiteflies

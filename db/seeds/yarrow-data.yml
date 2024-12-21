@@ -1,0 +1,82 @@
+- common_name: Yarrow
+  picture: yarrow.jpg
+  scientific_name: Achillea millefolium
+  aka:
+    - Common Yarrow
+    - Milfoil
+    - Thousand-leaf
+  family: Asteraceae
+  zone:
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: true
+  layers:
+    - Herbaceous
+    - Groundcover
+  plant_function:
+    - Edible
+    - Medicinal
+    - Nitrogen Fixer
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Erosion Control
+    - Animal Fodder
+    - Windbreaker
+    - Pollinator
+    - Border Plant
+    - Pest Management
+  description: |-
+    Yarrow *Achillea millefolium* is a hardy perennial herb native to temperate regions of the Northern Hemisphere. It typically grows 2 to 3 feet tall, featuring feathery, fern-like leaves and clusters of small, white to pink flowers that bloom from late spring to early fall. Yarrow is known for its aromatic foliage and its ability to thrive in poor, well-drained soils, making it a resilient addition to various garden settings. Its deep, fibrous root system aids in soil stabilization and moisture retention. Yarrow is also recognized for its medicinal properties, having been used traditionally to treat wounds and as an anti-inflammatory. :contentReference[oaicite:0]{index=0}
+  purpose: |-
+    - Edible: Young leaves can be added to salads; flowers can be used in teas.
+    - Medicinal: Used to treat wounds, reduce fevers, and as an anti-inflammatory.
+    - Nitrogen Fixer: Enhances soil fertility by converting atmospheric nitrogen into a form usable by plants.
+    - Wildlife Attractor: Flowers attract pollinators like bees and butterflies.
+    - Mulcher: Leaves can be used as mulch to suppress weeds and retain soil moisture.
+    - Dynamic Accumulator: Deep roots access nutrients unavailable to shallow-rooted plants.
+    - Erosion Control: Root system stabilizes soil, preventing erosion.
+    - Animal Fodder: Leaves can be used as forage for livestock.
+    - Windbreaker: Tall growth provides wind protection for other crops.
+    - Pollinator: Flowers attract beneficial insects, aiding in pollination.
+    - Border Plant: Can be used to define garden beds or pathways.
+    - Pest Management: Attracts beneficial insects that prey on harmful pests.
+    - Ground cover: Dense growth suppresses weeds and retains soil moisture.
+  companions:
+    - Tomatoes
+    - Cucumbers
+    - Zucchini
+    - Peppers
+    - Radishes
+    - Lettuce
+    - Spinach
+    - Oregano
+    - Rosemary
+    - Lavender
+  avoid:
+    - Beans
+    - Peas
+    - Garlic
+    - Onions
+    - Leeks
+    - Shallots
+    - Chives
+    - Asparagus
+    - Cabbage
+    - Cauliflower
+  pests:
+    - Aphids
+    - Whiteflies
+    - Cabbage moths
+    - Flea beetles
+    - Spider mites
+    - Leafhoppers
+    - Cutworms
+    - Japanese beetles
+    - Tomato hornworms
+    - Cucumber beetles

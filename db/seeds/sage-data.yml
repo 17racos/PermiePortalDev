@@ -1,0 +1,52 @@
+- common_name: Sage
+  picture: sage.jpg
+  scientific_name: Salvia officinalis
+  aka:
+    - Common sage
+    - Garden sage
+    - Culinary sage
+  family: Lamiaceae
+  zone:
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: true
+  layers:
+    - Herbaceous
+    - Groundcover
+  plant_function:
+    - Culinary
+    - Medicinal
+    - Pollinator
+  description: |-
+    Sage is a perennial herb native to the Mediterranean region, known for its gray-green, velvety leaves and spikes of tubular flowers that attract pollinators. It typically grows to about 2 feet tall and prefers well-drained, sandy soil with full sun exposure. Sage is drought-tolerant once established and has a strong, distinctive aroma and flavor. The plant produces small, tubular flowers in shades of purple, pink, white, or red, which bloom in the summer and attract bees, butterflies, and hummingbirds. :contentReference[oaicite:0]{index=0}
+  purpose: |-
+    In permaculture, sage serves multiple roles:
+    - Culinary Use: Adds flavor to a variety of dishes.
+    - Medicinal Use: Traditionally used for its antiseptic and digestive benefits.
+    - Pollinator Attraction: Flowers attract beneficial insects, enhancing biodiversity.
+    - Ground Cover: Its dense growth habit helps suppress weeds and prevent soil erosion.
+    - Companion Planting: Beneficial when planted near certain vegetables.
+  companions:
+    - Brassicas (e.g., cabbage, broccoli)
+    - Beans
+    - Strawberries
+    - Tomatoes
+    - Marjoram
+    - Rosemary
+  avoid:
+    - Onions
+    - Garlic
+    - Chives
+    - Leeks
+    - Fennel
+  pests:
+    - Cabbage moth
+    - Black flea beetle
+    - Cabbage looper
+    - Cabbage maggot
+    - Carrot fly
+    - Bean beetle

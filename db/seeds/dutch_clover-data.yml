@@ -1,0 +1,68 @@
+- common_name: Dutch Clover
+  picture: dutchclover.jpg
+  scientific_name: Trifolium repens
+  aka:
+    - White Clover
+    - Ladino Clover
+    - Purple Dutch Clover
+    - Shamrock
+  family: Fabaceae
+  zone:
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+  perennial: true
+  layers:
+    - Groundcover
+  plant_function:
+    - Edible
+    - Medicinal
+    - Nitrogen Fixer
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Erosion Control
+    - Animal Fodder
+    - Windbreaker
+    - Pollinator
+    - Border Plant
+    - Pest Management
+  description: |-
+    Dutch clover *Trifolium repens* is a low-growing, mat-forming perennial herb native to Europe and Central Asia. It typically reaches 4 to 6 inches in height and spreads up to 12 inches through creeping stems that root at the nodes. The plant features trifoliate leaves with a characteristic white, crescent-shaped band on each leaflet and produces white to pinkish flower heads from early to late summer. Commonly found in lawns, pastures, and roadsides, Dutch clover is valued for its nitrogen-fixing abilities and as a forage crop for livestock. :contentReference[oaicite:1]{index=1}
+  purpose: |-
+    - Edible: Young leaves and flowers are edible and can be used in salads or as garnishes.
+    - Medicinal: Traditionally used to treat fevers and as a mild sedative.
+    - Nitrogen Fixer: Enhances soil fertility by converting atmospheric nitrogen into a form usable by plants.
+    - Wildlife Attractor: Attracts various wildlife, including birds and insects.
+    - Mulcher: When incorporated into the soil, it adds organic matter, improving soil health.
+    - Dynamic Accumulator: Mobilizes nutrients from deep in the soil, making them available to other plants.
+    - Erosion Control: Prevents soil erosion through its dense groundcover.
+    - Animal Fodder: Provides forage for livestock.
+    - Windbreaker: Acts as a natural barrier against wind.
+    - Pollinator: Flowers attract bees and other beneficial insects.
+    - Border Plant: Defines garden beds or pathways.
+    - Pest Management: Helps manage pests by attracting beneficial insects that prey on harmful ones.
+    - Ground cover: Suppresses weeds and retains soil moisture.
+  companions:
+    - Cabbage
+    - Carrots
+    - Onions
+    - Strawberries
+    - Tomatoes
+    - Marigolds
+    - Borage
+    - Asparagus
+    - Chamomile
+    - Chives
+  avoid:
+    - Fennel
+    - Sage
+    - Mint
+    - Cucumbers
+  pests:
+    - Aphids
+    - Clover mites
+    - Root-knot nematodes

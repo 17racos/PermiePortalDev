@@ -1,0 +1,47 @@
+- common_name: Oregano
+  picture: oregano.jpg
+  scientific_name: Origanum vulgare
+  aka:
+    - Wild Marjoram
+    - Pot Marjoram
+  family: Lamiaceae
+  zone:
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+  perennial: true
+  layers:
+    - Herbaceous
+    - Groundcover
+  plant_function:
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Pollinator
+    - Border Plant
+    - Pest Management
+  description: |-
+    Oregano (*Origanum vulgare*) is a perennial herb native to the Mediterranean region, characterized by its aromatic, slightly hairy leaves and small, purple or white flowers. It typically grows to a height of 1 to 2 feet (30 to 60 cm) and spreads about 18 inches (45 cm) wide. Oregano thrives in well-drained soil with full sun exposure and is drought-tolerant once established. Its robust flavor and fragrance make it a staple in culinary dishes, particularly in Italian and Greek cuisines.
+  purpose: |-
+    - **Edible**: Leaves are used fresh or dried to flavor a variety of dishes, including sauces, soups, and meats.
+    - **Medicinal**: Traditionally used for its antimicrobial and antioxidant properties; oregano oil is popular in herbal medicine.
+    - **Wildlife Attractor**: Flowers attract bees, butterflies, and other beneficial insects, supporting pollination.
+    - **Pollinator**: Serves as a nectar source for various pollinating insects.
+    - **Border Plant**: Its compact growth habit makes it suitable for edging garden beds and pathways.
+    - **Pest Management**: Emits aromatic compounds that can deter certain pests; beneficial in companion planting.
+  companions:
+    - Rosemary
+    - Sage
+    - Thyme
+    - Tomatoes
+    - Peppers
+  avoid:
+    - Basil
+    - Cucumbers
+  pests:
+    - Aphids
+    - Spider Mites
+    - Root Rot (in poorly drained soils)

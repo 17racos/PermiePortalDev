@@ -1,0 +1,38 @@
+- common_name: Pineapple Sage
+  picture: pineapplesage.jpg
+  scientific_name: Salvia elegans
+  aka:
+    - Tangerine Sage
+    - Honey Melon Sage
+  family: Lamiaceae
+  zone:
+    - '8'
+    - '9'
+    - '10'
+    - '11'
+  perennial: true
+  layers:
+    - Herbaceous
+    - Shrub
+  plant_function:
+    - Pollinator
+    - Medicinal
+    - Edible
+  description: |-
+    Pineapple Sage is a perennial shrub native to Mexico and Guatemala, belonging to the mint family (Lamiaceae). It typically grows 3 to 5 feet tall and 3 to 4 feet wide, featuring bright green, lance-shaped leaves that emit a strong pineapple fragrance when crushed. The plant produces vibrant red, tubular flowers in late summer to fall, attracting hummingbirds and butterflies. Preferring full sun to partial shade and well-drained, moist soil, Pineapple Sage thrives in rich, organic matter with a pH between 6.0 and 8.0. It is frost-tender and may require protection or indoor overwintering in cooler climates.
+  purpose: |-
+    In permaculture, Pineapple Sage serves multiple functions:
+    - Attracting Pollinators: Its bright red flowers draw hummingbirds and butterflies, enhancing pollination for surrounding plants.
+    - Culinary Uses: The edible leaves and flowers add unique flavor to teas, salads, desserts, and savory dishes.
+    - Medicinal Benefits: Traditionally used for its calming effects, aiding in reducing anxiety and promoting relaxation.
+    - Ornamental Appeal: With its aromatic foliage and vibrant blooms, it adds aesthetic value to gardens.
+  companions:
+    - Basil
+    - Oregano
+    - Rosemary
+    - Thyme
+  avoid:
+    - Fennel
+  pests:
+    - Aphids
+    - Whiteflies

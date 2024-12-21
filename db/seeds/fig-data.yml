@@ -1,0 +1,50 @@
+- common_name: Fig Tree
+  picture: fig.jpg
+  scientific_name: Ficus carica
+  aka:
+    - Common Fig
+    - Edible Fig
+  family: Moraceae
+  zone:
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+    - '11'
+  perennial: true
+  layers:
+    - Canopy
+    - Sub-Canopy
+  plant_function:
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Erosion Control
+    - Animal Fodder
+    - Windbreaker
+    - Border Plant
+  description: |-
+    The fig tree is a deciduous, multi-branched tree or shrub that can reach heights of 3–10 meters (10–33 feet). It has smooth, gray bark and large, lobed leaves that provide a distinctive silhouette. The tree produces unique, pear-shaped fruits known as figs, which are technically inverted flowers. Figs can vary in color from green to deep purple, depending on the variety. The tree thrives in warm, temperate, and subtropical climates and is known for its resilience and ability to grow in a variety of soil types, provided they are well-drained. Fig trees have a deep root system that aids in soil stabilization, making them useful for erosion control.
+  purpose: |-
+    - Edible: Produces sweet, nutritious fruits consumed fresh, dried, or used in various culinary dishes.
+    - Medicinal: Traditionally used for its laxative properties and to treat various ailments.
+    - Wildlife Attractor: Fruits attract birds and mammals; flowers (inside the figs) support specialized pollinators like fig wasps.
+    - Erosion Control: Deep root systems help stabilize soil on slopes and prevent erosion.
+    - Animal Fodder: Leaves and fruits can be used as supplementary feed for livestock.
+    - Windbreaker: When planted in rows, fig trees can serve as effective windbreaks due to their dense foliage.
+    - Border Plant: Can be used to define property lines or garden sections, providing both aesthetic and functional benefits.
+  companions:
+    - Comfrey
+    - Chives
+    - Chamomile
+    - Peas
+    - Alpine Strawberries
+    - Parsley
+  avoid:
+    - Walnut
+    - Eucalyptus
+  pests:
+    - Fig Wasps
+    - Aphids
+    - Scale Insects
+    - Nematodes

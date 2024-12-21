@@ -1,0 +1,49 @@
+- common_name: Daikon Radish
+  picture: daikon.jpg
+  scientific_name: Raphanus sativus var. longipinnatus
+  aka:
+    - White Radish
+    - Japanese Radish
+    - Chinese Radish
+    - Mooli
+  family: Brassicaceae
+  zone:
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+  perennial: false
+  layers:
+    - Herbaceous
+    - Root
+  plant_function:
+    - Edible
+    - Dynamic Accumulator
+    - Erosion Control
+    - Animal Fodder
+  description: |-
+    Daikon radish is a fast-growing, cool-season root vegetable known for its large, elongated white roots that can penetrate deep into the soil, reaching lengths of up to 20 inches (50 cm). The plant produces a rosette of green leaves above ground and thrives in well-drained, loose soils. Its deep taproot system makes it effective in breaking up compacted soils, enhancing soil structure, and improving drainage. Daikon radish is typically grown as an annual and is sensitive to high temperatures, preferring cooler growing conditions.
+  purpose: |-
+    - Edible: The roots are consumed raw, pickled, or cooked in various culinary dishes, especially in Asian cuisines, offering a crisp texture and mild flavor.
+    - Dynamic Accumulator: Daikon radish accumulates nutrients from deep soil layers, making them more accessible to other plants once the radish decomposes.
+    - Erosion Control: Its dense foliage provides ground cover that protects soil from erosion.
+    - Animal Fodder: Both the roots and foliage can be used as livestock feed.
+    - Ground Cover: When used as a cover crop, it suppresses weed growth and adds organic matter to the soil upon decomposition.
+  companions:
+    - Carrots
+    - Lettuce
+    - Peas
+    - Spinach
+    - Cucumbers
+  avoid:
+    - Potatoes
+    - Brassicas
+  pests:
+    - Flea Beetles
+    - Root Maggots
+    - Aphids

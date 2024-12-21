@@ -1,0 +1,48 @@
+- common_name: Pear tree
+  picture: peartree.jpg
+  scientific_name: Pyrus communis
+  aka:
+    - European Pear
+    - Common Pear
+  family: Rosaceae
+  zone:
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+  perennial: true
+  layers:
+    - Canopy
+  plant_function:
+    - Edible
+    - Wildlife Attractor
+  description: |-
+    Pear trees are deciduous and can reach heights of 30 to 60 feet, with a spread of 20 to 40 feet. They have a pyramidal to rounded crown and are known for their glossy green leaves and white to pinkish spring blossoms. The trees produce sweet, bell-shaped fruits that vary in color from green to yellow or red when ripe. Pears prefer well-drained loamy soils and full sun exposure. They are unique for their early spring blooms and the distinctive, sweet flavor of their fruit.
+  purpose: |-
+    - Fruit Production Provides edible pears for human consumption and wildlife.
+    - Biodiversity Enhancement Supports pollinators and beneficial insects with its blossoms.
+    - Soil Improvement Deep roots help in soil aeration and nutrient cycling.
+    - Aesthetic Value Adds beauty to landscapes with its blossoms and foliage.
+  companions:
+    - Clover
+    - Chives
+    - Garlic
+    - Leeks
+    - Nasturtium
+    - Daffodils
+    - Comfrey
+    - Marigold
+  avoid:
+    - Cedar
+    - Walnut
+    - Grass
+    - Tomatoes
+    - Carrots
+    - Eggplant
+    - Potatoes
+  pests:
+    - Pear Psylla
+    - Codling Moth
+    - Aphids
+    - Fire Blight

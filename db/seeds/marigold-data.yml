@@ -1,0 +1,51 @@
+- common_name: Marigold
+  picture: marigold.jpg
+  scientific_name: Tagetes spp.
+  aka:
+    - African Marigold
+    - French Marigold
+    - Aztec Marigold
+  family: Asteraceae
+  zone:
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+    - '11'
+  perennial: false
+  layers:
+    - Herbaceous
+  plant_function:
+    - Pest Managment
+    - Medicinal
+  description: |-
+    Marigolds are hardy annual plants known for their vibrant flowers in shades of yellow, orange, and red. They typically grow between 6 inches to 3 feet tall, depending on the variety, with pinnate green leaves that may emit a distinctive scent. Blooming from late spring until frost, marigolds are adaptable to various soil types and thrive in full sun. Their rapid growth and prolific blooming make them popular in gardens and landscapes.
+  purpose: |-
+    In permaculture, marigolds serve multiple functions:
+    
+    -Pest Management: Marigolds produce natural compounds that repel nematodes and other pests, reducing the need for chemical interventions. :contentReference[oaicite:0]{index=0}
+    -Attracting Beneficial Insect: The flowers attract pollinators and beneficial insects, enhancing biodiversity and aiding in the control of harmful pests. :contentReference[oaicite:1]{index=1}
+    -Soil Improvement: Certain marigold species can suppress weed growth and improve soil health through their root exudates.
+    -Aesthetic Appearance: Their bright blooms add visual interest to permaculture gardens, contributing to a pleasant environment.
+  companions:
+    - Tomatoes
+    - Peppers
+    - Cucumbers
+    - Squash
+    - Melons
+    - Carrots
+    - Eggplants
+  avoid:
+    - Beans
+    - Cabbage
+    - Broccoli
+    - Kale
+  pests:
+    - Aphids
+    - Whiteflies
+    - Nematodes

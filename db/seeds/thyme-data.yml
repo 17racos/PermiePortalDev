@@ -1,0 +1,50 @@
+- common_name: Thyme
+  picture: thyme.jpg
+  scientific_name: Thymus vulgaris
+  aka:
+    - Common thyme
+    - Garden thyme
+    - English thyme
+  family: Lamiaceae
+  zone:
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: true
+  layers:
+    - Herbaceous
+    - Groundcover
+  plant_function:
+    - Culinary
+    - Medicinal
+  description: |-
+    Thyme is a low-growing, woody-stemmed herb native to the Mediterranean region. It features small, aromatic, gray-green leaves and produces tiny, tubular flowers in shades of pink, white, or purple during the summer. Typically reaching heights of 6 to 12 inches, thyme forms dense mats that are both ornamental and functional in gardens. Its strong, pleasant aroma and flavor make it a staple in culinary dishes, while its medicinal properties have been valued since ancient times.
+  purpose: |-
+    In permaculture, thyme serves multiple roles:
+
+    - Culinary Use: Adds flavor to a variety of dishes.
+    - Medicinal Use: Traditionally used for its antiseptic and respiratory benefits.
+    - Ground Cover: Its dense growth habit helps suppress weeds and prevent soil erosion.
+    - Pollinator Attraction: Flowers attract beneficial insects, enhancing biodiversity.
+    - Companion Planting: Beneficial when planted near certain vegetables.
+  companions:
+    - Brassicas (e.g., cabbage, broccoli)
+    - Eggplant
+    - Potato
+    - Strawberry
+    - Tomato
+    - Brussels sprouts
+  avoid:
+    - Beans
+    - Peas
+    - Carrots
+    - Onions
+    - Leeks
+  pests:
+    - Cabbage worm
+    - Cabbage weevil
+    - Cabbage looper
+    - Aphids

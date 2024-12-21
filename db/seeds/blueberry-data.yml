@@ -1,0 +1,57 @@
+- common_name: Blueberry
+  picture: blueberry.jpg
+  scientific_name: Vaccinium spp.
+  aka:
+    - Blue Huckleberry
+    - Whortleberry
+    - Bilberry
+  family: Ericaceae
+  zone:
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: true
+  layers:
+    - Shrub
+    - Groundcover
+  plant_function:
+    - Edible
+    - Wildlife Attractor
+    - Border Plant
+    - Pollinator
+  description: |-
+    Blueberries are deciduous shrubs ranging from 0.5 to 4 meters (1.6 to 13 feet) in height, depending on the species and cultivar. They have simple, elliptical leaves that are green during the growing season and often turn red or purple in the fall. In spring, they produce bell-shaped white to pale pink flowers, followed by clusters of small, round berries that ripen to a deep blue or purple. Blueberries thrive in acidic, well-drained soils with a pH between 4.5 and 5.5 and prefer full sun to partial shade. Their shallow root systems require consistent moisture and benefit from mulching to retain soil moisture and regulate temperature.
+  purpose: |-
+    - Edible: Blueberries provide nutritious fruits rich in antioxidants, vitamins, and fiber, suitable for fresh consumption or use in various culinary applications.
+    - Wildlife Attractor: The berries attract birds and mammals, while the flowers provide nectar for pollinators such as bees.
+    - Ground Cover: Low-growing varieties can serve as ground cover, helping to suppress weeds and reduce soil erosion.
+    - Border Plant: Blueberry shrubs can be used to create attractive borders or hedges in garden landscapes.
+    - Pollinator: The flowers attract pollinators, supporting biodiversity and enhancing fruit set.
+  companions:
+    - Azalea
+    - Rhododendron
+    - Cranberry
+    - Ferns
+    - Pine
+    - Oak
+    - Strawberries
+    - Thyme
+    - Sage
+    - Mint
+  avoid:
+    - Tomatoes
+    - Peppers
+    - Potatoes
+    - Eggplants
+    - Brassicas
+    - Fennel
+  pests:
+    - Blueberry Maggot
+    - Spotted Wing Drosophila
+    - Aphids
+    - Birds
+    - Deer

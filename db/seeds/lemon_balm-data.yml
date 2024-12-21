@@ -1,0 +1,59 @@
+- common_name: Lemon Balm
+  picture: lemonbalm.jpg
+  scientific_name: Melissa officinalis
+  aka:
+    - Balm
+    - Common balm
+  family: Lamiaceae
+  zone:
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: true
+  layers:
+    - Herbaceous
+    - Groundcover
+  plant_function:
+    - Edible
+    - Medicinal
+    - Pollinator
+    - Dynamic Accumulator
+  description: |-
+    Lemon balm is a perennial herb in the mint family, Lamiaceae, known for its lemon-scented leaves and small white to pale pink flowers. It typically grows 1 to 2 feet tall and forms dense colonies through its spreading habit. The leaves are ovate with serrated edges and emit a strong lemon aroma when crushed. Lemon balm thrives in well-drained, fertile soils and prefers full sun to partial shade. It is hardy in USDA zones 4 through 9 and is known for its resilience and ability to attract pollinators, especially bees. :contentReference[oaicite:0]{index=0}
+  purpose: |-
+    In permaculture, lemon balm serves multiple roles:
+    - Edible: The leaves are used fresh or dried in teas, salads, and as a flavoring in various dishes.
+    - Medicinal: Traditionally used for its calming effects, aiding in reducing anxiety and promoting sleep.
+    - Pollinator: Its flowers attract bees and other beneficial insects, enhancing biodiversity.
+    - Dynamic Accumulator: Gathers nutrients from the soil, enriching the surrounding area when used as mulch or compost.
+    - Ground Cover: Its spreading habit helps suppress weeds and prevent soil erosion.
+  companions:
+    - Tomatoes
+    - Strawberries
+    - Cabbage
+    - Asparagus
+    - Chamomile
+    - Oregano
+    - Borage
+    - Marigolds
+    - Eggplants
+    - Root vegetables e.g., carrots, potatoes
+  avoid:
+    - Fennel
+    - Sage
+    - Mint
+    - Cucumbers
+  pests:
+    - Aphids
+    - Whiteflies
+    - Spider mites
+    - Japanese beetles
+    - Slugs
+    - Snails
+    - Leafhoppers
+    - Caterpillars
+    - Cutworms
+    - Root-knot nematodes

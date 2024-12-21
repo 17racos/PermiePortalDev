@@ -1,0 +1,53 @@
+- common_name: Holy Basil
+  picture: holybasil.jpg
+  scientific_name: Ocimum sanctum
+  aka:
+    - Tulsi
+    - Sacred Basil
+    - Hot Basil
+    - Queen of Herbs
+  family: Lamiaceae
+  zone:
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+  perennial: true
+  layers:
+    - Herbaceous
+  plant_function:
+    - Medicinal
+    - Edible
+  description: |-
+    Holy Basil, known as Tulsi in India, is a revered herb in Hinduism and traditional Ayurvedic medicine. It is an aromatic shrub that typically grows up to 3 feet tall, featuring square stems and ovate, green to purple leaves. The plant produces small, purplish flowers arranged in spikes. Holy Basil thrives in warm, sunny environments with well-drained soil and is sensitive to frost. Its leaves and seeds are used in various forms, including teas, tinctures, and essential oils, for their medicinal properties. :contentReference[oaicite:0]{index=0}
+  purpose: |-
+    In permaculture, Holy Basil serves multiple roles:
+    - Medicinal Use: Traditionally used for its adaptogenic properties, helping the body cope with stress and supporting overall health.
+    - Aromatic Herb: Its strong aroma can deter pests and attract beneficial insects.
+    - Companion Planting: Beneficial when planted near certain vegetables to enhance growth and repel pests.
+  companions:
+    - Tomatoes
+    - Marigolds
+    - Asparagus
+    - Chamomile
+    - Chives
+    - Oregano
+    - Borage
+    - Eggplants
+    - Root vegetables (e.g., carrots, potatoes)
+  avoid:
+    - Fennel
+    - Sage
+    - Mint
+    - Cucumbers
+  pests:
+    - Aphids
+    - Whiteflies
+    - Spider mites
+    - Japanese beetles
+    - Slugs
+    - Snails
+    - Leafhoppers
+    - Caterpillars
+    - Cutworms
+    - Root-knot nematodes

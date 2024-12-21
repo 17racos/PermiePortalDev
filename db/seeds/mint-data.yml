@@ -1,0 +1,53 @@
+- common_name: Mint
+  picture: mint.jpg
+  scientific_name: Mentha spp.
+  aka:
+    - Spearmint (Mentha spicata)
+    - Peppermint (Mentha × piperita)
+    - Garden Mint
+    - Common Mint
+  family: Lamiaceae
+  zone:
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+  perennial: true
+  layers:
+    - Herbaceous
+    - Groundcover
+  plant_function:
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Border Plant
+    - Pest Management
+  description: |-
+    Mint is a fast-growing, aromatic perennial herb known for its square stems, opposite leaves, and distinctive fragrance. The plant typically reaches heights of 30 to 60 cm (12 to 24 inches) and spreads vigorously through underground rhizomes, often forming dense mats. Leaves are bright to dark green, ovate, with serrated edges, and emit a characteristic minty aroma when crushed. In summer, mint produces small, tubular flowers ranging from white to purple, arranged in terminal spikes. It thrives in moist, well-drained soils rich in organic matter and prefers partial shade to full sun. Due to its aggressive growth habit, mint can become invasive if not managed properly.
+  purpose: |-
+    - Edible: Mint leaves are widely used in culinary applications, including teas, salads, desserts, and as garnishes, imparting a fresh, cooling flavor.
+    - Medicinal: Traditionally, mint has been used to aid digestion, relieve headaches, and alleviate respiratory issues due to its menthol content.
+    - Wildlife Attractor: The flowers attract pollinators such as bees and butterflies, enhancing garden biodiversity.
+    - Ground Cover: Its dense growth habit makes mint effective for soil coverage, suppressing weeds, and retaining moisture.
+    - Border Plant: Mint can be used to define garden edges, though containment measures are recommended to control its spread.
+    - Pest Management: The strong scent of mint deters pests like aphids, ants, and whiteflies, making it a beneficial companion plant.
+  companions:
+    - Cabbage
+    - Tomatoes
+    - Beans
+    - Carrots
+    - Peas
+    - Broccoli
+    - Kale
+  avoid:
+    - Parsley
+    - Chamomile
+  pests:
+    - Aphids
+    - Spider Mites
+    - Mint Rust
+    - Slugs

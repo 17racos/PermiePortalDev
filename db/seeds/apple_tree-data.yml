@@ -1,0 +1,48 @@
+- common_name: Apple Tree
+  picture: apple.png
+  scientific_name: Malus domestica
+  aka:
+    - Malus
+    - Crabapple
+  family: Rosaceae
+  zone:
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+  perennial: true
+  layers:
+    - Canopy
+  plant_function:
+    - Edible
+    - Wildlife Attractor
+    - Pollinator
+    - Animal Fodder
+    - Windbreaker
+  description: |-
+    Apple trees are deciduous trees known for their sweet, crisp fruits. They typically grow to a height of 15 to 30 feet and have a rounded canopy. The leaves are oval with serrated edges, and the flowers are usually white or pink, blooming in spring. Apples are harvested in late summer to early fall, depending on the variety. Unique features include their ability to cross-pollinate with other apple varieties, enhancing fruit yield and quality.
+  purpose: |-
+    In permaculture, apple trees serve multiple functions: they provide food for humans and wildlife, attract pollinators, and can be integrated into guilds to support soil health and biodiversity. Their deep roots can help break up compacted soil, and their fallen leaves can be used as mulch to enrich the soil.
+  companions:
+    - Comfrey
+    - Chives
+    - Garlic
+    - Nasturtium
+    - Clover
+    - Yarrow
+    - Daffodils
+  avoid:
+    - Black Walnut
+    - Potatoes
+    - Tomatoes
+    - Peppers
+    - Grasses
+  pests:
+    - Codling Moth
+    - Apple Maggot
+    - Aphids
+    - Japanese Beetles
+    - Spider Mites

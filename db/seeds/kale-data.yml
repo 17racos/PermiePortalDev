@@ -1,0 +1,53 @@
+- common_name: Kale
+  picture: kale.jpg
+  scientific_name: Brassica oleracea var. acephala
+  aka:
+    - Borecole
+    - Leaf Cabbage
+  family: Brassicaceae
+  zone:
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+  perennial: false
+  layers:
+    - Herbaceous
+  plant_function:
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Animal Fodder
+    - Border Plant
+  description: |-
+    Kale (*Brassica oleracea* var. *acephala*) is a hardy, leafy green vegetable belonging to the Brassicaceae family, which includes cabbage, broccoli, and cauliflower. It is a non-heading cabbage, meaning it doesn't form a central head. Kale has a rosette of large, frilly or flat leaves that can be green, purple, or bluish-green, depending on the variety. It thrives in cooler climates and can tolerate frost, which often enhances its flavor. Typically grown as an annual, kale can reach heights of 1 to 2 feet (30 to 60 cm) and spreads about 1 to 2 feet wide. Its deep taproot helps in accessing nutrients from deeper soil layers.
+  purpose: |-
+    - Edible: Kale leaves are highly nutritious and can be eaten raw in salads, cooked, or used in smoothies.
+    - Medicinal: Rich in vitamins A, C, and K, as well as antioxidants, contributing to various health benefits.
+    - Wildlife Attractor: Flowers attract pollinators like bees and butterflies when allowed to bolt.
+    - Mulcher: Leaves can be used as mulch to suppress weeds and retain soil moisture.
+    - Dynamic Accumulator: Accumulates nutrients such as calcium and potassium, enriching the soil when decomposed.
+    - Animal Fodder: Can be used as feed for livestock due to its high nutrient content.
+    - Border Plant: Serves as an attractive border in garden beds with its lush foliage.
+  companions:
+    - Beets
+    - Celery
+    - Herbs (e.g., Dill, Mint)
+    - Onions
+    - Potatoes
+  avoid:
+    - Beans
+    - Strawberries
+    - Tomatoes
+  pests:
+    - Aphids
+    - Cabbage Worms
+    - Slugs
+    - Flea Beetles
