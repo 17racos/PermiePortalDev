@@ -1,7 +1,10 @@
 ---
-- common_name: turmeric
+- common_name: Turmeric
   picture: turmeric.jpg
   scientific_name: Curcuma longa
+  aka:
+  - Yellow ginger
+  - Haldi
   family: Zingiberaceae
   zone:
   - '9'

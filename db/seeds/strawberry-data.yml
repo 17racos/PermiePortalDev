@@ -1,7 +1,11 @@
 ---
-- common_name: strawberry
+- common_name: Strawberry
   picture: strawberry.jpg
   scientific_name: Fragaria × ananassa
+  aka:
+  - Wild strawberry Fragaria vesca 
+  - Virginia strawberry Fragaria virginiana
+  - Chilean/Beach strawberry Fragaria chiloensis
   family: Rosaceae
   zone:
   - '3'

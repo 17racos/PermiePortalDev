@@ -51,6 +51,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_12_01_171913) do
     t.string "picture"
     t.string "common_name", null: false
     t.string "scientific_name"
+    t.text "aka", default: [], array: true
     t.string "family"
     t.integer "zone", default: [], array: true
     t.boolean "perennial"
@@ -58,7 +59,6 @@ ActiveRecord::Schema[7.2].define(version: 2024_12_01_171913) do
     t.text "plant_function", default: [], array: true
     t.text "description"
     t.text "purpose"
-    t.text "grow_conditions"
     t.text "avoid", default: [], array: true
     t.text "pests", default: [], array: true
     t.text "companions", default: [], array: true

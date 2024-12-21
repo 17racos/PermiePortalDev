@@ -1,7 +1,10 @@
 ---
-- common_name: malabar-spinach
+- common_name: Malabar Spinach
   picture: malibar.jpg
   scientific_name: Basella alba
+  aka:
+  - Ceylon spinach
+  - Vietnamese spinach
   family: Basellaceae
   zone:
   - '9'

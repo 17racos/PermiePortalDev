@@ -1,7 +1,11 @@
 [
   {
-    "common_name": "apple-tree",
+    "common_name": "Apple tree",
     "picture": "apple.png",
+    "aka": [
+      "Malus tree"
+      "Fruit tree",
+    ],    
     "scientific_name": "Malus domestica",
     "family": "Rosaceae",
     "zone": [4, 5, 6, 7, 8],

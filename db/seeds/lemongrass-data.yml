@@ -1,7 +1,11 @@
 ---
-- common_name: lemongrass
+- common_name: Lemongrass
   picture: lemongrass.jpg
   scientific_name: Cymbopogon citratus
+  aka:
+  - Barbed wire grass
+  - Malabar Grass
+  - Citronella gras
   family: Poaceae
   zone:
   - '10'
@@ -44,19 +48,12 @@
   - Marigolds
   avoid:
   - Lettuce
-    - Spinach
-    - Cabbage
-    - Carrots
-    - Potatoes
-  pests: |-
-    While lemongrass is generally resistant to pests, it can occasionally attract certain insects:
-
-    - **Aphids**: Small, sap-sucking insects that can cause damage to young plants.
-
-    - **Caterpillars**: The larvae of various moths and butterflies may feed on lemongrass leaves.
-
-    - **Mealybugs**: Small, white, cotton-like insects that can infest the plant.
-
-    - **Scale Insects**: Small, immobile insects that attach to the plant and suck sap.
-
-    To manage these pests, regularly inspect the plants, remove affected leaves, and consider introducing natural predators or using organic insecticidal soaps.
+  - Spinach
+  - Cabbage
+  - Carrots
+  - Potatoes
+  pests:
+  - Aphids
+  - Caterpillars
+  - Mealybugs
+  - Scale Insects

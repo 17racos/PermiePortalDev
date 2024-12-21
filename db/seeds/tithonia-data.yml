@@ -1,7 +1,11 @@
 ---
-- common_name: tithonia
+- common_name: Tithonia
   picture: tithonia.jpg
   scientific_name: Tithonia diversifolia
+  aka:
+  - Mexican sunflower
+  - Tree Marigold
+  - Japanese sunflower
   family: Asteraceae
   zone:
   - '9'

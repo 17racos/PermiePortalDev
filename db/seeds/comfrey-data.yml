@@ -1,7 +1,10 @@
 ---
-- common_name: comfrey
+- common_name: Comfrey
   picture: comfrey.png
   scientific_name: Symphytum officinale
+  aka:
+  - Knitbone
+  - Bruiseweed
   family: Boraginaceae
   zone:
   - '3'
@@ -70,8 +73,8 @@
     Key Considerations:
     While comfrey is highly beneficial in many contexts, it is important to be cautious about its use, particularly for internal consumption, due to the presence of pyrrolizidine alkaloids (PAs) in the roots and leaves. These compounds can be toxic to the liver if consumed in large quantities over time, so comfrey should only be used externally or under the guidance of a healthcare professional.
   companions: 
-    -Nurient-hungry plants
-    -Fruit trees 
+    - Nurient-hungry plants
+    - Fruit trees 
   avoid:
   - Basil
   - Parsley

@@ -1,7 +1,10 @@
 ---
-- common_name: rosemary
+- common_name: Rosemary
   picture: rosemary.png
   scientific_name: Rosmarinus officinalis
+  aka:
+  - Compass plant
+  - Dew of the sea
   family: Lamiaceae
   zone:
   - '7'

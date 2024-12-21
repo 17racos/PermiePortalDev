@@ -44,17 +44,18 @@
       <% else %>
         <p class="text-gray-500">No layers specified.</p>
       <% end %>
-                  <!-- Pests -->
-      <h2 class="text-xl font-semibold text-green-600 mb-4">Pests</h2>
-      <% if @plant.pests.present? %>
-        <ul class="list-disc pl-6 space-y-1">
-          <% @plant.pests.each do |pest| %>
-            <li><%= h(pest) %></li>
-          <% end %>
-        </ul>
-      <% else %>
-        <p class="text-gray-500">No pests specified for this plant.</p>
-      <% end %>
+        
+    <!--Other Names -->
+      <p><strong>🌍 Other Names :</strong>
+      <% if @plant.aka.present? %>
+      <ul class="list-disc pl-6 space-y-1">
+        <% @plant.aka.each do |aka| %>
+          <li><%= h(aka) %></li>
+        <% end %>
+      </ul>
+    <% else %>
+      <p class="text-gray-500">No layers specified.</p>
+    <% end %>
     </div>
 
     <!-- Plant Functions -->
@@ -68,6 +69,18 @@
         </ul>
       <% else %>
         <p class="text-gray-500">No functions specified.</p>
+      <% end %>
+    
+    <!-- Pests -->
+      <h2 class="text-xl font-semibold text-green-600 mb-4">Pests</h2>
+      <% if @plant.pests.present? %>
+        <ul class="list-disc pl-6 space-y-1">
+          <% @plant.pests.each do |pest| %>
+            <li><%= h(pest) %></li>
+          <% end %>
+        </ul>
+      <% else %>
+        <p class="text-gray-500">No pests specified for this plant.</p>
       <% end %>
     </div>
     
@@ -98,9 +111,11 @@
       <% end %>
     </div>
 
-  <!-- Plant Description -->
+  </div> <!-- End of grid container -->
+
+  <!-- Plant Description (full-width) -->
   <% if @plant.description.present? %>
-    <div class="bg-white rounded-lg shadow p-6">
+    <div class="bg-white rounded-lg shadow p-6 col-span-full">
       <h2 class="text-2xl font-semibold text-green-600 mb-4">Description</h2>
       <p class="text-gray-800"><%= simple_format(h(@plant.description)) %></p>
     </div>
@@ -108,15 +123,16 @@
     <p class="text-gray-500 text-center">No Description available for this plant.</p>
   <% end %>
 
-  <!-- Plant Purpose -->
+  <!-- Plant Purpose (full-width) -->
   <% if @plant.purpose.present? %>
-    <div class="bg-white rounded-lg shadow p-6">
+    <div class="bg-white rounded-lg shadow p-6 col-span-full">
       <h2 class="text-2xl font-semibold text-green-600 mb-4">Purpose</h2>
       <p class="text-gray-800"><%= simple_format(h(@plant.purpose)) %></p>
     </div>
   <% else %>
     <p class="text-gray-500 text-center">No purpose specified for this plant.</p>
   <% end %>
+
   <!-- Back Button -->
   <div class="text-center">
     <%= link_to "← Back to Plant List", plants_path, class: "inline-block px-6 py-3 bg-green-600 text-white text-lg font-semibold rounded-md shadow hover:bg-green-500" %>

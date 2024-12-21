@@ -1,7 +1,10 @@
 ---
-- common_name: moringa-tree
+- common_name: Moringa tree
   picture: moringa.jpg
   scientific_name: Moringa oleifera
+  aka:
+  - Horseradish tree
+  - Drumstick tree
   family: Moringaceae
   zone:
   - '9'

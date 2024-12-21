@@ -1,7 +1,10 @@
 ---
-- common_name: ginger
+- common_name: Ginger
   picture: ginger.jpg
   scientific_name: Zingiber officinale
+  aka:
+  - Canton ginger
+  - Common ginger
   family: Zingiberaceae
   zone:
   - '9'
