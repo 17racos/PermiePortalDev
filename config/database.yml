@@ -11,11 +11,8 @@ development:
   password: password
 
 test:
-  <<: *default
-  database: permieportal_test
-  host: db
-  username: postgres
-  password: password
+  url: <%= ENV['DATABASE_URL'] %>
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 production:
   url: <%= ENV['DATABASE_URL'] %>
