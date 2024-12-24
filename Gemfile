@@ -28,6 +28,9 @@ gem "jbuilder"
 #Parse YAML
 gem "yaml"
 
+# Use a stable version compatible with your environment
+gem 'msgpack', '~> 1.4.0'
+
 # For authentication
 gem 'devise'
 
@@ -38,7 +41,7 @@ gem 'pg_search'
 gem 'activeadmin'
 
 # Gemfile
-gem 'sassc-rails'
+gem 'sassc', '~> 2.1.0'
 
 #Tailwinds css
 gem 'tailwindcss-rails'

@@ -1,5 +1,7 @@
-# Use an official Ruby image as the base
-FROM ruby:3.3.6
+# Builder Stage
+FROM ruby:3.3.6-bullseye AS builder
+
+WORKDIR /app
 
 # Install necessary packages
 RUN apt-get update -qq && apt-get install -y \
@@ -20,25 +22,27 @@ RUN apt-get update -qq && apt-get install -y \
   npm \
   pkg-config \
   && apt-get clean \
-  && rm -rf /var/lib/apt/lists/*  # Clean up apt cache to reduce image size
+  && rm -rf /var/lib/apt/lists/*
 
-# Set the working directory
-WORKDIR /app
-
-# Install gems
 COPY Gemfile Gemfile.lock ./
-RUN gem install bundler && bundle install
+RUN bundle install --jobs=4 --retry=3
 
-# Copy the rest of the application code
 COPY . ./
 
+# Set environment variables explicitly for build-time
+ARG SECRET_KEY_BASE
+ENV SECRET_KEY_BASE=$SECRET_KEY_BASE
 
-# Precompile assets for production (optional for development)
-# Uncomment for production:
-# RUN RAILS_ENV=production bin/rails assets:precompile
+# Precompile assets
+RUN echo "SECRET_KEY_BASE=${SECRET_KEY_BASE}"
+RUN RAILS_ENV=production bundle exec rake assets:precompile
 
-# Expose the port on which the Rails server will run
-EXPOSE 3000
+# Final Stage
+FROM ruby:3.3.6-bullseye
 
-# Run the Rails server
-CMD ["rails", "server", "-b", "0.0.0.0"]
+WORKDIR /app
+
+# Copy precompiled assets and installed gems from builder
+COPY --from=builder /app /app
+EXPOSE 5000
+CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0", "-p", "5000"]
