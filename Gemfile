@@ -4,6 +4,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # Rails framework
 gem "rails", "~> 7.2"
 
+#Ruby
+ruby "3.3.6"
+
+
 # Asset pipeline
 gem "sprockets-rails"
 
