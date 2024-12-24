@@ -1,26 +1,22 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  host: db
-  username: postgres
-  password: password
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
   <<: *default
   database: permieportal_dev
+  host: db
+  username: postgres
+  password: password
 
 test:
   <<: *default
   database: permieportal_test
+  host: db
+  username: postgres
+  password: password
 
 production:
-  adapter: postgresql
-  encoding: unicode
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: permieportal_prod
-  username: postgres
-  password: <%= ENV['DATABASE_PASSWORD'] %>
-  host: db
-
-
+  <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
