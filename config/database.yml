@@ -11,10 +11,13 @@ development:
   password: password
 
 test:
-  url: <%= ENV['DATABASE_URL'] %>
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  <<: *default
+  database: <%= ENV['TEST_POSTGRES_DB'] || 'permieportal_test' %>
+  username: <%= ENV['TEST_POSTGRES_USER'] %>
+  password: <%= ENV['TEST_POSTGRES_PASSWORD'] %>
+  host: <%= ENV['TEST_DATABASE_HOST'] %>
+  port: <%= ENV['TEST_DATABASE_PORT'] || 5432 %>
 
 production:
   url: <%= ENV['DATABASE_URL'] %>
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-
