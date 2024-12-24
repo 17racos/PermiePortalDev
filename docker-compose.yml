@@ -15,6 +15,7 @@ services:
       - .env  # Load environment variables from the .env file
     environment:
       RAILS_ENV: development  # Explicitly set the environment
+      SECRET_KEY_BASE: 34378bf90a5b857087b3ed68e862b17abf1e5ce0f1e3577adc98dcf92d88d147e685a72145798d1509a900f31fce9cad9dbe4d1e53c07fd259ab8382f8e3a0a8
     command: >
       bash -c "
       rm -f tmp/pids/server.pid &&

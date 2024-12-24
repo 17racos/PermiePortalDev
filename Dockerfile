@@ -11,7 +11,7 @@ COPY . .
 
 # Set a dummy secret key base for precompilation
 ARG SECRET_KEY_BASE=dummy_secret_key_base_for_build
-ENV SECRET_KEY_BASE=${SECRET_KEY_BASE}
+ENV SECRET_KEY_BASE=$SECRET_KEY_BASE
 
 # Precompile assets
 RUN RAILS_ENV=production bundle install && bundle exec rake assets:precompile
