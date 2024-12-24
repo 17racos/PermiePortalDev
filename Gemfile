@@ -1,12 +1,11 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-# Rails framework
-gem "rails", "~> 7.2"
-
-#Ruby
+# Specify Ruby version
 ruby "3.3.6"
 
+# Rails framework
+gem "rails", "~> 7.2"
 
 # Asset pipeline
 gem "sprockets-rails"
