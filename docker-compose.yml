@@ -1,6 +1,10 @@
+version: '3.9'
+
 services:
   app:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile.dev  # Use a development-specific Dockerfile
     volumes:
       - ".:/app"  # Mount the application code from the host
     ports:
@@ -9,6 +13,8 @@ services:
       - db
     env_file:
       - .env  # Load environment variables from the .env file
+    environment:
+      RAILS_ENV: development  # Explicitly set the environment
     command: >
       bash -c "
       rm -f tmp/pids/server.pid &&
