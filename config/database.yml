@@ -11,12 +11,14 @@ development:
   password: password
 
 test:
-  <<: *default
-  database: <%= ENV['TEST_POSTGRES_DB'] || 'permieportal_test' %>
-  username: <%= ENV['TEST_POSTGRES_USER'] %>
-  password: <%= ENV['TEST_POSTGRES_PASSWORD'] %>
-  host: <%= ENV['TEST_DATABASE_HOST'] %>
-  port: <%= ENV['TEST_DATABASE_PORT'] || 5432 %>
+  adapter: postgresql
+  encoding: unicode
+  database: permieportal_test
+  pool: 5
+  username: <%= ENV['DB_USER'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
+  host: <%= ENV['DB_HOST'] %>
+
 
 production:
   url: <%= ENV['DATABASE_URL'] %>
