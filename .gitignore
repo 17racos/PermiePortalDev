@@ -54,3 +54,4 @@
 
 # Coverage reports
 /coverage/
+vendor/bundle
