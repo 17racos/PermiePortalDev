@@ -10,7 +10,7 @@ RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
 COPY . .
 
 # Set a dummy secret key base for precompilation
-ARG SECRET_KEY_BASE=dummy_secret_key_base_for_build
+ARG SECRET_KEY_BASE
 ENV SECRET_KEY_BASE=$SECRET_KEY_BASE
 
 # Precompile assets
