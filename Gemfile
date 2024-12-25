@@ -13,6 +13,9 @@ gem "sprockets-rails"
 # Database adapter for PostgreSQL
 gem "pg", "~> 1.5"
 
+gem 'date', '< 3.4.0'
+
+
 # Puma web server
 gem "puma", "~> 6.5"
 
