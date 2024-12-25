@@ -1,5 +1,5 @@
 # First stage: build assets
-FROM ruby:3.3.6-bullseye AS builder
+FROM ruby:3.3.4-bullseye AS builder
 
 WORKDIR /app
 
@@ -17,7 +17,7 @@ ENV SECRET_KEY_BASE=$SECRET_KEY_BASE
 RUN RAILS_ENV=production bundle install && bundle exec rake assets:precompile
 
 # Second stage: runtime
-FROM ruby:3.3.6-bullseye
+FROM ruby:3.3.4-bullseye
 
 WORKDIR /app
 
