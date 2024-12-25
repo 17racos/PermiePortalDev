@@ -1,5 +1,5 @@
 # First stage: build assets
-FROM ruby:3.3.4-bullseye-slim as builder
+FROM ruby:3.3.4-slim AS builder
 
 WORKDIR /app
 
