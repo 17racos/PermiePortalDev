@@ -1,7 +1,12 @@
 # First stage: build assets
-FROM ruby:3.3.4-bullseye AS builder
+FROM ruby:3.3.4-bullseye-slim as builder
 
 WORKDIR /app
+
+RUN [ "cross-build-start" ]
+RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
+RUN [ "cross-build-end" ]
+
 
 # Install dependencies
 RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
