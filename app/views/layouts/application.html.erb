@@ -4,11 +4,14 @@
     <title>PermiePortal | Your Hub for Permaculture Knowledge</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "application", skip_pipeline: true %>
+
 
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="PermiePortal: Your central resource for permaculture education and community networking.">
+    
 
     <!-- Stylesheets -->
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>

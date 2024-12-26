@@ -31,7 +31,7 @@ RUN bundle lock --add-platform x86_64-linux
 RUN bundle install
 
 # Precompile assets using the Node.js version of Tailwind CSS
-RUN npx tailwindcss -i ./app/assets/stylesheets/application.css -o ./app/assets/builds/application.css --minify && \
+RUN npx tailwindcss -i ./app/assets/stylesheets/application.css -o ./public/assets/application.css --minify && \
     bundle exec rake assets:precompile
 
 # Second stage: runtime
