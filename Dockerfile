@@ -1,5 +1,5 @@
 # First stage: build assets
-FROM ruby:3.3.4-bullseye
+FROM ruby:3.3.4-bullseye AS builder
 
 WORKDIR /app
 
@@ -14,20 +14,24 @@ RUN apt-get update -qq && apt-get install -y \
   curl && \
   npm install -g yarn
 
-# Install Tailwind CSS via npm (more reliable across architectures)
+# Install Tailwind CSS via npm
 RUN npm install -g tailwindcss
+
+# Ensure the PATH includes the global npm bin directory
+ENV PATH="${PATH}:$(npm bin -g)"
 
 # Copy application code
 COPY . .
 
-# Configure bundler
+# Configure bundler and ensure platform compatibility
 RUN bundle config set force_ruby_platform true
+RUN bundle lock --add-platform x86_64-linux
 
 # Install gems
 RUN bundle install
 
 # Precompile assets
-RUN PATH=$(npm bin -g):$PATH bundle exec rake assets:precompile
+RUN bundle exec rake assets:precompile
 
 # Second stage: runtime
 FROM ruby:3.3.6-bullseye
