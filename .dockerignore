@@ -1,0 +1,27 @@
+# Ignore log files
+log/
+*.log
+
+# Ignore node_modules and other dependencies
+node_modules/
+vendor/bundle
+
+# Ignore temporary files
+tmp/
+*.tmp
+
+# Ignore Docker cache files
+.dockerignore
+Dockerfile
+
+# Ignore test files
+spec/
+test/
+
+# Ignore Git files
+.git
+.gitignore
+
+node_modules/
+tmp/cache/
+public/assets/
