@@ -15,7 +15,6 @@ gem "pg", "~> 1.5"
 
 gem 'date', '< 3.4.0'
 
-
 # Puma web server
 gem "puma", "~> 6.5"
 
@@ -45,7 +44,7 @@ gem "pg_search"
 gem "activeadmin"
 
 # CSS preprocessor
-gem "sassc", "~> 2.1.0"
+gem "sassc", "~> 2.2.1"
 
 # Tailwind CSS framework
 gem "tailwindcss-rails"
