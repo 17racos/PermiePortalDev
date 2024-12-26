@@ -1,31 +1,42 @@
 # First stage: build assets
-FROM ruby:3.3.4-bullseye AS builder
+FROM ruby:3.3.6-bullseye AS builder
 
 WORKDIR /app
 
-# Install dependencies
-RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
+# Install dependencies and Yarn
+RUN apt-get update -qq && apt-get install -y \
+  build-essential \
+  libssl-dev \
+  libffi-dev \
+  libpq-dev \
+  nodejs \
+  npm \
+  curl && \
+  npm install -g yarn
+
+# Install Tailwind CSS via npm (more reliable across architectures)
+RUN npm install -g tailwindcss
 
 # Copy application code
 COPY . .
 
-# Set a dummy secret key base for precompilation
-ARG SECRET_KEY_BASE
-ENV SECRET_KEY_BASE=$SECRET_KEY_BASE
+# Configure bundler
+RUN bundle config set force_ruby_platform true
+
+# Install gems
+RUN bundle install
 
 # Precompile assets
-RUN RAILS_ENV=production bundle install && bundle exec rake assets:precompile
+RUN PATH=$(npm bin -g):$PATH bundle exec rake assets:precompile
 
 # Second stage: runtime
-FROM ruby:3.3.4-bullseye
+FROM ruby:3.3.6-bullseye
 
 WORKDIR /app
 
-# Copy the built application
+# Copy built application
 COPY --from=builder /app .
 
-# Expose port
+# Expose port and start the application
 EXPOSE 3000
-
-# Start the application
 CMD ["rails", "server", "-b", "0.0.0.0"]
