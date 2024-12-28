@@ -10,7 +10,7 @@ ENV PATH="/usr/local/bundle/bin:${PATH}" \
 WORKDIR /app
 
 # Install system dependencies and Node.js
-RUN apt-get update -qq && apt-get install -y \
+  RUN apt-get update -qq && apt-get install -y \
   build-essential \
   libssl-dev \
   libffi-dev \

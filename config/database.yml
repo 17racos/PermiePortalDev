@@ -6,14 +6,15 @@ default: &default
 development:
   <<: *default
   database: permieportal_dev
-  host: db
+  host: localhost
   username: postgres
   password: password
 
 staging:
-  <<: *default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
   url: <%= ENV['DATABASE_URL'] %>
-
 
 
 production:
@@ -21,3 +22,4 @@ production:
   encoding: unicode
   pool: 5
   url: <%= ENV['DATABASE_URL'] %>
+
