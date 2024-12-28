@@ -1,47 +1,42 @@
-# Use a single-stage Dockerfile optimized for Heroku deployment
 FROM ruby:3.3.6-bullseye
 
 # Set environment variables
-ENV PATH="/usr/local/bundle/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin" \
+ENV PATH="/usr/local/bundle/bin:/usr/local/bin:${PATH}" \
     RAILS_ENV=production \
-    NODE_ENV=production \
-    BUNDLE_WITHOUT="development:test" \
-    BUNDLE_PATH="/usr/local/bundle"
+    NODE_ENV=production
 
 # Set working directory
 WORKDIR /app
 
-# Install system dependencies and Node.js
+# Install system dependencies, Node.js, and npm
 RUN apt-get update -qq && apt-get install -y --no-install-recommends \
     build-essential \
     libssl-dev \
     libffi-dev \
     libpq-dev \
-    curl \
-    nodejs \
-    yarn && \
+    curl && \
+    curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
+    apt-get install -y nodejs && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Install TailwindCSS globally via npm
-RUN npm install -g tailwindcss
+# Install Yarn and TailwindCSS globally
+RUN npm install -g yarn && npm install -g tailwindcss
 
 # Copy application code
 COPY . .
 
-# Remove conflicting Tailwind CSS gem (if applicable)
-RUN sed -i '/gem "tailwindcss-rails"/d' Gemfile Gemfile.lock || true
+# Remove conflicting Tailwind CSS gem
+RUN sed -i '/gem "tailwindcss-rails"/d' Gemfile Gemfile.lock
 
 # Configure bundler and install gems
-RUN bundle config set force_ruby_platform false && \
-    bundle lock --add-platform x86_64-linux && \
-    bundle install
+RUN bundle config set force_ruby_platform true && \
+    bundle install --without development test && \
+    bundle lock --add-platform x86_64-linux
 
-# Configure and build assets with TailwindCSS
-RUN npx tailwindcss -i ./app/assets/stylesheets/application.css -o ./public/assets/application.css --minify && \
+# Precompile assets using TailwindCSS
+RUN NODE_ENV=production npx tailwindcss -i ./app/assets/stylesheets/application.css -o ./public/assets/application.css --minify && \
     bundle exec rake assets:precompile
 
-# Expose the port used by Rails
+# Expose port and start the application
 EXPOSE 3000
-
-# Start the Rails server
 CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]

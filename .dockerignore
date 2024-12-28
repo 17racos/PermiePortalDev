@@ -3,7 +3,7 @@ log/
 *.log
 
 # Ignore node_modules and other dependencies
-node_modules/
+
 vendor/bundle
 
 # Ignore temporary files
@@ -22,7 +22,6 @@ test/
 .git
 .gitignore
 
-node_modules/
 tmp/cache/
 public/assets/
 git status

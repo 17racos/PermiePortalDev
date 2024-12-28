@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  #Supress Favcon
+  get '/favicon.ico', to: proc { [204, {}, []] }
+
   # Other routes
   get 'guides/vermicomposting', to: 'guides#vermicomposting', as: :vermicomposting
   get 'pages/vermicomposting'
