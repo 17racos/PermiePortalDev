@@ -25,6 +25,10 @@ WORKDIR /app
 # Copy application code
 COPY . .
 
+# Install Node.js and npm
+RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - \
+    && apt-get install -y nodejs
+
 # Remove conflicting Tailwind CSS gem
 RUN sed -i '/gem "tailwindcss-rails"/d' Gemfile Gemfile.lock
 
