@@ -37,6 +37,9 @@ RUN bundle config set force_ruby_platform true && \
 RUN NODE_ENV=production npx tailwindcss -i ./app/assets/stylesheets/application.css -o ./public/assets/application.css --minify && \
     bundle exec rake assets:precompile
 
+RUN NODE_ENV=staging npx tailwindcss -i ./app/assets/stylesheets/application.css -o ./public/assets/application.css --minify && \
+    bundle exec rake assets:precompile
+
 # Expose port and start the application
 EXPOSE 3000
 CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
