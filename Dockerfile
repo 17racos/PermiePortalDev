@@ -2,45 +2,46 @@
 FROM ruby:3.3.6-bullseye
 
 # Set environment variables
-ENV PATH="/usr/local/bundle/bin:${PATH}" \
+ENV PATH="/usr/local/bundle/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin" \
     RAILS_ENV=production \
-    NODE_ENV=production
+    NODE_ENV=production \
+    BUNDLE_WITHOUT="development:test" \
+    BUNDLE_PATH="/usr/local/bundle"
 
 # Set working directory
 WORKDIR /app
 
 # Install system dependencies and Node.js
-  RUN apt-get update -qq && apt-get install -y \
-  build-essential \
-  libssl-dev \
-  libffi-dev \
-  libpq-dev \
-  curl && \
-  curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
-  apt-get update -qq && apt-get install -y nodejs && \
-  npm install -g yarn && \
-  npm install -g tailwindcss && \
-  apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN apt-get update -qq && apt-get install -y --no-install-recommends \
+    build-essential \
+    libssl-dev \
+    libffi-dev \
+    libpq-dev \
+    curl \
+    nodejs \
+    yarn && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Install TailwindCSS globally via npm
+RUN npm install -g tailwindcss
 
 # Copy application code
 COPY . .
 
-# Install Node.js and npm
-RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - \
-    && apt-get install -y nodejs
-
-# Remove conflicting Tailwind CSS gem
-RUN sed -i '/gem "tailwindcss-rails"/d' Gemfile Gemfile.lock
+# Remove conflicting Tailwind CSS gem (if applicable)
+RUN sed -i '/gem "tailwindcss-rails"/d' Gemfile Gemfile.lock || true
 
 # Configure bundler and install gems
-RUN bundle config set force_ruby_platform true && \
-  bundle install --without development test && \
-  bundle lock --add-platform x86_64-linux
+RUN bundle config set force_ruby_platform false && \
+    bundle lock --add-platform x86_64-linux && \
+    bundle install
 
-# Precompile assets using Tailwind CSS
+# Configure and build assets with TailwindCSS
 RUN npx tailwindcss -i ./app/assets/stylesheets/application.css -o ./public/assets/application.css --minify && \
-  bundle exec rake assets:precompile
+    bundle exec rake assets:precompile
 
-# Expose port and start the application
+# Expose the port used by Rails
 EXPOSE 3000
+
+# Start the Rails server
 CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
