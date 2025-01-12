@@ -3,17 +3,11 @@
   scientific_name: Borago officinalis
   aka:
     - Starflower
+    - Bee Bush
+    - Bee Bread
+    - Bugloss
   family: Boraginaceae
-  zone:
-    - '2'
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
-    - '10'
+  zone: [3, 4, 5, 6, 7, 8, 9, 10]
   perennial: false
   layers:
     - Herbaceous
@@ -21,24 +15,36 @@
     - Edible
     - Medicinal
     - Wildlife Attractor
-    - Pollinator
-    - Mulcher
     - Dynamic Accumulator
+    - Pollinator
+    - Border Plant
     - Pest Management
   description: |-
-    Borage, commonly known as Starflower, is an annual herb notable for its vibrant blue, star-shaped flowers and hairy stems and leaves. It typically grows to a height of 1 to 3 feet and thrives in full sun with well-drained soil. Borage is renowned for its rapid growth and self-seeding ability, making it a resilient addition to gardens.
+    Borage is an annual herbaceous plant reaching heights of 1 to 3 feet (30 to 90 cm). It features coarse, hairy stems and leaves, with vibrant blue, star-shaped flowers that bloom from early summer to fall. Thriving in full sun, borage prefers well-drained soil and is drought-tolerant once established. Propagation is typically achieved through direct sowing of seeds after the last frost; the plant readily self-seeds, ensuring its presence in subsequent seasons. Harvest young leaves when they are tender for culinary uses, and collect flowers as they open for garnishes or herbal preparations.
   purpose: |-
-    In permaculture, borage serves multiple functions: its edible flowers and leaves, with a mild cucumber flavor, are used in culinary dishes; medicinally, it has been traditionally utilized for its anti-inflammatory properties; it attracts beneficial wildlife, including pollinators like bees and butterflies, enhancing biodiversity; as a dynamic accumulator, it draws up essential minerals, enriching the soil; its foliage can be used as mulch, improving soil health; and it aids in pest management by deterring harmful insects.
-  companions:
+    In permaculture, borage serves multiple functions:
+    - Edible: Young leaves and flowers have a mild cucumber flavor, suitable for salads, beverages, and garnishes.
+    - Medicinal: Traditionally used to alleviate fevers, coughs, and depression; borage oil, rich in gamma-linolenic acid (GLA), has anti-inflammatory properties. 
+    - Wildlife Attractor: Its nectar-rich flowers draw pollinators like bees and beneficial insects, enhancing biodiversity.
+    - Dynamic Accumulator: Accumulates minerals such as potassium in its leaves, enriching compost and improving soil fertility when the plant decomposes. 
+    - Pollinator Support: Provides a continuous nectar source, supporting pollinator populations throughout the growing season.
+    - Border Plant: With its attractive flowers and foliage, borage can define garden edges and add aesthetic appeal.
+    - Pest Management: Attracts beneficial insects that prey on common pests; may deter certain pests like tomato hornworms and cabbage worms.
+  companions: 
     - Tomatoes
-    - Cabbage
-    - Strawberries
     - Squash
-    - Cucumbers
+    - Strawberries
+    - Cabbage
+    - Basil
+    - Leeks
+    - Pumpkins
+    - Kale
+    - Nasturtiums
+    - Marigolds
   avoid:
-    - Potatoes
-    - Fennel
-  pests:
+    - None reported
+  pests: 
     - Aphids
+    - Japanese Beetles
     - Tomato Hornworms
     - Cabbage Worms

@@ -2,39 +2,52 @@
   picture: carrot.jpg
   scientific_name: Daucus carota subsp. sativus
   aka:
-    - Garden Carrot
+    - Wild Carrot (Daucus carota)
+    - Queen Anne's Lace (Daucus carota)
   family: Apiaceae
-  zone:
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
-    - '10'
+  zone: [3, 4, 5, 6, 7, 8, 9, 10]
   perennial: false
   layers:
-    - Root
     - Herbaceous
   plant_function:
     - Edible
+    - Medicinal
+    - Wildlife Attractor
     - Dynamic Accumulator
-    - Groundcover
+    - Erosion Control
+    - Border Plant
+    - Pest Management
   description: |-
-    Carrots are biennial plants typically grown as annuals for their edible taproots. They feature finely divided, feathery leaves and produce a crisp, sweet root that varies in color, including orange, purple, red, white, and yellow. The plant forms a rosette of leaves above ground, while the taproot develops underground, reaching lengths of up to 12 inches. In their second year, if not harvested, carrots produce umbrella-like clusters of small white flowers known as umbels.
+    Carrots are biennial plants typically cultivated as annuals for their edible taproots. They develop a rosette of finely divided, feathery leaves reaching 12 to 24 inches (30 to 60 cm) in height. The taproot varies in color—commonly orange, but also purple, red, yellow, or white—and size, generally 6 to 12 inches (15 to 30 cm) long. Carrots prefer full sun but can tolerate partial shade, thriving in loose, well-drained sandy or loamy soils with a pH of 6.0 to 6.8. Consistent moisture is crucial, especially during germination and root development. Propagation is achieved by direct sowing seeds into the garden, as transplanting can damage the delicate taproot. Sow seeds 1/4 inch (0.6 cm) deep, spaced 2 to 3 inches (5 to 7.5 cm) apart, in rows 12 to 18 inches (30 to 45 cm) apart. Thin seedlings to the appropriate spacing to ensure adequate room for root development. Depending on the variety and growing conditions, carrots are ready for harvest 60 to 80 days after sowing, when roots have reached the desired size and color.
   purpose: |-
-    In permaculture, carrots are valued for their edible roots and their role as dynamic accumulators, drawing up nutrients from deeper soil layers. Their deep taproots help to break up compacted soil, enhancing soil structure and aeration. Carrots can also serve as groundcover in garden beds, suppressing weed growth and protecting the soil surface.
-  companions:
-    - Leeks
-    - Onions
+    In permaculture, carrots serve multiple functions:
+    - Edible: Provide nutritious taproots rich in beta-carotene, vitamins, and fiber, suitable for fresh consumption, cooking, and preservation.
+    - Medicinal: Traditionally used to support vision health, improve digestion, and as a diuretic.
+    - Wildlife Attractor: Flowering carrots attract beneficial insects, including pollinators and predatory species that help control pests.
+    - Dynamic Accumulator: Carrots can accumulate minerals such as potassium and phosphorus, enhancing soil fertility when plant residues decompose.
+    - Erosion Control: The deep taproot system helps bind soil, reducing erosion and improving soil structure.
+    - Border Plant: Carrots can be used to define garden beds and pathways, contributing to garden aesthetics.
+    - Pest Management: When allowed to flower, carrots attract predatory insects like parasitic wasps that help manage pest populations.
+  companions: 
     - Tomatoes
+    - Onions
+    - Leeks
     - Lettuce
+    - Radishes
     - Peas
+    - Sage
+    - Rosemary
+    - Chives
+    - Marigolds
   avoid:
     - Dill
     - Fennel
-  pests:
+    - Parsnips
+    - Celery
+    - Coriander
+  pests: 
     - Carrot Rust Fly
     - Aphids
     - Root-Knot Nematodes
+    - Carrot Weevil
+    - Leaf Blight

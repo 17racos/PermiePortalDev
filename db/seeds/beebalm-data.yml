@@ -2,17 +2,11 @@
   picture: beebalm.jpg
   scientific_name: Monarda didyma
   aka:
-    - Wild Bergamot
+    - Scarlet Beebalm
     - Oswego Tea
-    - Horsemint
+    - Bergamot
   family: Lamiaceae
-  zone:
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
+  zone: [3, 4, 5, 6, 7, 8, 9]
   perennial: true
   layers:
     - Herbaceous
@@ -24,18 +18,27 @@
     - Border Plant
     - Pest Management
   description: |-
-    Bee Balm is a perennial herbaceous plant native to North America, reaching heights of 2 to 4 feet. It features vibrant, tubular flowers in shades of red, pink, purple, or white, blooming from mid-summer to early fall. The aromatic foliage emits a minty fragrance when crushed. Preferring full sun to partial shade and moist, well-drained soils, Bee Balm is known for its susceptibility to powdery mildew in humid conditions.
+    Bee Balm is a perennial herbaceous plant reaching heights of 2 to 4 feet. It features square stems, aromatic lance-shaped leaves, and vibrant tubular flowers in shades of red, pink, purple, or white, blooming from midsummer to early fall. Thriving in full sun to partial shade, it prefers moist, well-drained soils rich in organic matter. Regular watering is essential to maintain consistent soil moisture. Propagation is achieved through seed sowing, division, or stem cuttings. Harvesting of leaves and flowers is best done in the morning after dew has dried but before the heat of the day, typically during peak bloom for optimal flavor and potency.
   purpose: |-
-    In permaculture, Bee Balm serves multiple roles: its edible flowers and leaves can be used in teas and salads; medicinally, it's traditionally employed to treat colds and digestive issues; it attracts pollinators like bees, butterflies, and hummingbirds, enhancing biodiversity; as a border plant, it defines garden edges; and its aromatic properties help deter pests, aiding in natural pest management.
-  companions:
+    In permaculture, Bee Balm serves multiple functions:
+    - Edible: Leaves and flowers are used in teas and as culinary garnishes.
+    - Medicinal: Traditionally used to treat digestive issues, colds, and as an antiseptic.
+    - Wildlife Attractor: Draws bees, butterflies, and hummingbirds, enhancing pollination.
+    - Pollinator: Its abundant nectar supports pollinator populations.
+    - Border Plant: Adds aesthetic value and defines garden edges.
+    - Pest Management: Its aromatic foliage can repel certain pests, aiding in integrated pest management.
+  companions: 
     - Echinacea
     - Phlox
     - Black-eyed Susan
     - Yarrow
     - Lavender
   avoid:
-    - None
-  pests:
+    - Sage
+    - Thyme
+    - Fennel
+  pests: 
+    - Powdery Mildew
     - Aphids
     - Spider Mites
-    - Powdery Mildew
+    - Leafhoppers

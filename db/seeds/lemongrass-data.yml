@@ -1,59 +1,40 @@
----
 - common_name: Lemongrass
   picture: lemongrass.jpg
   scientific_name: Cymbopogon citratus
   aka:
-  - Barbed wire grass
-  - Malabar Grass
-  - Citronella gras
+    - Citronella grass
   family: Poaceae
   zone:
-  - '10'
-  - '11'
+    - 9
+    - 10
+    - 11
   perennial: true
   layers:
-  - Herbaceous
-  - Root
+    - Herbaceous
+    - Root
   plant_function:
-  - Culinary
-  - Medicinal
-  - Aromatic
-  - Windbreaker
-  - Erosion Control
-  - Border Plant
-  - Pest Control
-  description: Lemongrass is a tropical perennial herb native to South Asia and Southeast
-    Asia. It features tall, slender, green leaves that emit a strong lemon fragrance
-    when crushed. Commonly used in Asian cuisine, it imparts a citrusy flavor to dishes
-    and is also utilized in teas and as an essential oil. Beyond its culinary applications,
-    lemongrass has been employed in traditional medicine for its potential health
-    benefits, including anti-inflammatory and antimicrobial properties.
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Mulcher
+    - Erosion Control
+    - Pest Management
+  description: |-
+    Lemongrass is a tropical, clump-forming perennial grass that can reach heights of 1.5 meters (5 feet) and widths of up to 1 meter (3 feet). It features long, slender, and slightly sharp-edged leaves with a strong lemon aroma. Preferring full sun and well-draining soil, lemongrass thrives in temperatures above 20°C (68°F) and is sensitive to frost. Propagation is typically achieved through division of established clumps. Harvesting involves cutting stalks close to the base; new growth follows after harvesting. Regular watering is essential, especially in dry conditions, but the plant is relatively drought-tolerant once established.
   purpose: |-
-    In permaculture, lemongrass serves multiple functions:
-
-     -Culinary Use: Provides a fresh, lemony flavor to various dishes, enhancing the diversity of flavors in a permaculture system.
-
-     -Medicinal Properties: Traditionally used to alleviate digestive issues, reduce fever, and as an antimicrobial agent, contributing to the health and well-being of the community.
-
-     -Aromatic Qualities: Acts as a natural insect repellent, deterring pests and enhancing the sensory experience of the garden environment.
-
-     -Soil Improvement: Its deep root system can help break up compacted soil, improving soil structure and water infiltration.
-
-     -Erosion Control: The dense growth habit of lemongrass can help stabilize soil and prevent erosion, especially on slopes or in areas prone to water runoff.
-  companions: 
-  - Basil
-  - Chili Peppers
-  - Tomatoes
-  - Garlic
-  - Marigolds
+    - Edible: The stalks and leaves are used in culinary dishes, especially in Southeast Asian cuisine, imparting a citrus flavor to soups, curries, and teas.
+    - Medicinal: Lemongrass has anti-fungal and calming properties; teas made from its leaves can aid digestion and may help lower cholesterol levels.
+    - Pest Management: Its strong scent deters pests like aphids and whiteflies, making it a beneficial companion plant in gardens.
+    - Mulcher: The leaves can be harvested and used as mulch, contributing to soil health and moisture retention.
+    - Erosion Control: The plant's clumping roots help prevent soil erosion, especially on slopes.
+  companions:
+    - Basil
+    - Fruit trees
+    - Chili Peppers
+    - Sage
   avoid:
-  - Lettuce
-  - Spinach
-  - Cabbage
-  - Carrots
-  - Potatoes
+    - Carrots
+    - Potatoes
+    - Spinach
   pests:
-  - Aphids
-  - Caterpillars
-  - Mealybugs
-  - Scale Insects
+    - None significant

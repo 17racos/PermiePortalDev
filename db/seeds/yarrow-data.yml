@@ -2,81 +2,52 @@
   picture: yarrow.jpg
   scientific_name: Achillea millefolium
   aka:
-    - Common Yarrow
-    - Milfoil
-    - Thousand-leaf
+  - Soldier’s Woundwort
+  - Nosebleed Plant
   family: Asteraceae
-  zone:
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
+  zone: 
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
   perennial: true
   layers:
-    - Herbaceous
-    - Groundcover
+  - Herbaceous
+  - Groundcover
   plant_function:
-    - Edible
-    - Medicinal
-    - Nitrogen Fixer
-    - Wildlife Attractor
-    - Mulcher
-    - Dynamic Accumulator
-    - Erosion Control
-    - Animal Fodder
-    - Windbreaker
-    - Pollinator
-    - Border Plant
-    - Pest Management
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  - Dynamic Accumulator
+  - Erosion Control
+  - Border Plant
+  - Pest Management
   description: |-
-    Yarrow *Achillea millefolium* is a hardy perennial herb native to temperate regions of the Northern Hemisphere. It typically grows 2 to 3 feet tall, featuring feathery, fern-like leaves and clusters of small, white to pink flowers that bloom from late spring to early fall. Yarrow is known for its aromatic foliage and its ability to thrive in poor, well-drained soils, making it a resilient addition to various garden settings. Its deep, fibrous root system aids in soil stabilization and moisture retention. Yarrow is also recognized for its medicinal properties, having been used traditionally to treat wounds and as an anti-inflammatory. :contentReference[oaicite:0]{index=0}
+    Yarrow is a hardy, herbaceous perennial that grows to a height of 0.3–1 meter (1–3 feet). It features finely divided, feathery leaves and clusters of small, flat-topped flowers that bloom in white, pink, or yellow from late spring to early fall. It is drought-tolerant and thrives in full sun with well-drained soils of moderate fertility, preferring a pH between 4.5 and 8.0.
+    Propagation is easily done through division, cuttings, or seeds. Seeds germinate in 7–14 days when planted in spring. Harvesting of flowers and leaves can be done throughout the growing season for use in teas, tinctures, or dried arrangements.
   purpose: |-
-    - Edible: Young leaves can be added to salads; flowers can be used in teas.
-    - Medicinal: Used to treat wounds, reduce fevers, and as an anti-inflammatory.
-    - Nitrogen Fixer: Enhances soil fertility by converting atmospheric nitrogen into a form usable by plants.
-    - Wildlife Attractor: Flowers attract pollinators like bees and butterflies.
-    - Mulcher: Leaves can be used as mulch to suppress weeds and retain soil moisture.
-    - Dynamic Accumulator: Deep roots access nutrients unavailable to shallow-rooted plants.
-    - Erosion Control: Root system stabilizes soil, preventing erosion.
-    - Animal Fodder: Leaves can be used as forage for livestock.
-    - Windbreaker: Tall growth provides wind protection for other crops.
-    - Pollinator: Flowers attract beneficial insects, aiding in pollination.
-    - Border Plant: Can be used to define garden beds or pathways.
-    - Pest Management: Attracts beneficial insects that prey on harmful pests.
-    - Ground cover: Dense growth suppresses weeds and retains soil moisture.
-  companions:
-    - Tomatoes
-    - Cucumbers
-    - Zucchini
-    - Peppers
-    - Radishes
-    - Lettuce
-    - Spinach
-    - Oregano
-    - Rosemary
+    Yarrow has numerous uses in permaculture:
+    -Medicina: Known for its anti-inflammatory, antiseptic, and astringent properties, yarrow is traditionally used for wound healing, digestive support, and fever reduction.
+    -Pollinato: Flowers attract bees, butterflies, and beneficial insects.
+    -Wildlife Attracto: Provides food and habitat for a variety of beneficial insects and wildlife.
+    -Dynamic Accumulato: Accumulates nutrients like potassium and calcium from deep soil layers, enriching the topsoil.
+    -Erosion Contro: Its fibrous root system helps stabilize soil on slopes and prevents erosion.
+    -Border Plan: Acts as a natural and attractive boundary plant in gardens and landscapes.
+    -Pest Managemen: Repels certain pests and attracts predatory insects that control garden pests.
+  companions: 
     - Lavender
+    - Echinacea
+    - Chamomile
+    - Rosemary
+    - Radish
   avoid:
-    - Beans
-    - Peas
-    - Garlic
-    - Onions
-    - Leeks
-    - Shallots
-    - Chives
-    - Asparagus
-    - Cabbage
-    - Cauliflower
-  pests:
-    - Aphids
-    - Whiteflies
-    - Cabbage moths
-    - Flea beetles
-    - Spider mites
-    - Leafhoppers
-    - Cutworms
-    - Japanese beetles
-    - Tomato hornworms
-    - Cucumber beetles
+  - Mint
+  - Fennel
+  - Legumes
+  pests: 
+  - Aphids
+  - Slugs
+  - Spider mites

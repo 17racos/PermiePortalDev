@@ -2,35 +2,35 @@
   picture: pineapplesage.jpg
   scientific_name: Salvia elegans
   aka:
-    - Tangerine Sage
-    - Honey Melon Sage
-  family: Lamiaceae
+    - Tangerine sage (Salvia elegans 'Tangerine')
+  family:
+    - Lamiaceae
   zone:
-    - '8'
-    - '9'
-    - '10'
-    - '11'
+    - 8
+    - 9
+    - 10
+    - 11
   perennial: true
   layers:
     - Herbaceous
-    - Shrub
   plant_function:
-    - Pollinator
-    - Medicinal
     - Edible
+    - Medicinal
+    - Pollinator
+    - Wildlife Attractor
+    - Border Plant
   description: |-
-    Pineapple Sage is a perennial shrub native to Mexico and Guatemala, belonging to the mint family (Lamiaceae). It typically grows 3 to 5 feet tall and 3 to 4 feet wide, featuring bright green, lance-shaped leaves that emit a strong pineapple fragrance when crushed. The plant produces vibrant red, tubular flowers in late summer to fall, attracting hummingbirds and butterflies. Preferring full sun to partial shade and well-drained, moist soil, Pineapple Sage thrives in rich, organic matter with a pH between 6.0 and 8.0. It is frost-tender and may require protection or indoor overwintering in cooler climates.
+    Pineapple sage is a perennial shrub native to Mexico and Guatemala, renowned for its vibrant red tubular flowers and foliage that emits a sweet pineapple scent when crushed. Typically reaching heights of 1.2 to 1.5 meters (4 to 5 feet), it thrives in full sun to partial shade and prefers well-drained, moist soils with a neutral pH. While somewhat drought-tolerant, consistent moisture promotes optimal growth. Propagation is commonly achieved through cuttings or division, as seeds are rare. In regions cooler than USDA Zone 8, it's often grown as an annual or in containers to overwinter indoors. Flowering occurs in late summer to autumn, attracting hummingbirds and butterflies. Harvesting of leaves and flowers can be done throughout the growing season for culinary or medicinal use.
   purpose: |-
-    In permaculture, Pineapple Sage serves multiple functions:
-    - Attracting Pollinators: Its bright red flowers draw hummingbirds and butterflies, enhancing pollination for surrounding plants.
-    - Culinary Uses: The edible leaves and flowers add unique flavor to teas, salads, desserts, and savory dishes.
-    - Medicinal Benefits: Traditionally used for its calming effects, aiding in reducing anxiety and promoting relaxation.
-    - Ornamental Appeal: With its aromatic foliage and vibrant blooms, it adds aesthetic value to gardens.
+    - Edible: Leaves and flowers are used in teas, salads, and desserts, imparting a fruity flavor.
+    - Medicinal: Traditionally used to alleviate anxiety and hypertension.
+    - Pollinator: Bright red flowers attract hummingbirds and butterflies, enhancing pollination.
+    - Wildlife Attractor: Provides nectar for beneficial insects and birds.
+    - Border Plant: Its ornamental appeal makes it suitable for garden borders.
   companions:
+    - Tomatoes
+    - Peppers
     - Basil
-    - Oregano
-    - Rosemary
-    - Thyme
   avoid:
     - Fennel
   pests:

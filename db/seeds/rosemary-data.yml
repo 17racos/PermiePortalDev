@@ -1,68 +1,46 @@
----
 - common_name: Rosemary
   picture: rosemary.png
   scientific_name: Rosmarinus officinalis
   aka:
-  - Compass plant
-  - Dew of the sea
+  - Anthos (Rosmarinus angustifolius)  
+  - Dew of the Sea
   family: Lamiaceae
-  zone:
-  - '7'
-  - '8'
-  - '9'
-  - '10'
+  zone: 
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
   perennial: true
   layers:
   - Herbaceous
+  - Shrub
   plant_function:
-  - Culinary
+  - Edible
   - Medicinal
-  - Pest Managment
   - Pollinator
-  description: Rosemary is a versatile evergreen herb native to the Mediterranean
-    region. It is widely used in culinary applications for its aromatic leaves, which
-    add flavor to various dishes, especially meats, stews, and soups. In addition
-    to its culinary uses, rosemary is prized for its medicinal properties, such as
-    being an antioxidant and anti-inflammatory agent. It also has a long history in
-    traditional medicine, where it was used to improve memory, relieve stress, and
-    promote circulation. Rosemary is a hardy plant that thrives in full sun and well-drained
-    soil, making it an excellent choice for herb gardens and permaculture designs.
-    It also serves as a companion plant, benefiting neighboring plants by repelling
-    certain pests.
+  - Wildlife Attractor
+  - Mulcher
+  - Border Plant
+  description: |-
+    Rosemary is a perennial evergreen shrub that typically grows to 1–2 meters (3–6 feet) tall, with aromatic needle-like leaves and woody stems. Native to the Mediterranean, it thrives in full sun and well-drained soils. It is drought-tolerant once established and requires moderate watering. 
+    Propagation is primarily done via semi-hardwood cuttings, though it can also be grown from seeds with slower results. Harvesting is best done when stems are mature but before flowers bloom, usually in spring or early summer. The leaves, which are the primary edible parts, should be harvested early in the day for maximum essential oil concentration.  
   purpose: |-
-    
-    -Flavoring Agent: Rosemary is widely used in cooking, especially for flavoring meats, especially lamb, chicken, and pork, as well as vegetables, soups, stews, and sauces. It has a strong, aromatic flavor that complements many dishes.
-    Herb for Roasting: Rosemary is a classic addition to roasted potatoes, roasted vegetables, and even as a flavoring for bread.
-
-    -Antioxidant Properties: Rosemary is rich in antioxidants that help protect cells from oxidative stress.
-    Anti-inflammatory: It has been traditionally used to reduce inflammation and treat conditions like arthritis.
-    Improves Memory and Concentration: Rosemary has a history of being used to improve cognitive function, memory, and concentration.
-    Digestive Aid: Rosemary is often used to alleviate indigestion and reduce bloating.
-    Stress Relief: Its aromatic oils are used in aromatherapy to relieve stress, anxiety, and fatigue.
-
-    -Skin Care: Rosemary is used in skincare products for its soothing and anti-inflammatory properties. It can help improve circulation and reduce puffiness.
-    Hair Care: Rosemary oil is often used in shampoos and conditioners to promote hair growth and reduce dandruff. It is also believed to help improve scalp health.
-
-    -Pest Repellent: Rosemary acts as a natural pest repellent, particularly deterring aphids, whiteflies, and mosquitoes. This makes it useful in permaculture and garden settings.
-    Enhances Plant Health: It can be planted near other plants to improve their health, as it can deter certain pests from attacking neighboring plants.
-
-    -Garden Decoration: Rosemary's aromatic leaves and beautiful, small purple flowers make it an attractive plant for gardens. It’s also a popular choice for herb gardens.
-    Ground Cover: Some varieties of rosemary grow low to the ground and are used as ground cover or in landscaping to add texture and fragrance.
-
-    -Drought Tolerant: Rosemary is hardy and drought-tolerant once established, making it a good plant for water-scarce regions.
-    Pollinator-Friendly: The flowers of the rosemary plant attract pollinators such as bees, which helps support local ecosystems.
-
-    -Essential Oil: Rosemary essential oil is used in aromatherapy to help with mental clarity, improve circulation, and relieve stress. It can also be used in massage oils for pain relief.
-
-    In summary, rosemary is a multifunctional plant with uses ranging from culinary and medicinal to environmental and ornamental. Its strong flavor, therapeutic properties, and ability to support biodiversity make it a valuable addition to herb gardens, permaculture systems, and even home healthcare products.
-  companions:
-  - Thyme
-  - Sage
-  - Lavender
+    Rosemary has numerous uses in permaculture and sustainable systems:
+    - Edible: Used as a culinary herb to flavor dishes and as a natural preservative.
+    - Medicinal: Contains compounds beneficial for memory improvement, anti-inflammatory properties, and digestive health.
+    - Pollinator: Flowers attract bees, butterflies, and other beneficial insects.
+    - Wildlife Attractor: Provides habitat and food for beneficial wildlife.
+    - Mulcher: Leaves can be composted or used as organic mulch for pest deterrence.
+    - Border Plant: Acts as a low-maintenance hedge or garden border.
+  companions: 
+    - Thyme
+    - Sage
+    - Oregano
+    - Lavender
   avoid:
-  - Basil 
   - Mint
-  pests:
+  - Basil
+  pests: 
+  - Spider mites
   - Aphids
-  - Whiteflies
-  - Spider mites.

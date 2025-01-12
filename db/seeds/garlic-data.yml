@@ -5,13 +5,14 @@
     - None
   family: Amaryllidaceae
   zone:
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
   perennial: true
   layers:
     - Herbaceous
@@ -19,42 +20,31 @@
     - Edible
     - Medicinal
     - Pest Management
+    - Wildlife Attractor
   description: |-
-    Garlic is a hardy perennial plant known for its culinary and medicinal uses. It typically grows 2 to 3 feet tall, featuring long, slender, green leaves and a central flowering stalk that produces a spherical cluster of small, white to purple flowers. The plant forms a bulb underground, composed of multiple cloves encased in a papery sheath. Garlic is renowned for its pungent aroma and flavor, which intensifies when crushed or chopped. It thrives in well-drained, fertile soils and requires full sun exposure. Garlic is typically planted in the fall and harvested in mid-summer. :contentReference[oaicite:0]{index=0}
+    Garlic is a hardy perennial plant, typically grown as an annual for its pungent bulbs composed of multiple cloves encased in a papery sheath. The plant has an upright growth habit, reaching a height of 60–90 cm (24–36 inches). Its long, flat, grass-like leaves grow directly from the base, forming a fan-like arrangement. Garlic thrives in full sun and well-drained, fertile soil with a pH of 6.0–7.0. It is a heavy feeder, benefiting from the addition of compost or well-rotted manure. Plant individual cloves in the autumn, 5–7.5 cm (2–3 inches) deep and 15–20 cm (6–8 inches) apart, with the pointed end facing up. Mulch the planting area to retain moisture and suppress weeds. Harvest occurs in mid-summer when the lower leaves turn yellow; carefully lift the bulbs and cure them in a dry, airy place for several weeks before storage.
   purpose: |-
-    - Edible: Used globally to enhance the flavor of various dishes.
-    - Medicinal: Known for its antibacterial, antiviral, and antifungal properties; used to boost the immune system and lower blood pressure.
-    - Pest Management: Acts as a natural repellent against pests like aphids, mosquitoes, and rodents.
+    - Edible: Garlic bulbs are a staple in many cuisines, offering a pungent flavor that enhances a variety of dishes.
+    - Medicinal: Known for its antioxidant, anti-inflammatory, and antibacterial properties, garlic has been used traditionally to support cardiovascular health and boost the immune system.
+    - Pest Management: Garlic's strong odor deters many insect pests, making it a valuable companion plant for natural pest control.
+    - Wildlife Attractor: While garlic itself is not a primary attractant, its flowers can provide nectar for pollinators if allowed to bloom.
   companions:
     - Tomatoes
-    - Carrots
-    - Cabbage
-    - Spinach
-    - Strawberries
     - Peppers
-    - Lettuce
-    - Beets
-    - Chard
-    - Asparagus
+    - Cabbage
+    - Fruit Trees
+    - Spinach
+    - Potatoes
   avoid:
     - Beans
-    - Peas
     - Asparagus
-    - Cabbage
-    - Cauliflower
-    - Broccoli
-    - Brussels Sprouts
-    - Kale
-    - Collard Greens
-    - Mustard Greens
+    - Sage
+    - Strawberries
+    - Leeks
+    - Onions
+    - Parsley
   pests:
-    - Aphids
-    - Whiteflies
-    - Cabbage Moths
-    - Flea Beetles
-    - Spider Mites
-    - Leafhoppers
-    - Cutworms
-    - Japanese Beetles
-    - Tomato Hornworms
-    - Cucumber Beetles
+    - Onion Thrips
+    - Leek Moth
+    - Nematodes
+    - White Rot

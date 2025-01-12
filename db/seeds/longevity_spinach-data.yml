@@ -3,9 +3,7 @@
   scientific_name: Gynura procumbens
   aka:
     - Sambung Nyawa
-    - Sambung Nyawa Spinach
     - Gynura
-    - Purple Spinach
   family: Asteraceae
   zone:
     - 9
@@ -13,24 +11,31 @@
     - 11
   perennial: true
   layers:
-    - Herbaceous Layer
     - Groundcover
+    - Herbaceous
   plant_function:
     - Edible
-    - Medicinal Herb
+    - Medicinal
+    - Dynamic Accumulator
+    - Erosion Control
+    - Border Plant
   description: |-
-    Longevity Spinach is a low-growing, semi-succulent plant that typically reaches 1–3 feet in height and spreads up to 3–5 feet wide. It features broad, dark green leaves with a slightly serrated edge and a mild, slightly bitter flavor. The plant thrives in tropical and subtropical climates, preferring partial shade to full sun and well-draining, nutrient-rich soil. Its rapid growth and spreading habit make it an excellent ground cover, helping to suppress weeds and retain soil moisture.
+    Longevity Spinach is a perennial, herbaceous plant native to Southeast Asia and parts of Africa. It exhibits a trailing or scrambling growth habit, with stems that can extend up to 3 meters (approximately 10 feet) in length. The leaves are ovate to lanceolate, measuring 3.5–10 cm (1.4–3.9 inches) in length and 2–4 cm (0.8–1.6 inches) in width, with slightly serrated edges. They are fleshy and vibrant green, sometimes displaying a purplish hue on the underside.
+
+    This plant thrives in partial sun to light shade and prefers well-drained, moist soils with a pH ranging from 5.0 to 7.0. It is not tolerant of drought conditions and benefits from regular watering to maintain consistent soil moisture. Longevity Spinach is best propagated through stem cuttings, which root readily in water or directly in soil. While it can produce yellow-orange flowers, propagation by seed is uncommon due to infrequent seed production.
+
+    Harvesting can commence approximately 30 days after planting. Regularly picking the young, tender leaves encourages bushier growth and ensures a continuous supply. The leaves can be consumed fresh or cooked, making them a versatile addition to various dishes.
+
   purpose: |-
-    In permaculture, Longevity Spinach serves multiple functions:
-    
-    - Edible Green: The leaves are rich in vitamins and minerals, suitable for consumption raw in salads, blended into smoothies, or cooked in various dishes.
-    - Medicinal Herb: Traditionally, it has been used to treat ailments such as hypertension, diabetes, and inflammation.
-    - Ground Cover: Its spreading nature makes it effective in preventing soil erosion and maintaining soil health.
+    - Edible: The leaves are consumed as a vegetable in salads, soups, and stir-fries, offering a mild, slightly earthy flavor.
+    - Medicinal: Traditionally used for its anti-inflammatory and anti-diabetic properties, and to support cardiovascular health.
+    - Dynamic Accumulator: Accumulates nutrients, potentially enriching the soil when used as mulch.
+    - Erosion Control: Its spreading habit helps stabilize soil, reducing erosion.
+    - Border Plant: Can be used to define garden edges due to its dense, low-growing nature.
+
   companions:
     - Basil
     - Mint
-    - Oregano
-    - Lettuce
     - Kale
     - Arugula
   avoid:
@@ -38,9 +43,6 @@
     - Peppers
     - Eggplants
     - Cucumbers
-    - Melons
-    - Squash
   pests:
     - Aphids
-    - Whiteflies
-    - Spider Mites
+    - Snails

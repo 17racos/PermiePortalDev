@@ -2,60 +2,50 @@
   picture: basil.jpg
   scientific_name: Ocimum basilicum
   aka:
-    - Sweet basil
-    - Genovese basil
-    - Thai basil (Exceptional Polinator)
-    - Lemon basil
-    - Purple basil
+    - Sweet Basil
+    - Genovese Basil
+    - Thai Basil (Ocimum basilicum var. thyrsiflora)
+    - Lemon Basil (Ocimum basilicum var. citriodorum)
+    - Holy Basil (Ocimum tenuiflorum)
   family: Lamiaceae
-  zone:
-    - '2'
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
-  perennial: true
+  zone: [5, 6, 7, 8, 9, 10, 11]
+  perennial: false
   layers:
     - Herbaceous
   plant_function:
-    - Culinary
+    - Edible
     - Medicinal
+    - Wildlife Attractor
     - Pollinator
+    - Border Plant
+    - Pest Management
   description: |-
-    Basil is a fragrant herb native to tropical regions of Central Africa and Southeast Asia. It features bright green, ovate leaves with a slightly serrated edge and can grow up to 2 feet tall. The plant produces small, white to purple flowers arranged in spikes, blooming in summer. Basil thrives in warm, sunny environments with well-drained soil and is sensitive to frost. Its aromatic leaves are commonly used in culinary dishes, especially in Italian and Southeast Asian cuisines. Basil also attracts pollinators like bees and butterflies, enhancing garden biodiversity. :contentReference[oaicite:1]{index=1}
+    Basil is a tender annual herb that typically grows to a height of 12 to 24 inches (30 to 60 cm) with a similar spread. It features bright green, oval-shaped leaves that emit a strong, distinct aroma when crushed. Some varieties may have purple or variegated foliage. Basil produces small, tubular flowers in clusters, ranging from white to pink or purple, depending on the variety. It thrives in full sun, requiring at least 6 hours of direct sunlight per day, and prefers well-drained, moist soil. Regular watering is essential, but avoid wetting the leaves to prevent fungal issues. Propagation is commonly done through seeds sown indoors 6-8 weeks before the last frost date, or by taking cuttings from established plants. Harvesting can begin once the plant has at least six sets of leaves; regularly pinching off the top sets of leaves encourages bushier growth and delays flowering. For optimal flavor, harvest leaves in the morning after the dew has dried.
   purpose: |-
-    In permaculture, basil serves multiple roles:
-    - Culinary Use: Adds flavor to a variety of dishes.
-    - Medicinal Use: Traditionally used for its anti-inflammatory and digestive benefits.
-    - Pollinator Attraction: Flowers attract beneficial insects, enhancing biodiversity.
-    - Companion Planting: Beneficial when planted near certain vegetables.
-  companions:
+    In permaculture, basil serves multiple functions:
+    - Edible: Its aromatic leaves are widely used in culinary dishes, adding flavor to salads, sauces, and pesto.
+    - Medicinal: Traditionally used to alleviate digestive issues, reduce inflammation, and as an antimicrobial agent.
+    - Wildlife Attractor: The flowers attract pollinators such as bees and butterflies, enhancing biodiversity in the garden.
+    - Pollinator Support: Provides a nectar source for pollinators, supporting their populations.
+    - Border Plant: Its compact growth habit makes it suitable for edging garden beds, adding aesthetic appeal.
+    - Pest Management: Basil's strong aroma can repel certain pests, and it is often planted alongside tomatoes and peppers to deter insects.
+  companions: 
     - Tomatoes
     - Peppers
+    - Eggplants
     - Asparagus
-    - Chamomile
+    - Marigolds
     - Chives
     - Oregano
-    - Marigolds
+    - Chamomile
+    - Potatoes
     - Borage
-    - Eggplants
-    - Root vegetables (e.g., carrots, potatoes)
   avoid:
-    - Fennel
     - Sage
-    - Mint
-    - Cucumbers
-  pests:
+    - Rue
+  pests: 
     - Aphids
-    - Japanese beetles
-    - Slugs
-    - Snails
     - Whiteflies
-    - Spider mites
-    - Leafhoppers
-    - Caterpillars
-    - Cutworms
-    - Root-knot nematodes
+    - Spider Mites
+    - Slugs
+    - Japanese Beetles

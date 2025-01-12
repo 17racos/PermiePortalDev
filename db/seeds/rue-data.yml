@@ -2,39 +2,40 @@
   picture: rue.jpg
   scientific_name: Ruta graveolens
   aka:
-    - Herb-of-Grace
-    - Garden Rue
+  - Herb-of-Grace
+  - Rue Herb
   family: Rutaceae
-  zone:
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
+  zone: 
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
   perennial: true
   layers:
-    - Herbaceous
+  - Herbaceous
   plant_function:
-    - Medicinal
-    - Pest Management
-    - Border Plant
+  - Medicinal
+  - Pest Management
+  - Border Plant
   description: |-
-    Rue is a woody perennial herb native to the Mediterranean region, characterized by its blue-green foliage and clusters of small, yellow flowers. It typically grows up to 2 to 3 feet in height and prefers well-drained soils with full sun exposure. The plant emits a strong, pungent aroma and contains compounds that can cause skin irritation in sensitive individuals.
+    Rue is a woody perennial herb that typically grows to a height of 60–90 cm (24–36 inches). It has blue-green, feathery leaves and clusters of small yellow flowers that bloom in summer. The plant is highly aromatic, with a strong, pungent scent. It prefers full sun and thrives in well-drained, slightly dry soils. Rue is drought-tolerant and requires minimal watering once established. 
+    Propagation is best achieved via seeds sown in spring or softwood cuttings taken in late spring. Harvesting of leaves can occur throughout the growing season, but gloves should be worn to prevent skin irritation due to its furanocoumarins.
   purpose: |-
-    In permaculture, rue is valued for its pest-repellent properties, deterring insects such as aphids and fleas, thus aiding in natural pest management. Medicinally, it has been traditionally used for its anti-inflammatory and antispasmodic effects, though caution is advised due to its potential toxicity. As a border plant, rue can define garden boundaries and protect other plants from pests.
-  companions:
-    - Roses
-    - Raspberries
-    - Figs
-    - Onions
-  avoid:
-    - Basil
+    Rue serves multiple purposes in permaculture:
+    - Medicinal: Historically used in small doses to treat digestive issues, menstrual cramps, and inflammation. Caution is advised due to its potential toxicity in large quantities.
+    - Pest Management: Repels a variety of pests, including flies, fleas, and beetles, making it a natural companion plant.
+    - Border Plant: Its unique appearance and strong scent make it a natural deterrent for grazing animals and a visually appealing garden border.
+  companions: 
+    - Lavender
+    - Rosemary
     - Sage
-    - Cabbage
-    - Cucumbers
-    - Mint
-  pests:
-    - Aphids
-    - Fleas
-    - Japanese Beetles
+    - Figs
+  avoid:
+  - Basil
+  - Cabbage
+  - Mint
+  pests: 
+  - Aphids
+  - Whiteflies

@@ -2,20 +2,21 @@
   picture: dill.jpg
   scientific_name: Anethum graveolens
   aka:
-    - Dill Weed
-    - Garden Dill
-  family: Apiaceae
+    - Dillweed
+    - Anethum sowa (Indian Dill)
+  family:
+    - Apiaceae
   zone:
-    - '2'
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
-    - '10'
-    - '11'
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
   perennial: false
   layers:
     - Herbaceous
@@ -24,17 +25,17 @@
     - Medicinal
     - Wildlife Attractor
     - Pollinator
-    - Border Plant
     - Pest Management
+    - Border Plant
   description: |-
-    Dill is an aromatic annual herb characterized by its feathery, blue-green foliage and umbels of small yellow flowers. It typically grows to a height of 2 to 3 feet (60 to 90 cm) and prefers full sun with well-drained, slightly acidic to neutral soil. Dill is known for its delicate, thread-like leaves and its ability to attract beneficial insects, making it a valuable addition to herb gardens and permaculture systems.
+    Dill is an annual herb reaching heights of 0.6 to 1.2 meters (2 to 4 feet) with slender, hollow stems and finely divided, feathery leaves. It produces small yellow flowers arranged in umbels. Preferring full sun, dill thrives in well-drained, slightly acidic to neutral soils rich in organic matter. It requires regular watering, especially during dry periods, but does not tolerate waterlogged conditions. Propagation is typically achieved through direct seeding in the garden after the last frost. Harvesting of leaves can begin when plants are about 25 to 30 centimeters (10 to 12 inches) tall; seeds are harvested when they turn tan or brown.
   purpose: |-
-    - Edible: Both the leaves and seeds are used to flavor a variety of dishes, including soups, salads, and pickles.
-    - Medicinal: Traditionally used to aid digestion and alleviate colic in infants.
-    - Wildlife Attractor: Flowers attract beneficial insects such as bees and predatory wasps.
-    - Pollinator: Serves as a nectar source for pollinators.
+    - Edible: Both dill leaves and seeds are used to flavor a variety of dishes, including soups, salads, and pickles. The leaves, known as dillweed, are often used fresh, while the seeds serve as a spice.
+    - Medicinal: Traditionally, dill has been used to aid digestion and alleviate flatulence. Dill seed tea is sometimes consumed for its soothing effects.
+    - Wildlife Attractor: Dill flowers attract beneficial insects such as bees, wasps, and butterflies, including the black swallowtail butterfly, which uses dill as a host plant for its larvae.
+    - Pollinator: By attracting pollinators, dill can enhance the productivity of nearby plants.
+    - Pest Management: Dill can repel certain pests and attract predatory insects that help control pest populations. However, it may attract aphids and should be monitored accordingly.
     - Border Plant: Its tall, airy foliage makes it suitable for garden borders.
-    - Pest Management: Attracts predatory insects that help control aphids and other pests.
   companions:
     - Cabbage
     - Lettuce
@@ -45,5 +46,6 @@
     - Tomatoes
   pests:
     - Aphids
+    - Parsley Worms
     - Armyworms
     - Dill Worms

@@ -6,38 +6,41 @@
     - European Raspberry
   family: Rosaceae
   zone:
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
   perennial: true
   layers:
     - Shrub
   plant_function:
     - Edible
-    - Medicinal
     - Wildlife Attractor
-    - Erosion Control
-    - Pollinator
     - Border Plant
+    - Erosion Control
   description: |-
-    Raspberries are perennial shrubs producing sweet, red, black, or golden berries depending on the variety. They typically grow to a height of 3-5 feet and spread through underground runners. Their stems, known as canes, are either biennial or perennial, depending on the fruiting variety. Raspberries prefer well-drained soils and thrive in full sun. They are known for their high nutrient content and antioxidant properties.
+    Raspberries are deciduous, perennial shrubs known for their delicious red berries. They typically reach heights of 1 to 2 meters (3 to 6.5 feet) and spread via underground runners. The canes are biennial, with first-year canes (primocanes) being green and vegetative, while second-year canes (floricanes) become woody and bear fruit. Raspberries prefer full sun but can tolerate partial shade, thriving in well-drained, slightly acidic soils with a pH between 5.5 and 6.5. Regular watering is essential, especially during fruiting, to maintain consistent soil moisture. Propagation is commonly achieved through transplanting one-year-old seedlings or by allowing the plant to spread naturally via runners. Harvesting typically occurs from June to October, depending on the variety, when berries are fully colored and easily detach from the receptacle.
   purpose: |-
-    In permaculture, raspberries are grown primarily for their delicious and nutritious fruits, which can be eaten fresh or preserved. They attract pollinators and other beneficial wildlife, enhancing biodiversity in the garden. Their dense root system helps prevent soil erosion, and they can act as a natural border plant or windbreak. Medicinally, raspberry leaves are often used in teas for their health benefits.
+    - Edible: Raspberries provide a nutritious and delicious fruit, rich in vitamins and antioxidants, making them a valuable addition to a permaculture food forest.
+    - Wildlife Attractor: The berries attract birds and other wildlife, supporting local biodiversity.
+    - Erosion Control: The extensive root system helps stabilize soil, preventing erosion on slopes and embankments.
+    - Border Plant: When planted densely, raspberries can serve as a living fence or border, deterring foot traffic with their thorny canes.
   companions:
+    - Apple
+    - Pear
+    - Plum
     - Garlic
-    - Onions
-    - Rue
-    - Clover
-    - Nasturtium
+    - Chives
   avoid:
-    - Potatoes
-    - Tomatoes
-    - Peppers
+    - Potato
+    - Tomato
+    - Eggplant
+    - Strawberry
   pests:
-    - Raspberry Cane Borer
-    - Spider Mites
-    - Japanese Beetles
+    - Raspberry Beetle
     - Aphids
+    - Spider Mites
+    - Japanese Beetle

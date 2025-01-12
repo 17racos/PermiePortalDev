@@ -1,87 +1,45 @@
----
 - common_name: Turmeric
   picture: turmeric.jpg
   scientific_name: Curcuma longa
   aka:
-  - Yellow ginger
-  - Haldi
+  - Indian Saffron
+  - Golden Root
+  - Yellow Ginger
   family: Zingiberaceae
-  zone:
-  - '9'
-  - '10'
-  - '11'
+  zone: 
+    - 8
+    - 9
+    - 10
+    - 11
   perennial: true
   layers:
   - Root
   - Herbaceous
   plant_function:
-  - Culinary
+  - Edible
   - Medicinal
-  - Pollinator
   - Mulcher
-  description: Turmeric is a perennial plant native to Southeast Asia, known for its
-    bright yellow rhizomes that are widely used for culinary, medicinal, and dyeing
-    purposes. The plant thrives in warm, tropical climates and is often grown for
-    its rhizomes, which contain curcumin, a compound praised for its anti-inflammatory
-    and antioxidant properties. Turmeric plants have large, broad leaves and small,
-    white to yellow flowers, and they typically grow up to 1 meter tall. In permaculture
-    systems, turmeric is valued for its deep roots that improve soil health by pulling
-    up nutrients from deeper soil layers, making them available to surface plants
-    when the turmeric leaves are used for composting or mulching. The decomposed turmeric
-    plant material helps enrich the soil with organic matter, improving its structure
-    and fertility. Additionally, turmeric flowers attract pollinators like bees, supporting
-    biodiversity within the garden. The plant’s ability to tolerate drought and its
-    low maintenance needs make it a great choice for sustainable gardening practices.
-    Turmeric is also used for its culinary and medicinal properties, making it an
-    essential crop in self-sufficient gardens.
+  - Pest Management
+  description: |-
+    Turmeric is a herbaceous perennial plant that grows to a height of 1–1.5 meters (3–5 feet). It has large, lance-shaped leaves and produces pale yellow to white flowers. The plant's underground rhizomes are the primary harvested parts, valued for their vibrant orange color and strong, earthy flavor. 
+    Turmeric thrives in warm, humid climates with temperatures ranging from 20–30°C (68–86°F). It prefers partial to full sun and well-drained, fertile soils with a pH of 4.5–7.5. Regular watering is essential for optimal growth. Propagation is done by planting rhizome sections with at least two buds in spring or early summer. Harvesting occurs 8–10 months after planting when the leaves begin to yellow and die back. Rhizomes are then dug up, cleaned, and cured.
   purpose: |-
-    Turmeric offers several benefits in permaculture systems due to its growth habits, medicinal properties, and soil enhancement qualities. Here are the main benefits of turmeric in permaculture:
-
-      Soil Enrichment:
-    - Dynamic Accumulator: Turmeric, like many other deep-rooted plants, helps to bring up nutrients from deep in the soil through its roots. This makes the nutrients available to surface-level plants when the turmeric leaves are used for composting or mulching.
-    
-    - Improves Soil Health: The decomposing turmeric plant material can improve soil structure, providing organic matter and enriching the soil with essential nutrients.
-
-      Medicinal and Culinary Use:
-    - Natural Medicine: Turmeric is highly valued for its medicinal properties, especially for its anti-inflammatory and antioxidant benefits. In a permaculture system, having medicinal plants like turmeric offers a valuable resource for natural healing remedies.
-    
-    - Culinary Use: The rhizomes of turmeric are used in cooking, particularly for flavoring and coloring. This makes it a valuable addition to a permaculture garden where self-sufficiency in food production is important.
-
-      Pollinator Support:
-    - Attracts Pollinators: Turmeric flowers, though small and not very showy, attract pollinators such as bees. This helps in promoting a healthy, diverse ecosystem within the permaculture garden, where pollination supports not only turmeric but also other plants in the garden.
-
-      Shade and Microclimate Creation:
-    - Groundcover Potential: The large leaves of turmeric can help provide shade to the ground, helping to maintain soil moisture and reduce evaporation. This is especially important in hot climates or during dry periods, as it helps to conserve water in the garden.
-    
-    - Creates Microclimates: By growing turmeric in certain areas of the garden, you can create cooler, shaded microclimates that benefit other crops that may be sensitive to direct sunlight or high temperatures.
-
-      Sustainability and Low Input:
-    - Low Maintenance: Turmeric is a low-maintenance plant, requiring minimal intervention once established. This makes it an ideal candidate for permaculture systems where the goal is to reduce labor and inputs while maintaining diverse, productive ecosystems.
-    
-    - Perennial Growth: Being a perennial, turmeric can continue to provide harvests for several years without the need for replanting each season, which helps to maintain soil stability and reduce the need for additional planting resources.
-
-      Soil Erosion Control
-    - Root System for Erosion Prevention: Turmeric’s extensive root system helps bind the soil, which can be beneficial in preventing soil erosion, especially on slopes or areas prone to washing away during heavy rainfall.
-
-      Mulching and Companion Planting
-    - Companion Planting: Turmeric can be used in companion planting schemes, where it works well with other crops like leafy greens that benefit from partial shade and moisture retention. It can also improve the health of other nearby plants by preventing soil depletion and creating a richer growing environment.
-
-    Overall, turmeric is a valuable addition to any permaculture system, providing a wide range of benefits from improving soil health and supporting biodiversity to offering medicinal and culinary uses, all while being a low-maintenance, sustainable crop.
-  companions:
-  - Lettuce
-  - Spinach
-  - Peppers
-  - Ginger
-  - Lemongrass
-  - Beans
+    Turmeric serves multiple roles in permaculture systems:
+    - Edible: The rhizome is widely used as a spice, natural food coloring, and in beverages.
+    - Medicinal: Known for its anti-inflammatory, antioxidant, and antimicrobial properties, turmeric is used in traditional and modern medicine.
+    - Mulcher: Leaves and plant residues can be composted or used as organic mulch.
+    - Pest Management: Acts as a natural repellent against nematodes and some soil pests.
+  companions: 
+    - Ginger
+    - Cardamom
+    - Peppers
+    - Legumes
   avoid:
+  - Potatoes
   - Corn
-  - Tomatoes 
-  - Mint
-  - Lemon Balm
-  - Oregano
-  pests:
+  - Tomatoes
+  - Fennel
+  pests: 
   - Aphids
   - Whiteflies
-  - Spider mites.
-  
+  - Spider mites

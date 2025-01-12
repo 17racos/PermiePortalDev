@@ -3,51 +3,54 @@
   scientific_name: Brassica oleracea var. acephala
   aka:
     - Borecole
-    - Leaf Cabbage
-  family: Brassicaceae
+    - Leaf cabbage
+  family:
+    - Brassicaceae
   zone:
-    - '2'
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
-    - '10'
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
   perennial: false
   layers:
     - Herbaceous
   plant_function:
     - Edible
     - Medicinal
-    - Wildlife Attractor
     - Mulcher
     - Dynamic Accumulator
+    - Erosion Control
     - Animal Fodder
     - Border Plant
+    - Pest Management
   description: |-
-    Kale (*Brassica oleracea* var. *acephala*) is a hardy, leafy green vegetable belonging to the Brassicaceae family, which includes cabbage, broccoli, and cauliflower. It is a non-heading cabbage, meaning it doesn't form a central head. Kale has a rosette of large, frilly or flat leaves that can be green, purple, or bluish-green, depending on the variety. It thrives in cooler climates and can tolerate frost, which often enhances its flavor. Typically grown as an annual, kale can reach heights of 1 to 2 feet (30 to 60 cm) and spreads about 1 to 2 feet wide. Its deep taproot helps in accessing nutrients from deeper soil layers.
+    Kale is a hardy, leafy green vegetable belonging to the Brassicaceae family, closely related to cabbage and broccoli. It features large, thick leaves that can be flat or curly, with colors ranging from light green to deep blue-green and even reddish hues. Typically grown as an annual, kale thrives in cooler seasons and can withstand frost, which often enhances its flavor. It prefers full sun to partial shade and requires consistent moisture, favoring well-drained, fertile soil with a pH between 6.0 and 7.5. Propagation is commonly done through direct seeding or transplanting seedlings into the garden. Harvesting can begin when leaves are about 20 cm (8 inches) long, usually 55 to 75 days after planting, by picking the outer leaves and allowing the center to continue producing.
   purpose: |-
-    - Edible: Kale leaves are highly nutritious and can be eaten raw in salads, cooked, or used in smoothies.
-    - Medicinal: Rich in vitamins A, C, and K, as well as antioxidants, contributing to various health benefits.
-    - Wildlife Attractor: Flowers attract pollinators like bees and butterflies when allowed to bolt.
-    - Mulcher: Leaves can be used as mulch to suppress weeds and retain soil moisture.
-    - Dynamic Accumulator: Accumulates nutrients such as calcium and potassium, enriching the soil when decomposed.
-    - Animal Fodder: Can be used as feed for livestock due to its high nutrient content.
-    - Border Plant: Serves as an attractive border in garden beds with its lush foliage.
+    - Edible: Kale leaves are highly nutritious, rich in vitamins A, C, and K, and minerals like calcium and iron. They can be consumed raw in salads, sautéed, or added to soups and stews.
+    - Medicinal: Traditionally, kale has been used for its anti-inflammatory properties and is believed to support cardiovascular health due to its high antioxidant content.
+    - Mulcher: The plant's dense foliage can be chopped and used as mulch to suppress weeds and retain soil moisture.
+    - Dynamic Accumulator: Kale accumulates nutrients such as calcium and potassium, enriching compost when the plant residues are returned to the soil.
+    - Erosion Control: Its fibrous root system helps bind the soil, reducing erosion in garden beds.
+    - Animal Fodder: Kale can serve as a nutritious forage crop for livestock, especially in cooler seasons when other greens are scarce.
+    - Border Plant: With its attractive foliage, kale can be used decoratively to define garden borders or pathways.
+    - Pest Management: Kale flowers attract beneficial insects like ladybugs and parasitic wasps, aiding in the control of aphids and other pests.
   companions:
     - Beets
     - Celery
-    - Herbs (e.g., Dill, Mint)
+    - Herbs (e.g., dill, chamomile)
     - Onions
     - Potatoes
   avoid:
-    - Beans
-    - Strawberries
+    - Other Brassicas (e.g., cabbage, broccoli)
     - Tomatoes
+    - Strawberries
   pests:
     - Aphids
-    - Cabbage Worms
+    - Cabbage worms
     - Slugs
-    - Flea Beetles
+    - Flea beetles

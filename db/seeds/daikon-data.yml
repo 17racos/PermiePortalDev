@@ -2,21 +2,21 @@
   picture: daikon.jpg
   scientific_name: Raphanus sativus var. longipinnatus
   aka:
-    - White Radish
-    - Japanese Radish
     - Chinese Radish
+    - White Radish
     - Mooli
-  family: Brassicaceae
+  family:
+    - Brassicaceae
   zone:
-    - '2'
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
-    - '10'
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
   perennial: false
   layers:
     - Herbaceous
@@ -25,25 +25,23 @@
     - Edible
     - Dynamic Accumulator
     - Erosion Control
+    - Pest Management
     - Animal Fodder
   description: |-
-    Daikon radish is a fast-growing, cool-season root vegetable known for its large, elongated white roots that can penetrate deep into the soil, reaching lengths of up to 20 inches (50 cm). The plant produces a rosette of green leaves above ground and thrives in well-drained, loose soils. Its deep taproot system makes it effective in breaking up compacted soils, enhancing soil structure, and improving drainage. Daikon radish is typically grown as an annual and is sensitive to high temperatures, preferring cooler growing conditions.
+    Daikon radish is a fast-growing, cool-season root vegetable characterized by its long, white taproot, typically measuring 30–50 cm (12–20 inches) in length and 5–10 cm (2–4 inches) in diameter. The plant forms a dense rosette of green leaves above ground. It thrives in full sun and well-drained, fertile soils with consistent moisture. Propagation is achieved through direct seeding in early spring or late summer. Harvesting occurs approximately 60 days after sowing, when roots reach full size but remain tender.
   purpose: |-
-    - Edible: The roots are consumed raw, pickled, or cooked in various culinary dishes, especially in Asian cuisines, offering a crisp texture and mild flavor.
-    - Dynamic Accumulator: Daikon radish accumulates nutrients from deep soil layers, making them more accessible to other plants once the radish decomposes.
-    - Erosion Control: Its dense foliage provides ground cover that protects soil from erosion.
+    - Edible: Daikon radish roots are consumed raw, cooked, or pickled, offering a mild flavor and crisp texture. The leaves are also edible and can be used in salads or cooked dishes.
+    - Dynamic Accumulator: The deep taproot mines nutrients from subsoil layers, bringing them to the surface and enhancing soil fertility upon decomposition.
+    - Erosion Control: Its rapid growth and dense foliage provide ground cover that protects soil from erosion.
+    - Pest Management: Daikon radish exhibits biofumigation properties, releasing compounds that suppress soil-borne pests and diseases, including certain nematodes and pathogens.
     - Animal Fodder: Both the roots and foliage can be used as livestock feed.
-    - Ground Cover: When used as a cover crop, it suppresses weed growth and adds organic matter to the soil upon decomposition.
   companions:
     - Carrots
     - Lettuce
-    - Peas
-    - Spinach
     - Cucumbers
   avoid:
     - Potatoes
     - Brassicas
   pests:
     - Flea Beetles
-    - Root Maggots
-    - Aphids
+    - Cabbage Root Maggots

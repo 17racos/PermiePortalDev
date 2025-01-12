@@ -1,53 +1,40 @@
 - common_name: Holy Basil
   picture: holybasil.jpg
-  scientific_name: Ocimum sanctum
+  scientific_name: Ocimum tenuiflorum
   aka:
     - Tulsi
     - Sacred Basil
-    - Hot Basil
     - Queen of Herbs
   family: Lamiaceae
   zone:
-    - '7'
-    - '8'
-    - '9'
-    - '10'
+    - 9
+    - 10
+    - 11
   perennial: true
   layers:
     - Herbaceous
   plant_function:
-    - Medicinal
     - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Pollinator
+    - Pest Management
   description: |-
-    Holy Basil, known as Tulsi in India, is a revered herb in Hinduism and traditional Ayurvedic medicine. It is an aromatic shrub that typically grows up to 3 feet tall, featuring square stems and ovate, green to purple leaves. The plant produces small, purplish flowers arranged in spikes. Holy Basil thrives in warm, sunny environments with well-drained soil and is sensitive to frost. Its leaves and seeds are used in various forms, including teas, tinctures, and essential oils, for their medicinal properties. :contentReference[oaicite:0]{index=0}
+    Holy Basil commonly known as Tulsi, is an aromatic perennial plant native to Southeast Asia. It typically grows to a height of 30–60 cm (12-24 inches) with hairy stems and green or purplish leaves that are ovate and slightly toothed. The plant produces purplish or white flowers arranged in close whorls on elongated racemes. Holy Basil thrives in full sun and prefers well-drained, moist, sandy loam soils with a neutral pH. It is sensitive to frost and grows best in warm climates. Propagation is commonly done through seeds, which should be sown after the last frost when soil temperatures are consistently above 21°C (70°F). Germination occurs within 1–2 weeks. Harvesting of leaves can begin once the plant has reached sufficient maturity, typically 40–60 days after sowing. Regular harvesting encourages bushier growth and prolongs the plant's productive period.
   purpose: |-
-    In permaculture, Holy Basil serves multiple roles:
-    - Medicinal Use: Traditionally used for its adaptogenic properties, helping the body cope with stress and supporting overall health.
-    - Aromatic Herb: Its strong aroma can deter pests and attract beneficial insects.
-    - Companion Planting: Beneficial when planted near certain vegetables to enhance growth and repel pests.
+    - Edible: Leaves are used in teas and culinary dishes, imparting a unique clove-like flavor.
+    - Medicinal: Employed in traditional medicine for its adaptogenic properties, aiding in stress relief and immune support.
+    - Wildlife Attractor: Flowers attract pollinators such as bees, enhancing garden biodiversity.
+    - Pest Management: Aromatic properties can deter certain pests, contributing to integrated pest management strategies.
   companions:
     - Tomatoes
-    - Marigolds
-    - Asparagus
-    - Chamomile
-    - Chives
-    - Oregano
-    - Borage
+    - Peppers
     - Eggplants
-    - Root vegetables (e.g., carrots, potatoes)
+    - Root vegetables
   avoid:
-    - Fennel
-    - Sage
     - Mint
     - Cucumbers
   pests:
     - Aphids
     - Whiteflies
     - Spider mites
-    - Japanese beetles
-    - Slugs
-    - Snails
-    - Leafhoppers
-    - Caterpillars
-    - Cutworms
-    - Root-knot nematodes

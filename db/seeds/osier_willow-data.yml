@@ -1,0 +1,44 @@
+- common_name: Osier Willow
+  picture: owillow.jpg
+  scientific_name: Salix viminalis
+  aka:
+    - Basket Willow
+    - Common Osier
+  family: Salicaceae
+  zone:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+  perennial: true
+  layers:
+    - Shrub
+    - Sub-canopy
+  plant_function:
+    - Wildlife Attractor
+    - Erosion Control
+    - Dynamic Accumulator
+    - Mulcher
+    - Windbreaker
+    - Border Plant
+  description: |-
+    Osier Willow is a deciduous shrub or small tree native to Europe and parts of Asia. It can grow up to 6–8 meters (20–26 feet) in height and has long, slender, and flexible stems, which are ideal for weaving. Its leaves are narrow and lance-shaped, with a silvery underside. Osier Willow thrives in full sun and tolerates a variety of soil types, including wet and poorly drained soils, making it well-suited for riparian zones. It is highly adaptable to temperate climates and is hardy in USDA zones 4 through 8. Propagation is typically done by hardwood cuttings, which root easily when planted in moist soil during dormancy. It can be coppiced annually to encourage vigorous growth and maximize stem production.
+  purpose: |-
+    - Wildlife Attractor: Provides habitat and food for birds, insects, and other wildlife.
+    - Erosion Control: Ideal for stabilizing riverbanks and preventing soil erosion due to its extensive root system.
+    - Dynamic Accumulator: Accumulates nutrients and improves soil structure.
+    - Mulcher: Coppiced stems can be used as mulch or incorporated into the soil for added organic matter.
+    - Windbreaker: Acts as a living windbreak in gardens and landscapes.
+    - Border Plant: Creates natural boundaries and screens due to its dense growth habit.
+  companions:
+    - Alder
+    - Poplar
+    - Sedges
+  avoid:
+    - None reported
+  pests:
+    - Aphids
+    - Willow beetles
+

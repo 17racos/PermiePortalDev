@@ -2,52 +2,43 @@
   picture: mint.jpg
   scientific_name: Mentha spp.
   aka:
-    - Spearmint (Mentha spicata)
     - Peppermint (Mentha × piperita)
-    - Garden Mint
-    - Common Mint
+    - Spearmint (Mentha spicata)
+    - Apple Mint (Mentha suaveolens)
   family: Lamiaceae
   zone:
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
-    - '10'
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
   perennial: true
   layers:
     - Herbaceous
-    - Groundcover
   plant_function:
     - Edible
     - Medicinal
-    - Wildlife Attractor
+    - Pollinator
     - Border Plant
     - Pest Management
   description: |-
-    Mint is a fast-growing, aromatic perennial herb known for its square stems, opposite leaves, and distinctive fragrance. The plant typically reaches heights of 30 to 60 cm (12 to 24 inches) and spreads vigorously through underground rhizomes, often forming dense mats. Leaves are bright to dark green, ovate, with serrated edges, and emit a characteristic minty aroma when crushed. In summer, mint produces small, tubular flowers ranging from white to purple, arranged in terminal spikes. It thrives in moist, well-drained soils rich in organic matter and prefers partial shade to full sun. Due to its aggressive growth habit, mint can become invasive if not managed properly.
+    Mint is a hardy perennial herb known for its aromatic leaves and vigorous growth. It typically reaches heights of 30–90 cm (1–3 feet) and spreads rapidly via underground rhizomes. The plant features square stems and serrated, fragrant leaves, with small flowers ranging from white to purple. Mint thrives in moist, well-drained soils rich in organic matter and prefers partial shade but can tolerate full sun. It requires consistent moisture, especially during warmer months. To propagate, take stem cuttings of 10–15 cm (4–6 inches) in length and root them in water or moist soil. Harvesting can begin once the plant has multiple stems that are 15–20 cm (6–8 inches) long, ideally before flowering to capture peak flavor. Regular harvesting encourages bushier growth and prevents the plant from becoming leggy. :contentReference[oaicite:0]{index=0}
   purpose: |-
-    - Edible: Mint leaves are widely used in culinary applications, including teas, salads, desserts, and as garnishes, imparting a fresh, cooling flavor.
-    - Medicinal: Traditionally, mint has been used to aid digestion, relieve headaches, and alleviate respiratory issues due to its menthol content.
-    - Wildlife Attractor: The flowers attract pollinators such as bees and butterflies, enhancing garden biodiversity.
-    - Ground Cover: Its dense growth habit makes mint effective for soil coverage, suppressing weeds, and retaining moisture.
-    - Border Plant: Mint can be used to define garden edges, though containment measures are recommended to control its spread.
-    - Pest Management: The strong scent of mint deters pests like aphids, ants, and whiteflies, making it a beneficial companion plant.
+    - Edible: Mint leaves are used fresh or dried in various culinary dishes, teas, and desserts, adding a refreshing flavor.
+    - Medicinal: Traditionally, mint has been used to alleviate digestive issues, headaches, and minor ailments due to its menthol content.
+    - Pollinator: The flowers attract pollinators such as bees and butterflies, enhancing garden biodiversity.
+    - Pest Management: Mint's strong scent deters pests like aphids, ants, and whiteflies, making it a beneficial companion plant.
+    - Border Plant: Its dense growth habit makes mint suitable for use as a border plant in gardens.
   companions:
     - Cabbage
     - Tomatoes
     - Beans
-    - Carrots
-    - Peas
-    - Broccoli
-    - Kale
   avoid:
     - Parsley
-    - Chamomile
   pests:
     - Aphids
     - Spider Mites
-    - Mint Rust
-    - Slugs
+    - Whiteflies

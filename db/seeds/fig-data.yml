@@ -1,20 +1,19 @@
-- common_name: Fig Tree
+- common_name: Fig
   picture: fig.jpg
   scientific_name: Ficus carica
   aka:
     - Common Fig
-    - Edible Fig
   family: Moraceae
   zone:
-    - '7'
-    - '8'
-    - '9'
-    - '10'
-    - '11'
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
   perennial: true
   layers:
     - Canopy
-    - Sub-Canopy
+    - Sub Canopy
   plant_function:
     - Edible
     - Medicinal
@@ -24,7 +23,7 @@
     - Windbreaker
     - Border Plant
   description: |-
-    The fig tree is a deciduous, multi-branched tree or shrub that can reach heights of 3–10 meters (10–33 feet). It has smooth, gray bark and large, lobed leaves that provide a distinctive silhouette. The tree produces unique, pear-shaped fruits known as figs, which are technically inverted flowers. Figs can vary in color from green to deep purple, depending on the variety. The tree thrives in warm, temperate, and subtropical climates and is known for its resilience and ability to grow in a variety of soil types, provided they are well-drained. Fig trees have a deep root system that aids in soil stabilization, making them useful for erosion control.
+    Ficus carica, commonly known as the fig, is a deciduous tree or large shrub that typically grows between 4 to 10 meters in height. It has smooth, white to gray bark and large, lobed leaves measuring 10–20 cm in length and width. The tree produces unique pear-shaped infructescences known as syconia, which house its flowers internally. These syconia mature into sweet, edible fruits ranging from green to purple hues, depending on the variety. Figs thrive in full sun and prefer organically rich, well-drained soils with a neutral to slightly acidic pH. They are drought-tolerant once established but benefit from regular watering during prolonged dry periods. Propagation is commonly achieved through hardwood cuttings taken during the dormant season. In warmer climates, figs can produce two harvests annually: an early crop (breba) in late spring and the main crop in late summer to early autumn. Fruits are best harvested when fully ripe, as they do not continue to ripen once picked.
   purpose: |-
     - Edible: Produces sweet, nutritious fruits consumed fresh, dried, or used in various culinary dishes.
     - Medicinal: Traditionally used for its laxative properties and to treat various ailments.
@@ -35,16 +34,13 @@
     - Border Plant: Can be used to define property lines or garden sections, providing both aesthetic and functional benefits.
   companions:
     - Comfrey
-    - Chives
-    - Chamomile
-    - Peas
-    - Alpine Strawberries
-    - Parsley
+    - Lavender
+    - Rosemary
+    - Marigold
   avoid:
-    - Walnut
     - Eucalyptus
+    - Walnut
   pests:
-    - Fig Wasps
     - Aphids
-    - Scale Insects
-    - Nematodes
+    - Root-knot nematodes
+    

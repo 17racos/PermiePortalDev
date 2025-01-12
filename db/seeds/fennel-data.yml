@@ -6,13 +6,14 @@
     - Finocchio
   family: Apiaceae
   zone:
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
-    - '10'
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
   perennial: true
   layers:
     - Herbaceous
@@ -20,28 +21,28 @@
     - Edible
     - Medicinal
     - Wildlife Attractor
-    - Pollinator
     - Dynamic Accumulator
+    - Mulcher
     - Pest Management
   description: |-
-    Fennel is a perennial herb native to the Mediterranean region, characterized by its feathery, aromatic leaves and yellow flowers. It can grow up to 5 feet tall and thrives in well-drained soils under full sun. The plant has a distinct anise-like flavor, and all parts—including the bulb, leaves, and seeds—are edible. Fennel is known for its allelopathic properties, which can inhibit the growth of certain other plants.
+    Fennel is a hardy perennial herb native to the Mediterranean but now cultivated worldwide. It features feathery, bluish-green leaves, hollow stems, and yellow umbrella-like flower clusters. The plant emits a distinct anise or licorice-like aroma and flavor. Fennel thrives in full sun and well-drained soils, preferring sandy or loamy substrates. It is drought-tolerant once established but benefits from regular watering during prolonged dry periods. Propagation is typically achieved through direct sowing of seeds in early spring after the last frost, with seedlings thinned to about 30 cm (12 inches) apart. The bulbs, which are actually swollen leaf bases, are ready for harvest approximately 90 days after planting, just before the plant flowers. Leaves and seeds can be harvested as needed; seeds are best collected when they turn brown and dry on the plant.
   purpose: |-
-    In permaculture, fennel serves multiple purposes: its edible parts are used in various culinary dishes; medicinally, it has been traditionally used to aid digestion and relieve bloating; it attracts beneficial wildlife, including pollinators like bees and butterflies, enhancing biodiversity; as a dynamic accumulator, it draws up nutrients from deep soil layers, enriching the topsoil; and its strong aroma can help in pest management by deterring certain insects.
+    - Edible: All parts of fennel are edible. The bulbs are consumed as a vegetable, leaves as herbs, and seeds as spices. The plant imparts a mild licorice flavor to dishes.
+    - Medicinal: Traditionally used to aid digestion, reduce bloating, and as a remedy for respiratory ailments.
+    - Wildlife Attractor: Fennel flowers attract beneficial insects, including bees, parasitic wasps, and hoverflies, enhancing pollination and pest control in the garden.
+    - Dynamic Accumulator: Fennel accumulates minerals like sulfur and potassium, enriching the soil when plant residues decompose.
+    - Mulcher: The plant's biomass can be used as mulch to suppress weeds and retain soil moisture.
+    - Pest Management: By attracting predatory insects, fennel helps manage pest populations naturally.
   companions:
     - Dill
-    - Sage
-    - Marigold
+    - Coriander
+    - Wormwood
     - Nasturtium
-    - Lavender
   avoid:
-    - Tomatoes
     - Beans
-    - Broccoli
-    - Carrots
-    - Peas
+    - Tomatoes
+    - Kohlrabi
   pests:
     - Aphids
     - Whiteflies
-    - Slugs
-    - Snails
-    - Swallowtail Caterpillars
+    - Root-knot nematodes

@@ -2,18 +2,18 @@
   picture: elderberry.jpg
   scientific_name: Sambucus nigra
   aka:
-    - Black Elder
-    - European Elder
-    - Elder
+    - Common Elderberry
+    - European Elderberry
+    - American Elderberry (Sambucus canadensis)
   family: Adoxaceae
   zone:
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
   perennial: true
   layers:
     - Shrub
@@ -27,24 +27,21 @@
     - Pollinator
     - Border Plant
   description: |-
-    Elderberry is a fast-growing deciduous shrub or small tree, reaching heights of 2 to 6 meters (6 to 20 feet). It features compound leaves with 5 to 9 leaflets, each serrated along the edges. In late spring to early summer, it produces large, flat clusters of tiny white or cream-colored flowers, followed by clusters of small, dark purple to black berries in late summer to early autumn. Elderberries thrive in moist, well-drained soils and can tolerate a range of soil types, including clay and sandy soils. They prefer full sun to partial shade and are often found in riparian zones, forest edges, and disturbed areas. The plant's rapid growth and ability to sucker from the base make it effective for naturalizing and forming thickets.
+    Elderberry is a deciduous shrub native to Europe and North America, typically reaching heights of 3–4 meters (10–13 feet). It features pinnate leaves with 5–7 leaflets and produces clusters of small, white to cream-colored flowers in late spring to early summer. These are followed by dark purple to black berries in late summer to early autumn. Elderberries prefer full sun to partial shade and thrive in moist, well-drained soils. They are tolerant of a range of soil types, including clay and sandy soils. Propagation is commonly achieved through hardwood cuttings taken during dormancy or by sowing seeds after stratification. Harvest flowers when they are fully open, and pick berries when they are fully ripe and dark in color.
   purpose: |-
-    - Edible: Elderberries and flowers are used in culinary applications, including jams, jellies, wines, and syrups. Note that raw berries and other parts of the plant contain compounds that can be toxic if ingested; cooking or processing is necessary to make them safe for consumption.
-    - Medicinal: Traditionally, elderberries have been used for their immune-boosting properties and to alleviate cold and flu symptoms. Elderflowers are also used in herbal remedies for their anti-inflammatory and diuretic effects.
-    - Wildlife Attractor: The flowers attract pollinators such as bees and butterflies, while the berries provide food for various bird species and mammals.
-    - Erosion Control: Elderberry's extensive root system helps stabilize soil, making it useful for controlling erosion on banks and slopes.
-    - Windbreaker: When planted in groups, elderberries can serve as a windbreak, protecting other plants and reducing soil desiccation.
+    - Edible: Elderberries are used in jams, jellies, syrups, and wines. Note that raw berries and other parts of the plant can be toxic and should be cooked before consumption.
+    - Medicinal: Traditionally used to support immune function and treat colds and flu symptoms. Elderflowers are also used in herbal remedies.
+    - Wildlife Attractor: Flowers attract pollinators like bees and butterflies, while berries provide food for birds and other wildlife.
+    - Erosion Control: The extensive root system helps stabilize soil, making it useful for erosion control on banks and slopes.
+    - Windbreaker: Can be planted as part of a windbreak due to its dense growth habit.
     - Pollinator: The abundant flowers provide a nectar source for pollinators, supporting biodiversity in the ecosystem.
-    - Border Plant: Elderberries can be used as a natural hedge or border plant in permaculture designs, delineating spaces while providing multiple functions.
+    - Border Plant: Often used in hedgerows and as a border plant in permaculture designs.
   companions:
     - Yarrow
-    - Clover
+    - Bee Balm
     - Mint
-    - Comfrey
-    - Wild Strawberries
   avoid:
-    - Walnut
-    - Fennel
+    - None specifically noted
   pests:
     - Aphids
     - Borers

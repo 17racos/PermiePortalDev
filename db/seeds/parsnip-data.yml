@@ -2,17 +2,15 @@
   picture: parsnip.jpg
   scientific_name: Pastinaca sativa
   aka:
-    - None
+    - Wild Parsnip
   family: Apiaceae
   zone:
-    - '2'
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
   perennial: false
   layers:
     - Root
@@ -20,21 +18,23 @@
   plant_function:
     - Edible
     - Dynamic Accumulator
-    - Groundcover
+    - Mulcher
+    - Pest Management
   description: |-
-    Parsnips are biennial plants typically grown as annuals for their sweet, nutty-flavored taproots. They feature pinnate, feathery green leaves and produce elongated, cream-colored roots that can grow up to 12 inches long. If allowed to overwinter, parsnips develop small, yellow umbrella-shaped flowers in their second year. They prefer deep, well-drained soils and thrive in cooler climates, with their flavor often improving after exposure to light frosts.
+    Parsnips are biennial root vegetables grown for their long, tapered, white to cream-colored roots. The plant reaches up to 1.5 meters (5 feet) in height if left to flower in its second year. It prefers full sun and fertile, well-drained soils with a pH between 6.0 and 7.0. Parsnips require consistent moisture, especially during germination, which can take up to 21 days. Sowing seeds directly into the soil in early spring, approximately 1 cm (0.4 inches) deep and spaced 5–7 cm (2–3 inches) apart, is the most common propagation method. Harvest occurs in late autumn to early winter after frost, which enhances the root's sweetness. Roots are typically 20–30 cm (8–12 inches) long when mature.
   purpose: |-
-    In permaculture, parsnips are valued for their edible roots and their role as dynamic accumulators, drawing nutrients from deeper soil layers to the surface. Their deep taproots help break up compacted soil, enhancing soil structure and aeration. Additionally, parsnips can serve as groundcover, suppressing weed growth and protecting the soil surface. When left to flower, they attract beneficial insects, contributing to pest management and biodiversity in the garden.
+    - Edible: A versatile root vegetable used in soups, stews, roasts, and purees, offering a sweet and nutty flavor.
+    - Dynamic Accumulator: Extracts nutrients like potassium from deep soil layers, enriching the topsoil when decomposed.
+    - Mulcher: Chopped leaves can be used as mulch, adding organic matter to the soil.
+    - Pest Management: Attracts beneficial predatory insects such as parasitic wasps when left to flower.
   companions:
     - Onions
     - Garlic
-    - Peas
-    - Radishes
-    - Lettuce
-  avoid:
     - Carrots
+  avoid:
     - Celery
+    - Dill
   pests:
-    - Carrot Rust Fly
+    - Carrot rust fly
     - Aphids
-    - Parsnip Canker
+    - Parsnip canker

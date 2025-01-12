@@ -2,42 +2,58 @@
   picture: persimmon.jpg
   scientific_name: Diospyros spp.
   aka:
-    - Kaki
-    - Sharon Fruit
+    - American Persimmon (Diospyros virginiana)
+    - Japanese Persimmon (Diospyros kaki)
   family: Ebenaceae
   zone:
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
   perennial: true
   layers:
     - Canopy
-    - Sub-canopy
   plant_function:
     - Edible
     - Wildlife Attractor
-    - Erosion Control
     - Animal Fodder
-    - Pollinator
+    - Erosion Control
+    - Border Plant
   description: |-
-    Persimmon trees are deciduous, medium-sized trees known for their sweet, orange-colored fruits. They can grow up to 25 feet in height and spread, featuring broad, ovate leaves that turn vibrant colors in the fall. The tree produces small, bell-shaped flowers, which develop into the distinctive fleshy fruits. Persimmons are adaptable to various soil types but prefer well-drained, slightly acidic soils. They are drought-tolerant once established and can withstand a range of temperatures, making them suitable for diverse climates.
+    Persimmon trees are deciduous trees known for their sweet, orange, or red fruits. They can grow to heights of 10–20 meters (30–65 feet) with a broad canopy, depending on the variety. The tree has a striking, blocky bark and oval-shaped green leaves that turn bright orange and red in autumn. It produces fragrant white or cream-colored flowers in spring, which develop into the fruit.
+
+    Sun and Water Requirements:
+    - Sun: Thrives in full sun but can tolerate light shade.
+    - Water: Requires well-drained soil and moderate watering. Drought-tolerant once established.
+
+    Propagation:
+    - Seeds: Plant fresh seeds in autumn or stratify them for spring planting.
+    - Grafting: Commonly used for cultivars to ensure high fruit quality.
+    - Cuttings: Can be propagated through hardwood cuttings.
+
+    Harvesting:
+    - Timing: Fruits are typically harvested in late autumn to early winter. Harvest when the fruit is soft and fully ripened, as unripe persimmons are highly astringent.
+    - Method: Hand-pick ripe fruits or gather those that naturally fall to the ground.
+
   purpose: |-
-    In permaculture, persimmon trees provide multiple benefits. Their edible fruits are rich in vitamins and can be consumed fresh or dried. The trees attract wildlife, including birds and beneficial insects, enhancing biodiversity. Their root systems help in erosion control, stabilizing soil on slopes. Additionally, fallen fruits can serve as fodder for animals, and the flowers attract pollinators, supporting the overall health of the ecosystem.
+    - Edible: Produces sweet fruits used fresh or in baked goods, jams, and desserts.
+    - Wildlife Attractor: Fruits are a food source for birds, deer, and other wildlife.
+    - Animal Fodder: Leaves and fruits can be used as supplementary livestock feed.
+    - Erosion Control: Deep root systems stabilize soil and prevent erosion on slopes.
+    - Border Plant: Functions as a natural windbreak or garden boundary.
+
   companions:
-    - Comfrey
-    - Borage
     - Clover
-    - Bee Balm
+    - Comfrey
     - Garlic
+    - Borage
   avoid:
     - Black Walnut
     - Corn
-    - Potatoes
   pests:
-    - Persimmon Trunk Borer
-    - Aphids
+    - Persimmon Psylla
     - Scale Insects
-    - Spider Mites
+    - Twig Girdlers
+    - Leafrollers

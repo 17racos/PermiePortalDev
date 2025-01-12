@@ -1,52 +1,48 @@
----
 - common_name: Strawberry
   picture: strawberry.jpg
   scientific_name: Fragaria × ananassa
   aka:
-  - Wild strawberry Fragaria vesca 
-  - Virginia strawberry Fragaria virginiana
-  - Chilean/Beach strawberry Fragaria chiloensis
+  - Garden Strawberry
+  - Alpine Strawberry (Fragaria vesca)
+  - Wild Strawberry (Fragaria virginiana)
   family: Rosaceae
-  zone:
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '10'
+  zone: 
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
   perennial: true
   layers:
-  - Groundcover
+  - Ground cover
   - Root
   plant_function:
   - Edible
-  - Wildlife Attractor
   - Pollinator
+  - Wildlife Attractor
   - Border Plant
-  description: Strawberries are low-growing perennials that produce small, sweet red
-    fruit. The plants are well known for their ability to produce fruit quickly, making
-    them a popular choice for home gardens and commercial farms alike. They grow in
-    a rosette pattern, with leaves that are serrated and green, and produce runners
-    that can spread to form new plants. The fruits are highly nutritious, packed with
-    vitamin C, antioxidants, and fiber.
-  purpose: Strawberries serve both as a highly nutritious food crop and as a soil
-    cover, preventing erosion. They are also attractive to pollinators and beneficial
-    insects. Strawberries can be used in culinary dishes, juices, desserts, and preserves.
-  companions:
-  - Beans
-  - Borage
-  - Lettuce
-  - Spinach
-  - Peas
+  description: |-
+    Strawberry plants are low-growing perennials that form rosettes and send out runners. They typically reach a height of 15–30 cm (6–12 inches) and spread widely through stolons. The plant produces white or pink flowers, followed by red, fleshy, and sweet fruits that are widely appreciated.
+    Strawberries prefer full sun and well-drained, loamy soils with a slightly acidic pH (5.5–6.5). They require regular watering, but overwatering can lead to root rot. Propagation is usually done through runners, but they can also be grown from seeds. Harvest occurs in late spring to early summer, depending on the variety and region. Fruits are best picked when fully ripe.
+  purpose: |-
+    Strawberry plants are highly versatile and beneficial in permaculture:
+    - Edible: The fruits are rich in vitamins, antioxidants, and dietary fiber, making them a valuable food source.
+    - Pollinator: Flowers attract bees and other pollinating insects.
+    - Wildlife Attractor: Birds and small mammals are drawn to the fruits and plants, contributing to the local ecosystem.
+    - Border Plant: Used as an aesthetic and functional border in gardens and permaculture systems.
+  companions: 
+    - Lettuce
+    - Spinach
+    - Borage
+    - Legumes
   avoid:
   - Cabbage
-  - Eggplant
-  - Kale
   - Brassicas
-  pests:
+  - Fennel
+  pests: 
   - Slugs
   - Aphids
   - Spider Mites
-  - Whiteflies.

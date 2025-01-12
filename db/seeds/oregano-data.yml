@@ -3,15 +3,16 @@
   scientific_name: Origanum vulgare
   aka:
     - Wild Marjoram
-    - Pot Marjoram
+    - European Oregano
   family: Lamiaceae
   zone:
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
-    - '10'
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
   perennial: true
   layers:
     - Herbaceous
@@ -19,29 +20,26 @@
   plant_function:
     - Edible
     - Medicinal
-    - Wildlife Attractor
     - Pollinator
+    - Wildlife Attractor
     - Border Plant
     - Pest Management
   description: |-
-    Oregano (*Origanum vulgare*) is a perennial herb native to the Mediterranean region, characterized by its aromatic, slightly hairy leaves and small, purple or white flowers. It typically grows to a height of 1 to 2 feet (30 to 60 cm) and spreads about 18 inches (45 cm) wide. Oregano thrives in well-drained soil with full sun exposure and is drought-tolerant once established. Its robust flavor and fragrance make it a staple in culinary dishes, particularly in Italian and Greek cuisines.
+    Oregano is a hardy perennial herb native to the Mediterranean region. It typically grows to heights of 20–80 cm (8–31 inches) and spreads to a similar width. The plant has small, aromatic leaves and produces tiny purple or pink flowers in clusters during summer. Oregano thrives in full sun and well-drained soils with a pH between 6.0 and 8.0. It is drought-tolerant once established and requires minimal watering. Propagation is achieved through seeds, cuttings, or division. Seeds should be sown 6 mm (0.25 inches) deep and kept moist until germination occurs, typically within 7–14 days. Leaves can be harvested once the plant is well-established, usually 8–10 weeks after planting. Harvesting just before flowering ensures the highest essential oil content.
   purpose: |-
-    - **Edible**: Leaves are used fresh or dried to flavor a variety of dishes, including sauces, soups, and meats.
-    - **Medicinal**: Traditionally used for its antimicrobial and antioxidant properties; oregano oil is popular in herbal medicine.
-    - **Wildlife Attractor**: Flowers attract bees, butterflies, and other beneficial insects, supporting pollination.
-    - **Pollinator**: Serves as a nectar source for various pollinating insects.
-    - **Border Plant**: Its compact growth habit makes it suitable for edging garden beds and pathways.
-    - **Pest Management**: Emits aromatic compounds that can deter certain pests; beneficial in companion planting.
+    - Edible: A popular culinary herb used fresh or dried in sauces, marinades, and salads for its savory flavor.
+    - Medicinal: Known for its antimicrobial and antioxidant properties, oregano is used in teas and oils to support respiratory health and digestion.
+    - Pollinator: The flowers attract bees and other pollinators, enhancing garden biodiversity.
+    - Wildlife Attractor: Provides nectar for beneficial insects like butterflies.
+    - Border Plant: Its compact growth makes it suitable for edging pathways or garden beds.
+    - Pest Management: The strong scent deters pests like aphids and mosquitoes, and it can be planted near vegetables to provide natural protection.
   companions:
-    - Rosemary
-    - Sage
-    - Thyme
     - Tomatoes
     - Peppers
+    - Eggplants
   avoid:
-    - Basil
     - Cucumbers
+    - Mint
   pests:
     - Aphids
     - Spider Mites
-    - Root Rot (in poorly drained soils)

@@ -2,47 +2,53 @@
   picture: apple.png
   scientific_name: Malus domestica
   aka:
-    - Malus
-    - Crabapple
+    - Crabapple (Malus sylvestris)
+    - Wild Apple (Malus sieversii)
   family: Rosaceae
-  zone:
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
+  zone: [3, 4, 5, 6, 7, 8]
   perennial: true
   layers:
     - Canopy
+    - Sub-Canopy
   plant_function:
     - Edible
+    - Medicinal
     - Wildlife Attractor
+    - Erosion Control
     - Pollinator
-    - Animal Fodder
-    - Windbreaker
+    - Border Plant
+    - Pest Management
   description: |-
-    Apple trees are deciduous trees known for their sweet, crisp fruits. They typically grow to a height of 15 to 30 feet and have a rounded canopy. The leaves are oval with serrated edges, and the flowers are usually white or pink, blooming in spring. Apples are harvested in late summer to early fall, depending on the variety. Unique features include their ability to cross-pollinate with other apple varieties, enhancing fruit yield and quality.
+    Apple trees are deciduous, typically reaching heights of 10 to 30 feet (3 to 9 meters) with a similar spread. They have a rounded canopy with ovate leaves and produce fragrant white to pink blossoms in spring, followed by fruit maturing in late summer to fall. Apple trees require full sun and well-drained soil with a pH between 6.0 and 7.0. Regular watering is essential, especially during dry periods. Propagation is commonly achieved through grafting to maintain cultivar characteristics. Harvesting times vary by variety but generally occur from late summer to late fall when the fruit is firm and crisp.
   purpose: |-
-    In permaculture, apple trees serve multiple functions: they provide food for humans and wildlife, attract pollinators, and can be integrated into guilds to support soil health and biodiversity. Their deep roots can help break up compacted soil, and their fallen leaves can be used as mulch to enrich the soil.
-  companions:
+    In permaculture, apple trees serve multiple functions:
+    - Edible: Provide a reliable source of nutritious fruit for fresh consumption, cooking, and preservation.
+    - Medicinal: Apples contain antioxidants and dietary fiber, contributing to overall health.
+    - Wildlife Attractor: Flowers attract pollinators; fallen fruit provides food for various animals.
+    - Erosion Control: Root systems help stabilize soil, reducing erosion.
+    - Pollinator Support: Blossoms offer nectar and pollen for bees and other pollinators.
+    - Border Plant: Can define property lines or garden sections.
+    - Pest Management: Certain companion plants can be grown nearby to deter pests naturally.
+  companions: 
     - Comfrey
+    - Nasturtium
     - Chives
     - Garlic
-    - Nasturtium
+    - Daffodils
     - Clover
     - Yarrow
-    - Daffodils
+    - Lemon Balm
+    - Dill
+    - Fennel
   avoid:
-    - Black Walnut
-    - Potatoes
-    - Tomatoes
-    - Peppers
-    - Grasses
-  pests:
+    - Walnut
+    - Tomato
+    - Potato
+    - Pepper
+    - Eggplant
+  pests: 
     - Codling Moth
     - Apple Maggot
     - Aphids
-    - Japanese Beetles
-    - Spider Mites
+    - Fire Blight
+    - Apple Scab

@@ -2,76 +2,53 @@
   picture: sunflower.jpg
   scientific_name: Helianthus annuus
   aka:
-    - Common Sunflower
-    - Annual Sunflower
-    - Wild Sunflower
+  - Common Sunflower
+  - Wild Sunflower
   family: Asteraceae
-  zone:
-    - '2'
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
-  perennial: true
+  zone: 
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+  perennial: false
   layers:
-    - Herbaceous
-    - Groundcover
+  - Herbaceous
   plant_function:
-    - Edible
-    - Medicinal
-    - Nitrogen Fixer
-    - Wildlife Attractor
-    - Mulcher
-    - Dynamic Accumulator
-    - Erosion Control
-    - Animal Fodder
-    - Windbreaker
-    - Pollinator
-    - Border Plant
-    - Pest Management
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  - Dynamic Accumulator
+  - Mulcher
+  - Border Plant
   description: |-
-    Sunflowers are tall, annual plants known for their large, bright yellow flowers that resemble the sun. They typically grow between 5 to 12 feet tall, depending on the variety, and have broad, rough, heart-shaped leaves. The plant's stem is sturdy and can support the heavy flower heads, which are actually clusters of small florets arranged in a spiral pattern. Sunflowers are heliotropic during their early stages, meaning they turn to face the sun throughout the day. They thrive in full sun and well-drained soil, making them a popular choice for gardens and agricultural fields. Beyond their ornamental value, sunflowers are cultivated for their seeds, which are used for human consumption, oil extraction, and as bird feed. The seeds are rich in healthy fats, proteins, and essential nutrients. Additionally, sunflowers are known to attract pollinators like bees and butterflies, contributing to the overall health of the garden ecosystem. :contentReference[oaicite:1]{index=1}
+    Sunflowers are annual plants that can grow to heights ranging from 1.5–3.5 meters (5–12 feet), depending on the variety. They have thick, rough stems, large, heart-shaped leaves, and iconic yellow petals surrounding a dark central disk. Sunflowers thrive in full sun and are drought-tolerant, although they grow best with moderate watering. They prefer well-drained, nutrient-rich soils with a neutral to slightly acidic pH (6.0–7.5). 
+    Propagation is done through direct seeding in spring after the last frost. Seeds germinate in 7–10 days, and flowers bloom in summer. Harvesting can occur when the seed heads turn brown, and seeds are firm and fully developed.
   purpose: |-
-    - Edible: Sunflower seeds are consumed by humans and animals alike, providing a nutritious snack.
+    Sunflowers offer multiple benefits in permaculture:
+    - Edible: Seeds are rich in protein, healthy fats, and vitamins, making them a valuable food source for humans and animals.
     - Medicinal: Traditionally used to treat respiratory issues and as a mild diuretic.
-    - Nitrogen Fixer: Enhances soil fertility by converting atmospheric nitrogen into a form usable by plants.
-    - Wildlife Attractor: Attracts birds and beneficial insects, enhancing biodiversity.
-    - Mulcher: When incorporated into the soil, sunflower residues add organic matter, improving soil health.
-    - Dynamic Accumulator: Mobilizes nutrients from deep in the soil, making them available to other plants.
-    - Erosion Control: The deep root system helps prevent soil erosion.
-    - Animal Fodder: Leaves and stems can be used as forage for livestock.
-    - Windbreaker: Tall sunflowers can act as natural barriers against wind.
-    - Pollinator: Flowers attract bees and other beneficial insects.
-    - Border Plant: Can be used to define garden beds or pathways.
-    - Pest Management: Helps manage pests by attracting beneficial insects that prey on harmful ones.
-    - Ground cover: Suppresses weeds and retains soil moisture.
-  companions:
-    - Cucumbers
-    - Beans
-    - Lettuce
+    - Pollinator: Flowers attract bees, butterflies, and other pollinators.
+    - Wildlife Attractor: Seeds provide food for birds and small mammals, while the plants offer habitat.
+    - Dynamic Accumulator: Deep taproots pull nutrients like phosphorus and potassium from the soil, enriching the topsoil when decomposed.
+    - Mulcher: Stalks and leaves can be composted or used as organic mulch.
+    - Border Plant: Serves as a natural fence or windbreak, while adding beauty to the landscape.
+  companions: 
+    - Corn
+    - Legumes
     - Spinach
-    - Marigolds
-    - Basil
-    - Chives
-    - Dill
-    - Nasturtiums
-    - Zinnias
+    - Cucumbers
   avoid:
-    - Potatoes
-    - Carrots
-    - Rhubarb
-    - Turnips
-  pests:
+  - Potatoes
+  - Carrots
+  pests: 
     - Aphids
     - Caterpillars
     - Whiteflies
     - Japanese beetles
     - Cutworms
-    - Leafhoppers
-    - Spider mites
-    - Flea beetles
-    - Root maggots
-    - Corn earworms

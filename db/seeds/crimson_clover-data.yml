@@ -2,55 +2,44 @@
   picture: crimsonclover.jpg
   scientific_name: Trifolium incarnatum
   aka:
-    - 
+    - Italian clover
   family: Fabaceae
   zone:
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
+    - 4  
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
   perennial: false
   layers:
-    - Groundcover
+    - herbaceous
   plant_function:
     - Nitrogen Fixer
-    - Pollinator
-    - Erosion Control
-    - Ground cover
-    - Mulcher
-    - Dynamic Accumulator
-    - Animal Fodder
-    - Windbreaker
-    - Edible
     - Wildlife Attractor
-    - Pest Management
+    - Erosion Control
+    - Animal Fodder
+    - Pollinator
+    - Mulcher
     - Border Plant
   description: |-
-    Crimson clover is a cool-season annual legume known for its vibrant red, conical flowers and trifoliate leaves. It typically grows to a height of 20–50 cm 8–20 inches and is commonly used as a cover crop due to its nitrogen-fixing abilities. It thrives in well-drained soil and can grow in a variety of climates, but it is sensitive to frost. The plant’s dense growth helps to suppress weeds, reduce soil erosion, and attract pollinators like bees and butterflies. Its leaves and flowers are also edible and can be used in salads or as garnishes.
+    Crimson clover is an upright annual herb that grows to 20–50 cm (8–20 inches) tall, unbranched or branched only at the base. The leaves are trifoliate with a long petiole; each leaflet is hairy, measuring 8–16 mm across, with a truncated or bilobed apex. The plant produces rich red or crimson flowers throughout the spring and summer, arranged in elongated spike inflorescences 3–5 cm tall and 1.5 cm broad. Individual flowers are up to 10–13 mm long and have five petals. The plant thrives in full sun and prefers well-drained, sandy loam soils. It requires moderate water and is drought-tolerant once established. Propagation is typically through seed, sown in late summer or early autumn. Seeds should be planted at a depth of 6–12 mm (0.25–0.5 inches). In mild winter areas, seeds germinate with the first rains of late summer or autumn, and plants grow through the winter, blooming in late spring. Harvesting for forage should occur when flowers are in full bloom to maximize nutritional value.
   purpose: |-
-    - Nitrogen Fixer: Enriches the soil by converting atmospheric nitrogen into a form usable by plants.
-    - Pollinator: Attracts beneficial insects, enhancing biodiversity.
-    - Erosion Control: Prevents soil erosion through its dense groundcover.
-    - Ground Cover: Suppresses weeds and retains soil moisture.
-    - Mulcher: Adds organic matter to the soil, improving soil health.
-    - Dynamic Accumulator: Mobilizes deep nutrients for other plants to use.
-    - Animal Fodder: Provides forage for livestock.
-    - Windbreaker: Acts as a natural barrier against wind.
-    - Edible: Young leaves and flowers are edible and can be used in cooking.
-    - Wildlife Attractor: Attracts wildlife, including birds and insects.
-    - Pest Management: Helps manage pests by attracting beneficial insects.
-    - Border Plant: Defines garden beds or pathways.
+    - Nitrogen Fixer: As a legume, crimson clover forms symbiotic relationships with Rhizobium bacteria, fixing atmospheric nitrogen into the soil, enhancing fertility for subsequent crops.
+    - Wildlife Attractor: The abundant nectar-rich flowers attract various pollinators, including bees and butterflies, supporting local ecosystems. 
+    - Erosion Control: Its dense root system stabilizes soil, reducing erosion, making it suitable for cover cropping and roadside planting.
+    - Animal Fodder: Crimson clover is widely grown as a protein-rich forage crop for livestock and is suitable for hay production.
+    - Pollinator: The showy, deep red blossoms produce abundant nectar, attracting various types of bees and other pollinators.
+    - Mulcher: When used as a cover crop, it can be mowed or incorporated into the soil, providing organic matter and acting as a natural mulch.
+    - Border Plant: Can be used to define pathways.
   companions:
-    - Oats
-    - Barley
-    - Rye
-    - Mustard
-    - Buckwheat
+    - tomatoes
+    - corn
+    - cotton
+    - grain sorghum
   avoid:
-    - 
+    - none reported
   pests:
-    - Aphids
-    - Clover mites
-    - Root-knot nematodes
+    - clover weevils
+    - crown rot
+    - stem rot

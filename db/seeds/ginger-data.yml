@@ -1,45 +1,39 @@
----
 - common_name: Ginger
   picture: ginger.jpg
   scientific_name: Zingiber officinale
   aka:
-  - Canton ginger
-  - Common ginger
+    - Common ginger
   family: Zingiberaceae
   zone:
-  - '9'
-  - '10'
-  - '11'
+    - 9
+    - 10
+    - 11
   perennial: true
   layers:
-  - Herbaceous
-  - Root
+    - Herbaceous
+    - Root
   plant_function:
-  - Culinary
-  - Medicinal
-  - Aromatic
-  - Border Plant
-  - Winbreaker
-  - Mulcher
-  - Pest Control
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
   description: |-
-    Ginger is a flowering plant in the Zingiberaceae family, native to Southeast Asia. It is widely cultivated for its rhizomes, which are used as a spice and in traditional medicine.
-
-    Description:
-    - Size: Ginger plants grow to about 1 meter (3 feet) tall, with annual leafy stems.
-    - Leaves: The leaves are narrow, 15 to 30 cm (6 to 12 inches) long, and arranged alternately.
-    - Flowers: Ginger produces dense, conelike spikes of pale yellow flowers with purple edges.
-    - Rhizomes: The edible rhizomes are knobby, aromatic underground stems.
-  purpose: Ginger adds a zesty flavor to various dishes and is a key ingredient in
-    many cuisines. It has been used in traditional medicine for its potential health
-    benefits, including anti-inflammatory and antioxidant properties. Ginger's essential
-    oil is used in perfumes and as a flavoring agent.
+    Ginger is a perennial herbaceous plant known for its aromatic rhizomes used in culinary and medicinal applications. It features upright stems with narrow, lanceolate leaves measuring approximately 15–30 cm (6–12 inches) in length. The plant produces yellow-green flowers, though it rarely blooms outside tropical climates. Ginger thrives in warm, humid environments with filtered sunlight, making it suitable for USDA zones 9–11. It prefers well-drained, fertile soils rich in organic matter, with a pH between 5.5 and 6.5. Propagation is typically achieved by planting healthy rhizome sections with visible buds, placing them 5–10 cm (2–4 inches) deep and spacing them 20–30 cm (8–12 inches) apart. Consistent moisture is essential, but overwatering should be avoided to prevent rot. Mulching helps retain soil moisture and suppress weeds. Harvesting can commence approximately 8–10 months after planting when the foliage begins to yellow and die back. Carefully dig up the rhizomes, which can vary in size but typically measure around 10–15 cm (4–6 inches) in length.
+  purpose: |-
+    - Edible: Ginger rhizomes are widely used as a spice in various cuisines, imparting a distinctive flavor to dishes, beverages, and confections.
+    - Medicinal: Traditionally utilized for its anti-inflammatory and digestive properties, ginger is employed to alleviate nausea, improve digestion, and reduce muscle pain.
+    - Wildlife Attractor: In tropical regions, ginger flowers can attract pollinators, contributing to local biodiversity.
+    - Mulcher: The plant's foliage can be used as mulch to improve soil fertility and moisture retention.
+    - Dynamic Accumulator: Ginger accumulates nutrients from the soil, which can be returned to the system when its biomass decomposes.
   companions:
-  - Lettuces
-  - Spinach
+    - Pigeon Pea
+    - Turmeric
+    - Galangal
+    - Cardamom
   avoid:
-  - Rosemary  
+    - None reported
   pests:
-  - Aphids
-  - Whiteflies
-  - Spider mites 
+    - Rhizome Scale
+    - Shoot Borer
+    - Root-Knot Nematodes

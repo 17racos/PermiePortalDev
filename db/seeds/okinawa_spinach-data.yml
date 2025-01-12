@@ -1,43 +1,39 @@
 - common_name: Okinawa Spinach
   picture: ospinach.png
-  scientific_name: Gynura bicolor
+  scientific_name: Gynura crepioides
   aka:
-    - Hong Tsoi
-    - Okinawa Lettuce
-    - Cholesterol Spinach
-    - Handama
-    - Purple Spinach
+    - Hong tsoi
+    - Okinawa lettuce
+    - Cholesterol spinach
   family: Asteraceae
   zone:
-    - '9'
-    - '10'
-    - '11'
+    - 9
+    - 10
+    - 11
   perennial: true
   layers:
     - Groundcover
-    - Herbaceous
   plant_function:
     - Edible
     - Medicinal
-    - Border Plant
     - Wildlife Attractor
+    - Border Plant
   description: |-
-    Okinawa Spinach is a perennial leafy vegetable native to Southeast Asia, particularly Indonesia and Japan. It forms a dense, low-growing bush up to 70 cm (28 inches) in height. The plant is notable for its vibrant, bicolored leaves—dark green on the upper surface and purple underneath—making it both an ornamental and functional addition to gardens. It thrives in warm, humid climates and is sensitive to frost. Preferring well-drained, fertile soils with a pH between 6.1 and 6.5, it grows best in full sun to partial shade. The plant produces small orange flowers, although it is primarily cultivated for its nutritious foliage. Propagation is typically achieved through cuttings, as cultivated forms are often sterile.
+    Okinawa Spinach is a dense, low-growing perennial reaching up to 70 cm (27.5 inches) in height. Its shiny leaves are dark green on top with vibrant purple undersides, making it an attractive addition to gardens. The plant produces small orange flowers that can attract beneficial insects. Thriving in warm, humid conditions, it prefers full sun to partial shade and well-drained, fertile soil with ample organic matter. Regular watering is essential, as it is not drought-tolerant. Propagation is typically done through cuttings; stems of 10–20 cm (4–8 inches) can be rooted in water or moist soil. Harvesting can begin once the plant is established, with young leaves and shoots being the most tender and flavorful. Continuous harvesting encourages bushier growth. In frost-free climates, it can provide greens year-round.
   purpose: |-
-    - Edible: The leaves and tender shoots are consumed raw or cooked, offering a mucilaginous texture and mild flavor. They are rich in vitamins and minerals, contributing to a nutritious diet.
-    - Medicinal: Traditionally, Okinawa Spinach has been associated with health benefits, including potential cholesterol-lowering properties, though scientific evidence is limited.
-    - Ground Cover: Its dense growth habit makes it effective for soil coverage, aiding in moisture retention and weed suppression.
-    - Border Plant: The plant's attractive foliage and compact form make it suitable for edging garden beds and pathways.
-    - Wildlife Attractor: While not a primary pollinator plant, its flowers can attract beneficial insects, contributing to garden biodiversity.
+    - Edible: Provides nutritious leaves rich in protein, iron, potassium, calcium, and vitamin A. Suitable for salads, stir-fries, soups, and tempura.
+    - Medicinal: Traditionally used in East and Southeast Asia for its potential cholesterol-lowering properties.
+    - Wildlife Attractor: Its flowers can attract beneficial insects, aiding in pollination.
+    - Border Plant: Serves as an attractive edging in gardens due to its colorful foliage.
   companions:
-    - Sweet Potatoes
-    - Lemongrass
-    - Pigeon Pea
-    - Cassava
-  avoid:
+    - Eggplant
+    - Kale
+    - Fruit trees
+  avoid: 
     - Mint
     - Fennel
   pests:
     - Aphids
     - Slugs
     - Snails
+

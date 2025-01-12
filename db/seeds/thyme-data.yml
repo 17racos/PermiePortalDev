@@ -2,49 +2,48 @@
   picture: thyme.jpg
   scientific_name: Thymus vulgaris
   aka:
-    - Common thyme
-    - Garden thyme
-    - English thyme
+  - Common Thyme
+  - Garden Thyme
+  - Creeping Thyme (Thymus serpyllum)
   family: Lamiaceae
-  zone:
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
+  zone: 
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
   perennial: true
   layers:
-    - Herbaceous
-    - Groundcover
+  - Groundcover
   plant_function:
-    - Culinary
-    - Medicinal
+  - Edible
+  - Medicinal
+  - Pollinator
+  - Wildlife Attractor
+  - Border Plant
+  - Pest Management
   description: |-
-    Thyme is a low-growing, woody-stemmed herb native to the Mediterranean region. It features small, aromatic, gray-green leaves and produces tiny, tubular flowers in shades of pink, white, or purple during the summer. Typically reaching heights of 6 to 12 inches, thyme forms dense mats that are both ornamental and functional in gardens. Its strong, pleasant aroma and flavor make it a staple in culinary dishes, while its medicinal properties have been valued since ancient times.
+    Thyme is a low-growing, woody perennial herb that typically reaches 15–30 cm (6–12 inches) in height. It has small, aromatic, gray-green leaves and clusters of pink or purple flowers that bloom in late spring and summer. Native to the Mediterranean region, thyme thrives in full sun and well-drained, sandy, or rocky soils. It is drought-tolerant once established and requires minimal watering.
+    Propagation can be done through seeds, cuttings, or division. Seeds are slow to germinate, typically taking 2–3 weeks. Cuttings or division is faster and more reliable. Leaves can be harvested throughout the growing season, and the best flavor is achieved just before flowering.
   purpose: |-
-    In permaculture, thyme serves multiple roles:
-
-    - Culinary Use: Adds flavor to a variety of dishes.
-    - Medicinal Use: Traditionally used for its antiseptic and respiratory benefits.
-    - Ground Cover: Its dense growth habit helps suppress weeds and prevent soil erosion.
-    - Pollinator Attraction: Flowers attract beneficial insects, enhancing biodiversity.
-    - Companion Planting: Beneficial when planted near certain vegetables.
-  companions:
-    - Brassicas (e.g., cabbage, broccoli)
-    - Eggplant
-    - Potato
-    - Strawberry
-    - Tomato
-    - Brussels sprouts
+    Thyme has multiple uses in permaculture and sustainable systems:
+    - Edible: Used as a culinary herb in various dishes, marinades, and teas; also acts as a natural preservative.
+    - Medicinal: Known for its antibacterial, antifungal, and anti-inflammatory properties; used in remedies for respiratory and digestive issues.
+    - Pollinator: Flowers attract bees and other beneficial pollinators.
+    - Wildlife Attractor: Provides nectar and habitat for beneficial insects.
+    - Border Plant: Its compact growth habit makes it suitable for edging garden beds and pathways.
+    - Pest Management: Repels certain pests, including cabbage worms and whiteflies, making it a valuable companion plant.
+  companions: 
+    - Rosemary
+    - Sage
+    - Lavender
+    - Tomatoes
+    - Brassicas  
   avoid:
-    - Beans
-    - Peas
-    - Carrots
-    - Onions
-    - Leeks
-  pests:
-    - Cabbage worm
-    - Cabbage weevil
-    - Cabbage looper
-    - Aphids
+  - Legumes
+  - Carrots
+  - Cucumbers
+  pests: 
+  - Spider mites
+  - Aphids
+  - Whiteflies

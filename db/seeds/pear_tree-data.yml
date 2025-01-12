@@ -1,48 +1,44 @@
 - common_name: Pear tree
   picture: peartree.jpg
-  scientific_name: Pyrus communis
+  scientific_name: Pyrus spp.
   aka:
-    - European Pear
-    - Common Pear
+    - Asian Pear (Pyrus pyrifolia)
+    - European Pear (Pyrus communis)
   family: Rosaceae
   zone:
-    - '4'
-    - '5'
-    - '6'
-    - '7'
-    - '8'
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
   perennial: true
   layers:
     - Canopy
   plant_function:
     - Edible
     - Wildlife Attractor
+    - Windbreaker
+    - Border Plant
+    - Pollinator
   description: |-
-    Pear trees are deciduous and can reach heights of 30 to 60 feet, with a spread of 20 to 40 feet. They have a pyramidal to rounded crown and are known for their glossy green leaves and white to pinkish spring blossoms. The trees produce sweet, bell-shaped fruits that vary in color from green to yellow or red when ripe. Pears prefer well-drained loamy soils and full sun exposure. They are unique for their early spring blooms and the distinctive, sweet flavor of their fruit.
+    Pear trees are deciduous trees that can grow up to 12 meters (40 feet) tall, although dwarf varieties are smaller, reaching around 3–6 meters (10–20 feet). The trees feature glossy green leaves and produce fragrant white blossoms in spring. Pears are known for their sweet and juicy fruits, which are harvested in late summer to early autumn. The trees prefer full sun and well-drained loamy soils with a pH of 6.0–7.5. They require consistent watering, especially during dry periods, and benefit from mulching to retain moisture and regulate soil temperature. Propagation is typically achieved through grafting onto compatible rootstocks, although seeds can be used for wild varieties. Harvesting pears is best done when the fruit is firm and allowed to ripen off the tree for optimal flavor and texture.
   purpose: |-
-    - Fruit Production Provides edible pears for human consumption and wildlife.
-    - Biodiversity Enhancement Supports pollinators and beneficial insects with its blossoms.
-    - Soil Improvement Deep roots help in soil aeration and nutrient cycling.
-    - Aesthetic Value Adds beauty to landscapes with its blossoms and foliage.
+    - Edible: Produces delicious fruits consumed fresh, dried, or processed into juices, jams, and desserts.
+    - Wildlife Attractor: Provides food and habitat for birds and beneficial insects.
+    - Windbreaker: When planted in rows, pear trees can reduce wind speed and protect other plants.
+    - Border Plant: Functions as a natural boundary or privacy screen in larger gardens.
+    - Pollinator: Flowers attract bees and other pollinators, aiding biodiversity.
   companions:
     - Clover
-    - Chives
-    - Garlic
-    - Leeks
-    - Nasturtium
-    - Daffodils
     - Comfrey
-    - Marigold
+    - Garlic
+    - Daffodils
   avoid:
-    - Cedar
     - Walnut
     - Grass
-    - Tomatoes
-    - Carrots
-    - Eggplant
-    - Potatoes
+    - Root Crops
   pests:
-    - Pear Psylla
-    - Codling Moth
+    - Pear psylla
+    - Codling moth
     - Aphids
-    - Fire Blight

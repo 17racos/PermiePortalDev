@@ -2,19 +2,14 @@
   picture: pomegranate.jpg
   scientific_name: Punica granatum
   aka:
+    - Chinese apple
     - Punica
-    - Anar (Hindi)
-    - Granada (Spanish)
   family: Lythraceae
-  zone:
-    - '8'
-    - '9'
-    - '10'
-    - '11'
+  zone: [7, 8, 9, 10, 11]
   perennial: true
   layers:
+    - Canopy
     - Sub-canopy
-    - Shrub
   plant_function:
     - Edible
     - Medicinal
@@ -23,18 +18,20 @@
     - Border Plant
     - Pollinator
   description: |-
-    The pomegranate tree is a small deciduous or evergreen tree, depending on the climate, growing up to 20–30 feet tall. It has glossy, narrow leaves and striking orange-red flowers that give way to round, leathery fruits containing juicy, jewel-like seeds known as arils. The tree is drought-tolerant and thrives in warm, dry climates with well-drained soils. Its vibrant flowers and fruits attract pollinators and wildlife.
+    Pomegranate is a deciduous shrub or small tree, typically reaching heights of 5–8 meters (16–26 feet) with a spreading, vase-shaped form. It features glossy, dark green leaves arranged in opposite pairs, and red, trumpet-shaped flowers with five petals each. The fruit is a large, spherical berry with a thick, leathery rind encasing numerous juicy, tangy seeds known as arils. Pomegranates thrive in full sun and well-drained soil, exhibiting high drought tolerance once established. They prefer neutral to slightly alkaline soils (pH 6.0–7.5) and are hardy in USDA zones 7 through 11. Propagation is commonly achieved through hardwood cuttings, ensuring true-to-type plants, though they can also be grown from seeds. Harvesting typically occurs in late summer to early fall when the fruit develops a deep red color and produces a metallic sound when tapped. Ripe fruits should be cut from the tree to avoid damage.
   purpose: |-
-    In permaculture, the pomegranate tree serves as a multipurpose plant. It provides nutrient-rich edible fruits, attracts pollinators, and offers erosion control with its strong root system. The tree can be used as a border plant or incorporated into food forests as a sub-canopy layer. Its medicinal properties, which include anti-inflammatory and antioxidant benefits, make it a valuable addition to any holistic permaculture design.
+    - Edible: Pomegranate arils are consumed fresh, juiced, or used in cooking for their sweet-tart flavor and nutritional benefits.
+    - Medicinal: Rich in antioxidants, pomegranates have been traditionally used to support heart health and reduce inflammation.
+    - Wildlife Attractor: The flowers attract pollinators like bees, while the fruit provides food for birds and small mammals.
+    - Erosion Control: The extensive root system helps stabilize soil, making it suitable for planting on slopes.
+    - Border Plant: With its attractive foliage and flowers, pomegranate can serve as an ornamental border or hedge in gardens.
   companions:
-    - Comfrey
-    - Nasturtium
-    - Herbs (e.g., Mint, Basil)
-    - Garlic
+    - Olive
+    - Fig
+    - Grapevine
   avoid:
-    - Walnut
+    - None specifically noted
   pests:
     - Aphids
-    - Whiteflies
-    - Pomegranate Butterfly
-    - Scale Insects
+    - Pomegranate butterfly
+    - Mealybugs

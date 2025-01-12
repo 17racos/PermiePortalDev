@@ -3,14 +3,14 @@
   scientific_name: Lavandula angustifolia
   aka:
     - English Lavender
-    - True Lavender
+    - Lavandula officinalis
   family: Lamiaceae
   zone:
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
   perennial: true
   layers:
     - Herbaceous
@@ -18,23 +18,26 @@
     - Edible
     - Medicinal
     - Wildlife Attractor
-    - Pollinator
-    - Border Plant
+    - Mulcher
     - Pest Management
+    - Border Plant
   description: |-
-    Lavender is a perennial shrub native to the Mediterranean, characterized by its fragrant, purple-blue flowers and silvery-green foliage. It typically grows 1 to 3 feet tall and thrives in full sun and well-drained, sandy soils. Its aromatic oils are released when brushed against or crushed, making it a popular choice for sensory gardens.
+    Lavender is a perennial herb renowned for its fragrant purple flowers and silvery-green foliage. It typically grows to a height of 60–90 cm (24–36 inches) and a width of 60–75 cm (24–30 inches). Thriving in full sun, lavender prefers well-drained, sandy or gravelly soils with a pH between 6.5 and 7.5. It is drought-tolerant once established and requires minimal watering; overwatering can lead to root rot. Propagation is commonly achieved through semi-hardwood cuttings taken in late spring or early summer. Harvesting of the flowers is best done when they are in full bloom, usually in mid to late summer, by cutting the stems just above the leaves.
   purpose: |-
-    In permaculture, lavender serves multiple functions: its edible flowers are used in culinary dishes and teas; medicinally, it's known for its calming and antiseptic properties; it attracts pollinators like bees and butterflies, enhancing biodiversity; as a border plant, it defines garden edges and deters pests with its strong scent; and it contributes to pest management by repelling insects such as mosquitoes and moths.
+    - Edible: Lavender flowers can be used in culinary dishes, adding a unique flavor to desserts, salads, and beverages.
+    - Medicinal: Known for its calming effects, lavender is used in aromatherapy and herbal remedies to alleviate stress and promote relaxation.
+    - Wildlife Attractor: The flowers attract pollinators such as bees and butterflies, enhancing biodiversity in the garden.
+    - Mulcher: When pruned, lavender branches can be used as mulch to improve soil structure and retain moisture.
+    - Pest Management: Its aromatic properties act as a natural pest repellent, deterring insects like mosquitoes and moths.
+    - Border Plant: Lavender's dense growth and attractive flowers make it an excellent choice for edging and defining garden borders.
   companions:
-    - Echinacea
-    - Yarrow
     - Rosemary
     - Thyme
     - Sage
+    - Echinacea
   avoid:
     - Mint
-    - Fennel
-    - Rue
+    - Basil
   pests:
     - Aphids
     - Spittlebugs
