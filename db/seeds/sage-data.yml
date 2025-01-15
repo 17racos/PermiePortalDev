@@ -36,11 +36,11 @@
     - Rosemary
     - Thyme
     - Lavender
-    - Carrots
+    - Carrot
   avoid:
   - Cucumber
   - Basil
   - Rue
   pests: 
-  - Spider mites
+  - Spider Mites
   - Aphids

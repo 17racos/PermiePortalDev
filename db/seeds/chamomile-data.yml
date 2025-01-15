@@ -39,12 +39,10 @@
     - Cauliflower
     - Mint
   avoid:
-    - Potatoes
-    - Carrots
+    - Potato
+    - Carrot
     - Fennel
   pests: 
     - Aphids
     - Thrips
     - Powdery Mildew
-    - Downy Mildew
-    - Rust

@@ -37,9 +37,9 @@
     - Border Plant: Comfrey can be used to create natural borders or barriers in garden landscapes due to its dense growth habit.
   companions: 
     - Fruit Trees
-    - Tomatoes
+    - Tomato
     - Peppers
-    - Cucumbers
+    - Cucumber
     - Berries
   avoid:
     - Potatoes
@@ -48,4 +48,4 @@
   pests: 
     - Slugs
     - Snails
-    - Rust Fungus
+  

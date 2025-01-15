@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_12_01_171913) do
+ActiveRecord::Schema[7.2].define(version: 2025_01_13_201936) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -40,11 +40,50 @@ ActiveRecord::Schema[7.2].define(version: 2024_12_01_171913) do
     t.index ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true
   end
 
+  create_table "friendly_id_slugs", force: :cascade do |t|
+    t.string "slug", null: false
+    t.integer "sluggable_id", null: false
+    t.string "sluggable_type", limit: 50
+    t.string "scope"
+    t.datetime "created_at"
+    t.index ["slug", "sluggable_type", "scope"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type_and_scope", unique: true
+    t.index ["slug", "sluggable_type"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type"
+    t.index ["sluggable_type", "sluggable_id"], name: "index_friendly_id_slugs_on_sluggable_type_and_sluggable_id"
+  end
+
   create_table "guides", force: :cascade do |t|
     t.string "title"
     t.text "body"
+    t.string "image"
+    t.string "slug"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["slug"], name: "index_guides_on_slug", unique: true
+  end
+
+  create_table "pests", force: :cascade do |t|
+    t.string "name", null: false
+    t.string "slug", null: false
+    t.string "picture"
+    t.string "scientific_name"
+    t.text "description"
+    t.text "characteristics"
+    t.text "control_methods"
+    t.text "natural_enemies"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_pests_on_name", unique: true
+    t.index ["slug"], name: "index_pests_on_slug", unique: true
+  end
+
+  create_table "plant_pests", force: :cascade do |t|
+    t.bigint "plant_id", null: false
+    t.bigint "pest_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["pest_id"], name: "index_plant_pests_on_pest_id"
+    t.index ["plant_id", "pest_id"], name: "index_plant_pests_on_plant_id_and_pest_id", unique: true
+    t.index ["plant_id"], name: "index_plant_pests_on_plant_id"
   end
 
   create_table "plants", force: :cascade do |t|
@@ -60,7 +99,6 @@ ActiveRecord::Schema[7.2].define(version: 2024_12_01_171913) do
     t.text "description"
     t.text "purpose"
     t.text "avoid", default: [], array: true
-    t.text "pests", default: [], array: true
     t.text "companions", default: [], array: true
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -89,5 +127,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_12_01_171913) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "plant_pests", "pests"
+  add_foreign_key "plant_pests", "plants"
   add_foreign_key "resources", "users"
 end

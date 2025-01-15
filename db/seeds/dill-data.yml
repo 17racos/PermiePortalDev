@@ -39,11 +39,11 @@
   companions:
     - Cabbage
     - Lettuce
-    - Onions
-    - Cucumbers
+    - Onion
+    - Cucumber
   avoid:
-    - Carrots
-    - Tomatoes
+    - Carrot
+    - Tomato
   pests:
     - Aphids
     - Parsley Worms

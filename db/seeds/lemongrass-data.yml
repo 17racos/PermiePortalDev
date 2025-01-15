@@ -33,8 +33,10 @@
     - Chili Peppers
     - Sage
   avoid:
-    - Carrots
-    - Potatoes
+    - Carrot
+    - Potato
     - Spinach
   pests:
-    - None significant
+    - Aphids
+    - Mealybugs
+    - Spider Mites

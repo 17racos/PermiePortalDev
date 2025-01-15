@@ -1,0 +1,8 @@
+<h1>Pests</h1>
+<ul>
+  <% @pests.each do |pest| %>
+    <li>
+      <%= link_to pest.name, pest_path(pest), class: "text-blue-600 hover:underline" %>
+    </li>
+  <% end %>
+</ul>

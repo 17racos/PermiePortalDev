@@ -1,12 +1,25 @@
-<div id="<%= dom_id guide %>">
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Title:</strong>
-    <%= guide.title %>
-  </p>
+<div id="guides" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  <% @guides.each do |guide| %>
+    <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition flex flex-col h-full">
+      <!-- Guide Title -->
+      <h2 class="text-2xl font-semibold text-green-600 mb-4"><%= guide.title %></h2>
 
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Body:</strong>
-    <%= guide.body %>
-  </p>
+      <!-- Guide Image -->
+      <% if guide.image.present? %>
+        <div class="flex-grow">
+          <%= image_tag guide.image, alt: guide.title, class: 'w-full h-48 object-cover rounded-lg mb-4' %>
+        </div>
+      <% else %>
+        <div class="flex-grow h-48 bg-gray-200 rounded-lg mb-4"></div>
+      <% end %>
 
+      <!-- Guide Body -->
+      <p class="text-gray-700 flex-grow"><%= truncate(guide.body, length: 100) %></p>
+
+      <!-- Read More Button -->
+      <div class="mt-4">
+        <%= link_to "Read More", guide_path(guide), class: "px-4 py-2 bg-green-600 text-white text-sm font-semibold rounded hover:bg-green-500 inline-block" %>
+      </div>
+    </div>
+  <% end %>
 </div>

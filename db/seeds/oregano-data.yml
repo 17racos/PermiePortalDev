@@ -34,11 +34,11 @@
     - Border Plant: Its compact growth makes it suitable for edging pathways or garden beds.
     - Pest Management: The strong scent deters pests like aphids and mosquitoes, and it can be planted near vegetables to provide natural protection.
   companions:
-    - Tomatoes
+    - Tomato
     - Peppers
-    - Eggplants
+    - Eggplant
   avoid:
-    - Cucumbers
+    - Cucumber
     - Mint
   pests:
     - Aphids

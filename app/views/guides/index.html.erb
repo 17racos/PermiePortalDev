@@ -1,36 +1,31 @@
-<div class="max-w-screen-lg mx-auto bg-green-50 shadow-md rounded-lg p-8 space-y-8">
-  <!-- Header Section -->
-  <div class="text-center">
-    <h1 class="text-4xl font-bold text-green-700">Guides and Information</h1>
-    <p class="text-lg text-gray-600 mt-2">Explore our comprehensive guides to enrich your permaculture knowledge and practices.</p>
-  </div>
+<div id="guides" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  <% @guides.each do |guide| %>
+    <div class="aspect-square bg-white shadow-md rounded-lg hover:shadow-lg transition overflow-hidden">
+      <div class="flex flex-col h-full">
+        <!-- Guide Image -->
+        <% if guide.image.present? %>
+          <div class="flex-grow">
+            <%= image_tag guide.image, alt: guide.title, class: 'w-full h-full object-cover' %>
+          </div>
+        <% else %>
+          <div class="flex-grow bg-gray-200 flex items-center justify-center">
+            <p class="text-gray-500">No Image Available</p>
+          </div>
+        <% end %>
 
-  <!-- Guides List -->
-  <div id="guides" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <!-- Vermicomposting Guide -->
-    <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
-      <h2 class="text-2xl font-semibold text-green-600">Vermicomposting</h2>
-      
-      <!-- Vermicomposting Image -->
-      <div class="mt-4">
-        <%= image_tag 'vermicompost.jpg', alt: 'Vermicomposting', class: 'w-full h-auto rounded-lg' %>
-      </div>
-      
-      <p class="text-gray-700 mt-2">Discover how to use worms to create nutrient-rich compost for your garden.</p>
-      <div class="mt-4">
-        <%= link_to "Read More", vermicomposting_path, class: "px-4 py-2 bg-green-600 text-white text-sm font-semibold rounded hover:bg-green-500" %>
-      </div>
-    </div>
-
-    <%# Additional Guides - Example of rendering other guides dynamically %>
-    <% @guides.each do |guide| %>
-      <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
-        <h2 class="text-2xl font-semibold text-green-600"><%= guide.title %></h2>
-        <p class="text-gray-700 mt-2"><%= truncate(guide.description, length: 100) %></p>
-        <div class="mt-4">
-          <%= link_to "Read More", guide_path(guide), class: "px-4 py-2 bg-green-600 text-white text-sm font-semibold rounded hover:bg-green-500" %>
+        <!-- Guide Content -->
+        <div class="p-4 flex flex-col">
+          <h2 class="text-lg font-semibold text-green-600 text-center mb-2">
+            <%= guide.title %>
+          </h2>
+          <p class="text-sm text-gray-700 text-center">
+            <%= truncate(guide.body, length: 100) %>
+          </p>
+          <div class="mt-4">
+            <%= link_to "Read More", guide_path(guide), class: "block px-4 py-2 bg-green-600 text-white text-center text-sm font-semibold rounded hover:bg-green-500" %>
+          </div>
         </div>
       </div>
-    <% end %>
-  </div>
+    </div>
+  <% end %>
 </div>

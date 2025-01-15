@@ -42,13 +42,13 @@
     - Corn
     - Legumes
     - Spinach
-    - Cucumbers
+    - Cucumber
   avoid:
-  - Potatoes
-  - Carrots
+  - Potato
+  - Carrot
   pests: 
     - Aphids
     - Caterpillars
     - Whiteflies
-    - Japanese beetles
+    - Japanese Beetles
     - Cutworms

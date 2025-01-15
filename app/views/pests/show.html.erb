@@ -1,0 +1,43 @@
+<%= turbo_frame_tag "plants-list" do %>
+  <h1><%= sanitize(@pest.name) %></h1>
+
+  <!-- Pest Description -->
+  <p><%= sanitize(@pest.description) %></p>
+
+  <!-- Pest Image -->
+  <% if @pest.image_path.present? %>
+    <%= image_tag @pest.image_path, alt: @pest.name, class: "w-64 h-auto" %>
+  <% else %>
+    <p>No image available for this pest.</p>
+  <% end %>
+
+  <!-- Pest Scientific Name -->
+  <h2>Scientific Name</h2>
+  <p><%= sanitize(@pest.scientific_name.presence || "Not specified") %></p>
+
+  <!-- Pest Characteristics -->
+  <h2>Characteristics</h2>
+  <p><%= sanitize(@pest.characteristics.presence || "No characteristics available.") %></p>
+
+  <!-- Pest Control Methods -->
+  <h2>Control Methods</h2>
+  <p><%= sanitize(@pest.control_methods.presence || "No control methods available.") %></p>
+
+  <!-- Pest Natural Enemies -->
+  <h2>Natural Enemies</h2>
+  <p><%= sanitize(@pest.natural_enemies.presence || "No natural enemies specified.") %></p>
+
+  <!-- Plants Affected by the Pest -->
+  <h2>Plants Affected by <%= sanitize(@pest.name) %></h2>
+  <% if @plants.any? %>
+    <ul>
+      <% @plants.each do |plant| %>
+        <li>
+          <%= link_to plant.common_name, plant_path(plant), class: "text-green-600 hover:underline" %>
+        </li>
+      <% end %>
+    </ul>
+  <% else %>
+    <p>No associated plants found for this pest.</p>
+  <% end %>
+<% end %>

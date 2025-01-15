@@ -37,10 +37,9 @@
   companions:
     - Legumes
     - Fruit Trees
-    - Vegetables
   avoid:
     - Garlic
-    - Onions
+    - Onion
   pests:
     - Aphids
-    - Clover mites
+    - Clover Mites

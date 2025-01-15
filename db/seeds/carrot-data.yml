@@ -29,20 +29,20 @@
     - Border Plant: Carrots can be used to define garden beds and pathways, contributing to garden aesthetics.
     - Pest Management: When allowed to flower, carrots attract predatory insects like parasitic wasps that help manage pest populations.
   companions: 
-    - Tomatoes
-    - Onions
+    - Tomato
+    - Onion
     - Leeks
     - Lettuce
-    - Radishes
+    - Radish
     - Peas
     - Sage
     - Rosemary
     - Chives
-    - Marigolds
+    - Marigold
   avoid:
     - Dill
     - Fennel
-    - Parsnips
+    - Parsnip
     - Celery
     - Coriander
   pests: 

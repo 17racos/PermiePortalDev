@@ -1,66 +1,46 @@
 class Plant < ApplicationRecord
+  # === Associations ===
+  has_many :plant_pests, dependent: :destroy
+  has_many :pests, through: :plant_pests
+
   # === Validations ===
-  validates :common_name, uniqueness: true
-  validates :common_name, :scientific_name, :zone, :layers, :plant_function, :purpose, presence: true
-  validates :description, length: { maximum: 65535 }, allow_blank: true
+  validates :common_name, presence: true, uniqueness: { case_sensitive: false }
+  validates :scientific_name, :zone, :layers, :plant_function, :purpose, presence: true
+  validates :description, length: { maximum: 65_535 }, allow_blank: true
+  validates :purpose, length: { maximum: 65_535 }
   validates :perennial, inclusion: { in: [true, false] }
-  validates :purpose, length: { maximum: 65535 }
-
-  # === Scopes ===
-  scope :filter_by_plant_function, ->(functions) {
-    where("ARRAY[:functions]::text[] <@ plant_function", functions: functions)
-  }  
-
-  scope :filter_by_layers, ->(layers) {
-    where("ARRAY[:layers]::text[] <@ layers", layers: layers)
-  }
-
-  scope :filter_by_zones, ->(zones) {
-    where("ARRAY[:zones]::text[] <@ zone", zones: zones)
-  }
 
   # === Instance Methods ===
-  
-  # Use common_name as a URL-friendly parameter
+
+  # Generate a URL-friendly parameter using common_name
   def to_param
     common_name.parameterize
   end
 
-  # Return the plant type based on perennial attribute
-  def type
-    perennial ? "Perennial" : "Annual"
-  end
-
-  # Parse layers into an array
-  def layers_array
-    parse_to_array(layers)
-  end
-
-  # Parse plant functions into an array
-  def functions_array
-    parse_to_array(plant_function)
-  end
-
   # === Class Methods ===
-  
-  # Find plant by its common name, case-insensitive
-  def self.find_by_common_name(common_name)
-    find_by("LOWER(common_name) = ?", common_name.downcase)
+
+  # Find a plant by its parameterized common_name
+  def self.find_by_common_name(parameterized_name)
+    where("LOWER(common_name) = ?", parameterized_name.downcase).first
   end
 
-  private
+  # Parse a given field into an array
+  def parsed_array(field)
+    Array.wrap(field).map(&:strip)
+  end
 
-  # Helper to parse fields into arrays
-  def parse_to_array(field)
-    return [] if field.blank?
+  # Parsed layers array
+  def layers_array
+    parsed_array(layers)
+  end
 
-    case field
-    when String
-      field.split(",").map(&:strip)
-    when Array
-      field
-    else
-      JSON.parse(field) rescue []
-    end
+  # Parsed plant functions array
+  def functions_array
+    parsed_array(plant_function)
+  end
+
+  # Retrieve valid associated pests
+  def valid_pests
+    pests.distinct
   end
 end

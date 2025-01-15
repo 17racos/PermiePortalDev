@@ -35,10 +35,10 @@
   companions:
     - Brassicas
     - Fruit Trees
-    - Tomatoes
+    - Tomato
   avoid:
     - None specifically noted
   pests:
-    - Root Rot (if overwatered or in poorly drained soil)
-    - Powdery Mildew (in high humidity and low air circulation)
-    - Septoria Leaf Spot (in humid conditions)
+    - Aphids
+    - Mealybugs
+    - Spider Mites

@@ -1,113 +1,116 @@
-# Helper method to create or update a plant
-def create_or_update_plant(attributes)
-  plant = Plant.find_by(common_name: attributes[:common_name])
-  if plant
-    puts "Updating #{attributes[:common_name]}"
-    plant.update!(attributes)
+# Helper method to create or update a record
+def create_or_update_record(model, find_by_attr, attributes)
+  record = model.find_or_initialize_by(find_by_attr => attributes[find_by_attr])
+  if record.new_record?
+    puts "Creating #{model} - #{attributes[find_by_attr]}"
   else
-    puts "Creating #{attributes[:common_name]}"
-    Plant.create!(attributes)
+    puts "Updating #{model} - #{attributes[find_by_attr]}"
   end
+  record.update!(attributes)
 rescue ActiveRecord::RecordInvalid => e
-  puts "Failed to seed #{attributes[:common_name]}: #{e.message}"
+  puts "Failed to seed #{model} - #{attributes[find_by_attr]}: #{e.message}"
 end
 
-# Load all YAML, JSON, or CSV files
-seeds_directory = Rails.root.join('db', 'seeds')
-yaml_files = Dir.glob("#{seeds_directory}/*-data.yml")
-json_files = Dir.glob("#{seeds_directory}/*-data.json")
-csv_files = Dir.glob("#{seeds_directory}/*-data.csv")
-
-# Handling YAML files
-yaml_files.each do |yaml_file|
-  begin
-    puts "Processing file: #{yaml_file}"
-    file_data = YAML.load_file(yaml_file)
-
-    file_data.each do |plant_data|
-      plant_attributes = {
-        common_name: plant_data['common_name'],
-        picture: plant_data['picture'],
-        scientific_name: plant_data['scientific_name'],
-        aka: plant_data['aka'],
-        family: plant_data['family'],
-        zone: plant_data['zone'],
-        perennial: plant_data['perennial'],
-        layers: plant_data['layers'],
-        plant_function: plant_data['plant_function'],
-        description: plant_data['description'],
-        purpose: plant_data['purpose'],
-        companions: plant_data['companions'],
-        avoid: plant_data['avoid'],
-        pests: plant_data['pests']
-      }
-
-      create_or_update_plant(plant_attributes)
-    end
-    puts "Successfully processed: #{yaml_file}"
-  rescue => e
-    puts "Error processing file #{yaml_file}: #{e.message}"
+# Load file data based on format
+def load_file_data(file_path, format)
+  case format
+  when :yaml
+    YAML.load_file(file_path)
+  when :json
+    JSON.parse(File.read(file_path))
+  when :csv
+    CSV.foreach(file_path, headers: true, header_converters: :symbol).map(&:to_h)
+  else
+    raise ArgumentError, "Unsupported file format: #{format}"
   end
 end
 
-# Handling JSON files
-json_files.each do |json_file|
-  begin
-    puts "Processing file: #{json_file}"
-    file_data = JSON.parse(File.read(json_file))
+# Map attributes for pests
+def map_pest_attributes(data)
+  {
+    name: data['name'],
+    picture: data['picture'],
+    scientific_name: data['scientific_name'],
+    description: data['description'],
+    characteristics: data['characteristics'],
+    control_methods: data['control_methods'],
+    natural_enemies: data['natural_enemies']
+  }
+end
 
-    file_data.each do |plant_data|
-      plant_attributes = {
-        common_name: plant_data['common_name'],
-        picture: plant_data['picture'],
-        scientific_name: plant_data['scientific_name'],
-        aka: plant_data['aka'],
-        family: plant_data['family'],
-        zone: plant_data['zone'],
-        perennial: plant_data['perennial'],
-        layers: plant_data['layers'],
-        plant_function: plant_data['plant_function'],
-        description: plant_data['description'],
-        purpose: plant_data['purpose'],
-        companions: plant_data['companions'],
-        avoid: plant_data['avoid'],
-        pests: plant_data['pests']
-      }
+# Map attributes for plants
+def map_plant_attributes(data)
+  {
+    common_name: data['common_name'],
+    picture: data['picture'],
+    scientific_name: data['scientific_name'],
+    aka: data['aka'],
+    family: data['family'],
+    zone: data['zone'],
+    perennial: data['perennial'],
+    layers: data['layers'],
+    plant_function: data['plant_function'],
+    description: data['description'],
+    purpose: data['purpose'],
+    companions: data['companions'],
+    avoid: data['avoid'],
+    pests: data['pests']
+  }
+end
 
-      create_or_update_plant(plant_attributes)
+# Seed pests from pests-data.yml
+def seed_pests
+  pests_file = Rails.root.join('db', 'seeds', 'pests-data.yml')
+  return puts "No pests-data.yml file found. Skipping pest seeding." unless File.exist?(pests_file)
+
+  puts "Seeding pests from #{pests_file}..."
+  pests_data = load_file_data(pests_file, :yaml)
+
+  pests_data.each do |data|
+    attributes = map_pest_attributes(data)
+    create_or_update_record(Pest, :name, attributes)
+  end
+
+  puts "Pests seeded successfully!"
+end
+
+# Seed plants and establish relationships with pests
+def seed_plants
+  plant_files = Dir.glob(Rails.root.join('db', 'seeds', '*-data.yml')).reject { |f| f.include?('pests-data.yml') }
+
+  plant_files.each do |file|
+    puts "Processing file: #{file}"
+    plant_data = load_file_data(file, :yaml)
+
+    plant_data.each do |data|
+      attributes = map_plant_attributes(data)
+      pests = attributes.delete(:pests) || []
+
+      plant = Plant.find_or_initialize_by(common_name: attributes[:common_name])
+      if plant.new_record?
+        puts "Creating plant: #{attributes[:common_name]}"
+      else
+        puts "Updating plant: #{attributes[:common_name]}"
+      end
+
+      plant.update!(attributes)
+
+      # Associate pests with the plant
+      valid_pests = Pest.where(name: pests)
+      plant.pests = valid_pests
     end
-    puts "Successfully processed: #{json_file}"
-  rescue => e
-    puts "Error processing file #{json_file}: #{e.message}"
+    puts "Finished processing file: #{file}"
   end
 end
 
-# Handling CSV files
-csv_files.each do |csv_file|
-  begin
-    puts "Processing file: #{csv_file}"
-    CSV.foreach(csv_file, headers: true, header_converters: :symbol) do |row|
-      plant_attributes = {
-        common_name: row[:common_name],
-        picture: row[:picture],
-        scientific_name: row[:scientific_name],
-        aka: row[:aka].split(','),
-        family: row[:family],
-        zone: row[:zone].split(',').map(&:to_i),
-        perennial: row[:perennial],
-        layers: row[:layers].split(','),
-        plant_function: row[:plant_function].split(','),
-        description: row[:description],
-        purpose: row[:purpose],
-        companions: row[:companions].split(','),
-        avoid: row[:avoid].split(','),
-        pests: row[:pests].split(',')
-      }
-
-      create_or_update_plant(plant_attributes)
-    end
-    puts "Successfully processed: #{csv_file}"
-  rescue => e
-    puts "Error processing file #{csv_file}: #{e.message}"
-  end
+# Main seed execution
+def run_seeds
+  seed_pests        # Step 1: Seed pests first
+  seed_plants       # Step 2: Seed plants and establish relationships
+  puts "Seeding completed!"
 end
+
+# Run the seeds
+run_seeds
+
+

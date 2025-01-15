@@ -29,19 +29,19 @@
     - Pest Management: Garlic's strong odor deters many insect pests, making it a valuable companion plant for natural pest control.
     - Wildlife Attractor: While garlic itself is not a primary attractant, its flowers can provide nectar for pollinators if allowed to bloom.
   companions:
-    - Tomatoes
+    - Tomato
     - Peppers
     - Cabbage
     - Fruit Trees
     - Spinach
-    - Potatoes
+    - Potato
   avoid:
     - Beans
     - Asparagus
     - Sage
-    - Strawberries
+    - Strawberry
     - Leeks
-    - Onions
+    - Onion
     - Parsley
   pests:
     - Onion Thrips

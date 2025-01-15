@@ -27,9 +27,9 @@
     - Wildlife Attractor: Flowers attract pollinators such as bees, enhancing garden biodiversity.
     - Pest Management: Aromatic properties can deter certain pests, contributing to integrated pest management strategies.
   companions:
-    - Tomatoes
+    - Tomato
     - Peppers
-    - Eggplants
+    - Eggplant
     - Root vegetables
   avoid:
     - Mint
@@ -37,4 +37,4 @@
   pests:
     - Aphids
     - Whiteflies
-    - Spider mites
+    - Spider Mites

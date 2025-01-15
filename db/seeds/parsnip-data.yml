@@ -30,11 +30,11 @@
   companions:
     - Onions
     - Garlic
-    - Carrots
+    - Carrot
   avoid:
     - Celery
     - Dill
   pests:
-    - Carrot rust fly
+    - Carrot Rust Fly
     - Aphids
-    - Parsnip canker
+    - Parsnip Canker

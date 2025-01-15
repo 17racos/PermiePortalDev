@@ -33,13 +33,14 @@
     - Mulcher: When used as a cover crop, it can be mowed or incorporated into the soil, providing organic matter and acting as a natural mulch.
     - Border Plant: Can be used to define pathways.
   companions:
-    - tomatoes
-    - corn
-    - cotton
-    - grain sorghum
+    - Tomato
+    - Corn
+    - Cotton
+    - Grain Sorghum
   avoid:
     - none reported
   pests:
-    - clover weevils
-    - crown rot
-    - stem rot
+    - Clover Weevils
+    - Aphids 
+    - Slugs
+    - Snails

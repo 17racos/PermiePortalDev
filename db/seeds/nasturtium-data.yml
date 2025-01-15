@@ -32,11 +32,11 @@
     - Pest Management: Functions as a trap crop, luring pests like aphids and cabbage white butterflies away from other plants.
   companions:
     - Brassicas
-    - Cucumbers
-    - Tomatoes
-    - Radishes
+    - Cucumber
+    - Tomato
+    - Radish
   avoid:
-    - Potatoes
+    - Potato
   pests:
     - Aphids
     - Cabbage White Butterflies

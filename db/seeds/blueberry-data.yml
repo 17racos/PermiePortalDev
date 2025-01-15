@@ -27,7 +27,6 @@
     - Pollinator Support: Early-season flowers offer nectar and pollen for pollinators emerging in spring.
   companions: 
     - Azalea
-    - Rhododendron
     - Cranberry
     - Ferns
     - Thyme
@@ -37,16 +36,14 @@
     - Clovers
     - Lupines
   avoid:
-    - Tomatoes
+    - Tomato
     - Peppers
-    - Potatoes
-    - Eggplants
+    - Potato
+    - Eggplant
     - Brassicas
     - Fennel
   pests: 
     - Aphids
     - Blueberry Maggot
-    - Spotted Wing Drosophila
-    - Birds
     - Powdery Mildew
-    - Mummy Berry Disease
+

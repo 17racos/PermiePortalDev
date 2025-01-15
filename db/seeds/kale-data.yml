@@ -40,17 +40,17 @@
     - Border Plant: With its attractive foliage, kale can be used decoratively to define garden borders or pathways.
     - Pest Management: Kale flowers attract beneficial insects like ladybugs and parasitic wasps, aiding in the control of aphids and other pests.
   companions:
-    - Beets
+    - Beet
     - Celery
-    - Herbs (e.g., dill, chamomile)
+    - Dill
     - Onions
-    - Potatoes
+    - Potato
   avoid:
-    - Other Brassicas (e.g., cabbage, broccoli)
-    - Tomatoes
-    - Strawberries
+    - Brassicas
+    - Tomato
+    - Strawberry
   pests:
     - Aphids
-    - Cabbage worms
+    - Cabbage Worms
     - Slugs
-    - Flea beetles
+    - Flea Beetles

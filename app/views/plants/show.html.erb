@@ -1,141 +1,131 @@
 <%= turbo_frame_tag "plants-list" do %>
   <div class="max-w-screen-lg mx-auto bg-green-50 shadow-md rounded-lg p-8 space-y-8">
+    
     <!-- Stylesheets -->
     <%= stylesheet_link_tag "tailwind", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-
-    <!-- Include JavaScript with Import Maps -->
     <%= javascript_importmap_tags %>
-  </head>
 
-  <!-- Plant Image -->
-  <div class="text-center">
-    <% if @plant&.picture.present? %>
-      <%= image_tag @plant.picture, alt: h(@plant.common_name), class: "w-full h-64 object-cover rounded-md mb-6 shadow-lg" %>
-    <% else %>
-      <p>No image available for this plant.</p>
-    <% end %>
-  </div>
-
-  <!-- Plant Name and Scientific Name -->
-  <div class="text-center">
-    <h1 class="text-4xl font-bold text-green-700 mb-2"><%= h(@plant.common_name) %></h1>
-    <p class="text-xl italic text-gray-700"><%= h(@plant.scientific_name) %></p>
-  </div>
-  
-  <!-- Plant Details -->
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    
-    <!-- Basic Information -->
-    <div class="bg-white rounded-lg shadow p-6">
-      <h2 class="text-xl font-semibold text-green-600 mb-4">Basic Information</h2>
-      <p><strong>🌿 Family:</strong> <%= h(@plant.family) %></p>
-      <p><strong>🌍 Zones:</strong> <%= h(@plant.zone) %></p>
-      <p><strong>🌱 Type:</strong> <%= h(@plant.perennial ? "Perennial" : "Annual") %></p>    
-
-      <!-- Layers -->    
-      <h3 class="text-lg font-semibold text-green-600 mb-2 mt-4">Layers</h3>
-      <% if @plant.layers.present? %>
-        <ul class="list-disc pl-6 space-y-1">
-          <% @plant.layers.each do |layer| %>
-            <li><%= h(layer) %></li>
-          <% end %>
-        </ul>
+    <!-- Plant Image -->
+    <div class="text-center">
+      <% if @plant.picture.present? %>
+        <%= image_tag @plant.picture, alt: h(@plant.common_name), class: "w-full h-64 object-cover rounded-md mb-6 shadow-lg" %>
       <% else %>
-        <p class="text-gray-500">No layers specified.</p>
+        <p>No image available for this plant.</p>
       <% end %>
-        
-    <!--Other Names -->
-      <p><strong>🌍 Other Names :</strong>
-      <% if @plant.aka.present? %>
-      <ul class="list-disc pl-6 space-y-1">
-        <% @plant.aka.each do |aka| %>
-          <li><%= h(aka) %></li>
+    </div>
+
+    <!-- Plant Name and Scientific Name -->
+    <div class="text-center">
+      <h1 class="text-4xl font-bold text-green-700 mb-2"><%= h(@plant.common_name) %></h1>
+      <p class="text-xl italic text-gray-700"><%= h(@plant.scientific_name) %></p>
+    </div>
+
+    <!-- Plant Details -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <!-- Basic Information -->
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-xl font-semibold text-green-600 mb-4">Basic Information</h2>
+        <p><strong>🌿 Family:</strong> <%= h(@plant.family) %></p>
+        <p><strong>🌍 Zones:</strong> <%= @plant.zone.join(", ") %></p>
+        <p><strong>🌱 Type:</strong> <%= h(@plant.perennial ? "Perennial" : "Annual") %></p>
+
+        <!-- Layers -->
+        <h3 class="text-lg font-semibold text-green-600 mb-2 mt-4">Layers</h3>
+        <% if @plant.layers.present? %>
+          <ul class="list-disc pl-6 space-y-1">
+            <% @plant.layers.each do |layer| %>
+              <li><%= h(layer) %></li>
+            <% end %>
+          </ul>
+        <% else %>
+          <p class="text-gray-500">No layers specified.</p>
         <% end %>
-      </ul>
-    <% else %>
-      <p class="text-gray-500">No layers specified.</p>
+      </div>
+
+      <!-- Plant Functions -->
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-xl font-semibold text-green-600 mb-4">Functions</h2>
+        <% if @plant.plant_function.present? %>
+          <ul class="list-disc pl-6 space-y-1">
+            <% @plant.plant_function.each do |func| %>
+              <li><%= h(func) %></li>
+            <% end %>
+          </ul>
+          
+        <% else %>
+          <p class="text-gray-500">No functions specified.</p>
+        <% end %>
+
+        <!-- Pests -->
+        <h2>Pests</h2>
+        <% if @plant.pests.present? %>
+          <ul>
+            <% @plant.pests.each do |pest| %>
+              <li>
+              <%= link_to pest.name, pest_path(pest.slug), class: "text-blue-600 hover:underline", data: { turbo: false } %>
+              </li>
+            <% end %>
+          </ul>
+        <% else %>
+          <p>No pests associated with this plant.</p>
+        <% end %>        
+      </div>
+
+      <!-- Companions and Plants to Avoid -->
+      <div class="bg-white rounded-lg shadow p-6">
+        <!-- Companions -->
+        <h2 class="text-xl font-semibold text-green-600 mb-4">Companions</h2>
+        <% if @plant.companions.present? %>
+          <ul class="list-disc pl-6 space-y-1">
+            <% @plant.companions.each do |companion_name| %>
+              <% companion = Plant.find_by(common_name: companion_name) %>
+              <% if companion %>
+                <li>
+                  <%= link_to companion_name, plant_path(companion), class: "text-blue-600 hover:underline" %>
+                </li>
+              <% else %>
+                <li><%= h(companion_name) %></li>
+              <% end %>
+            <% end %>
+          </ul>
+        <% else %>
+          <p class="text-gray-500">No companions specified for this plant.</p>
+        <% end %>
+
+        <!-- Plants to Avoid -->
+        <h2 class="text-xl font-semibold text-green-600 mb-4 mt-6">Plants to Avoid</h2>
+        <% if @plant.avoid.present? %>
+          <ul class="list-disc pl-6 space-y-1">
+            <% @plant.avoid.each do |avoid_plant| %>
+              <li><%= h(avoid_plant) %></li>
+            <% end %>
+          </ul>
+        <% else %>
+          <p class="text-gray-500">No plants to avoid specified for this plant.</p>
+        <% end %>
+      </div>
+    </div>
+
+    <!-- Full-Width Sections -->
+    <% if @plant.description.present? %>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-2xl font-semibold text-green-600 mb-4">Description</h2>
+        <p class="text-gray-800"><%= simple_format(h(@plant.description)) %></p>
+      </div>
     <% end %>
-    </div>
 
-    <!-- Plant Functions -->
-    <div class="bg-white rounded-lg shadow p-6">
-      <h2 class="text-xl font-semibold text-green-600 mb-4">Functions</h2>
-      <% if @plant.plant_function.present? %>
-        <ul class="list-disc pl-6 space-y-1">
-          <% @plant.plant_function.each do |func| %>
-            <li><%= h(func) %></li>
-          <% end %>
-        </ul>
-      <% else %>
-        <p class="text-gray-500">No functions specified.</p>
-      <% end %>
-    
-    <!-- Pests -->
-      <h2 class="text-xl font-semibold text-green-600 mb-4">Pests</h2>
-      <% if @plant.pests.present? %>
-        <ul class="list-disc pl-6 space-y-1">
-          <% @plant.pests.each do |pest| %>
-            <li><%= h(pest) %></li>
-          <% end %>
-        </ul>
-      <% else %>
-        <p class="text-gray-500">No pests specified for this plant.</p>
-      <% end %>
-    </div>
-    
-    <!-- Companions, Plants to Avoid, and Pests -->
-    <div class="bg-white rounded-lg shadow p-6">
-      <!-- Companions -->
-      <h2 class="text-xl font-semibold text-green-600 mb-4">Companions</h2>
-      <% if @plant.companions.present? %>
-        <ul class="list-disc pl-6 space-y-1">
-          <% @plant.companions.each do |companion| %>
-            <li><%= h(companion) %></li>
-          <% end %>
-        </ul>
-      <% else %>
-        <p class="text-gray-500">No companions specified for this plant.</p>
-      <% end %>
-    
-      <!-- Plants to Avoid -->
-      <h2 class="text-xl font-semibold text-green-600 mb-4">Plants to Avoid</h2>
-      <% if @plant.avoid.present? %>
-        <ul class="list-disc pl-6 space-y-1">
-          <% @plant.avoid.each do |avoid_plant| %>
-            <li><%= h(avoid_plant) %></li>
-          <% end %>
-        </ul>
-      <% else %>
-        <p class="text-gray-500">No plants to avoid specified for this plant.</p>
-      <% end %>
-    </div>
+    <% if @plant.purpose.present? %>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-2xl font-semibold text-green-600 mb-4">Purpose</h2>
+        <p class="text-gray-800"><%= simple_format(h(@plant.purpose)) %></p>
+      </div>
+    <% end %>
 
-  </div> <!-- End of grid container -->
-
-  <!-- Plant Description (full-width) -->
-  <% if @plant.description.present? %>
-    <div class="bg-white rounded-lg shadow p-6 col-span-full">
-      <h2 class="text-2xl font-semibold text-green-600 mb-4">Description</h2>
-      <p class="text-gray-800"><%= simple_format(h(@plant.description)) %></p>
+    <!-- Back Button -->
+    <div class="text-center">
+      <%= link_to "← Back to Plant List", plants_path, class: "inline-block px-6 py-3 bg-green-600 text-white text-lg font-semibold rounded-md shadow hover:bg-green-500" %>
     </div>
-  <% else %>
-    <p class="text-gray-500 text-center">No Description available for this plant.</p>
-  <% end %>
-
-  <!-- Plant Purpose (full-width) -->
-  <% if @plant.purpose.present? %>
-    <div class="bg-white rounded-lg shadow p-6 col-span-full">
-      <h2 class="text-2xl font-semibold text-green-600 mb-4">Purpose</h2>
-      <p class="text-gray-800"><%= simple_format(h(@plant.purpose)) %></p>
-    </div>
-  <% else %>
-    <p class="text-gray-500 text-center">No purpose specified for this plant.</p>
-  <% end %>
-
-  <!-- Back Button -->
-  <div class="text-center">
-    <%= link_to "← Back to Plant List", plants_path, class: "inline-block px-6 py-3 bg-green-600 text-white text-lg font-semibold rounded-md shadow hover:bg-green-500" %>
   </div>
-</div>
 <% end %>

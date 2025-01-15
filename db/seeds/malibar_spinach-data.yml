@@ -23,9 +23,9 @@
     - Wildlife Attractor: The plant's flowers and berries attract pollinators such as bees, enhancing biodiversity in the garden.
     - Border Plant: Its vigorous growth and attractive foliage make it suitable for use as a living border or screen when trellised.
   companions:
-    - Tomatoes
+    - Tomato
     - Peppers
-    - Eggplants
+    - Eggplant
   avoid:
     - Rosemary
   pests:

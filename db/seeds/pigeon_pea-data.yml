@@ -46,17 +46,17 @@
     - Squash
     - Lettuce
     - Melons
-    - Tomatoes
+    - Tomato
     - Chili Peppers
     - Okra
-    - Sweet Potatoes
+    - Sweet Potatoe
     - Spinach
-    - Cucumbers
+    - Cucumber
   avoid:
     - Beans
     - Peas
     - Garlic
-    - Onions
+    - Onion
     - Leeks
     - Shallots
     - Chives

@@ -31,20 +31,20 @@
     - Pest Management: When interplanted with crops like cabbage, it can repel pests such as the cabbage white butterfly.
   companions: 
     - Beans
-    - Onions
+    - Onion
     - Leeks
     - Spinach
-    - Tomatoes
+    - Tomato
     - Basil
     - Thyme
     - Sage
     - Hyssop
     - Coriander
   avoid:
-    - Carrots
-    - Parsnips
+    - Carrot
+    - Parsnip
     - Fennel
-    - Potatoes
+    - Potatoe
   pests: 
     - Aphids
     - Carrot Rust Fly

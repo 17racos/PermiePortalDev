@@ -49,6 +49,9 @@ gem "sassc", "~> 2.2.1"
 # Tailwind CSS framework
 gem "tailwindcss-rails"
 
+# SEO Friendly Titles
+gem 'friendly_id', '~> 5.4.2'
+
 # Time zone data for Windows and similar platforms
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 

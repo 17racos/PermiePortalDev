@@ -37,9 +37,9 @@
   companions:
     - Lettuce
     - Peas
-    - Nasturtiums
-    - Cucumbers
-    - Carrots
+    - Nasturtium
+    - Cucumber
+    - Carrot
   avoid:
     - Hyssop
   pests:

@@ -37,13 +37,13 @@
     - Rosemary
     - Sage
     - Lavender
-    - Tomatoes
+    - Tomato
     - Brassicas  
   avoid:
   - Legumes
-  - Carrots
-  - Cucumbers
+  - Carrot
+  - Cucumber
   pests: 
-  - Spider mites
+  - Spider Mites
   - Aphids
   - Whiteflies

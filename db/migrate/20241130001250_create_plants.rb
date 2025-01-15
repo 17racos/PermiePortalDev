@@ -13,7 +13,6 @@ class CreatePlants < ActiveRecord::Migration[7.0]
       t.text :description  # Store formatted text in this column
       t.text :purpose
       t.text :avoid, array: true, default: []
-      t.text :pests, array: true, default: []
       t.text :companions, array: true, default: []
 
       t.timestamps

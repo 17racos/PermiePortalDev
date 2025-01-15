@@ -1,17 +1,13 @@
 Rails.application.routes.draw do
-  #Supress Favcon
+  # Suppress favicon errors
   get '/favicon.ico', to: proc { [204, {}, []] }
 
-  # Other routes
-  get 'guides/vermicomposting', to: 'guides#vermicomposting', as: :vermicomposting
-  get 'pages/vermicomposting'
-  
-  # Guides routes
-  resources :guides
+  # Dynamic guides routes using slugs
+  resources :guides, param: :slug
 
   # Devise routes for users
   devise_for :users
-  
+
   # Root route
   root 'home#index'
 
@@ -23,8 +19,12 @@ Rails.application.routes.draw do
     get 'whatisperm', on: :collection, as: :whatisperm
     get 'whyitmatters', on: :collection, as: :whyitmatters
   end
-  
-  # Custom routes
+
+  # Community and involvement pages
   get 'community', to: 'community#index'
   get 'get_involved', to: 'get_involved#index'
+
+  resources :pests, param: :slug, only: [:index, :show]
+
+
 end

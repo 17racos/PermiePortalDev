@@ -1,2 +1,5 @@
 class Guide < ApplicationRecord
-end
+    extend FriendlyId
+    friendly_id :title, use: :slugged
+  end
+  

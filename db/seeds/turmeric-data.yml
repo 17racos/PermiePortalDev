@@ -35,11 +35,11 @@
     - Peppers
     - Legumes
   avoid:
-  - Potatoes
+  - Potatoe
   - Corn
-  - Tomatoes
+  - Tomatoe
   - Fennel
   pests: 
   - Aphids
   - Whiteflies
-  - Spider mites
+  - Spider Mites
