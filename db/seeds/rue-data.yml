@@ -28,10 +28,10 @@
     - Pest Management: Repels a variety of pests, including flies, fleas, and beetles, making it a natural companion plant.
     - Border Plant: Its unique appearance and strong scent make it a natural deterrent for grazing animals and a visually appealing garden border.
   companions: 
-    - Lavender
-    - Rosemary
-    - Sage
-    - Fig
+  - Lavender
+  - Rosemary
+  - Sage
+  - Fig
   avoid:
   - Basil
   - Cabbage

@@ -1,18 +1,10 @@
 <%= turbo_frame_tag "plants-list" do %>
-  <!-- Search Form -->
-  <%= form_with url: plants_path, method: :get, data: { controller: "search" }, local: false do %>
-    <div class="mb-4">
-      <input
-        type="text"
-        name="search"
-        placeholder="Search plants by name"
-        class="w-full p-2 border border-gray-300 rounded-lg"
-        data-search-target="input"
-        value="<%= params[:search] %>"
-      />
-    </div>
-  <% end %>
-
   <!-- Filter Form -->
   <%= form_with url: plants_path, method: :get, local: false do %>
-   
+    <%= render partial: "plants/filters" %>
+  <% end %>
+
+  <!-- Plant List or Results -->
+  <%= render partial: "plants/plants_list", locals: { plants: @plants } %>
+<% end %>
+

@@ -6,7 +6,8 @@ def create_or_update_record(model, find_by_attr, attributes)
   else
     puts "Updating #{model} - #{attributes[find_by_attr]}"
   end
-  record.update!(attributes)
+  record.assign_attributes(attributes)
+  record.save!
 rescue ActiveRecord::RecordInvalid => e
   puts "Failed to seed #{model} - #{attributes[find_by_attr]}: #{e.message}"
 end
@@ -25,18 +26,6 @@ def load_file_data(file_path, format)
   end
 end
 
-# Map attributes for pests
-def map_pest_attributes(data)
-  {
-    name: data['name'],
-    picture: data['picture'],
-    scientific_name: data['scientific_name'],
-    description: data['description'],
-    characteristics: data['characteristics'],
-    control_methods: data['control_methods'],
-    natural_enemies: data['natural_enemies']
-  }
-end
 
 # Map attributes for plants
 def map_plant_attributes(data)
@@ -58,10 +47,26 @@ def map_plant_attributes(data)
   }
 end
 
+# Map attributes for pests
+def map_pest_attributes(data)
+  {
+    name: data['name'],
+    picture: data['picture'],
+    scientific_name: data['scientific_name'],
+    description: data['description'],
+    characteristics: data['characteristics'],
+    control_methods: data['control_methods'],
+    natural_enemies: data['natural_enemies']
+  }
+end
+
 # Seed pests from pests-data.yml
 def seed_pests
   pests_file = Rails.root.join('db', 'seeds', 'pests-data.yml')
-  return puts "No pests-data.yml file found. Skipping pest seeding." unless File.exist?(pests_file)
+  unless File.exist?(pests_file)
+    puts "No pests-data.yml file found. Skipping pest seeding."
+    return
+  end
 
   puts "Seeding pests from #{pests_file}..."
   pests_data = load_file_data(pests_file, :yaml)
@@ -93,14 +98,18 @@ def seed_plants
         puts "Updating plant: #{attributes[:common_name]}"
       end
 
-      plant.update!(attributes)
+      plant.assign_attributes(attributes)
+      plant.save!
 
       # Associate pests with the plant
       valid_pests = Pest.where(name: pests)
       plant.pests = valid_pests
     end
+
     puts "Finished processing file: #{file}"
   end
+rescue ActiveRecord::RecordInvalid => e
+  puts "Error while seeding plants: #{e.message}"
 end
 
 # Main seed execution
@@ -108,9 +117,9 @@ def run_seeds
   seed_pests        # Step 1: Seed pests first
   seed_plants       # Step 2: Seed plants and establish relationships
   puts "Seeding completed!"
+rescue StandardError => e
+  puts "An error occurred during seeding: #{e.message}"
 end
 
 # Run the seeds
 run_seeds
-
-

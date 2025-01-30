@@ -3,7 +3,8 @@ class PlantsController < ApplicationController
 
   # GET /plants
   def index
-    @plants = apply_filters(Plant.all)
+    @plants = Plant.all
+    @plants = apply_filters(@plants) if params[:search].present?
 
     respond_to do |format|
       format.html # Render the full-page view
@@ -38,16 +39,18 @@ class PlantsController < ApplicationController
     end
   end
 
-  # Dynamically apply filters to the plants query
+  # Apply filters to the plants query
   def apply_filters(plants)
-    return plants unless params[:search].present?
-
     search_params.each do |filter, values|
       next if values.blank?
 
-      filter_method = "filter_by_#{filter}"
-      if plants.respond_to?(filter_method)
-        plants = plants.public_send(filter_method, values)
+      case filter.to_sym
+      when :plant_function
+        plants = plants.filter_by_plant_function(values)
+      when :layers
+        plants = plants.filter_by_layers(values)
+      when :zone
+        plants = plants.filter_by_zones(values.map(&:to_i))
       else
         Rails.logger.warn "Unknown filter: #{filter}"
       end
