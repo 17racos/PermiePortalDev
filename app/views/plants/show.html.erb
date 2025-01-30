@@ -27,9 +27,6 @@
       <!-- Basic Information -->
       <div class="bg-white rounded-lg shadow p-6">
         <h2 class="text-xl font-semibold text-green-600 mb-4">Basic Information</h2>
-        <p>
-        <strong>🌿 Family:</strong> 
-        <p>
         <strong>🌿 Family:</strong> 
         <%= link_to h(@plant.family), "/guides/plant-families##{h(@plant.family.downcase.gsub(/\s+/, '-'))}", class: "text-blue-600 hover:underline", data: { turbo: false } %>
       </p>      
