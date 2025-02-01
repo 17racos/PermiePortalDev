@@ -1,15 +1,16 @@
 require_relative './config/environment'
+
 def add_guides(guides)
   guides.each do |guide|
     # Use find_or_create_by to prevent duplicates
     Guide.find_or_create_by(title: guide[:title]) do |g|
+      # Just assign the image filename to the image field (no need for attach)
       g.body = guide[:body]
-      g.image = guide[:image]
+      g.image = guide[:image]  # Assigning the image filename as a string
     end
   end
   puts "#{guides.size} guides have been added or updated."
 end
-
 
 # Guides to add
 guides = [
