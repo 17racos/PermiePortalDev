@@ -1,0 +1,30 @@
+{
+  "name": "permieportal",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "tailwind.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/17racos/PermiePortalDev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/17racos/PermiePortalDev/issues"
+  },
+  "homepage": "https://github.com/17racos/PermiePortalDev#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "tailwindcss": "^3.0.0",
+    "postcss": "^8.5.1"
+  }
+}

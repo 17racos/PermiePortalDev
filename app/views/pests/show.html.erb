@@ -1,43 +1,65 @@
 <%= turbo_frame_tag "plants-list" do %>
-  <h1><%= sanitize(@pest.name) %></h1>
+  <div class="bg-white shadow-lg rounded-lg p-6 max-w-4xl mx-auto">
+    
+    <!-- Pest Name -->
+    <h1 class="text-4xl font-bold text-green-800 text-center mb-4"><%= sanitize(@pest.name) %></h1>
 
-  <!-- Pest Description -->
-  <p><%= sanitize(@pest.description) %></p>
+    <!-- Pest Image -->
+    <% if @pest.image_path.present? %>
+      <div class="flex justify-center">
+        <%= image_tag @pest.image_path, alt: @pest.name, class: "w-64 h-auto border-4 border-green-500 rounded-lg shadow-md" %>
+      </div>
+    <% else %>
+      <p class="text-center text-gray-500">No image available for this pest.</p>
+    <% end %>
 
-  <!-- Pest Image -->
-  <% if @pest.image_path.present? %>
-    <%= image_tag @pest.image_path, alt: @pest.name, class: "w-64 h-auto" %>
-  <% else %>
-    <p>No image available for this pest.</p>
-  <% end %>
+    <!-- Pest Details -->
+    <div class="mt-6 space-y-4">
+      <!-- Scientific Name -->
+      <div>
+        <h2 class="text-2xl font-semibold text-green-700">Scientific Name</h2>
+        <p class="text-gray-700"><%= sanitize(@pest.scientific_name.presence || "Not specified") %></p>
+      </div>
 
-  <!-- Pest Scientific Name -->
-  <h2>Scientific Name</h2>
-  <p><%= sanitize(@pest.scientific_name.presence || "Not specified") %></p>
+      <!-- Description -->
+      <div>
+        <h2 class="text-2xl font-semibold text-green-700">Description</h2>
+        <p class="text-gray-700"><%= sanitize(@pest.description.presence || "No description available.") %></p>
+      </div>
 
-  <!-- Pest Characteristics -->
-  <h2>Characteristics</h2>
-  <p><%= sanitize(@pest.characteristics.presence || "No characteristics available.") %></p>
+      <!-- Characteristics -->
+      <div>
+        <h2 class="text-2xl font-semibold text-green-700">Characteristics</h2>
+        <p class="text-gray-700"><%= sanitize(@pest.characteristics.presence || "No characteristics available.") %></p>
+      </div>
 
-  <!-- Pest Control Methods -->
-  <h2>Control Methods</h2>
-  <p><%= sanitize(@pest.control_methods.presence || "No control methods available.") %></p>
+      <!-- Control Methods -->
+      <div>
+        <h2 class="text-2xl font-semibold text-green-700">Control Methods</h2>
+        <p class="text-gray-700"><%= sanitize(@pest.control_methods.presence || "No control methods available.") %></p>
+      </div>
 
-  <!-- Pest Natural Enemies -->
-  <h2>Natural Enemies</h2>
-  <p><%= sanitize(@pest.natural_enemies.presence || "No natural enemies specified.") %></p>
-
-  <!-- Plants Affected by the Pest -->
-  <h2>Plants Affected by <%= sanitize(@pest.name) %></h2>
-  <% if @plants.any? %>
-    <ul>
-      <% @plants.each do |plant| %>
-        <li>
-          <%= link_to plant.common_name, plant_path(plant), class: "text-green-600 hover:underline" %>
-        </li>
-      <% end %>
-    </ul>
-  <% else %>
-    <p>No associated plants found for this pest.</p>
-  <% end %>
+      <!-- Natural Enemies -->
+      <div>
+        <h2 class="text-2xl font-semibold text-green-700">Natural Enemies</h2>
+        <p class="text-gray-700"><%= sanitize(@pest.natural_enemies.presence || "No natural enemies specified.") %></p>
+      </div>
+      
+      <!-- Plants Affected -->
+      <div>
+        <h2 class="text-2xl font-semibold text-green-700">Plants Affected by <%= sanitize(@pest.name) %></h2>
+        <% if @plants.any? %>
+          <ul class="list-disc list-inside text-gray-700">
+            <% @plants.each do |plant| %>
+              <li>
+                <%= link_to plant.common_name, plant_path(plant), class: "text-green-600 hover:underline" %>
+              </li>
+            <% end %>
+          </ul>
+        <% else %>
+          <p class="text-gray-500">No associated plants found for this pest.</p>
+        <% end %>
+      </div>
+    </div>
+  </div>
 <% end %>

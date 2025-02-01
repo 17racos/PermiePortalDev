@@ -1,8 +1,15 @@
-<h1>Pests</h1>
-<ul>
-  <% @pests.each do |pest| %>
-    <li>
-      <%= link_to pest.name, pest_path(pest), class: "text-blue-600 hover:underline" %>
-    </li>
-  <% end %>
-</ul>
+<h1 class="text-4xl font-bold text-green-800 mb-6 text-center">Pest Index</h1>
+<div class="bg-white shadow-lg rounded-lg p-6">
+  <ul class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <% @pests.each do |pest| %>
+      <li class="bg-gray-100 p-4 rounded-lg shadow-md hover:shadow-lg transition duration-300 text-center">
+        <%= link_to pest_path(pest), class: "block" do %>
+          <div class="flex justify-center">
+            <%= image_tag pest.image_path, alt: pest.name, class: "w-24 h-24 object-cover rounded-full border border-green-500 shadow-md" if pest.image_path.present? %>
+          </div>
+          <span class="block mt-3 text-green-700 font-semibold hover:underline"><%= pest.name %></span>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+</div>

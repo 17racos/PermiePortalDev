@@ -20,7 +20,7 @@ RUN apt-get update -qq && apt-get install -y --no-install-recommends \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install Yarn and TailwindCSS globally
-RUN npm install -g yarn && npm install -g tailwindcss
+RUN npm install -g yarn tailwindcss
 
 # Copy application code
 COPY . .
@@ -33,11 +33,11 @@ RUN bundle config set force_ruby_platform true && \
     bundle install --without development test && \
     bundle lock --add-platform x86_64-linux
 
-# Precompile assets using TailwindCSS
-RUN NODE_ENV=production npx tailwindcss -i ./app/assets/stylesheets/application.css -o ./public/assets/application.css --minify && \
-    bundle exec rake assets:precompile
+# Install node dependencies
+RUN yarn install
 
-RUN NODE_ENV=staging npx tailwindcss -i ./app/assets/stylesheets/application.css -o ./public/assets/application.css --minify && \
+# Precompile assets using TailwindCSS
+RUN ./node_modules/.bin/tailwindcss -i ./app/assets/stylesheets/application.css -o ./public/assets/application.css --minify && \
     bundle exec rake assets:precompile
 
 # Expose port and start the application
