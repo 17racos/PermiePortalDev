@@ -7,10 +7,10 @@ def add_guides(guides)
     Guide.find_or_create_by(title: guide[:title]) do |g|
       g.body = guide[:body]
       
-      # Directly set the image_url column with the correct image path
-      g.image_url = "/app/assets/images/#{guide[:image]}"
+      # Store the image path directly in the image column
+      g.image = "/app/assets/images/#{guide[:image]}"  # Use the existing 'image' column to store the image path
       
-      # Save the guide with the image_url
+      # Save the guide with the image
       g.save!
     end
   end
