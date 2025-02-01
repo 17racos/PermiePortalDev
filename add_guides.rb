@@ -1,23 +1,17 @@
-# add_guides.rb
 require_relative './config/environment'
-
 def add_guides(guides)
   guides.each do |guide|
     # Use find_or_create_by to prevent duplicates
     Guide.find_or_create_by(title: guide[:title]) do |g|
       g.body = guide[:body]
-      
-      # Store the image path directly in the image column
-      g.image = "/app/assets/images/#{guide[:image]}"  # Use the existing 'image' column to store the image path
-      
-      # Save the guide with the image
-      g.save!
+      g.image = guide[:image]
     end
   end
   puts "#{guides.size} guides have been added or updated."
 end
 
-#Guides to add
+
+# Guides to add
 guides = [
   {
     title: 'Vermicomposting',
