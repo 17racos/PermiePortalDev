@@ -2,37 +2,62 @@
   picture: pineapplesage.jpg
   scientific_name: Salvia elegans
   aka:
-    - Tangerine sage (Salvia elegans 'Tangerine')
-  family:
-    - Lamiaceae
-  zone:
-    - 8
-    - 9
-    - 10
-    - 11
+    - Tangerine Sage
+  family: Lamiaceae
+  zone: 8-11
+    :ideal_temp_min: 60
+    :ideal_temp_max: 85
+    :min_temp: 20
+    :max_temp: 100
   perennial: true
   layers:
     - Herbaceous
+    - Shrub
   plant_function:
     - Edible
     - Medicinal
     - Pollinator
     - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Erosion Control
     - Border Plant
   description: |-
-    Pineapple sage is a perennial shrub native to Mexico and Guatemala, renowned for its vibrant red tubular flowers and foliage that emits a sweet pineapple scent when crushed. Typically reaching heights of 1.2 to 1.5 meters (4 to 5 feet), it thrives in full sun to partial shade and prefers well-drained, moist soils with a neutral pH. While somewhat drought-tolerant, consistent moisture promotes optimal growth. Propagation is commonly achieved through cuttings or division, as seeds are rare. In regions cooler than USDA Zone 8, it's often grown as an annual or in containers to overwinter indoors. Flowering occurs in late summer to autumn, attracting hummingbirds and butterflies. Harvesting of leaves and flowers can be done throughout the growing season for culinary or medicinal use.
+    Pineapple Sage (Salvia elegans) is a perennial herb known for its vibrant red tubular flowers and fragrant foliage that smells like pineapple. It grows as a bushy shrub reaching 1-1.5 meters (3-5 feet) tall and spreads moderately. The plant thrives in warm climates and is commonly grown for its ornamental value, culinary use, and attractiveness to pollinators such as hummingbirds and bees.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Requires well-drained soil, ideally sandy or loamy.
+    - Moderate drought tolerance; water regularly but allow soil to dry between watering.
+
+    ### Methods to Propagate
+    - **Seed**: Best started indoors in early spring and transplanted after frost.
+    - **Cuttings**: Softwood cuttings root easily in water or moist soil.
+    - **Division**: Can be divided from mature plants to propagate new growth.
+
+    ### When to Harvest
+    - Leaves can be harvested year-round in warm climates.
+    - Flowers bloom in late summer to fall and can be used fresh or dried.
   purpose: |-
-    - Edible: Leaves and flowers are used in teas, salads, and desserts, imparting a fruity flavor.
-    - Medicinal: Traditionally used to alleviate anxiety and hypertension.
-    - Pollinator: Bright red flowers attract hummingbirds and butterflies, enhancing pollination.
-    - Wildlife Attractor: Provides nectar for beneficial insects and birds.
-    - Border Plant: Its ornamental appeal makes it suitable for garden borders.
-  companions:
+    Pineapple Sage serves multiple functions in a permaculture system:
+
+    - Edible: Leaves and flowers are used for teas, garnishes, and flavoring dishes.
+    - Medicinal: Traditionally used for digestion, stress relief, and anti-inflammatory properties.
+    - Pollinator: Attracts bees, butterflies, and hummingbirds with its nectar-rich flowers.
+    - Wildlife Attractor: Provides habitat and food for beneficial insects and birds.
+    - Mulcher: Produces biomass that can be used as mulch to improve soil health.
+    - Dynamic Accumulator: Accumulates nutrients and makes them available to surrounding plants.
+    - Erosion Control: Helps stabilize loose or sloped soils with its root system.
+    - Border Plant: Makes a great hedge or border due to its height and dense foliage.
+  companions: 
     - Tomato
-    - Peppers
     - Basil
+    - Lavender
+    - Rosemary
   avoid:
     - Fennel
-  pests:
-    - Aphids
+    - Mint
+  pests: 
+    - Spider Mites
     - Whiteflies
+    - Aphids

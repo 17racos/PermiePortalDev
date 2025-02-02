@@ -1,12 +1,15 @@
 - common_name: Celery
   picture: celery.jpg
-  scientific_name: Apium graveolens var. dulce
+  scientific_name: Apium graveolens
   aka:
-    - Wild Celery (Apium graveolens)
-    - Smallage (Apium graveolens var. secalinum)
-    - Celeriac (Apium graveolens var. rapaceum)
+    - Stalk Celery
+    - Wild Celery (Apium graveolens var. graveolens)
   family: Apiaceae
-  zone: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+  zone: 2-10
+    :ideal_temp_min: 55
+    :ideal_temp_max: 75
+    :min_temp: 20
+    :max_temp: 95
   perennial: false
   layers:
     - Herbaceous
@@ -14,40 +17,50 @@
     - Edible
     - Medicinal
     - Wildlife Attractor
+    - Mulcher
     - Dynamic Accumulator
-    - Erosion Control
     - Border Plant
-    - Pest Management
   description: |-
-    Celery is a biennial plant commonly cultivated as an annual for its crisp, fibrous stalks. It features pinnate, finely divided leaves and can reach a height of 40–60 cm (16–24 inches). In its second year, celery produces clusters of small, creamy-white flowers arranged in dense umbels. The plant thrives in full sun to partial shade and prefers fertile, well-draining loamy soil with high organic matter content. Optimal soil pH ranges from 6.0 to 7.0. Celery requires consistent moisture; therefore, regular watering is essential to maintain soil moisture without waterlogging. Propagation is typically achieved by sowing seeds indoors 10–12 weeks before the last expected frost date. Sow seeds 0.5 cm (¼ inch) deep in seed trays, and transplant seedlings outdoors after hardening off, spacing them 20–25 cm (8–10 inches) apart in rows 30 cm (12 inches) apart. Harvesting usually occurs 17–18 weeks after planting, when stalks are firm and reach at least 15–20 cm (6–8 inches) in length.
+    Celery (Apium graveolens) is a cool-season biennial grown for its crisp, fibrous stalks and aromatic leaves. It grows upright with thick, ribbed stems that reach heights of 30–60 cm (12–24 inches). The leaves are deeply serrated, and in its second year, it produces small white flowers that attract pollinators.
+
+    Celery requires a long growing season and is highly sensitive to temperature fluctuations. It thrives in consistently moist, nutrient-rich soil and is often blanched by covering the stalks to improve their flavor and reduce bitterness.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade in warmer climates.
+    - Requires consistently moist, well-drained soil rich in organic matter.
+    - Sensitive to drought; regular watering is essential to prevent bitter stalks.
+
+    ### Methods to Propagate
+    - Seeds: Start indoors 8–10 weeks before the last frost; transplant when seedlings are 10 cm (4 inches) tall.
+    - Cuttings: Can be regrown from the base of store-bought stalks in water.
+    - Division: Rarely propagated by division due to its biennial nature.
+
+    ### When to Harvest
+    - Stalks are ready for harvest 90–120 days after planting.
+    - Cut outer stalks as needed or harvest the whole plant by cutting at the base.
+    - Leaves can be harvested anytime for seasoning or drying.
   purpose: |-
-    In permaculture, celery serves multiple functions:
-    - Edible: Provides nutritious stalks rich in vitamins K, C, and folate, suitable for fresh consumption, cooking, and preservation.
-    - Medicinal: Contains compounds with anti-inflammatory properties; traditionally used to support digestion and reduce blood pressure.
-    - Wildlife Attractor: Its flowers attract beneficial insects, including pollinators and predatory species that help control pests.
-    - Dynamic Accumulator: Accumulates minerals such as potassium and calcium, enhancing soil fertility when plant residues decompose.
-    - Erosion Control: The fibrous root system helps bind soil, reducing erosion and improving soil structure.
-    - Border Plant: Can be used to define garden beds and pathways, contributing to garden aesthetics.
-    - Pest Management: When interplanted with crops like cabbage, it can repel pests such as the cabbage white butterfly.
+    Celery serves multiple functions in a permaculture system:
+
+    - Edible: Stalks, leaves, and seeds are used in soups, stews, salads, and seasonings.
+    - Medicinal: Traditionally used as a diuretic and for anti-inflammatory properties.
+    - Wildlife Attractor: Flowers attract beneficial pollinators and predatory insects.
+    - Mulcher: Leaves and stalk residues break down quickly, improving soil quality.
+    - Dynamic Accumulator: Draws up minerals such as calcium and magnesium, enriching the surrounding soil.
+    - Border Plant: Used in garden edges and companion planting to enhance biodiversity.
   companions: 
-    - Beans
     - Onion
-    - Leeks
-    - Spinach
+    - Cabbage
     - Tomato
-    - Basil
-    - Thyme
-    - Sage
-    - Hyssop
-    - Coriander
+    - Spinach
+    - Nasturtium
   avoid:
     - Carrot
     - Parsnip
-    - Fennel
-    - Potatoe
+    - Corn
   pests: 
-    - Aphids
-    - Carrot Rust Fly
-    - Celery Leaf Miner
-    - Slugs
-    - Snails
+    - Aphid
+    - Leaf Miner
+    - Slug
+    - Celery Worm
+    - Fusarium Wilt

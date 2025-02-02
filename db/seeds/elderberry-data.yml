@@ -2,47 +2,68 @@
   picture: elderberry.jpg
   scientific_name: Sambucus nigra
   aka:
-    - Common Elderberry
-    - European Elderberry
+    - Black Elderberry
+    - European Elder
     - American Elderberry (Sambucus canadensis)
   family: Adoxaceae
-  zone:
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
+  zone: 3-10
+    :ideal_temp_min: 50
+    :ideal_temp_max: 80
+    :min_temp: -30
+    :max_temp: 100
   perennial: true
   layers:
     - Shrub
-    - Understory
   plant_function:
     - Edible
     - Medicinal
+    - Pollinator
     - Wildlife Attractor
+    - Dynamic Accumulator
     - Erosion Control
     - Windbreaker
-    - Pollinator
     - Border Plant
   description: |-
-    Elderberry is a deciduous shrub native to Europe and North America, typically reaching heights of 3–4 meters (10–13 feet). It features pinnate leaves with 5–7 leaflets and produces clusters of small, white to cream-colored flowers in late spring to early summer. These are followed by dark purple to black berries in late summer to early autumn. Elderberries prefer full sun to partial shade and thrive in moist, well-drained soils. They are tolerant of a range of soil types, including clay and sandy soils. Propagation is commonly achieved through hardwood cuttings taken during dormancy or by sowing seeds after stratification. Harvest flowers when they are fully open, and pick berries when they are fully ripe and dark in color.
+    Elderberry (Sambucus nigra) is a fast-growing, deciduous shrub reaching heights of 2–4 meters (6–12 feet). It produces clusters of small, fragrant white flowers followed by dark purple to black berries in late summer. 
+
+    This hardy plant thrives in moist, well-drained soil and is commonly found along riverbanks, woodlands, and hedgerows. It is widely cultivated for its edible and medicinal uses, as well as its ability to attract pollinators and wildlife.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Requires moist, well-drained soil but can tolerate occasional drought.
+    - Benefits from deep watering during dry spells.
+
+    ### Methods to Propagate
+    - Seeds: Sow in fall or cold-stratify before planting in spring.
+    - Cuttings: Softwood cuttings in spring or hardwood cuttings in late winter root easily.
+    - Suckers: Can be propagated by transplanting root suckers.
+
+    ### When to Harvest
+    - Flowers are harvested in late spring or early summer for teas and syrups.
+    - Berries are ready for harvest in late summer to early fall when fully ripe and dark purple-black.
+    - Only ripe berries should be used; unripe berries contain toxins.
   purpose: |-
-    - Edible: Elderberries are used in jams, jellies, syrups, and wines. Note that raw berries and other parts of the plant can be toxic and should be cooked before consumption.
-    - Medicinal: Traditionally used to support immune function and treat colds and flu symptoms. Elderflowers are also used in herbal remedies.
-    - Wildlife Attractor: Flowers attract pollinators like bees and butterflies, while berries provide food for birds and other wildlife.
-    - Erosion Control: The extensive root system helps stabilize soil, making it useful for erosion control on banks and slopes.
-    - Windbreaker: Can be planted as part of a windbreak due to its dense growth habit.
-    - Pollinator: The abundant flowers provide a nectar source for pollinators, supporting biodiversity in the ecosystem.
-    - Border Plant: Often used in hedgerows and as a border plant in permaculture designs.
-  companions:
-    - Yarrow
-    - Bee Balm
-    - Mint
+    Elderberry serves multiple functions in a permaculture system:
+
+    - Edible: Berries are used in jams, syrups, wines, and medicinal tonics.
+    - Medicinal: Known for immune-boosting and antiviral properties.
+    - Pollinator: Flowers attract bees, butterflies, and other beneficial insects.
+    - Wildlife Attractor: Berries provide food for birds and small mammals.
+    - Dynamic Accumulator: Draws up nutrients like potassium and phosphorus.
+    - Erosion Control: Spreading roots stabilize soil on slopes and near water bodies.
+    - Windbreaker: Provides shelter and protection for delicate crops.
+    - Border Plant: Works well in hedgerows and naturalized landscapes.
+  companions: 
+    - Raspberry
+    - Currant
+    - Hazelnut
+    - Comfrey
+    - Clover
   avoid:
-    - None specifically noted
-  pests:
-    - Aphids
-    - Borers
+    - Walnut
+    - Corn
+  pests: 
+    - Aphid
+    - Spider Mite
     - Powdery Mildew
+    - Borers

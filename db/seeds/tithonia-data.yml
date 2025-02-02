@@ -1,43 +1,58 @@
 - common_name: Tithonia
   picture: tithonia.jpg
-  scientific_name: Tithonia diversifolia
+  scientific_name: Tithonia rotundifolia
   aka:
-  - Mexican Sunflower
-  - Tree Marigold
+    - Mexican Sunflower
+    - Bolivian Sunflower
   family: Asteraceae
-  zone: 
-    - 9
-    - 10
-    - 11
+  zone: 8-11
+    :ideal_temp_min: 65
+    :ideal_temp_max: 90
+    :min_temp: 50
+    :max_temp: 100
   perennial: true
   layers:
-  - Shrub
+    - Herbaceous
+    - Shrub
   plant_function:
-  - Pollinator
-  - Wildlife Attractor
-  - Mulcher
-  - Dynamic Accumulator
-  - Erosion Control
-  - Animal Fodder
+    - Pollinator
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Border Plant
   description: |-
-    Tithonia, commonly known as Mexican sunflower, is a fast-growing, multi-stemmed perennial shrub that can reach heights of 2–3 meters (6.5–10 feet). It features large, lobed leaves and produces vibrant orange to yellow daisy-like flowers that bloom year-round in warm climates. 
-    The plant thrives in full sun and prefers well-drained soils with moderate fertility. It is drought-tolerant once established and grows well in tropical and subtropical climates. Propagation is done through stem cuttings or seeds, with cuttings being the most reliable method. Tithonia is typically used as a "cut and carry" crop for its biomass and nutrient-rich leaves.
+    Tithonia, commonly known as Mexican Sunflower, is a fast-growing, heat-tolerant flowering plant that produces vibrant orange-red blooms. It reaches heights of 1.5–3 meters (5–10 feet) and spreads widely, making it an excellent choice for borders and hedgerows. The plant thrives in full sun and well-drained soil, showing remarkable drought resistance.
+
+    The large flowers attract pollinators such as butterflies, bees, and hummingbirds, making it a valuable plant for biodiversity. It is also an excellent biomass producer, contributing rich organic matter when used as a green mulch or compost.
+
+    ### Sun and Water Requirements
+    - Prefers full sun (6+ hours of direct sunlight).
+    - Well-drained, moderately fertile soil is ideal.
+    - Drought-tolerant but benefits from occasional deep watering in dry conditions.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow after the last frost or start indoors and transplant.
+    - Cuttings: Can be propagated from semi-hardwood cuttings.
+
+    ### When to Harvest
+    - Blooms continuously in warm seasons.
+    - Cut flowers for arrangements or seed collection when mature.
   purpose: |-
-    Tithonia is a versatile plant in permaculture, offering the following benefits:
-    - Pollinator: Its bright flowers attract bees, butterflies, and other pollinators.
-    - Wildlife Attractor: Provides food and habitat for beneficial insects and birds.
-    - Mulcher: Produces significant biomass that can be chopped and used as mulch to enrich the soil.
-    - Dynamic Accumulator: Leaves and stems accumulate nutrients such as phosphorus and potassium, which are released when used as compost or mulch.
-    - Erosion Control: Dense root systems stabilize the soil on slopes and prevent erosion.
-    - Animal Fodder: Tithonia is also used as livestock fodder in some permaculture systems. Its leaves are rich in nutrients and can be fed to animals, particularly goats and cattle. However, it should be used in moderation as it can be toxic in large quantities.
+    Tithonia serves multiple roles in permaculture systems:
+
+    - Pollinator: Attracts butterflies, bees, and hummingbirds.
+    - Wildlife Attractor: Provides nectar and habitat for beneficial insects.
+    - Mulcher: Produces abundant biomass for green manure and composting.
+    - Dynamic Accumulator: Absorbs nutrients and enriches the soil.
+    - Border Plant: Used as a natural hedge to define garden spaces.
   companions: 
-    - Marigold
-    - Fruit Trees
-    - Legumes
-    - Squash
+    - Corn
+    - Tomatoes
+    - Beans
+    - Sunflower
   avoid:
-  - Potatoes
-  - Tomatoes
+    - None reported
   pests: 
-  - Aphids
-  - Whiteflies
+    - Aphids
+    - Spider Mites
+    - Whiteflies

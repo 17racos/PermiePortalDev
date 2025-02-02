@@ -1,48 +1,67 @@
 - common_name: Chamomile
   picture: chamomile.jpg
-  scientific_name: Matricaria chamomilla
+  scientific_name: Matricaria chamomilla (German Chamomile), Chamaemelum nobile (Roman Chamomile)
   aka:
-    - German Chamomile
-    - Hungarian Chamomile
-    - Wild Chamomile
-    - Blue Chamomile
-    - Scented Mayweed
+    - German Chamomile (Matricaria chamomilla)
     - Roman Chamomile (Chamaemelum nobile)
+    - Wild Chamomile
   family: Asteraceae
-  zone: [3, 4, 5, 6, 7, 8, 9]
-  perennial: false
+  zone: 4-9
+    :ideal_temp_min: 45
+    :ideal_temp_max: 75
+    :min_temp: 25
+    :max_temp: 95
+  perennial: false (German Chamomile), true (Roman Chamomile)
   layers:
     - Herbaceous
   plant_function:
     - Edible
     - Medicinal
+    - Pollinator
     - Wildlife Attractor
+    - Mulcher
     - Dynamic Accumulator
+    - Border Plant
     - Pest Management
   description: |-
-    Chamomile is an annual herbaceous plant reaching heights of 15–60 cm (6–24 inches). It features finely divided, feathery leaves and daisy-like flowers with white petals surrounding a yellow, conical, and hollow receptacle. The plant emits a pleasant, apple-like fragrance. Chamomile thrives in full sun and well-drained, moderately fertile soils with a pH between 6.0 and 7.5. It is drought-tolerant once established but benefits from regular watering during prolonged dry periods. Propagation is typically achieved by direct sowing seeds in early spring; seeds should be surface-sown and lightly pressed into the soil, as they require light for germination. Germination occurs within 7–14 days under optimal conditions. Flowering begins approximately 6–8 weeks after germination, and harvesting of the flowers is best done in the morning after the dew has dried but before the heat of the day, when essential oil content is at its peak. Regular harvesting encourages further blooming throughout the growing season.
+    Chamomile (Matricaria chamomilla and Chamaemelum nobile) is a small herbaceous plant known for its daisy-like flowers with yellow centers and white petals. It grows between 15–60 cm (6–24 inches) tall, depending on the variety, and emits a sweet, apple-like fragrance.
+
+    German Chamomile is an annual that self-seeds easily, while Roman Chamomile is a low-growing perennial. Both varieties thrive in well-drained, sandy, or loamy soils and tolerate drought conditions once established. Chamomile attracts pollinators and beneficial insects while repelling certain pests.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Grows best in well-drained, light, and sandy soils.
+    - Requires moderate watering; drought-tolerant once established.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow in early spring; does not require deep planting.
+    - Division: Roman Chamomile can be divided in spring or fall.
+    - Self-seeding: German Chamomile reseeds naturally and returns yearly.
+
+    ### When to Harvest
+    - Flowers are harvested when fully open, typically in late spring to early summer.
+    - Regular harvesting encourages continuous blooming.
+    - Dry flowers in a well-ventilated area for medicinal and culinary use.
   purpose: |-
-    In permaculture, chamomile serves multiple functions:
-    - Edible: The flowers are commonly used to make herbal teas with calming effects.
-    - Medicinal: Chamomile possesses anti-inflammatory, antispasmodic, and sedative properties, traditionally used to treat ailments such as insomnia, digestive issues, and skin irritations.
-    - Wildlife Attractor: The flowers attract beneficial insects, including pollinators like bees and predatory insects that help control pest populations.
-    - Dynamic Accumulator: Chamomile accumulates essential minerals, particularly calcium and potassium, which can enrich the soil when the plant decomposes.
-    - Pest Management: Its presence can deter certain pests, and it is believed to have antifungal properties that may benefit neighboring plants.
+    Chamomile serves multiple functions in a permaculture system:
+
+    - Edible: Flowers are used in herbal teas, syrups, and desserts.
+    - Medicinal: Traditionally used for relaxation, digestive support, and anti-inflammatory properties.
+    - Pollinator: Flowers attract bees, butterflies, and other beneficial insects.
+    - Wildlife Attractor: Provides nectar for pollinators while repelling certain pests.
+    - Mulcher: Leaves and stems decompose quickly, adding organic matter to the soil.
+    - Dynamic Accumulator: Accumulates nutrients such as potassium and calcium, improving soil health.
+    - Border Plant: Works well in garden borders, herb beds, and companion planting systems.
+    - Pest Management: Helps deter aphids and whiteflies, while attracting predatory insects.
   companions: 
-    - Onions
     - Cabbage
-    - Beans
-    - Cucumbers
-    - Broccoli
-    - Kale
-    - Brussels Sprouts
-    - Cauliflower
+    - Onion
     - Mint
+    - Basil
+    - Lettuce
   avoid:
-    - Potato
-    - Carrot
     - Fennel
   pests: 
-    - Aphids
-    - Thrips
-    - Powdery Mildew
+    - Aphid
+    - Thrip
+    - Whitefly

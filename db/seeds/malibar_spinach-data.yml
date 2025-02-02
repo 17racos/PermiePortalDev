@@ -1,33 +1,66 @@
 - common_name: Malabar Spinach
-  picture: malibar.jpg
+  picture: malabar.jpg
   scientific_name: Basella alba
   aka:
-    - Vine Spinach
     - Ceylon Spinach
+    - Climbing Spinach
     - Indian Spinach
   family: Basellaceae
-  zone:
-    - 10
-    - 11
-  perennial: true
+  zone: 9-12
+    :ideal_temp_min: 65
+    :ideal_temp_max: 95
+    :min_temp: 50
+    :max_temp: 100
+  perennial: true (grown as an annual in cooler climates)
   layers:
     - Climber
   plant_function:
     - Edible
+    - Medicinal
     - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Erosion Control
     - Border Plant
   description: |-
-    Malabar spinach is a fast-growing, tropical perennial vine known for its lush, glossy, and succulent leaves. It can reach lengths of up to 10 meters (approximately 33 feet) when provided with adequate support. The plant thrives in hot, humid climates and is frost-sensitive, making it suitable for USDA hardiness zones 10 and 11. It prefers full sun but can tolerate partial shade, which may result in larger leaves. Malabar spinach requires consistent moisture to prevent premature flowering, which can cause the leaves to become bitter. It grows well in moist, fertile soils rich in organic matter, with a pH range of 6.0 to 6.8. Propagation is typically done through seeds or stem cuttings. Seeds should be sown directly into the soil at a depth of 10 mm (0.4 inches) and spaced 20 cm (8 inches) apart. Germination occurs within 10 to 21 days. Regular harvesting of the tender leaves and stems encourages new growth. Leaves can be harvested once the plant is well-established, usually within 55 to 70 days after planting.
+    Malabar Spinach (Basella alba) is a fast-growing, climbing vine with thick, fleshy, green or purple stems and dark green, heart-shaped leaves. Unlike traditional spinach, it thrives in hot, humid climates and is a popular leafy green in tropical regions. It has a slightly mucilaginous texture, making it useful for soups and stir-fries.
+
+    The plant grows best on trellises or fences, where it can climb and produce an abundance of edible leaves. It is also a great summer alternative to traditional spinach, which struggles in heat. In cooler climates, it can be grown as an annual.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Thrives in warm, humid conditions and requires regular watering.
+    - Prefers well-draining, loamy, or sandy soil with high organic matter.
+
+    ### Methods to Propagate
+    - Seeds: Soak seeds overnight and plant directly in warm soil; germination may take 7-14 days.
+    - Cuttings: Propagates easily from stem cuttings rooted in water or soil.
+    - Layering: Stems that touch the ground may root naturally.
+
+    ### When to Harvest
+    - Leaves can be harvested continuously once the plant reaches 30 cm (12 inches) in height.
+    - Regular harvesting encourages bushier growth.
+    - Avoid harvesting too much at once to maintain plant vigor.
   purpose: |-
-    - Edible: Malabar spinach is a nutritious leafy green, rich in vitamins A and C, iron, and calcium. It can be eaten raw in salads or cooked in soups, stews, and stir-fries. Unlike common spinach, it thrives in hot weather, providing a continuous supply of greens during warmer months.
-    - Wildlife Attractor: The plant's flowers and berries attract pollinators such as bees, enhancing biodiversity in the garden.
-    - Border Plant: Its vigorous growth and attractive foliage make it suitable for use as a living border or screen when trellised.
-  companions:
-    - Tomato
-    - Peppers
-    - Eggplant
+    Malabar Spinach serves multiple functions in a permaculture system:
+
+    - Edible: A nutritious leafy green high in vitamins A and C, calcium, and iron.
+    - Medicinal: Used in traditional medicine for digestive and anti-inflammatory benefits.
+    - Wildlife Attractor: Produces small, purple berries that attract birds.
+    - Mulcher: Cut leaves and stems can be used for mulching.
+    - Dynamic Accumulator: Draws up beneficial nutrients to improve soil health.
+    - Erosion Control: Root system helps bind soil in sloped areas.
+    - Border Plant: Used along garden edges or fences for vertical growth.
+  companions: 
+    - Sweet Potato
+    - Basil
+    - Lemongrass
+    - Turmeric
+    - Ginger
   avoid:
-    - Rosemary
-  pests:
-    - Aphids
-    - Spider Mites
+    - Fennel
+  pests: 
+    - Aphid
+    - Slug
+    - Snail
+    - Spider Mite

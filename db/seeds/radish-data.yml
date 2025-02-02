@@ -3,46 +3,55 @@
   scientific_name: Raphanus sativus
   aka:
     - Daikon (Raphanus sativus var. longipinnatus)
-    - Oilseed Radish (Raphanus sativus var. oleiformis)
+    - Horseradish Radish
   family: Brassicaceae
-  zone:
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
+  zone: 2-11
+    :ideal_temp_min: 50
+    :ideal_temp_max: 75
+    :min_temp: 20
+    :max_temp: 95
   perennial: false
   layers:
     - Herbaceous
-    - Root
   plant_function:
     - Edible
-    - Medicinal
     - Dynamic Accumulator
-    - Erosion Control
     - Pest Management
+    - Mulcher
+    - Erosion Control
   description: |-
-    Radishes are fast-growing, cool-season annuals known for their crisp, mildly spicy roots. They exhibit a variety of root shapes and colors, from round to elongated and red to white. The plants produce leafy greens arranged in a rosette at the base, which are also edible. Radishes thrive in full sun and prefer well-drained, sandy loam soils with a pH between 6.5 and 7.0. They require consistent moisture to develop tender roots. Propagation is through direct seeding; sow seeds 1–2 cm deep and 2.5 cm apart, thinning to 5–7.5 cm to allow proper root development. Radishes mature quickly, typically within 3–6 weeks, depending on the variety. Harvest roots promptly to prevent them from becoming woody.
+    The Radish (Raphanus sativus) is a fast-growing root vegetable cultivated for its edible root and greens. It comes in a variety of colors, including red, white, purple, and black. Radishes thrive in cool weather and can be grown in early spring and fall. The plant produces small white, pink, or purple flowers that attract pollinators. It grows best in loose, well-draining soil rich in organic matter.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Requires well-drained, loose soil with consistent moisture.
+    - Avoid excessive nitrogen, which promotes leafy growth over root development.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow seeds 1 cm (0.5 inches) deep, spaced 5 cm (2 inches) apart.
+    - Germinates within 3-7 days in optimal conditions.
+    - Thin seedlings to encourage healthy root development.
+
+    ### When to Harvest
+    - Harvest radishes 3-6 weeks after planting, depending on the variety.
+    - Roots should be firm and crisp; over-mature radishes become woody and bitter.
   purpose: |-
-    - Edible: Radish roots and greens are consumed raw or cooked, adding a peppery flavor to dishes.
-    - Medicinal: Traditionally used to stimulate appetite and aid digestion; roots have laxative properties.
-    - Dynamic Accumulator: Accumulates nutrients like sulfur, aiding in soil fertility.
-    - Erosion Control: Varieties like Daikon have deep taproots that break up compacted soil, enhancing aeration and reducing erosion.
-    - Pest Management: Acts as a trap crop, attracting pests away from main crops; its pungent odor deters certain insects.
-  companions:
-    - Lettuce
-    - Peas
-    - Nasturtium
-    - Cucumber
+    The Radish serves multiple functions in a permaculture system:
+
+    - Edible: The root is commonly eaten raw in salads or cooked; greens are also edible.
+    - Dynamic Accumulator: Absorbs nutrients like potassium and phosphorus, making them available to other plants.
+    - Pest Management: Repels squash bugs and cucumber beetles while deterring some soil pests.
+    - Mulcher: Radish greens can be chopped and used as mulch for soil improvement.
+    - Erosion Control: Fast-growing roots help stabilize soil in disturbed areas.
+  companions: 
     - Carrot
+    - Lettuce
+    - Cucumber
+    - Peas
   avoid:
     - Hyssop
-  pests:
+    - Cabbage
+  pests: 
     - Flea Beetles
-    - Cabbage Root Fly
-    - Swede Midge
+    - Root Maggots
+    - Aphids

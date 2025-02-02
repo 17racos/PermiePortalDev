@@ -3,49 +3,63 @@
   scientific_name: Ocimum basilicum
   aka:
     - Sweet Basil
-    - Genovese Basil
+    - Culinary Basil
     - Thai Basil (Ocimum basilicum var. thyrsiflora)
-    - Lemon Basil (Ocimum basilicum var. citriodorum)
-    - Holy Basil (Ocimum tenuiflorum)
   family: Lamiaceae
-  zone: [5, 6, 7, 8, 9, 10, 11]
+  zone: 9-11
+    :ideal_temp_min: 50
+    :ideal_temp_max: 85
+    :min_temp: 32
+    :max_temp: 100
   perennial: false
   layers:
     - Herbaceous
   plant_function:
     - Edible
     - Medicinal
-    - Wildlife Attractor
     - Pollinator
+    - Wildlife Attractor
     - Border Plant
     - Pest Management
   description: |-
-    Basil is a tender annual herb that typically grows to a height of 12 to 24 inches (30 to 60 cm) with a similar spread. It features bright green, oval-shaped leaves that emit a strong, distinct aroma when crushed. Some varieties may have purple or variegated foliage. Basil produces small, tubular flowers in clusters, ranging from white to pink or purple, depending on the variety. It thrives in full sun, requiring at least 6 hours of direct sunlight per day, and prefers well-drained, moist soil. Regular watering is essential, but avoid wetting the leaves to prevent fungal issues. Propagation is commonly done through seeds sown indoors 6-8 weeks before the last frost date, or by taking cuttings from established plants. Harvesting can begin once the plant has at least six sets of leaves; regularly pinching off the top sets of leaves encourages bushier growth and delays flowering. For optimal flavor, harvest leaves in the morning after the dew has dried.
+    Basil (Ocimum basilicum) is a fast-growing, aromatic herb widely used for culinary and medicinal purposes. It has bright green, oval leaves with a strong, slightly sweet aroma. The plant grows between 30–90 cm (12–36 inches) tall and produces small white or purple flowers that attract pollinators.
+
+    Basil thrives in warm, sunny conditions with well-drained soil and requires regular pruning to promote bushy growth. It is highly valued for its ability to repel certain pests while attracting beneficial insects. Basil is commonly grown in herb gardens, companion planted with vegetables, or grown in containers.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Requires well-drained, moist, fertile soil.
+    - Needs regular watering; soil should be kept evenly moist but not waterlogged.
+
+    ### Methods to Propagate
+    - Seeds: Sow indoors 4–6 weeks before the last frost or direct sow after the danger of frost has passed.
+    - Cuttings: Can be propagated from stem cuttings placed in water or moist soil.
+    - Succession Planting: Recommended every few weeks for a continuous harvest.
+
+    ### When to Harvest
+    - Leaves can be harvested once the plant reaches 15 cm (6 inches) in height.
+    - Regular pruning encourages bushy growth and prevents early flowering.
+    - Flowers should be pinched off to prolong leaf production unless grown for pollinators.
   purpose: |-
-    In permaculture, basil serves multiple functions:
-    - Edible: Its aromatic leaves are widely used in culinary dishes, adding flavor to salads, sauces, and pesto.
-    - Medicinal: Traditionally used to alleviate digestive issues, reduce inflammation, and as an antimicrobial agent.
-    - Wildlife Attractor: The flowers attract pollinators such as bees and butterflies, enhancing biodiversity in the garden.
-    - Pollinator Support: Provides a nectar source for pollinators, supporting their populations.
-    - Border Plant: Its compact growth habit makes it suitable for edging garden beds, adding aesthetic appeal.
-    - Pest Management: Basil's strong aroma can repel certain pests, and it is often planted alongside tomatoes and peppers to deter insects.
+    Basil serves multiple functions in a permaculture system:
+
+    - Edible: Leaves are used fresh, dried, or in oils, teas, and culinary dishes.
+    - Medicinal: Traditionally used for digestion, anti-inflammatory, and antimicrobial properties.
+    - Pollinator: Flowers attract bees, butterflies, and other beneficial insects.
+    - Wildlife Attractor: Supports pollinators while deterring certain pests.
+    - Border Plant: Commonly used to define garden edges and mixed planting beds.
+    - Pest Management: Repels mosquitoes, aphids, and whiteflies while attracting predatory insects.
   companions: 
     - Tomato
-    - Peppers
-    - Eggplant
-    - Asparagus
-    - Marigold
-    - Chives
+    - Pepper
     - Oregano
-    - Chamomile
-    - Potato
-    - Borage
+    - Lettuce
+    - Marigold
   avoid:
-    - Sage
     - Rue
+    - Fennel
   pests: 
-    - Aphids
-    - Whiteflies
-    - Spider Mites
-    - Slugs
-    - Japanese Beetles
+    - Aphid
+    - Whitefly
+    - Japanese Beetle
+    - Spider Mite

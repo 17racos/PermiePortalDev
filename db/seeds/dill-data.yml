@@ -2,50 +2,64 @@
   picture: dill.jpg
   scientific_name: Anethum graveolens
   aka:
-    - Dillweed
-    - Anethum sowa (Indian Dill)
-  family:
-    - Apiaceae
-  zone:
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-  perennial: false
+    - Dill Weed
+    - Lao Coriander
+  family: Apiaceae
+  zone: 2-11
+    :ideal_temp_min: 50
+    :ideal_temp_max: 80
+    :min_temp: 25
+    :max_temp: 100
+  perennial: false (grown as an annual)
   layers:
     - Herbaceous
   plant_function:
     - Edible
     - Medicinal
-    - Wildlife Attractor
     - Pollinator
-    - Pest Management
+    - Wildlife Attractor
     - Border Plant
+    - Pest Management
   description: |-
-    Dill is an annual herb reaching heights of 0.6 to 1.2 meters (2 to 4 feet) with slender, hollow stems and finely divided, feathery leaves. It produces small yellow flowers arranged in umbels. Preferring full sun, dill thrives in well-drained, slightly acidic to neutral soils rich in organic matter. It requires regular watering, especially during dry periods, but does not tolerate waterlogged conditions. Propagation is typically achieved through direct seeding in the garden after the last frost. Harvesting of leaves can begin when plants are about 25 to 30 centimeters (10 to 12 inches) tall; seeds are harvested when they turn tan or brown.
+    Dill (Anethum graveolens) is an aromatic, feathery-leaved annual herb that grows up to 90 cm (3 feet) tall. It produces delicate, umbrella-shaped clusters of yellow flowers that attract beneficial insects. The entire plant, including leaves, seeds, and flowers, is edible.
+
+    Dill thrives in well-drained, slightly acidic to neutral soil and is commonly used as a culinary and medicinal herb. It self-seeds easily, making it a great addition to herb gardens and food forests.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Grows best in well-drained, sandy or loamy soil.
+    - Requires moderate watering; avoid overwatering to prevent root rot.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow in early spring or late summer; does not transplant well.
+    - Self-seeding: Reseeds easily if flowers are left to mature.
+    - No division: Best grown from seed rather than division or cuttings.
+
+    ### When to Harvest
+    - Leaves can be harvested once plants reach 20 cm (8 inches) tall.
+    - Flowers should be harvested when fully open for best flavor.
+    - Seeds are ready when they turn brown and dry on the plant.
   purpose: |-
-    - Edible: Both dill leaves and seeds are used to flavor a variety of dishes, including soups, salads, and pickles. The leaves, known as dillweed, are often used fresh, while the seeds serve as a spice.
-    - Medicinal: Traditionally, dill has been used to aid digestion and alleviate flatulence. Dill seed tea is sometimes consumed for its soothing effects.
-    - Wildlife Attractor: Dill flowers attract beneficial insects such as bees, wasps, and butterflies, including the black swallowtail butterfly, which uses dill as a host plant for its larvae.
-    - Pollinator: By attracting pollinators, dill can enhance the productivity of nearby plants.
-    - Pest Management: Dill can repel certain pests and attract predatory insects that help control pest populations. However, it may attract aphids and should be monitored accordingly.
-    - Border Plant: Its tall, airy foliage makes it suitable for garden borders.
-  companions:
+    Dill serves multiple functions in a permaculture system:
+
+    - Edible: Leaves, seeds, and flowers are used in cooking, pickling, and teas.
+    - Medicinal: Supports digestion, reduces bloating, and has antimicrobial properties.
+    - Pollinator: Flowers attract bees, butterflies, and other beneficial insects.
+    - Wildlife Attractor: Provides nectar for pollinators and predatory insects.
+    - Border Plant: Works well in herb gardens, vegetable beds, and companion planting.
+    - Pest Management: Attracts predatory insects such as ladybugs that help control aphids.
+  companions: 
     - Cabbage
     - Lettuce
-    - Onion
     - Cucumber
+    - Onion
+    - Basil
   avoid:
     - Carrot
+    - Fennel
     - Tomato
-  pests:
-    - Aphids
-    - Parsley Worms
-    - Armyworms
-    - Dill Worms
+  pests: 
+    - Aphid
+    - Caterpillar
+    - Leaf Miner
+    - Powdery Mildew

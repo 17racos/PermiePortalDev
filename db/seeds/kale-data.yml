@@ -2,55 +2,61 @@
   picture: kale.jpg
   scientific_name: Brassica oleracea var. acephala
   aka:
-    - Borecole
-    - Leaf cabbage
-  family:
-    - Brassicaceae
-  zone:
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-  perennial: false
+    - Leaf Cabbage
+    - Collard Greens
+  family: Brassicaceae
+  zone: 7-10
+    :ideal_temp_min: 40
+    :ideal_temp_max: 75
+    :min_temp: 20
+    :max_temp: 90
+  perennial: false (grown as an annual or biennial)
   layers:
     - Herbaceous
   plant_function:
     - Edible
     - Medicinal
-    - Mulcher
     - Dynamic Accumulator
-    - Erosion Control
-    - Animal Fodder
+    - Wildlife Attractor
     - Border Plant
-    - Pest Management
   description: |-
-    Kale is a hardy, leafy green vegetable belonging to the Brassicaceae family, closely related to cabbage and broccoli. It features large, thick leaves that can be flat or curly, with colors ranging from light green to deep blue-green and even reddish hues. Typically grown as an annual, kale thrives in cooler seasons and can withstand frost, which often enhances its flavor. It prefers full sun to partial shade and requires consistent moisture, favoring well-drained, fertile soil with a pH between 6.0 and 7.5. Propagation is commonly done through direct seeding or transplanting seedlings into the garden. Harvesting can begin when leaves are about 20 cm (8 inches) long, usually 55 to 75 days after planting, by picking the outer leaves and allowing the center to continue producing.
+    Kale (Brassica oleracea var. acephala) is a nutrient-dense leafy green vegetable that can grow up to 60–90 cm (2–3 feet) tall. It has curly or flat leaves that range in color from green to purple, depending on the variety. Unlike cabbage, kale does not form a head.
+
+    It is a hardy crop that thrives in cooler temperatures and can tolerate light frosts, which enhance its flavor. Kale is known for its high vitamin and mineral content, making it a staple in many gardens.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Requires well-drained, fertile soil rich in organic matter.
+    - Needs consistent moisture; keep soil evenly moist but not waterlogged.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow in early spring or late summer for a fall harvest.
+    - Transplants: Start indoors 4–6 weeks before the last frost and transplant when strong.
+    - Cuttings: Some varieties can regrow from cut stems placed in water or soil.
+
+    ### When to Harvest
+    - Leaves can be harvested when they reach 10–15 cm (4–6 inches) long.
+    - Pick lower leaves first, leaving the center intact for continuous growth.
+    - Mature plants can produce leaves for several months, especially in cooler seasons.
   purpose: |-
-    - Edible: Kale leaves are highly nutritious, rich in vitamins A, C, and K, and minerals like calcium and iron. They can be consumed raw in salads, sautéed, or added to soups and stews.
-    - Medicinal: Traditionally, kale has been used for its anti-inflammatory properties and is believed to support cardiovascular health due to its high antioxidant content.
-    - Mulcher: The plant's dense foliage can be chopped and used as mulch to suppress weeds and retain soil moisture.
-    - Dynamic Accumulator: Kale accumulates nutrients such as calcium and potassium, enriching compost when the plant residues are returned to the soil.
-    - Erosion Control: Its fibrous root system helps bind the soil, reducing erosion in garden beds.
-    - Animal Fodder: Kale can serve as a nutritious forage crop for livestock, especially in cooler seasons when other greens are scarce.
-    - Border Plant: With its attractive foliage, kale can be used decoratively to define garden borders or pathways.
-    - Pest Management: Kale flowers attract beneficial insects like ladybugs and parasitic wasps, aiding in the control of aphids and other pests.
-  companions:
+    Kale serves multiple functions in a permaculture system:
+
+    - Edible: Highly nutritious and used in salads, soups, and stir-fries.
+    - Medicinal: Rich in vitamins A, C, and K; supports immune and cardiovascular health.
+    - Dynamic Accumulator: Absorbs and accumulates minerals such as calcium and magnesium.
+    - Wildlife Attractor: Flowers provide nectar for bees and other pollinators.
+    - Border Plant: Works well as an edge plant in garden beds.
+  companions: 
     - Beet
     - Celery
-    - Dill
-    - Onions
-    - Potato
+    - Onion
+    - Garlic
+    - Nasturtium
   avoid:
-    - Brassicas
     - Tomato
     - Strawberry
-  pests:
-    - Aphids
-    - Cabbage Worms
-    - Slugs
-    - Flea Beetles
+  pests: 
+    - Cabbage Worm
+    - Aphid
+    - Flea Beetle
+    - Cabbage Looper

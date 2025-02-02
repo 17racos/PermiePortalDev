@@ -3,46 +3,61 @@
   scientific_name: Foeniculum vulgare
   aka:
     - Sweet Fennel
-    - Finocchio
+    - Florence Fennel
+    - Bronze Fennel
   family: Apiaceae
-  zone:
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-  perennial: true
+  zone: 4-10
+    :ideal_temp_min: 50
+    :ideal_temp_max: 85
+    :min_temp: 25
+    :max_temp: 95
+  perennial: true (grown as an annual in cooler climates)
   layers:
     - Herbaceous
   plant_function:
     - Edible
     - Medicinal
+    - Pollinator
     - Wildlife Attractor
     - Dynamic Accumulator
-    - Mulcher
-    - Pest Management
+    - Border Plant
   description: |-
-    Fennel is a hardy perennial herb native to the Mediterranean but now cultivated worldwide. It features feathery, bluish-green leaves, hollow stems, and yellow umbrella-like flower clusters. The plant emits a distinct anise or licorice-like aroma and flavor. Fennel thrives in full sun and well-drained soils, preferring sandy or loamy substrates. It is drought-tolerant once established but benefits from regular watering during prolonged dry periods. Propagation is typically achieved through direct sowing of seeds in early spring after the last frost, with seedlings thinned to about 30 cm (12 inches) apart. The bulbs, which are actually swollen leaf bases, are ready for harvest approximately 90 days after planting, just before the plant flowers. Leaves and seeds can be harvested as needed; seeds are best collected when they turn brown and dry on the plant.
+    Fennel (Foeniculum vulgare) is a tall, aromatic, and feathery-leaved perennial herb that grows up to 1.8 meters (6 feet) tall. It produces umbrella-shaped clusters of small yellow flowers in summer, which attract beneficial insects.
+
+    This plant thrives in well-drained, fertile soil and is highly drought-resistant once established. It is commonly used for its edible bulbs, seeds, and leaves, as well as for medicinal purposes.
+
+    ### Sun and Water Requirements
+    - Prefers full sun and thrives in warm climates.
+    - Requires well-drained, loamy, or sandy soil.
+    - Drought-tolerant once established but benefits from occasional deep watering.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow in early spring or fall, as fennel does not transplant well.
+    - Self-seeding: Readily reseeds if flower heads are left to mature.
+    - No division: Root division is not commonly used for propagation.
+
+    ### When to Harvest
+    - Leaves can be harvested anytime during the growing season.
+    - Bulbs should be harvested when they reach 8–10 cm (3–4 inches) in diameter.
+    - Seeds are collected in late summer when flower heads dry and turn brown.
   purpose: |-
-    - Edible: All parts of fennel are edible. The bulbs are consumed as a vegetable, leaves as herbs, and seeds as spices. The plant imparts a mild licorice flavor to dishes.
-    - Medicinal: Traditionally used to aid digestion, reduce bloating, and as a remedy for respiratory ailments.
-    - Wildlife Attractor: Fennel flowers attract beneficial insects, including bees, parasitic wasps, and hoverflies, enhancing pollination and pest control in the garden.
-    - Dynamic Accumulator: Fennel accumulates minerals like sulfur and potassium, enriching the soil when plant residues decompose.
-    - Mulcher: The plant's biomass can be used as mulch to suppress weeds and retain soil moisture.
-    - Pest Management: By attracting predatory insects, fennel helps manage pest populations naturally.
-  companions:
+    Fennel serves multiple functions in a permaculture system:
+
+    - Edible: Bulbs, seeds, and leaves are used in cooking, herbal teas, and natural remedies.
+    - Medicinal: Traditionally used for digestion, colic relief, and as a mild expectorant.
+    - Pollinator: Flowers attract bees, butterflies, and predatory wasps.
+    - Wildlife Attractor: Provides food for swallowtail butterfly larvae.
+    - Dynamic Accumulator: Extracts minerals such as sulfur and potassium, enriching nearby soil.
+    - Border Plant: Used as a visual and functional garden divider.
+  companions: 
+    - Best grown alone
+  avoid:
+    - Tomato
+    - Bean
+    - Carrot
     - Dill
     - Coriander
-    - Wormwood
-    - Nasturtium
-  avoid:
-    - Beans
-    - Tomatoes
-    - Kohlrabi
-  pests:
-    - Aphids
-    - Whiteflies
-    - Root-knot nematodes
+  pests: 
+    - Aphid
+    - Whitefly
+    - Swallowtail Caterpillar

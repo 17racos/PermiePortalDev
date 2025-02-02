@@ -4,37 +4,54 @@
   aka:
     - Wild Parsnip
   family: Apiaceae
-  zone:
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
+  zone: 2-9
+    :ideal_temp_min: 45
+    :ideal_temp_max: 85
+    :min_temp: 0
+    :max_temp: 100
   perennial: false
   layers:
-    - Root
     - Herbaceous
   plant_function:
     - Edible
     - Dynamic Accumulator
-    - Mulcher
-    - Pest Management
+    - Erosion Control
+    - Wildlife Attractor
   description: |-
-    Parsnips are biennial root vegetables grown for their long, tapered, white to cream-colored roots. The plant reaches up to 1.5 meters (5 feet) in height if left to flower in its second year. It prefers full sun and fertile, well-drained soils with a pH between 6.0 and 7.0. Parsnips require consistent moisture, especially during germination, which can take up to 21 days. Sowing seeds directly into the soil in early spring, approximately 1 cm (0.4 inches) deep and spaced 5–7 cm (2–3 inches) apart, is the most common propagation method. Harvest occurs in late autumn to early winter after frost, which enhances the root's sweetness. Roots are typically 20–30 cm (8–12 inches) long when mature.
+    Parsnip (Pastinaca sativa) is a biennial root vegetable grown as an annual for its sweet, nutty-flavored, cream-colored taproot. It thrives in cool climates and develops the best flavor after exposure to frost. The plant grows tall with umbel-like yellow flowers in its second year, attracting pollinators and beneficial insects.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Requires consistently moist, well-drained soil.
+    - Deep watering is beneficial to encourage long root growth.
+
+    ### Methods to Propagate
+    - Direct seeding: Sow seeds directly in the garden as they do not transplant well.
+    - Pre-soaking: Soaking seeds overnight can improve germination.
+    - Succession planting: Plant every few weeks for an extended harvest.
+
+    ### When to Harvest
+    - Roots are ready for harvest 120-180 days after planting.
+    - Flavor improves after exposure to frost; best harvested late fall to winter.
+    - Can be left in the ground and dug up as needed through winter.
   purpose: |-
-    - Edible: A versatile root vegetable used in soups, stews, roasts, and purees, offering a sweet and nutty flavor.
-    - Dynamic Accumulator: Extracts nutrients like potassium from deep soil layers, enriching the topsoil when decomposed.
-    - Mulcher: Chopped leaves can be used as mulch, adding organic matter to the soil.
-    - Pest Management: Attracts beneficial predatory insects such as parasitic wasps when left to flower.
-  companions:
-    - Onions
+    Parsnip serves multiple permaculture functions:
+
+    - Edible: The root is a nutritious, sweet, and starchy vegetable used in various dishes.
+    - Dynamic Accumulator: Draws up deep nutrients from the soil, making them available for other plants.
+    - Erosion Control: Deep taproots help stabilize soil and prevent erosion.
+    - Wildlife Attractor: The flowers provide nectar for pollinators and beneficial insects.
+  companions: 
+    - Onion
     - Garlic
     - Carrot
+    - Tomato
+    - Radish
   avoid:
+    - Lettuce
     - Celery
-    - Dill
-  pests:
-    - Carrot Rust Fly
-    - Aphids
+  pests: 
     - Parsnip Canker
+    - Carrot Fly
+    - Aphid
+    - Root Maggot

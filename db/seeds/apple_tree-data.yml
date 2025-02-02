@@ -1,11 +1,14 @@
-- common_name: Apple Tree
-  picture: apple.png
+- common_name: Apple
+  picture: apple.jpg
   scientific_name: Malus domestica
   aka:
-    - Crabapple (Malus sylvestris)
-    - Wild Apple (Malus sieversii)
+    - Malus
   family: Rosaceae
-  zone: [3, 4, 5, 6, 7, 8]
+  zone: 3-9
+    :ideal_temp_min: 32
+    :ideal_temp_max: 85
+    :min_temp: -40
+    :max_temp: 100
   perennial: true
   layers:
     - Canopy
@@ -13,42 +16,54 @@
   plant_function:
     - Edible
     - Medicinal
-    - Wildlife Attractor
-    - Erosion Control
     - Pollinator
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Erosion Control
     - Border Plant
-    - Pest Management
   description: |-
-    Apple trees are deciduous, typically reaching heights of 10 to 30 feet (3 to 9 meters) with a similar spread. They have a rounded canopy with ovate leaves and produce fragrant white to pink blossoms in spring, followed by fruit maturing in late summer to fall. Apple trees require full sun and well-drained soil with a pH between 6.0 and 7.0. Regular watering is essential, especially during dry periods. Propagation is commonly achieved through grafting to maintain cultivar characteristics. Harvesting times vary by variety but generally occur from late summer to late fall when the fruit is firm and crisp.
+    The Apple Tree (Malus domestica) is a deciduous fruit tree that produces a variety of apples used for fresh eating, cider-making, and cooking. It typically grows between 3–9 meters (10–30 feet) tall, depending on the rootstock and cultivar.
+
+    Apple trees thrive in temperate climates with cold winters for proper dormancy. They require cross-pollination from compatible varieties for fruit production. The trees bloom in early spring with fragrant white to pink flowers, attracting bees and other pollinators. The fruit ripens in late summer to fall, with a wide range of flavors, colors, and textures depending on the cultivar. Proper pruning enhances airflow, reduces disease risk, and improves fruit quality.
+
+    ### Sun and Water Requirements
+    - Prefers full sun for optimal fruiting.
+    - Requires well-drained, loamy soil rich in organic matter.
+    - Moderate water needs; deep watering during dry periods promotes strong root growth.
+
+    ### Methods to Propagate
+    - Grafting: The most common method, ensuring desired fruit traits.
+    - Seeds: Can be grown from seed but results in unpredictable fruit characteristics.
+    - Cuttings: Hardwood cuttings can root, but success rates vary.
+
+    ### When to Harvest
+    - Harvest times vary by cultivar, typically between late summer and fall.
+    - Fruit is ready when it detaches easily from the branch with a slight twist.
+    - Store apples in a cool, dry place to extend shelf life.
   purpose: |-
-    In permaculture, apple trees serve multiple functions:
-    - Edible: Provide a reliable source of nutritious fruit for fresh consumption, cooking, and preservation.
-    - Medicinal: Apples contain antioxidants and dietary fiber, contributing to overall health.
-    - Wildlife Attractor: Flowers attract pollinators; fallen fruit provides food for various animals.
-    - Erosion Control: Root systems help stabilize soil, reducing erosion.
-    - Pollinator Support: Blossoms offer nectar and pollen for bees and other pollinators.
-    - Border Plant: Can define property lines or garden sections.
-    - Pest Management: Certain companion plants can be grown nearby to deter pests naturally.
+    Apple trees serve multiple functions in a permaculture system:
+
+    - Edible: Produces nutrient-rich fruit used fresh, dried, or for cider-making.
+    - Medicinal: Apple cider vinegar and fruit compounds support digestion and immune function.
+    - Pollinator: Blossoms attract bees, butterflies, and other beneficial insects.
+    - Wildlife Attractor: Provides food and habitat for birds, mammals, and pollinators.
+    - Mulcher: Fallen leaves enrich soil as they decompose.
+    - Dynamic Accumulator: Draws up deep soil nutrients like potassium and calcium.
+    - Erosion Control: Deep roots help stabilize soil in orchard settings.
+    - Border Plant: Used as a productive boundary plant in food forests.
   companions: 
     - Comfrey
     - Nasturtium
-    - Chives
-    - Garlic
-    - Daffodils
     - Clover
-    - Yarrow
-    - Lemon Balm
-    - Dill
-    - Fennel
+    - Garlic
+    - Chive
   avoid:
     - Walnut
     - Tomato
-    - Potato
-    - Pepper
-    - Eggplant
   pests: 
     - Codling Moth
     - Apple Maggot
-    - Aphids
+    - Aphid
     - Fire Blight
-    - Apple Scab
+    - Powdery Mildew

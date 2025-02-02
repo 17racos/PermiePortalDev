@@ -4,47 +4,61 @@
   aka:
     - French Marigold (Tagetes patula)
     - African Marigold (Tagetes erecta)
-    - Signet Marigold (Tagetes tenuifolia)
+    - Mexican Marigold (Tagetes lucida)
   family: Asteraceae
-  zone:
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-  perennial: false
+  zone: 2-11
+    :ideal_temp_min: 60
+    :ideal_temp_max: 85
+    :min_temp: 20
+    :max_temp: 100
+  perennial: false (grown as an annual in most climates)
   layers:
     - Herbaceous
   plant_function:
     - Edible
     - Medicinal
+    - Pollinator
     - Wildlife Attractor
     - Pest Management
     - Border Plant
-    - Dynamic Accumulator
   description: |-
-    Marigolds are hardy, annual flowers known for their vibrant yellow, orange, and red blooms. They grow to heights of 15–90 cm (6–36 inches) depending on the variety, with bushy, compact growth habits. Marigolds thrive in full sun and prefer well-drained soils with moderate fertility. They are drought-tolerant once established and require minimal maintenance. Seeds are typically sown directly into the soil 6 mm (1/4 inch) deep after the last frost. Germination occurs within 5–7 days, and flowers begin to bloom 45–60 days after planting. Regular deadheading encourages continuous flowering throughout the growing season.
+    Marigold (Tagetes spp.) is a hardy, fast-growing flowering plant known for its bright yellow, orange, and red blossoms. It is commonly used in gardens for pest control and soil improvement. Marigolds are easy to grow, requiring minimal maintenance, and they bloom profusely throughout the growing season.
+
+    The plant is particularly valued in companion planting, as it helps repel nematodes, aphids, and other garden pests. It thrives in garden beds, borders, and containers, adding vibrant color while also benefiting the surrounding plants.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but can tolerate partial shade.
+    - Requires well-drained soil; thrives in loamy or sandy soil.
+    - Moderate watering needs; avoid overwatering to prevent root rot.
+
+    ### Methods to Propagate
+    - Seeds: Easily grown from seeds; sow directly in soil after the last frost.
+    - Transplants: Can be started indoors and transplanted once seedlings are established.
+    - Cuttings: Some varieties can be propagated from cuttings.
+
+    ### When to Harvest
+    - Flowers can be harvested once fully bloomed for medicinal or ornamental uses.
+    - Regular deadheading promotes continuous blooming.
+    - Collect seeds from dried flower heads at the end of the growing season for future planting.
   purpose: |-
-    - Edible: The petals of certain varieties, such as the Signet Marigold (Tagetes tenuifolia), are used in salads and as garnishes for their citrus-like flavor.
-    - Medicinal: Known for its anti-inflammatory and antiseptic properties, marigold extracts are used in traditional remedies for skin conditions and wound healing.
-    - Wildlife Attractor: Marigolds attract beneficial insects, including bees and butterflies, which aid in pollination.
-    - Pest Management: The strong scent of marigolds repels pests like nematodes, aphids, and whiteflies. French Marigolds (Tagetes patula) are particularly effective in reducing nematode populations in the soil.
-    - Border Plant: With their striking blooms, marigolds are often used to edge garden beds and pathways, creating a vibrant border.
-    - Dynamic Accumulator: Marigolds contribute organic matter to the soil, improving fertility when incorporated as green manure.
-  companions:
+    Marigold serves multiple functions in a permaculture system:
+
+    - Edible: Certain species like Tagetes lucida are used as culinary herbs.
+    - Medicinal: Known for antibacterial and antifungal properties; used in traditional medicine.
+    - Pollinator: Attracts bees, butterflies, and other beneficial insects.
+    - Wildlife Attractor: Provides nectar for pollinators.
+    - Pest Management: Repels nematodes, aphids, whiteflies, and other garden pests.
+    - Border Plant: Commonly planted as an ornamental border in vegetable and flower gardens.
+  companions: 
     - Tomato
-    - Peppers
-    - Cucumber
-    - Melons
+    - Basil
+    - Pepper
+    - Cabbage
     - Eggplant
   avoid:
-    - Beans
-    - Cabbage
-  pests:
-    - Aphids
-    - Whiteflies
+    - Bean
+  pests: 
+    - Aphid
+    - Spider Mite
+    - Whitefly
+    - Slug

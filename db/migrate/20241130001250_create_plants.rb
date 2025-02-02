@@ -15,6 +15,12 @@ class CreatePlants < ActiveRecord::Migration[7.0]
       t.text :avoid, array: true, default: []
       t.text :companions, array: true, default: []
 
+      # New temperature fields
+      t.integer :ideal_temp_min # Optimal minimum growing temperature (°F)
+      t.integer :ideal_temp_max # Optimal maximum growing temperature (°F)
+      t.integer :min_temp       # Cold tolerance (°F)
+      t.integer :max_temp       # Heat tolerance (°F)
+
       t.timestamps
     end
 

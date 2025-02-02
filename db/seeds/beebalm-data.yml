@@ -2,42 +2,67 @@
   picture: beebalm.jpg
   scientific_name: Monarda didyma
   aka:
-    - Scarlet Beebalm
-    - Oswego Tea
     - Bergamot
+    - Oswego Tea
+    - Scarlet Beebalm
+    - Wild Bergamot (Monarda fistulosa)
   family: Lamiaceae
-  zone: [3, 4, 5, 6, 7, 8, 9]
+  zone: 3-9
+    :ideal_temp_min: 40
+    :ideal_temp_max: 85
+    :min_temp: -35
+    :max_temp: 100
   perennial: true
   layers:
     - Herbaceous
   plant_function:
     - Edible
     - Medicinal
-    - Wildlife Attractor
     - Pollinator
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
     - Border Plant
     - Pest Management
   description: |-
-    Bee Balm is a perennial herbaceous plant reaching heights of 2 to 4 feet. It features square stems, aromatic lance-shaped leaves, and vibrant tubular flowers in shades of red, pink, purple, or white, blooming from midsummer to early fall. Thriving in full sun to partial shade, it prefers moist, well-drained soils rich in organic matter. Regular watering is essential to maintain consistent soil moisture. Propagation is achieved through seed sowing, division, or stem cuttings. Harvesting of leaves and flowers is best done in the morning after dew has dried but before the heat of the day, typically during peak bloom for optimal flavor and potency.
+    Bee Balm (Monarda didyma) is a hardy, herbaceous perennial known for its vibrant red, pink, or purple flowers that attract bees, butterflies, and hummingbirds. The plant grows between 60–120 cm (2–4 feet) tall with square stems and aromatic, lance-shaped leaves.
+
+    It thrives in moist, well-drained soil and spreads via rhizomes, forming dense patches over time. The flowers bloom from mid to late summer, providing a long-lasting nectar source. Bee Balm is commonly grown in pollinator gardens, herbal medicine gardens, and as a companion plant in vegetable gardens.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Grows best in rich, well-drained soil with consistent moisture.
+    - Moderate water needs; avoid waterlogging to prevent powdery mildew.
+
+    ### Methods to Propagate
+    - Seeds: Start indoors 8–10 weeks before the last frost or direct sow in spring.
+    - Division: Easily propagated by dividing root clumps in early spring or fall.
+    - Cuttings: Stem cuttings can be rooted in water or moist soil.
+
+    ### When to Harvest
+    - Leaves can be harvested anytime during the growing season for tea or fresh use.
+    - Flowers should be harvested at peak bloom for medicinal or culinary purposes.
+    - Regular pruning promotes new growth and extends the flowering season.
   purpose: |-
-    In permaculture, Bee Balm serves multiple functions:
-    - Edible: Leaves and flowers are used in teas and as culinary garnishes.
-    - Medicinal: Traditionally used to treat digestive issues, colds, and as an antiseptic.
-    - Wildlife Attractor: Draws bees, butterflies, and hummingbirds, enhancing pollination.
-    - Pollinator: Its abundant nectar supports pollinator populations.
-    - Border Plant: Adds aesthetic value and defines garden edges.
-    - Pest Management: Its aromatic foliage can repel certain pests, aiding in integrated pest management.
+    Bee Balm serves multiple functions in a permaculture system:
+
+    - Edible: Leaves and flowers are used in teas, salads, and as a garnish.
+    - Medicinal: Traditionally used to treat colds, sore throats, and digestive issues.
+    - Pollinator: Flowers attract bees, butterflies, and hummingbirds.
+    - Wildlife Attractor: Provides nectar for pollinators and shelter for beneficial insects.
+    - Mulcher: Leaves decompose quickly, adding organic matter to the soil.
+    - Dynamic Accumulator: Absorbs nutrients such as phosphorus and potassium, enriching soil health.
+    - Border Plant: Often used as an ornamental border in pollinator gardens and food forests.
+    - Pest Management: The strong aroma repels mosquitoes and deters some garden pests.
   companions: 
-    - Echinacea
-    - Black-eyed Susan
-    - Yarrow
+    - Tomato
+    - Basil
     - Lavender
+    - Echinacea
+    - Yarrow
   avoid:
-    - Sage
-    - Thyme
     - Fennel
   pests: 
-    - Powdery Mildew
-    - Aphids
-    - Spider Mites
-    - Leafhoppers
+    - Aphid
+    - Spider Mite
+    - Powdery Mildew (in humid conditions)

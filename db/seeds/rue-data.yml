@@ -2,40 +2,61 @@
   picture: rue.jpg
   scientific_name: Ruta graveolens
   aka:
-  - Herb-of-Grace
-  - Rue Herb
+    - Herb of Grace
+    - Garden Rue
+    - Bitter Herb
   family: Rutaceae
-  zone: 
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
+  zone: 4-10
+    :ideal_temp_min: 50
+    :ideal_temp_max: 80
+    :min_temp: -30
+    :max_temp: 100
   perennial: true
   layers:
-  - Herbaceous
+    - Herbaceous
   plant_function:
-  - Medicinal
-  - Pest Management
-  - Border Plant
+    - Medicinal
+    - Pollinator
+    - Wildlife Attractor
+    - Pest Management
+    - Border Plant
   description: |-
-    Rue is a woody perennial herb that typically grows to a height of 60–90 cm (24–36 inches). It has blue-green, feathery leaves and clusters of small yellow flowers that bloom in summer. The plant is highly aromatic, with a strong, pungent scent. It prefers full sun and thrives in well-drained, slightly dry soils. Rue is drought-tolerant and requires minimal watering once established. 
-    Propagation is best achieved via seeds sown in spring or softwood cuttings taken in late spring. Harvesting of leaves can occur throughout the growing season, but gloves should be worn to prevent skin irritation due to its furanocoumarins.
+    Rue (Ruta graveolens) is a hardy, evergreen perennial herb known for its strong aroma and bitter-tasting leaves. It grows to a height of 60-90 cm (2-3 feet) and has blue-green, feathery foliage with small, yellow flowers that bloom in late spring and summer. The plant is drought-tolerant and thrives in poor, well-drained soils.
+
+    Rue is often grown as an ornamental herb, but it also has traditional medicinal uses. However, its leaves contain furanocoumarins, which can cause skin irritation in some people. It is best handled with gloves.
+
+    ### Sun and Water Requirements
+    - Prefers full sun (at least 6-8 hours of sunlight per day).
+    - Thrives in dry, well-drained soil with low to moderate watering.
+    - Tolerates drought but should not be overwatered.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow in spring or start indoors 6-8 weeks before the last frost.
+    - Cuttings: Take softwood cuttings in early summer and root in moist soil.
+    - Division: Can be divided in early spring or fall.
+
+    ### When to Harvest
+    - Harvest leaves as needed once the plant is well-established.
+    - Best flavor when harvested before flowering.
+    - Use gloves when handling to avoid skin irritation.
   purpose: |-
-    Rue serves multiple purposes in permaculture:
-    - Medicinal: Historically used in small doses to treat digestive issues, menstrual cramps, and inflammation. Caution is advised due to its potential toxicity in large quantities.
-    - Pest Management: Repels a variety of pests, including flies, fleas, and beetles, making it a natural companion plant.
-    - Border Plant: Its unique appearance and strong scent make it a natural deterrent for grazing animals and a visually appealing garden border.
+    Rue has multiple functions in permaculture and garden ecosystems:
+
+    - Medicinal: Traditionally used for digestive and anti-inflammatory properties, though it should be used with caution.
+    - Pollinator: The small yellow flowers attract bees and beneficial insects.
+    - Wildlife Attractor: Provides nectar and shelter for various insects.
+    - Pest Management: Repels flies, mosquitoes, and certain garden pests such as aphids.
+    - Border Plant: Often used in gardens for its strong scent to deter pests.
   companions: 
-  - Lavender
-  - Rosemary
-  - Sage
-  - Fig
+    - Rosemary
+    - Sage
+    - Oregano
+    - Thyme
   avoid:
-  - Basil
-  - Cabbage
-  - Mint
+    - Basil
+    - Cabbage
+    - Cucumbers
   pests: 
-  - Aphids
-  - Whiteflies
+    - Aphids
+    - Spider Mites
+    - Leaf Miners

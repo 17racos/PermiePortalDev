@@ -1,46 +1,67 @@
 - common_name: Rosemary
-  picture: rosemary.png
+  picture: rosemary.jpg
   scientific_name: Rosmarinus officinalis
   aka:
-  - Anthos (Rosmarinus angustifolius)  
-  - Dew of the Sea
+    - Compass Weed
+    - Dew of the Sea
   family: Lamiaceae
-  zone: 
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
+  zone: 7-10
+    :ideal_temp_min: 50
+    :ideal_temp_max: 80
+    :min_temp: 20
+    :max_temp: 100
   perennial: true
   layers:
-  - Herbaceous
-  - Shrub
+    - Shrub
   plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Mulcher
-  - Border Plant
+    - Edible
+    - Medicinal
+    - Pollinator
+    - Wildlife Attractor
+    - Windbreaker
+    - Border Plant
+    - Pest Management
   description: |-
-    Rosemary is a perennial evergreen shrub that typically grows to 1–2 meters (3–6 feet) tall, with aromatic needle-like leaves and woody stems. Native to the Mediterranean, it thrives in full sun and well-drained soils. It is drought-tolerant once established and requires moderate watering. 
-    Propagation is primarily done via semi-hardwood cuttings, though it can also be grown from seeds with slower results. Harvesting is best done when stems are mature but before flowers bloom, usually in spring or early summer. The leaves, which are the primary edible parts, should be harvested early in the day for maximum essential oil concentration.  
+    Rosemary (Rosmarinus officinalis) is a woody, aromatic, evergreen herb that grows as a perennial shrub. It can reach up to 1.5 meters (5 feet) tall and produces needle-like leaves with a strong fragrance. In the right conditions, rosemary can live for decades and becomes a low-maintenance, drought-tolerant plant. It blooms in late winter through spring with small blue to purple flowers that attract pollinators.
+
+    The plant thrives in well-drained, sandy, or loamy soil with a slightly alkaline pH. Rosemary is highly drought-resistant once established and prefers warm climates with mild winters. In colder regions, it can be grown in containers and moved indoors during winter.
+
+    ### Sun and Water Requirements
+    - Prefers full sun (6-8 hours of direct sunlight daily).
+    - Requires well-drained soil with low to moderate moisture.
+    - Avoid overwatering, as rosemary is susceptible to root rot.
+
+    ### Methods to Propagate
+    - Cuttings: Best method—take 10-15 cm (4-6 inch) cuttings from young stems, remove lower leaves, and root in moist soil or water.
+    - Layering: Bend a stem to the ground, cover part of it with soil, and allow it to develop roots before cutting from the parent plant.
+    - Seeds: Difficult to germinate; takes weeks to months for successful sprouting.
+
+    ### When to Harvest
+    - Can be harvested year-round in warm climates.
+    - Clip sprigs as needed once the plant is well-established (after at least 1 year).
+    - Best flavor comes from young, fresh growth before flowering.
   purpose: |-
-    Rosemary has numerous uses in permaculture and sustainable systems:
-    - Edible: Used as a culinary herb to flavor dishes and as a natural preservative.
-    - Medicinal: Contains compounds beneficial for memory improvement, anti-inflammatory properties, and digestive health.
+    Rosemary is a versatile plant with multiple functions in a permaculture system:
+
+    - Edible: Used as a culinary herb for seasoning meats, soups, and vegetables.
+    - Medicinal: Traditionally used to improve digestion, circulation, and memory.
     - Pollinator: Flowers attract bees, butterflies, and other beneficial insects.
-    - Wildlife Attractor: Provides habitat and food for beneficial wildlife.
-    - Mulcher: Leaves can be composted or used as organic mulch for pest deterrence.
-    - Border Plant: Acts as a low-maintenance hedge or garden border.
+    - Wildlife Attractor: Provides shelter and food for insects and small animals.
+    - Windbreaker: Acts as a low hedge or barrier against wind in gardens.
+    - Border Plant: Ideal for marking garden edges or pathways.
+    - Pest Management: Repels mosquitoes, cabbage moths, carrot flies, and other pests.
   companions: 
-    - Thyme
     - Sage
-    - Oregano
+    - Thyme
     - Lavender
+    - Cabbage
+    - Beans
   avoid:
-  - Mint
-  - Basil
+    - Basil
+    - Mint
+    - Pumpkins
   pests: 
-  - Spider Mites
-  - Aphids
+    - Aphids
+    - Whiteflies
+    - Spider Mites
+    - Mealybugs

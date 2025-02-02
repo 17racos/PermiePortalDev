@@ -5,40 +5,57 @@
     - Basket Willow
     - Common Osier
   family: Salicaceae
-  zone:
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
+  zone: 4-9
+    :ideal_temp_min: 40
+    :ideal_temp_max: 85
+    :min_temp: -30
+    :max_temp: 100
   perennial: true
   layers:
     - Shrub
-    - Sub-canopy
+    - Small Tree
   plant_function:
     - Wildlife Attractor
     - Erosion Control
-    - Dynamic Accumulator
-    - Mulcher
     - Windbreaker
     - Border Plant
+    - Dynamic Accumulator
+    - Mulcher
+    - Animal Fodder
   description: |-
-    Osier Willow is a deciduous shrub or small tree native to Europe and parts of Asia. It can grow up to 6–8 meters (20–26 feet) in height and has long, slender, and flexible stems, which are ideal for weaving. Its leaves are narrow and lance-shaped, with a silvery underside. Osier Willow thrives in full sun and tolerates a variety of soil types, including wet and poorly drained soils, making it well-suited for riparian zones. It is highly adaptable to temperate climates and is hardy in USDA zones 4 through 8. Propagation is typically done by hardwood cuttings, which root easily when planted in moist soil during dormancy. It can be coppiced annually to encourage vigorous growth and maximize stem production.
-  purpose: |-
-    - Wildlife Attractor: Provides habitat and food for birds, insects, and other wildlife.
-    - Erosion Control: Ideal for stabilizing riverbanks and preventing soil erosion due to its extensive root system.
-    - Dynamic Accumulator: Accumulates nutrients and improves soil structure.
-    - Mulcher: Coppiced stems can be used as mulch or incorporated into the soil for added organic matter.
-    - Windbreaker: Acts as a living windbreak in gardens and landscapes.
-    - Border Plant: Creates natural boundaries and screens due to its dense growth habit.
-  companions:
-    - Alder
-    - Poplar
-    - Sedges
-  avoid:
-    - None reported
-  pests:
-    - Aphids
-    - Willow Beetles
+    Osier Willow (Salix viminalis) is a fast-growing, deciduous shrub or small tree known for its long, flexible branches that make it ideal for basket weaving and coppicing. It thrives in moist soils and is often found along riverbanks and wetlands. The tree provides valuable wildlife habitat, erosion control, and windbreak functions in a permaculture system.
 
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Thrives in moist, well-drained soil but tolerates waterlogged conditions.
+    - Requires moderate to high watering, especially in dry climates.
+
+    ### Methods to Propagate
+    - Cuttings: Root easily from hardwood cuttings in late winter or early spring.
+    - Seeds: Can be grown from seed but is less common due to the ease of propagation from cuttings.
+    - Coppicing: Can be cut back regularly to encourage new growth.
+
+    ### When to Harvest
+    - Branches for weaving should be harvested in winter when dormant.
+    - Coppiced wood can be cut back every 1-2 years for optimal growth.
+  purpose: |-
+    Osier Willow serves several permaculture functions:
+
+    - Wildlife Attractor: Provides food and shelter for birds, insects, and small mammals.
+    - Erosion Control: Strong root system stabilizes soil, preventing erosion.
+    - Windbreaker: Acts as a wind barrier when planted in rows.
+    - Border Plant: Used for hedgerows and property delineation.
+    - Dynamic Accumulator: Draws up nutrients from deeper soil layers.
+    - Mulcher: Coppiced material can be chopped and used as mulch.
+    - Animal Fodder: Young leaves and shoots are edible for livestock.
+  companions: 
+    - Alder
+    - Willow
+    - Elderberry
+    - Comfrey
+  avoid:
+    - Walnut
+  pests: 
+    - Willow Beetle
+    - Aphid
+    - Gall Mite

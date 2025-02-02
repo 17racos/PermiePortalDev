@@ -2,41 +2,65 @@
   picture: lemongrass.jpg
   scientific_name: Cymbopogon citratus
   aka:
-    - Citronella grass
+    - Citronella Grass
+    - Fever Grass
   family: Poaceae
-  zone:
-    - 9
-    - 10
-    - 11
-  perennial: true
+  zone: 9-12
+    :ideal_temp_min: 65
+    :ideal_temp_max: 95
+    :min_temp: 40
+    :max_temp: 100
+  perennial: true (grown as an annual in cooler climates)
   layers:
     - Herbaceous
-    - Root
   plant_function:
     - Edible
     - Medicinal
     - Wildlife Attractor
-    - Mulcher
+    - Dynamic Accumulator
     - Erosion Control
+    - Animal Fodder
+    - Border Plant
     - Pest Management
   description: |-
-    Lemongrass is a tropical, clump-forming perennial grass that can reach heights of 1.5 meters (5 feet) and widths of up to 1 meter (3 feet). It features long, slender, and slightly sharp-edged leaves with a strong lemon aroma. Preferring full sun and well-draining soil, lemongrass thrives in temperatures above 20°C (68°F) and is sensitive to frost. Propagation is typically achieved through division of established clumps. Harvesting involves cutting stalks close to the base; new growth follows after harvesting. Regular watering is essential, especially in dry conditions, but the plant is relatively drought-tolerant once established.
+    Lemongrass (Cymbopogon citratus) is a tall, clumping grass that can grow up to 1.2–1.8 meters (4–6 feet) tall. It has long, narrow, green leaves with a strong lemony scent due to its high citral content. It is commonly used in cooking, herbal medicine, and essential oil production.
+
+    The plant thrives in tropical and subtropical climates, requiring warm temperatures and moist but well-drained soil. It is a fast-growing grass that can be used as a natural pest repellent and soil stabilizer in permaculture systems.
+
+    ### Sun and Water Requirements
+    - Requires full sun for optimal growth.
+    - Prefers well-drained, loamy or sandy soil with regular watering.
+    - Drought-tolerant once established but benefits from occasional deep watering.
+
+    ### Methods to Propagate
+    - Seeds: Not commonly used, as germination is slow and unreliable.
+    - Division: The most effective method; divide clumps and replant in early spring.
+    - Cuttings: Root stems in water or moist soil for propagation.
+
+    ### When to Harvest
+    - Harvest stalks when they reach about 30 cm (12 inches) in height for best flavor.
+    - Cut stalks at the base, leaving the plant to continue growing.
+    - Leaves can also be harvested and dried for teas and herbal remedies.
   purpose: |-
-    - Edible: The stalks and leaves are used in culinary dishes, especially in Southeast Asian cuisine, imparting a citrus flavor to soups, curries, and teas.
-    - Medicinal: Lemongrass has anti-fungal and calming properties; teas made from its leaves can aid digestion and may help lower cholesterol levels.
-    - Pest Management: Its strong scent deters pests like aphids and whiteflies, making it a beneficial companion plant in gardens.
-    - Mulcher: The leaves can be harvested and used as mulch, contributing to soil health and moisture retention.
-    - Erosion Control: The plant's clumping roots help prevent soil erosion, especially on slopes.
-  companions:
+    Lemongrass serves multiple functions in a permaculture system:
+
+    - Edible: Used in culinary dishes, teas, and essential oils.
+    - Medicinal: Contains antimicrobial and anti-inflammatory properties.
+    - Wildlife Attractor: Flowers provide habitat for beneficial insects.
+    - Dynamic Accumulator: Helps improve soil quality and prevent erosion.
+    - Erosion Control: Its dense root system stabilizes the soil.
+    - Animal Fodder: Can be used as supplemental feed for livestock.
+    - Border Plant: Acts as a natural windbreak and boundary marker.
+    - Pest Management: Repels mosquitoes, aphids, and other insect pests.
+  companions: 
+    - Ginger
+    - Turmeric
     - Basil
-    - Fruit trees
-    - Chili Peppers
-    - Sage
+    - Marigold
+    - Mint
   avoid:
-    - Carrot
-    - Potato
-    - Spinach
-  pests:
-    - Aphids
-    - Mealybugs
-    - Spider Mites
+    - Fennel
+  pests: 
+    - Spider Mite
+    - Aphid
+    - Leaf Blight

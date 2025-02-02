@@ -2,45 +2,68 @@
   picture: crimsonclover.jpg
   scientific_name: Trifolium incarnatum
   aka:
-    - Italian clover
+    - Italian Clover
+    - Carnation Clover
   family: Fabaceae
-  zone:
-    - 4  
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-  perennial: false
+  zone: 6-9
+    :ideal_temp_min: 40
+    :ideal_temp_max: 75
+    :min_temp: 15
+    :max_temp: 95
+  perennial: false (grown as an annual or biennial)
   layers:
-    - herbaceous
+    - Herbaceous
   plant_function:
     - Nitrogen Fixer
+    - Pollinator
     - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
     - Erosion Control
     - Animal Fodder
-    - Pollinator
-    - Mulcher
     - Border Plant
+    - Pest Management
   description: |-
-    Crimson clover is an upright annual herb that grows to 20–50 cm (8–20 inches) tall, unbranched or branched only at the base. The leaves are trifoliate with a long petiole; each leaflet is hairy, measuring 8–16 mm across, with a truncated or bilobed apex. The plant produces rich red or crimson flowers throughout the spring and summer, arranged in elongated spike inflorescences 3–5 cm tall and 1.5 cm broad. Individual flowers are up to 10–13 mm long and have five petals. The plant thrives in full sun and prefers well-drained, sandy loam soils. It requires moderate water and is drought-tolerant once established. Propagation is typically through seed, sown in late summer or early autumn. Seeds should be planted at a depth of 6–12 mm (0.25–0.5 inches). In mild winter areas, seeds germinate with the first rains of late summer or autumn, and plants grow through the winter, blooming in late spring. Harvesting for forage should occur when flowers are in full bloom to maximize nutritional value.
+    Crimson Clover (Trifolium incarnatum) is a fast-growing, nitrogen-fixing annual or biennial plant. It reaches heights of 30–60 cm (12–24 inches) with bright red, tubular flower clusters that bloom in early spring or fall. The plant has hairy, trifoliate leaves and an extensive root system that enhances soil structure.
+
+    This clover is widely used as a cover crop, green manure, and erosion control plant. It thrives in well-drained soils with moderate fertility and prefers cooler temperatures. Its vibrant flowers attract pollinators such as bees and butterflies, making it a beneficial plant for food forests and agricultural systems.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Requires well-drained soil with moderate fertility.
+    - Drought-tolerant once established but benefits from consistent moisture.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow in late summer to early fall for a winter cover crop or in early spring for a summer crop.
+    - Self-seeding: Can reseed itself in favorable conditions.
+    - No transplanting: Best grown from direct sowing rather than transplants.
+
+    ### When to Harvest
+    - Harvest as a green manure before flowering for optimal nitrogen fixation.
+    - Can be cut for mulch when plants reach 30 cm (12 inches) in height.
+    - Flowers can be left to attract pollinators or harvested for seed collection.
   purpose: |-
-    - Nitrogen Fixer: As a legume, crimson clover forms symbiotic relationships with Rhizobium bacteria, fixing atmospheric nitrogen into the soil, enhancing fertility for subsequent crops.
-    - Wildlife Attractor: The abundant nectar-rich flowers attract various pollinators, including bees and butterflies, supporting local ecosystems. 
-    - Erosion Control: Its dense root system stabilizes soil, reducing erosion, making it suitable for cover cropping and roadside planting.
-    - Animal Fodder: Crimson clover is widely grown as a protein-rich forage crop for livestock and is suitable for hay production.
-    - Pollinator: The showy, deep red blossoms produce abundant nectar, attracting various types of bees and other pollinators.
-    - Mulcher: When used as a cover crop, it can be mowed or incorporated into the soil, providing organic matter and acting as a natural mulch.
-    - Border Plant: Can be used to define pathways.
-  companions:
-    - Tomato
+    Crimson Clover serves multiple functions in a permaculture system:
+
+    - Nitrogen Fixer: Captures atmospheric nitrogen and enriches the soil.
+    - Pollinator: Produces nectar-rich flowers that attract bees and butterflies.
+    - Wildlife Attractor: Supports beneficial insects and soil-dwelling organisms.
+    - Mulcher: Provides biomass for chop-and-drop mulching.
+    - Dynamic Accumulator: Draws up minerals such as phosphorus and potassium.
+    - Erosion Control: Dense root system stabilizes soil and prevents runoff.
+    - Animal Fodder: Used as livestock forage, high in protein and nutrients.
+    - Border Plant: Works well in hedgerows and field edges.
+    - Pest Management: Suppresses weeds and attracts predatory insects that help control pests.
+  companions: 
     - Corn
-    - Cotton
-    - Grain Sorghum
+    - Tomato
+    - Fruit Trees
+    - Cabbage
+    - Sunflower
   avoid:
-    - none reported
-  pests:
-    - Clover Weevils
-    - Aphids 
-    - Slugs
-    - Snails
+    - Onion
+    - Garlic
+  pests: 
+    - Aphid
+    - Clover Mite
+    - Root Rot (in poorly drained soil)

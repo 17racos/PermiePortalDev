@@ -2,43 +2,62 @@
   picture: lemonbalm.jpg
   scientific_name: Melissa officinalis
   aka:
-    - Common Balm
     - Balm Mint
   family: Lamiaceae
-  zone:
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
+  zone: 4-9
+    :ideal_temp_min: 55
+    :ideal_temp_max: 85
+    :min_temp: -20
+    :max_temp: 100
   perennial: true
   layers:
     - Herbaceous
-    - Ground Cover
   plant_function:
     - Edible
     - Medicinal
     - Pollinator
+    - Wildlife Attractor
     - Dynamic Accumulator
+    - Border Plant
     - Pest Management
   description: |-
-    Lemon balm is a perennial herbaceous plant in the mint family, growing to about 45–60 cm (18–24 inches) in height. It has heart-shaped, deeply veined leaves with scalloped edges that emit a mild lemon scent when crushed. Small white or pale pink flowers appear in summer, attracting bees and other pollinators. Lemon balm thrives in full sun to partial shade and prefers moist, well-drained, humus-rich soils with a pH between 6 and 7.5. It is hardy in USDA zones 3 through 10. Propagation is typically done by seed, cuttings, or division. Seeds require light and a minimum temperature of 20°C (68°F) to germinate and may benefit from a two-week stratification period to enhance germination rates. Harvesting of leaves can begin once the plant reaches about 20 cm (8 inches) in height, with peak flavor just before flowering. Regular harvesting encourages bushier growth and prevents legginess.
+    Lemon Balm (Melissa officinalis) is a bushy, aromatic herb that grows up to 90 cm (3 feet) tall. It has bright green, oval-shaped, serrated leaves with a strong lemon scent. The small white or pale yellow flowers bloom in late summer and attract bees and other beneficial pollinators.
+
+    This plant thrives in a variety of soils but prefers moist, well-drained, fertile conditions. It spreads easily by seed and root division, making it an excellent companion plant but also potentially invasive if not managed.
+
+    ### Sun and Water Requirements
+    - Prefers full sun to partial shade.
+    - Requires well-drained, fertile soil with moderate moisture.
+    - Drought-tolerant once established but benefits from consistent watering.
+
+    ### Methods to Propagate
+    - Seeds: Start indoors 6–8 weeks before last frost or direct sow in spring.
+    - Cuttings: Root cuttings in water or soil.
+    - Division: Established plants can be divided and replanted.
+
+    ### When to Harvest
+    - Leaves can be harvested throughout the growing season for fresh use.
+    - Best harvested in the morning before flowering for maximum essential oil concentration.
+    - Can be dried or used fresh for tea, tinctures, and culinary applications.
   purpose: |-
-    - Edible: Lemon balm leaves are used to flavor salads, cooked foods, desserts, and beverages, including herbal teas and liqueurs. 
-    - Medicinal: Traditionally used for its calming effects, lemon balm is employed to alleviate anxiety, improve sleep, and soothe digestive issues.
-    - Pollinator: The plant's flowers are rich in nectar, attracting bees and other pollinators, which can enhance pollination in the garden. 
-    - Dynamic Accumulator: Lemon balm accumulates minerals from the soil, potentially improving soil health over time.
-    - Pest Management: Its aromatic foliage may deter certain pests, making it a useful companion plant in the garden.
-  companions:
-    - Brassicas
-    - Fruit Trees
+    Lemon Balm serves multiple functions in a permaculture system:
+
+    - Edible: Leaves are used in teas, flavoring, and herbal medicine.
+    - Medicinal: Traditionally used for stress relief, digestive support, and antiviral properties.
+    - Pollinator: Flowers attract bees and other beneficial insects.
+    - Wildlife Attractor: Provides nectar for butterflies and bees.
+    - Dynamic Accumulator: Enhances soil fertility by accumulating minerals like potassium.
+    - Border Plant: Works well in herb gardens, edges, and companion planting.
+    - Pest Management: Repels mosquitoes and other insects with its strong lemon scent.
+  companions: 
     - Tomato
+    - Cabbage
+    - Squash
+    - Chamomile
+    - Basil
   avoid:
-    - None specifically noted
-  pests:
-    - Aphids
-    - Mealybugs
-    - Spider Mites
+    - Mint (can compete aggressively)
+  pests: 
+    - Aphid
+    - Whitefly
+    - Leafhopper

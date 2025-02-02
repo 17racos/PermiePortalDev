@@ -3,46 +3,64 @@
   scientific_name: Gynura procumbens
   aka:
     - Sambung Nyawa
-    - Gynura
+    - Mollucan Spinach
+    - Leaves of the Gods
   family: Asteraceae
-  zone:
-    - 9
-    - 10
-    - 11
+  zone: 9-12
+    :ideal_temp_min: 65
+    :ideal_temp_max: 90
+    :min_temp: 45
+    :max_temp: 100
   perennial: true
   layers:
-    - Groundcover
-    - Herbaceous
+    - Ground Cover
   plant_function:
     - Edible
     - Medicinal
+    - Wildlife Attractor
+    - Mulcher
     - Dynamic Accumulator
     - Erosion Control
     - Border Plant
   description: |-
-    Longevity Spinach is a perennial, herbaceous plant native to Southeast Asia and parts of Africa. It exhibits a trailing or scrambling growth habit, with stems that can extend up to 3 meters (approximately 10 feet) in length. The leaves are ovate to lanceolate, measuring 3.5–10 cm (1.4–3.9 inches) in length and 2–4 cm (0.8–1.6 inches) in width, with slightly serrated edges. They are fleshy and vibrant green, sometimes displaying a purplish hue on the underside.
+    Longevity Spinach (Gynura procumbens) is a fast-growing, vining perennial green with highly nutritious, tender leaves. Native to Southeast Asia, it is commonly used in traditional medicine and as a food source due to its high antioxidant content and reported health benefits.
 
-    This plant thrives in partial sun to light shade and prefers well-drained, moist soils with a pH ranging from 5.0 to 7.0. It is not tolerant of drought conditions and benefits from regular watering to maintain consistent soil moisture. Longevity Spinach is best propagated through stem cuttings, which root readily in water or directly in soil. While it can produce yellow-orange flowers, propagation by seed is uncommon due to infrequent seed production.
+    The plant spreads vigorously, making it excellent for ground cover in warm climates. It thrives in a variety of soil conditions but prefers rich, well-drained soil. It is highly adaptable and can be grown in containers, raised beds, or directly in the ground.
 
-    Harvesting can commence approximately 30 days after planting. Regularly picking the young, tender leaves encourages bushier growth and ensures a continuous supply. The leaves can be consumed fresh or cooked, making them a versatile addition to various dishes.
+    ### Sun and Water Requirements
+    - Prefers partial shade to full sun.
+    - Thrives in warm, humid conditions but can tolerate drier environments with sufficient watering.
+    - Requires well-draining, loamy, or sandy soil; does not tolerate waterlogging.
 
+    ### Methods to Propagate
+    - Cuttings: The easiest method; cut stems and root them in water or moist soil.
+    - Layering: Allow stems to touch the soil, where they will develop roots naturally.
+    - Seeds: Less commonly used as propagation is much faster via cuttings.
+
+    ### When to Harvest
+    - Leaves can be harvested year-round in warm climates.
+    - Regular pruning encourages bushier growth and prevents legginess.
+    - Young leaves are preferred for the best texture and flavor.
   purpose: |-
-    - Edible: The leaves are consumed as a vegetable in salads, soups, and stir-fries, offering a mild, slightly earthy flavor.
-    - Medicinal: Traditionally used for its anti-inflammatory and anti-diabetic properties, and to support cardiovascular health.
-    - Dynamic Accumulator: Accumulates nutrients, potentially enriching the soil when used as mulch.
-    - Erosion Control: Its spreading habit helps stabilize soil, reducing erosion.
-    - Border Plant: Can be used to define garden edges due to its dense, low-growing nature.
+    Longevity Spinach serves multiple functions in a permaculture system:
 
-  companions:
+    - Edible: A nutritious leafy green used in salads, stir-fries, and soups.
+    - Medicinal: Traditionally used to lower blood sugar, cholesterol, and inflammation.
+    - Wildlife Attractor: Provides nectar for pollinators when flowering.
+    - Mulcher: Can be chopped and dropped to improve soil health.
+    - Dynamic Accumulator: Draws up beneficial minerals from the soil.
+    - Erosion Control: Its dense root system helps stabilize soil.
+    - Border Plant: Works well as an edging plant for vegetable and herb gardens.
+  companions: 
+    - Sweet Potato
+    - Ginger
+    - Turmeric
     - Basil
-    - Mint
-    - Kale
-    - Arugula
+    - Lemongrass
   avoid:
-    - Tomato
-    - Peppers
-    - Eggplants
-    - Cucumber
-  pests:
-    - Aphids
-    - Snails
+    - Fennel
+  pests: 
+    - Aphid
+    - Whitefly
+    - Slug
+    - Snail

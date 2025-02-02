@@ -4,42 +4,65 @@
   aka:
     - White Clover
     - Ladino Clover
-    - New Zealand White Clover
+    - Creeping Clover
   family: Fabaceae
-  zone: [3, 4, 5, 6, 7, 8, 9]
+  zone: 3-10
+    :ideal_temp_min: 40
+    :ideal_temp_max: 85
+    :min_temp: -30
+    :max_temp: 100
   perennial: true
   layers:
     - Ground Cover
   plant_function:
-    - Edible
-    - Medicinal
     - Nitrogen Fixer
+    - Pollinator
     - Wildlife Attractor
     - Mulcher
+    - Dynamic Accumulator
     - Erosion Control
     - Animal Fodder
-    - Pollinator
     - Border Plant
-    - Pest Management
   description: |-
-    Dutch clover is a low-growing perennial herb reaching heights of 8–20 cm (3–8 inches). It features trifoliate leaves with a characteristic white "V" marking and produces small, fragrant white to pinkish flowers from late spring through summer. Thriving in full sun to partial shade, it prefers well-drained, moist soils but is adaptable to various soil types. Propagation is typically achieved through seed sowing in early spring or autumn. Once established, it spreads via stolons, forming dense mats that suppress weeds. Harvesting for fodder or mulch can occur multiple times during the growing season when the plant reaches sufficient biomass.
+    Dutch Clover (Trifolium repens) is a low-growing, creeping perennial that spreads through stolons, forming dense mats. It has trifoliate green leaves and produces small white or pinkish flowers that attract bees and other pollinators. It is highly adaptable and commonly used as a cover crop, living mulch, and ground cover in orchards and gardens.
+
+    This clover is valued for its nitrogen-fixing abilities, improving soil fertility while suppressing weeds. It thrives in well-drained, moderately fertile soils and is drought-tolerant once established. Dutch Clover is also used as forage for livestock.
+
+    ### Sun and Water Requirements
+    - Prefers full sun to partial shade.
+    - Thrives in moist, well-drained soil but tolerates poor conditions.
+    - Drought-resistant once established, but regular watering promotes lush growth.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow in early spring or fall for best germination.
+    - Self-seeding: Readily reseeds itself if allowed to flower.
+    - Stolons: Spreads naturally by creeping stems that root at nodes.
+
+    ### When to Harvest
+    - Can be cut throughout the growing season for mulch or animal fodder.
+    - Flowers can be harvested when fully open for medicinal or culinary uses.
+    - Grazing animals can forage year-round in suitable climates.
   purpose: |-
-    - Edible: Young leaves and flowers are edible and can be used in salads or as a cooked green.
-    - Medicinal: Traditionally used in herbal medicine for its purported anti-inflammatory and detoxifying properties.
-    - Nitrogen Fixer: Forms symbiotic relationships with soil bacteria to fix atmospheric nitrogen, enriching soil fertility.
-    - Wildlife Attractor: Flowers attract bees and other pollinators, supporting local biodiversity.
-    - Mulcher: Serves as a living mulch, suppressing weeds and retaining soil moisture.
-    - Erosion Control: Dense root systems help stabilize soil and prevent erosion.
-    - Animal Fodder: Provides nutritious forage for livestock, particularly ruminants.
-    - Pollinator: Supports pollinator populations by providing nectar and pollen resources.
-    - Border Plant: Can be used to define garden borders and pathways due to its low-growing habit.
-    - Pest Management: Attracts beneficial insects that prey on common garden pests.
-  companions:
-    - Legumes
-    - Fruit Trees
+    Dutch Clover serves multiple functions in a permaculture system:
+
+    - Nitrogen Fixer: Improves soil fertility by converting atmospheric nitrogen into plant-available forms.
+    - Pollinator: Produces nectar-rich flowers that attract bees and butterflies.
+    - Wildlife Attractor: Provides habitat and food for beneficial insects.
+    - Mulcher: Acts as a living mulch, reducing evaporation and suppressing weeds.
+    - Dynamic Accumulator: Draws up minerals like phosphorus and potassium, making them available to surrounding plants.
+    - Erosion Control: Spreading root system helps stabilize soil and prevent runoff.
+    - Animal Fodder: High-protein forage for livestock and poultry.
+    - Border Plant: Used in orchard understories, garden paths, and living ground covers.
+  companions: 
+    - Apple
+    - Pear
+    - Cherry
+    - Grape
+    - Tomato
   avoid:
-    - Garlic
     - Onion
-  pests:
-    - Aphids
-    - Clover Mites
+    - Garlic
+  pests: 
+    - Aphid
+    - Clover Mite
+    - Root Rot (in poorly drained soil)

@@ -3,40 +3,63 @@
   scientific_name: Echinacea purpurea
   aka:
     - Purple Coneflower
-    - Eastern Purple Coneflower
+    - American Coneflower
   family: Asteraceae
-  zone:
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
+  zone: 3-9
+    :ideal_temp_min: 40
+    :ideal_temp_max: 85
+    :min_temp: -40
+    :max_temp: 100
   perennial: true
   layers:
     - Herbaceous
   plant_function:
     - Edible
     - Medicinal
-    - Wildlife Attractor
     - Pollinator
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
     - Border Plant
   description: |-
-    Echinacea purpurea, commonly known as Purple Coneflower, is a herbaceous perennial native to eastern and central North America. It typically grows to a height of 60–120 cm (2–4 feet) and features large, daisy-like flowers with a prominent central cone surrounded by pink to purple petals. The plant thrives in full sun and well-drained soils, displaying drought tolerance once established. Propagation is commonly achieved through seed stratification or division of clumps in spring or autumn. Blooming occurs from summer into autumn, and leaving some seed heads can attract birds and allow for self-sowing.
+    Echinacea (Echinacea purpurea) is a hardy perennial herbaceous plant known for its striking purple-pink daisy-like flowers with spiky, cone-shaped centers. It grows up to 90 cm (3 feet) tall, with dark green, lance-shaped leaves. The plant is widely used for its medicinal benefits and as an ornamental flower in gardens.
+
+    Echinacea is drought-tolerant and thrives in well-drained, sandy, or loamy soils. It attracts pollinators such as bees, butterflies, and hummingbirds and is commonly grown in medicinal gardens, prairie restorations, and food forests.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Requires well-drained soil; does well in sandy or loamy conditions.
+    - Drought-tolerant once established but benefits from occasional deep watering.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow in fall or cold stratify before planting in spring for better germination.
+    - Division: Established plants can be divided every 3–4 years in early spring.
+    - Cuttings: Root cuttings can be used to propagate new plants.
+
+    ### When to Harvest
+    - Flowers should be harvested when fully open for fresh use or drying.
+    - Leaves can be harvested anytime during the growing season.
+    - Roots are harvested in the plant’s second or third year for medicinal preparations.
   purpose: |-
-    - Edible: While not commonly consumed, some parts of the plant are occasionally used in herbal teas.
-    - Medicinal: Echinacea is renowned for its immune-boosting properties and is used in traditional medicine to help fight infections and reduce symptoms of colds and flu.
-    - Wildlife Attractor: The flowers attract various pollinators, including bees and butterflies, enhancing biodiversity in the garden.
-    - Pollinator: Serves as a nectar source for bees, butterflies, and other pollinating insects.
-    - Border Plant: With its striking flowers and upright growth, Echinacea is often used in garden borders and prairie-style plantings to add color and structure.
-  companions:
-    - Black-eyed Susan
+    Echinacea serves multiple functions in a permaculture system:
+
+    - Edible: Petals and young leaves are used in teas, salads, and herbal infusions.
+    - Medicinal: Known for immune-boosting properties, used to fight infections and colds.
+    - Pollinator: Flowers attract bees, butterflies, and hummingbirds.
+    - Wildlife Attractor: Provides nectar for beneficial insects and birds.
+    - Mulcher: Spent plants and cuttings break down easily, adding organic matter to the soil.
+    - Dynamic Accumulator: Draws up nutrients such as calcium and magnesium to enrich the soil.
+    - Border Plant: Works well in garden borders, wildflower meadows, and permaculture guilds.
+  companions: 
+    - Yarrow
+    - Lavender
     - Bee Balm
-    - Ornamental Grasses
+    - Black-eyed Susan
+    - Coneflower
   avoid:
-    - None specifically noted
-  pests:
-    - Aphids
-    - Japanese Beetles
-    - Slugs
+    - None known
+  pests: 
+    - Aphid
+    - Japanese Beetle
+    - Leaf Miner
+    - Powdery Mildew (in humid conditions)

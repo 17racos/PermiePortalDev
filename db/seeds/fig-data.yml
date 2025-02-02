@@ -3,44 +3,64 @@
   scientific_name: Ficus carica
   aka:
     - Common Fig
+    - Edible Fig
   family: Moraceae
-  zone:
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
+  zone: 7-11
+    :ideal_temp_min: 50
+    :ideal_temp_max: 90
+    :min_temp: 15
+    :max_temp: 105
   perennial: true
   layers:
-    - Canopy
-    - Sub Canopy
+    - Tree
   plant_function:
     - Edible
     - Medicinal
     - Wildlife Attractor
+    - Dynamic Accumulator
     - Erosion Control
-    - Animal Fodder
     - Windbreaker
     - Border Plant
   description: |-
-    Ficus carica, commonly known as the fig, is a deciduous tree or large shrub that typically grows between 4 to 10 meters in height. It has smooth, white to gray bark and large, lobed leaves measuring 10–20 cm in length and width. The tree produces unique pear-shaped infructescences known as syconia, which house its flowers internally. These syconia mature into sweet, edible fruits ranging from green to purple hues, depending on the variety. Figs thrive in full sun and prefer organically rich, well-drained soils with a neutral to slightly acidic pH. They are drought-tolerant once established but benefit from regular watering during prolonged dry periods. Propagation is commonly achieved through hardwood cuttings taken during the dormant season. In warmer climates, figs can produce two harvests annually: an early crop (breba) in late spring and the main crop in late summer to early autumn. Fruits are best harvested when fully ripe, as they do not continue to ripen once picked.
+    Fig (Ficus carica) is a deciduous tree or large shrub that grows between 3–10 meters (10–33 feet) tall. It has broad, lobed leaves and produces sweet, soft, fleshy fruit that varies in color from green to purple when ripe. 
+
+    Fig trees are well-adapted to Mediterranean and subtropical climates but can survive in cooler regions if protected from frost. They are drought-tolerant once established and can grow in a wide range of soil conditions. The tree's deep roots help stabilize soil, making it useful for erosion control.
+
+    ### Sun and Water Requirements
+    - Prefers full sun with at least 6–8 hours of sunlight per day.
+    - Grows best in well-drained, loamy, or sandy soil.
+    - Drought-tolerant but benefits from occasional deep watering, especially in hot climates.
+
+    ### Methods to Propagate
+    - Cuttings: Hardwood cuttings in winter or softwood cuttings in early summer.
+    - Layering: Air layering works well for propagation.
+    - Seeds: Can be grown from seeds but often results in variable fruit quality.
+
+    ### When to Harvest
+    - Fruit is ready when soft, slightly drooping, and changes color (typically summer to early fall).
+    - Harvest figs gently to avoid bruising.
+    - Best eaten fresh, dried, or processed into jams and preserves.
   purpose: |-
-    - Edible: Produces sweet, nutritious fruits consumed fresh, dried, or used in various culinary dishes.
-    - Medicinal: Traditionally used for its laxative properties and to treat various ailments.
-    - Wildlife Attractor: Fruits attract birds and mammals; flowers (inside the figs) support specialized pollinators like fig wasps.
-    - Erosion Control: Deep root systems help stabilize soil on slopes and prevent erosion.
-    - Animal Fodder: Leaves and fruits can be used as supplementary feed for livestock.
-    - Windbreaker: When planted in rows, fig trees can serve as effective windbreaks due to their dense foliage.
-    - Border Plant: Can be used to define property lines or garden sections, providing both aesthetic and functional benefits.
-  companions:
+    Fig trees serve multiple functions in a permaculture system:
+
+    - Edible: Fruits are rich in fiber, antioxidants, and vitamins, consumed fresh or dried.
+    - Medicinal: Traditionally used to aid digestion, regulate blood sugar, and soothe inflammation.
+    - Wildlife Attractor: Fruits provide food for birds, bees, and other wildlife.
+    - Dynamic Accumulator: Draws up nutrients such as potassium, calcium, and phosphorus from deep soil layers.
+    - Erosion Control: Deep roots stabilize soil on slopes and prevent erosion.
+    - Windbreaker: Can be planted in rows to provide wind protection for smaller crops.
+    - Border Plant: Works well as a natural barrier in food forests and orchards.
+  companions: 
     - Comfrey
-    - Lavender
-    - Rosemary
-    - Marigold
+    - Clover
+    - Pomegranate
+    - Grape
+    - Mulberry
   avoid:
-    - Eucalyptus
     - Walnut
-  pests:
-    - Aphids
-    - Root-Knot Nematodes
-    
+    - Onion
+  pests: 
+    - Fig Beetle
+    - Mealybug
+    - Root-Knot Nematode
+    - Rust Fungus

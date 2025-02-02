@@ -2,43 +2,64 @@
   picture: lavender.jpg
   scientific_name: Lavandula angustifolia
   aka:
+    - True Lavender
     - English Lavender
-    - Lavandula officinalis
   family: Lamiaceae
-  zone:
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
+  zone: 5-9
+    :ideal_temp_min: 50
+    :ideal_temp_max: 85
+    :min_temp: -10
+    :max_temp: 100
   perennial: true
   layers:
     - Herbaceous
   plant_function:
-    - Edible
     - Medicinal
+    - Pollinator
     - Wildlife Attractor
     - Mulcher
-    - Pest Management
+    - Dynamic Accumulator
     - Border Plant
+    - Pest Management
   description: |-
-    Lavender is a perennial herb renowned for its fragrant purple flowers and silvery-green foliage. It typically grows to a height of 60–90 cm (24–36 inches) and a width of 60–75 cm (24–30 inches). Thriving in full sun, lavender prefers well-drained, sandy or gravelly soils with a pH between 6.5 and 7.5. It is drought-tolerant once established and requires minimal watering; overwatering can lead to root rot. Propagation is commonly achieved through semi-hardwood cuttings taken in late spring or early summer. Harvesting of the flowers is best done when they are in full bloom, usually in mid to late summer, by cutting the stems just above the leaves.
+    Lavender (Lavandula angustifolia) is a perennial, aromatic herb known for its fragrant purple flowers and gray-green foliage. It grows up to 60–90 cm (2–3 feet) tall and is widely cultivated for essential oil production, medicinal uses, and as an ornamental plant.
+
+    This drought-tolerant plant thrives in full sun and well-drained, sandy or loamy soils. It attracts pollinators, repels certain pests, and adds beneficial organic matter to the soil when used as mulch.
+
+    ### Sun and Water Requirements
+    - Requires full sun with at least 6–8 hours of direct sunlight daily.
+    - Prefers well-drained, sandy or rocky soil; does not tolerate heavy clay.
+    - Drought-tolerant once established; water sparingly to prevent root rot.
+
+    ### Methods to Propagate
+    - Seeds: Start indoors 8–10 weeks before the last frost; germination is slow.
+    - Cuttings: Softwood cuttings in spring or hardwood cuttings in fall.
+    - Division: Established plants can be divided and replanted.
+
+    ### When to Harvest
+    - Flowers should be harvested when buds are fully formed but before full bloom for the highest essential oil content.
+    - Cut stems early in the morning when oils are most concentrated.
+    - Dry in a shaded, well-ventilated area for long-term storage.
   purpose: |-
-    - Edible: Lavender flowers can be used in culinary dishes, adding a unique flavor to desserts, salads, and beverages.
-    - Medicinal: Known for its calming effects, lavender is used in aromatherapy and herbal remedies to alleviate stress and promote relaxation.
-    - Wildlife Attractor: The flowers attract pollinators such as bees and butterflies, enhancing biodiversity in the garden.
-    - Mulcher: When pruned, lavender branches can be used as mulch to improve soil structure and retain moisture.
-    - Pest Management: Its aromatic properties act as a natural pest repellent, deterring insects like mosquitoes and moths.
-    - Border Plant: Lavender's dense growth and attractive flowers make it an excellent choice for edging and defining garden borders.
-  companions:
+    Lavender serves multiple functions in a permaculture system:
+
+    - Medicinal: Used for relaxation, sleep aid, wound healing, and skin care.
+    - Pollinator: Flowers attract bees, butterflies, and other beneficial insects.
+    - Wildlife Attractor: Provides nectar for pollinators and improves biodiversity.
+    - Mulcher: Dried lavender leaves break down into the soil, adding organic matter.
+    - Dynamic Accumulator: Helps improve soil structure and aeration.
+    - Border Plant: Works well in garden edges, pathways, and herbal beds.
+    - Pest Management: Repels moths, mosquitoes, fleas, and aphids with its strong fragrance.
+  companions: 
     - Rosemary
-    - Thyme
     - Sage
+    - Thyme
     - Echinacea
+    - Oregano
   avoid:
     - Mint
-    - Basil
-  pests:
-    - Aphids
-    - Spittlebugs
-    - Whiteflies
+    - Moisture-loving plants (e.g., Basil, Cilantro)
+  pests: 
+    - Root Rot (caused by overwatering)
+    - Spittlebug
+    - Whitefly

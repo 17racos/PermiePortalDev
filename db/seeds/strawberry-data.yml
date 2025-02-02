@@ -2,47 +2,64 @@
   picture: strawberry.jpg
   scientific_name: Fragaria × ananassa
   aka:
-  - Garden Strawberry
-  - Alpine Strawberry (Fragaria vesca)
-  - Wild Strawberry (Fragaria virginiana)
+    - Garden Strawberry
+    - Wild Strawberry (Fragaria vesca)
   family: Rosaceae
-  zone: 
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
+  zone: 3-10
+    :ideal_temp_min: 60
+    :ideal_temp_max: 80
+    :min_temp: -30
+    :max_temp: 95
   perennial: true
   layers:
-  - Ground cover
-  - Root
+    - Ground Cover
   plant_function:
-  - Edible
-  - Pollinator
-  - Wildlife Attractor
-  - Border Plant
+    - Edible
+    - Wildlife Attractor
+    - Pollinator
+    - Border Plant
+    - Dynamic Accumulator
   description: |-
-    Strawberry plants are low-growing perennials that form rosettes and send out runners. They typically reach a height of 15–30 cm (6–12 inches) and spread widely through stolons. The plant produces white or pink flowers, followed by red, fleshy, and sweet fruits that are widely appreciated.
-    Strawberries prefer full sun and well-drained, loamy soils with a slightly acidic pH (5.5–6.5). They require regular watering, but overwatering can lead to root rot. Propagation is usually done through runners, but they can also be grown from seeds. Harvest occurs in late spring to early summer, depending on the variety and region. Fruits are best picked when fully ripe.
+    Strawberry plants are low-growing, spreading perennials that produce sweet, red fruits. They spread via runners and are commonly grown in garden beds, containers, or as ground cover. The plant has trifoliate green leaves with serrated edges, and it produces small white or pink flowers before fruiting.
+
+    Strawberries thrive in well-draining soil rich in organic matter. They require full sun and consistent moisture to produce a bountiful harvest. The plant attracts pollinators, especially bees, and provides a food source for wildlife.
+
+    ### Sun and Water Requirements
+    - Requires full sun (6-8 hours per day).
+    - Prefers moist but well-drained soil.
+    - Regular watering is necessary, but avoid waterlogging.
+
+    ### Methods to Propagate
+    - Runners: The primary method; daughter plants root and establish themselves.
+    - Seeds: Less common; requires cold stratification for germination.
+    - Division: Established clumps can be divided every 3 years for better yield.
+
+    ### When to Harvest
+    - Harvest when berries are fully red and plump.
+    - Best picked in the morning when temperatures are cooler.
+    - Continual harvesting encourages more fruit production.
   purpose: |-
-    Strawberry plants are highly versatile and beneficial in permaculture:
-    - Edible: The fruits are rich in vitamins, antioxidants, and dietary fiber, making them a valuable food source.
-    - Pollinator: Flowers attract bees and other pollinating insects.
-    - Wildlife Attractor: Birds and small mammals are drawn to the fruits and plants, contributing to the local ecosystem.
-    - Border Plant: Used as an aesthetic and functional border in gardens and permaculture systems.
+    Strawberry plants play multiple roles in a permaculture garden:
+
+    - Edible: Produces delicious, nutrient-rich fruit.
+    - Wildlife Attractor: Provides food for birds and small mammals.
+    - Pollinator: Attracts bees and other beneficial insects.
+    - Border Plant: Used as an attractive edging plant in gardens.
+    - Dynamic Accumulator: Accumulates nutrients in the soil and helps prevent erosion.
   companions: 
     - Lettuce
     - Spinach
     - Borage
-    - Legumes
+    - Thyme
+    - Nasturtium
   avoid:
-  - Cabbage
-  - Brassicas
-  - Fennel
+    - Cabbage
+    - Kale
+    - Broccoli
+    - Tomatoes
+    - Peppers
   pests: 
-  - Slugs
-  - Aphids
-  - Spider Mites
+    - Slugs
+    - Aphids
+    - Spider Mites
+    - Japanese Beetles

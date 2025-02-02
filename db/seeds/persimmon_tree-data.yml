@@ -1,59 +1,60 @@
-- common_name: Persimmon
+- common_name: Persimmon Tree
   picture: persimmon.jpg
   scientific_name: Diospyros spp.
   aka:
-    - American Persimmon (Diospyros virginiana)
     - Japanese Persimmon (Diospyros kaki)
+    - American Persimmon (Diospyros virginiana)
   family: Ebenaceae
-  zone:
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
+  zone: 4-10
+    :ideal_temp_min: 50
+    :ideal_temp_max: 90
+    :min_temp: -25
+    :max_temp: 100
   perennial: true
   layers:
     - Canopy
+    - Sub-Canopy
   plant_function:
     - Edible
     - Wildlife Attractor
-    - Animal Fodder
-    - Erosion Control
+    - Windbreaker
     - Border Plant
+    - Erosion Control
   description: |-
-    Persimmon trees are deciduous trees known for their sweet, orange, or red fruits. They can grow to heights of 10–20 meters (30–65 feet) with a broad canopy, depending on the variety. The tree has a striking, blocky bark and oval-shaped green leaves that turn bright orange and red in autumn. It produces fragrant white or cream-colored flowers in spring, which develop into the fruit.
+    The Persimmon Tree (Diospyros spp.) is a deciduous fruit tree known for its sweet, vibrant orange fruits. The tree can grow between 4.5-20 meters (15-65 feet) tall, with a dense canopy and glossy, dark green leaves that turn orange in autumn. The fruit matures in late fall, with astringent varieties needing full ripening before consumption. Persimmons are high in vitamins A and C.
 
-    Sun and Water Requirements:
-    - Sun: Thrives in full sun but can tolerate light shade.
-    - Water: Requires well-drained soil and moderate watering. Drought-tolerant once established.
+    ### Sun and Water Requirements
+    - Requires full sun for optimal growth and fruit production.
+    - Prefers well-drained, loamy soil with a slightly acidic to neutral pH.
+    - Drought-tolerant once established but benefits from occasional deep watering.
 
-    Propagation:
-    - Seeds: Plant fresh seeds in autumn or stratify them for spring planting.
-    - Grafting: Commonly used for cultivars to ensure high fruit quality.
-    - Cuttings: Can be propagated through hardwood cuttings.
+    ### Methods to Propagate
+    - Seed: Can be grown from seed, but offspring may vary from parent.
+    - Grafting: Commonly grafted onto rootstocks for faster production and better disease resistance.
+    - Cutting: Hardwood cuttings may be used for propagation with proper care.
 
-    Harvesting:
-    - Timing: Fruits are typically harvested in late autumn to early winter. Harvest when the fruit is soft and fully ripened, as unripe persimmons are highly astringent.
-    - Method: Hand-pick ripe fruits or gather those that naturally fall to the ground.
-
+    ### When to Harvest
+    - Harvest season ranges from late fall to early winter.
+    - Astringent varieties must be fully soft before consumption.
+    - Non-astringent varieties can be eaten when firm.
   purpose: |-
-    - Edible: Produces sweet fruits used fresh or in baked goods, jams, and desserts.
-    - Wildlife Attractor: Fruits are a food source for birds, deer, and other wildlife.
-    - Animal Fodder: Leaves and fruits can be used as supplementary livestock feed.
-    - Erosion Control: Deep root systems stabilize soil and prevent erosion on slopes.
-    - Border Plant: Functions as a natural windbreak or garden boundary.
+    The Persimmon Tree has several functions in permaculture:
 
-  companions:
+    - Edible: Produces delicious, nutritious fruit that can be eaten fresh, dried, or processed.
+    - Wildlife Attractor: Provides food for birds, deer, and pollinators.
+    - Windbreaker: Can be used as a protective barrier in orchards or gardens.
+    - Border Plant: Effective for property lines and food forests.
+    - Erosion Control: The deep root system stabilizes slopes and prevents soil erosion.
+  companions: 
+    - Mulberry
     - Clover
     - Comfrey
-    - Garlic
-    - Borage
+    - Elderberry
   avoid:
-    - Black Walnut
-    - Corn
-  pests:
-    - Persimmon Psylla
+    - Walnut
+    - Fennel
+  pests: 
+    - Persimmon Borer
     - Scale Insects
-    - Twig Girdlers
-    - Leafrollers
+    - Mealybugs
+    - Root Rot (in poorly drained soils)

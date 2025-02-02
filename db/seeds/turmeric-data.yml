@@ -2,44 +2,54 @@
   picture: turmeric.jpg
   scientific_name: Curcuma longa
   aka:
-  - Indian Saffron
-  - Golden Root
-  - Yellow Ginger
+    - Indian Saffron
   family: Zingiberaceae
-  zone: 
-    - 8
-    - 9
-    - 10
-    - 11
+  zone: 8-11
+    :ideal_temp_min: 68
+    :ideal_temp_max: 95
+    :min_temp: 50
+    :max_temp: 100
   perennial: true
   layers:
-  - Root
-  - Herbaceous
+    - Herbaceous
+    - Rhizome
   plant_function:
-  - Edible
-  - Medicinal
-  - Mulcher
-  - Pest Management
+    - Edible
+    - Medicinal
+    - Mulcher
+    - Dynamic Accumulator
   description: |-
-    Turmeric is a herbaceous perennial plant that grows to a height of 1–1.5 meters (3–5 feet). It has large, lance-shaped leaves and produces pale yellow to white flowers. The plant's underground rhizomes are the primary harvested parts, valued for their vibrant orange color and strong, earthy flavor. 
-    Turmeric thrives in warm, humid climates with temperatures ranging from 20–30°C (68–86°F). It prefers partial to full sun and well-drained, fertile soils with a pH of 4.5–7.5. Regular watering is essential for optimal growth. Propagation is done by planting rhizome sections with at least two buds in spring or early summer. Harvesting occurs 8–10 months after planting when the leaves begin to yellow and die back. Rhizomes are then dug up, cleaned, and cured.
+    Turmeric is a tropical, rhizomatous herbaceous perennial plant that grows up to 1 meter (3 feet) tall. It produces large, oblong green leaves and stunning yellow or orange flowers. The underground rhizome is the most valued part of the plant and is commonly used as a spice, dye, and medicinal remedy.
+
+    Turmeric thrives in warm, humid conditions with consistent moisture and well-drained, fertile soil. It prefers partial to full sun exposure and can be grown in containers in cooler climates.
+
+    ### Sun and Water Requirements
+    - Prefers partial to full sun (4–6+ hours of sunlight).
+    - Requires well-drained, loamy soil rich in organic matter.
+    - Benefits from consistent moisture, but avoid waterlogging.
+
+    ### Methods to Propagate
+    - Rhizomes: Propagated by planting healthy rhizome pieces with at least one bud.
+    - Time: Plant in early spring after the last frost or when soil temperature is above 68°F (20°C).
+
+    ### When to Harvest
+    - Ready for harvest in 7–10 months when leaves turn yellow and begin to dry.
+    - Carefully dig up the rhizomes, clean, and cure them for storage.
   purpose: |-
-    Turmeric serves multiple roles in permaculture systems:
-    - Edible: The rhizome is widely used as a spice, natural food coloring, and in beverages.
-    - Medicinal: Known for its anti-inflammatory, antioxidant, and antimicrobial properties, turmeric is used in traditional and modern medicine.
-    - Mulcher: Leaves and plant residues can be composted or used as organic mulch.
-    - Pest Management: Acts as a natural repellent against nematodes and some soil pests.
+    Turmeric is a valuable plant in permaculture systems due to its multiple functions:
+
+    - Edible: The rhizomes are used as a spice and natural food coloring.
+    - Medicinal: Known for its anti-inflammatory, antioxidant, and antimicrobial properties.
+    - Mulcher: Provides abundant leaf biomass that can be used as mulch.
+    - Dynamic Accumulator: Draws up nutrients from deeper soil layers and enriches the topsoil.
   companions: 
     - Ginger
-    - Cardamom
-    - Peppers
-    - Legumes
+    - Lemongrass
+    - Banana
+    - Chili Pepper
   avoid:
-  - Potatoe
-  - Corn
-  - Tomatoe
-  - Fennel
+    - None reported
   pests: 
-  - Aphids
-  - Whiteflies
-  - Spider Mites
+    - Aphids
+    - Root-knot Nematodes
+    - Spider Mites

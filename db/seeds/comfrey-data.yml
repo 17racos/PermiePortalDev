@@ -1,51 +1,65 @@
 - common_name: Comfrey
-  picture: comfrey.png
+  picture: comfrey.jpg
   scientific_name: Symphytum officinale
   aka:
-    - Common Comfrey
-    - Quaker Comfrey
     - Knitbone
+    - Bone Set
     - Russian Comfrey (Symphytum × uplandicum)
-    - Prickly Comfrey (Symphytum asperum)
   family: Boraginaceae
-  zone: [4, 5, 6, 7, 8, 9]
+  zone: 3-9
+    :ideal_temp_min: 40
+    :ideal_temp_max: 85
+    :min_temp: -40
+    :max_temp: 100
   perennial: true
   layers:
     - Herbaceous
   plant_function:
-    - Edible
     - Medicinal
     - Wildlife Attractor
-    - Dynamic Accumulator
     - Mulcher
+    - Dynamic Accumulator
+    - Erosion Control
     - Animal Fodder
-    - Pollinator
     - Border Plant
   description: |-
-    Comfrey is a robust perennial herb that can grow up to 1.2 meters (4 feet) in height. It features large, hairy leaves and bell-shaped flowers that range in color from purple to blue, pink, or white. The plant has a deep taproot system, extending up to 3 meters (10 feet) into the soil, allowing it to access nutrients from deep layers. Comfrey thrives in full sun to partial shade and prefers moist, well-drained soils with a pH between 6.0 and 7.0. It is drought-tolerant once established but benefits from regular watering. Propagation is typically achieved through root cuttings or crown divisions, as seed propagation is unreliable due to low germination rates. Harvesting of leaves can begin in the second year, with multiple cuts per growing season; leaves are best harvested when they reach about 60 cm (24 inches) in length.
+    Comfrey (Symphytum officinale) is a fast-growing herbaceous perennial known for its deep roots and high biomass production. It grows up to 1.2 meters (4 feet) tall and has large, rough, lance-shaped leaves covered in fine hairs. The plant produces clusters of bell-shaped purple, pink, or white flowers that attract pollinators.
+
+    Comfrey thrives in moist, well-drained soil and can tolerate a range of conditions, including poor soil. It is often used in regenerative agriculture and permaculture systems due to its ability to mine nutrients from deep within the soil and cycle them back into the upper layers.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Thrives in well-drained, moist soil but can adapt to drier conditions.
+    - Requires moderate watering; deep roots allow it to be drought-resistant once established.
+
+    ### Methods to Propagate
+    - Root Cuttings: The most effective method, as comfrey propagates easily from root fragments.
+    - Crown Division: Dividing established plants in spring or fall helps spread the plant.
+    - Seeds: Rarely used, as most cultivated comfrey varieties (such as Russian Comfrey) are sterile.
+
+    ### When to Harvest
+    - Leaves can be harvested multiple times per season, every 4–6 weeks.
+    - Cut back to 5 cm (2 inches) above the ground for regrowth.
+    - Roots can be harvested in late fall for medicinal preparations.
   purpose: |-
-    In permaculture, comfrey serves multiple functions:
-    - Pioneer Plant: Comfrey is often used in permaculture systems as a pioneer plant to establish healthy soil and improve the ecosystem by adding nutrients back into the soil.
-    - Comfrey as a Green Manure: Comfrey can be grown and turned back into the soil to add organic matter and nutrients, improving soil health and fertility over time.
-    - Edible: While not commonly consumed due to potential toxicity, comfrey has been used historically in herbal remedies and as a tea.
-    - Medicinal: Known as 'knitbone,' comfrey contains allantoin, promoting cell regeneration and traditionally used for healing wounds and bone fractures. Topical applications are common, but internal use is discouraged due to pyrrolizidine alkaloids.
-    - Wildlife Attractor: Its flowers are rich in nectar, attracting pollinators such as bees and beneficial insects.
-    - Dynamic Accumulator: Comfrey's deep roots draw up nutrients like potassium, calcium, and phosphorus, enriching the soil when its leaves decompose.
-    - Mulcher: The nutrient-rich leaves decompose rapidly, making excellent mulch to suppress weeds and improve soil fertility.
-    - Animal Fodder: Comfrey has been used as livestock feed due to its high protein content; however, caution is advised because of potential toxicity.
-    - Pollinator: The plant's abundant flowers provide a reliable nectar source for pollinating insects throughout the growing season.
-    - Border Plant: Comfrey can be used to create natural borders or barriers in garden landscapes due to its dense growth habit.
+    Comfrey serves multiple functions in a permaculture system:
+
+    - Medicinal: Used topically to aid wound healing, reduce inflammation, and relieve joint pain.
+    - Wildlife Attractor: Flowers attract bees, butterflies, and other pollinators.
+    - Mulcher: High biomass production allows for chop-and-drop mulching to improve soil health.
+    - Dynamic Accumulator: Mines deep nutrients such as potassium, calcium, and phosphorus, making them available to nearby plants.
+    - Erosion Control: Deep root system stabilizes slopes and prevents soil erosion.
+    - Animal Fodder: High in protein and minerals, comfrey is used as supplemental feed for livestock.
+    - Border Plant: Grows well along pathways and edges of food forests, marking garden boundaries.
   companions: 
-    - Fruit Trees
+    - Apple
+    - Pear
+    - Plum
+    - Walnut
     - Tomato
-    - Peppers
-    - Cucumber
-    - Berries
   avoid:
-    - Potatoes
-    - Carrots
-    - Garlic
+    - None known
   pests: 
-    - Slugs
-    - Snails
-  
+    - Slug
+    - Snail
+    - Leaf Miner

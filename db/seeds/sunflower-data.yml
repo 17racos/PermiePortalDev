@@ -2,53 +2,66 @@
   picture: sunflower.jpg
   scientific_name: Helianthus annuus
   aka:
-  - Common Sunflower
-  - Wild Sunflower
+    - Common Sunflower
+    - Giant Sunflower
   family: Asteraceae
-  zone: 
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
+  zone: 2-11
+    :ideal_temp_min: 65
+    :ideal_temp_max: 85
+    :min_temp: 25
+    :max_temp: 100
   perennial: false
   layers:
-  - Herbaceous
+    - Herbaceous
   plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Dynamic Accumulator
-  - Mulcher
-  - Border Plant
+    - Edible
+    - Wildlife Attractor
+    - Pollinator
+    - Mulcher
+    - Dynamic Accumulator
+    - Erosion Control
+    - Windbreaker
+    - Border Plant
   description: |-
-    Sunflowers are annual plants that can grow to heights ranging from 1.5–3.5 meters (5–12 feet), depending on the variety. They have thick, rough stems, large, heart-shaped leaves, and iconic yellow petals surrounding a dark central disk. Sunflowers thrive in full sun and are drought-tolerant, although they grow best with moderate watering. They prefer well-drained, nutrient-rich soils with a neutral to slightly acidic pH (6.0–7.5). 
-    Propagation is done through direct seeding in spring after the last frost. Seeds germinate in 7–10 days, and flowers bloom in summer. Harvesting can occur when the seed heads turn brown, and seeds are firm and fully developed.
+    Sunflowers are tall, annual plants with large, bright yellow flowers that can grow up to 3.6 meters (12 feet) in height. They have deep taproots that improve soil structure and reduce erosion. The flowers produce abundant nectar and pollen, attracting bees, butterflies, and birds.
+
+    The plant thrives in full sun and well-drained soil. It is drought-tolerant once established and can grow in a variety of soil conditions. Sunflowers are commonly used as windbreaks, living fences, and companion plants.
+
+    ### Sun and Water Requirements
+    - Prefers full sun (6-8 hours of direct sunlight daily).
+    - Drought-tolerant but benefits from moderate watering.
+    - Grows well in well-drained, sandy or loamy soils.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow in the garden after the last frost when the soil is at least 10°C (50°F).
+    - Spacing: Plant seeds 2.5 cm (1 inch) deep, spaced 30 cm (12 inches) apart.
+
+    ### When to Harvest
+    - Flowers bloom in summer and early fall.
+    - Harvest seeds when the back of the flower head turns brown.
+    - Allow seeds to dry completely before storage.
   purpose: |-
-    Sunflowers offer multiple benefits in permaculture:
-    - Edible: Seeds are rich in protein, healthy fats, and vitamins, making them a valuable food source for humans and animals.
-    - Medicinal: Traditionally used to treat respiratory issues and as a mild diuretic.
-    - Pollinator: Flowers attract bees, butterflies, and other pollinators.
-    - Wildlife Attractor: Seeds provide food for birds and small mammals, while the plants offer habitat.
-    - Dynamic Accumulator: Deep taproots pull nutrients like phosphorus and potassium from the soil, enriching the topsoil when decomposed.
-    - Mulcher: Stalks and leaves can be composted or used as organic mulch.
-    - Border Plant: Serves as a natural fence or windbreak, while adding beauty to the landscape.
+    Sunflowers serve multiple purposes in a permaculture system:
+
+    - Edible: Seeds are rich in protein, healthy fats, and minerals.
+    - Wildlife Attractor: Provides food for bees, butterflies, and birds.
+    - Pollinator: Attracts beneficial insects for pollination.
+    - Mulcher: Large leaves decompose quickly, adding organic matter.
+    - Dynamic Accumulator: Draws nutrients such as phosphorus and potassium from deep in the soil.
+    - Erosion Control: Deep roots stabilize soil and prevent erosion.
+    - Windbreaker: Tall plants can be used as a wind barrier.
+    - Border Plant: Creates a natural border or privacy screen.
   companions: 
     - Corn
-    - Legumes
-    - Spinach
-    - Cucumber
+    - Cucumbers
+    - Squash
+    - Beans
+    - Lettuce
   avoid:
-  - Potato
-  - Carrot
+    - Potatoes
   pests: 
     - Aphids
-    - Caterpillars
-    - Whiteflies
-    - Japanese Beetles
     - Cutworms
+    - Sunflower Moth
+    - Birds
+    - Deer

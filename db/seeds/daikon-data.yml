@@ -2,46 +2,64 @@
   picture: daikon.jpg
   scientific_name: Raphanus sativus var. longipinnatus
   aka:
-    - Chinese Radish
     - White Radish
-    - Mooli
-  family:
-    - Brassicaceae
-  zone:
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
+    - Japanese Radish
+    - Chinese Radish
+  family: Brassicaceae
+  zone: 2-11
+    :ideal_temp_min: 45
+    :ideal_temp_max: 75
+    :min_temp: 20
+    :max_temp: 95
   perennial: false
   layers:
-    - Herbaceous
     - Root
   plant_function:
     - Edible
+    - Medicinal
     - Dynamic Accumulator
     - Erosion Control
-    - Pest Management
     - Animal Fodder
+    - Pest Management
   description: |-
-    Daikon radish is a fast-growing, cool-season root vegetable characterized by its long, white taproot, typically measuring 30–50 cm (12–20 inches) in length and 5–10 cm (2–4 inches) in diameter. The plant forms a dense rosette of green leaves above ground. It thrives in full sun and well-drained, fertile soils with consistent moisture. Propagation is achieved through direct seeding in early spring or late summer. Harvesting occurs approximately 60 days after sowing, when roots reach full size but remain tender.
+    Daikon Radish (Raphanus sativus var. longipinnatus) is a fast-growing, cool-season root vegetable known for its long, white, cylindrical taproot that can grow up to 60 cm (24 inches) deep. The plant has lush green leaves and small white or yellow flowers that bloom if left to bolt.
+
+    Daikon Radish thrives in loose, well-drained soil and is often used as a cover crop to break up compacted soil, prevent erosion, and scavenge nutrients. It is widely grown in temperate and subtropical climates and can be used for culinary, medicinal, and soil improvement purposes.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Requires loose, well-drained soil to allow root development.
+    - Moderate water needs; avoid waterlogging to prevent rot.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow in early spring or late summer for fall crops.
+    - Succession Planting: Sow every 2–3 weeks for a continuous harvest.
+    - Self-seeding: Can reseed if left to flower and set seed.
+
+    ### When to Harvest
+    - Harvest 50–70 days after planting when roots reach 20–60 cm (8–24 inches) in length.
+    - Pull roots before they become too fibrous or woody.
+    - Leaves can be harvested throughout the growing season for salads or animal fodder.
   purpose: |-
-    - Edible: Daikon radish roots are consumed raw, cooked, or pickled, offering a mild flavor and crisp texture. The leaves are also edible and can be used in salads or cooked dishes.
-    - Dynamic Accumulator: The deep taproot mines nutrients from subsoil layers, bringing them to the surface and enhancing soil fertility upon decomposition.
-    - Erosion Control: Its rapid growth and dense foliage provide ground cover that protects soil from erosion.
-    - Pest Management: Daikon radish exhibits biofumigation properties, releasing compounds that suppress soil-borne pests and diseases, including certain nematodes and pathogens.
-    - Animal Fodder: Both the roots and foliage can be used as livestock feed.
-  companions:
+    Daikon Radish serves multiple functions in a permaculture system:
+
+    - Edible: Roots are used in salads, stir-fries, pickles, and soups.
+    - Medicinal: Traditionally used for digestion, detoxification, and respiratory health.
+    - Dynamic Accumulator: Scavenges deep nutrients such as nitrogen and potassium, enriching the soil.
+    - Erosion Control: Deep taproots stabilize the soil and reduce compaction.
+    - Animal Fodder: Leaves and roots provide nutritious forage for livestock.
+    - Pest Management: Suppresses weeds and attracts beneficial predatory insects.
+  companions: 
     - Carrot
     - Lettuce
-    - Cucumber
+    - Spinach
+    - Pea
+    - Cabbage
   avoid:
-    - Potatoes
-    - Brassicas
-  pests:
-    - Flea Beetles
-    - Cabbage Root Maggots
+    - Potato
+    - Onion
+  pests: 
+    - Flea Beetle
+    - Aphid
+    - Cabbage Worm
+    - Root Maggot

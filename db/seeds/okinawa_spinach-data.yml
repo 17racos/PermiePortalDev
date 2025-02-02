@@ -1,39 +1,63 @@
 - common_name: Okinawa Spinach
-  picture: ospinach.png
-  scientific_name: Gynura crepioides
+  picture: ospinach.jpg
+  scientific_name: Gynura bicolor
   aka:
-    - Hong tsoi
-    - Okinawa lettuce
-    - Cholesterol spinach
+    - Hong Foon Tsai
+    - Red-Veined Gynura
   family: Asteraceae
-  zone:
-    - 9
-    - 10
-    - 11
+  zone: 9-11
+    :ideal_temp_min: 50
+    :ideal_temp_max: 85
+    :min_temp: 32
+    :max_temp: 100
   perennial: true
   layers:
-    - Groundcover
+    - Herbaceous
+    - Ground Cover
   plant_function:
     - Edible
     - Medicinal
     - Wildlife Attractor
-    - Border Plant
+    - Mulcher
+    - Dynamic Accumulator
+    - Erosion Control
+    - Animal Fodder
   description: |-
-    Okinawa Spinach is a dense, low-growing perennial reaching up to 70 cm (27.5 inches) in height. Its shiny leaves are dark green on top with vibrant purple undersides, making it an attractive addition to gardens. The plant produces small orange flowers that can attract beneficial insects. Thriving in warm, humid conditions, it prefers full sun to partial shade and well-drained, fertile soil with ample organic matter. Regular watering is essential, as it is not drought-tolerant. Propagation is typically done through cuttings; stems of 10–20 cm (4–8 inches) can be rooted in water or moist soil. Harvesting can begin once the plant is established, with young leaves and shoots being the most tender and flavorful. Continuous harvesting encourages bushier growth. In frost-free climates, it can provide greens year-round.
-  purpose: |-
-    - Edible: Provides nutritious leaves rich in protein, iron, potassium, calcium, and vitamin A. Suitable for salads, stir-fries, soups, and tempura.
-    - Medicinal: Traditionally used in East and Southeast Asia for its potential cholesterol-lowering properties.
-    - Wildlife Attractor: Its flowers can attract beneficial insects, aiding in pollination.
-    - Border Plant: Serves as an attractive edging in gardens due to its colorful foliage.
-  companions:
-    - Eggplant
-    - Kale
-    - Fruit trees
-  avoid: 
-    - Mint
-    - Fennel
-  pests:
-    - Aphids
-    - Slugs
-    - Snails
+    Okinawa Spinach (Gynura bicolor) is a fast-growing, hardy perennial green that thrives in warm, humid climates. It features vibrant green leaves with striking purple undersides, making it both ornamental and functional in permaculture systems. The leaves are tender with a mild, slightly nutty flavor and are widely used in Asian cuisine. It is an excellent ground cover plant, helping to suppress weeds while improving soil moisture retention.
 
+    ### Sun and Water Requirements
+    - Prefers partial shade but tolerates full sun in cooler climates.
+    - Requires consistent moisture but does not tolerate waterlogging.
+    - Thrives in well-drained, fertile soil with organic matter.
+
+    ### Methods to Propagate
+    - Cuttings: Best propagated through stem cuttings, which root easily in water or soil.
+    - Division: Can be divided to establish new plants.
+    - Seeds: Rarely propagated by seed due to difficulty in germination.
+
+    ### When to Harvest
+    - Leaves can be harvested continuously as needed once the plant is established.
+    - Best harvested in the morning for optimal flavor and texture.
+    - Regular harvesting encourages bushier growth.
+  purpose: |-
+    Okinawa Spinach serves multiple permaculture functions:
+
+    - Edible: Leaves are used raw in salads or cooked in soups and stir-fries.
+    - Medicinal: Traditionally used in Chinese medicine to support blood circulation and reduce inflammation.
+    - Wildlife Attractor: Flowers attract pollinators, including bees and butterflies.
+    - Mulcher: Provides abundant organic material for mulching and soil improvement.
+    - Dynamic Accumulator: Absorbs and stores nutrients, enriching the soil.
+    - Erosion Control: Works as an excellent ground cover to prevent soil erosion.
+    - Animal Fodder: Leaves are suitable for feeding livestock such as chickens and rabbits.
+  companions: 
+    - Sweet Potato
+    - Ginger
+    - Taro
+    - Lemongrass
+  avoid:
+    - Onion
+    - Garlic
+  pests: 
+    - Aphid
+    - Whitefly
+    - Slug

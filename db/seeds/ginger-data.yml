@@ -2,38 +2,61 @@
   picture: ginger.jpg
   scientific_name: Zingiber officinale
   aka:
-    - Common ginger
+    - Common Ginger
+    - Culinary Ginger
   family: Zingiberaceae
-  zone:
-    - 9
-    - 10
-    - 11
+  zone: 8-12
+    :ideal_temp_min: 65
+    :ideal_temp_max: 90
+    :min_temp: 50
+    :max_temp: 100
   perennial: true
   layers:
     - Herbaceous
-    - Root
   plant_function:
     - Edible
     - Medicinal
-    - Wildlife Attractor
     - Mulcher
     - Dynamic Accumulator
+    - Border Plant
   description: |-
-    Ginger is a perennial herbaceous plant known for its aromatic rhizomes used in culinary and medicinal applications. It features upright stems with narrow, lanceolate leaves measuring approximately 15–30 cm (6–12 inches) in length. The plant produces yellow-green flowers, though it rarely blooms outside tropical climates. Ginger thrives in warm, humid environments with filtered sunlight, making it suitable for USDA zones 9–11. It prefers well-drained, fertile soils rich in organic matter, with a pH between 5.5 and 6.5. Propagation is typically achieved by planting healthy rhizome sections with visible buds, placing them 5–10 cm (2–4 inches) deep and spacing them 20–30 cm (8–12 inches) apart. Consistent moisture is essential, but overwatering should be avoided to prevent rot. Mulching helps retain soil moisture and suppress weeds. Harvesting can commence approximately 8–10 months after planting when the foliage begins to yellow and die back. Carefully dig up the rhizomes, which can vary in size but typically measure around 10–15 cm (4–6 inches) in length.
+    Ginger (Zingiber officinale) is a tropical, herbaceous perennial known for its underground rhizomes, which are used in cooking and medicine. It grows up to 1 meter (3 feet) tall, with narrow, lance-shaped leaves and small yellow-green flowers with purple streaks.
+
+    Ginger thrives in warm, humid climates and requires rich, well-drained soil. It can be grown in the ground or in containers, making it versatile for home gardens. The plant's rhizomes spread underground, forming dense clusters that can be divided for propagation.
+
+    ### Sun and Water Requirements
+    - Prefers partial shade to full sun.
+    - Requires moist, well-drained, fertile soil rich in organic matter.
+    - Needs consistent watering but should not be waterlogged.
+
+    ### Methods to Propagate
+    - Rhizomes: Plant sections of rhizomes with at least one growth bud.
+    - Division: Established plants can be divided and replanted.
+    - No seeds: Typically does not produce viable seeds.
+
+    ### When to Harvest
+    - Harvest rhizomes 8–10 months after planting when leaves start to yellow and die back.
+    - Young ginger (baby ginger) can be harvested earlier for a milder flavor.
+    - Cut and store rhizomes in a cool, dry place or refrigerate for fresh use.
   purpose: |-
-    - Edible: Ginger rhizomes are widely used as a spice in various cuisines, imparting a distinctive flavor to dishes, beverages, and confections.
-    - Medicinal: Traditionally utilized for its anti-inflammatory and digestive properties, ginger is employed to alleviate nausea, improve digestion, and reduce muscle pain.
-    - Wildlife Attractor: In tropical regions, ginger flowers can attract pollinators, contributing to local biodiversity.
-    - Mulcher: The plant's foliage can be used as mulch to improve soil fertility and moisture retention.
-    - Dynamic Accumulator: Ginger accumulates nutrients from the soil, which can be returned to the system when its biomass decomposes.
-  companions:
-    - Pigeon Pea
+    Ginger serves multiple functions in a permaculture system:
+
+    - Edible: Rhizomes are widely used in cooking, teas, and flavoring.
+    - Medicinal: Known for anti-inflammatory, digestive, and immune-boosting properties.
+    - Mulcher: Leaves and stems break down easily, enriching soil with organic matter.
+    - Dynamic Accumulator: Helps improve soil fertility by accumulating minerals.
+    - Border Plant: Used to define planting areas in food forests and gardens.
+  companions: 
     - Turmeric
-    - Galangal
-    - Cardamom
+    - Lemon Grass
+    - Banana
+    - Citrus
+    - Moringa
   avoid:
-    - None reported
-  pests:
-    - Spider Mites
-    - Aphids
-    - Root-Knot Nematodes
+    - Onion
+    - Garlic
+  pests: 
+    - Root-Knot Nematode
+    - Aphid
+    - Spider Mite
+    - Fungal Root Rot

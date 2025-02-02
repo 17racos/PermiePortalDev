@@ -4,47 +4,66 @@
   aka:
     - Starflower
     - Bee Bush
-    - Bee Bread
-    - Bugloss
+    - Tailwort
   family: Boraginaceae
-  zone: [3, 4, 5, 6, 7, 8, 9, 10]
+  zone: 2-11
+    :ideal_temp_min: 40
+    :ideal_temp_max: 85
+    :min_temp: 20
+    :max_temp: 100
   perennial: false
   layers:
     - Herbaceous
   plant_function:
     - Edible
     - Medicinal
-    - Wildlife Attractor
-    - Dynamic Accumulator
     - Pollinator
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Erosion Control
     - Border Plant
     - Pest Management
   description: |-
-    Borage is an annual herbaceous plant reaching heights of 1 to 3 feet (30 to 90 cm). It features coarse, hairy stems and leaves, with vibrant blue, star-shaped flowers that bloom from early summer to fall. Thriving in full sun, borage prefers well-drained soil and is drought-tolerant once established. Propagation is typically achieved through direct sowing of seeds after the last frost; the plant readily self-seeds, ensuring its presence in subsequent seasons. Harvest young leaves when they are tender for culinary uses, and collect flowers as they open for garnishes or herbal preparations.
+    Borage (Borago officinalis) is an annual herb known for its striking blue, star-shaped flowers and fuzzy, cucumber-flavored leaves. It grows quickly, reaching heights of 60–90 cm (2–3 feet) with a sprawling habit. Borage is highly attractive to pollinators and beneficial insects.
+
+    The plant thrives in a variety of soil conditions but prefers well-drained, sandy, or loamy soils. It is drought-tolerant once established and self-seeds prolifically, making it an easy-to-grow addition to gardens, food forests, and medicinal herb beds.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Grows well in well-drained, moderately fertile soil.
+    - Requires moderate watering but is drought-tolerant once established.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow in early spring or late summer; germinates quickly in warm soil.
+    - Self-seeding: Readily self-seeds, often returning year after year in favorable conditions.
+    - Transplanting: Can be transplanted when young, but prefers direct sowing.
+
+    ### When to Harvest
+    - Leaves can be harvested at any time for culinary or medicinal use.
+    - Flowers should be harvested fresh when fully open for the best flavor.
+    - Seeds mature in late summer and can be collected for future planting.
   purpose: |-
-    In permaculture, borage serves multiple functions:
-    - Edible: Young leaves and flowers have a mild cucumber flavor, suitable for salads, beverages, and garnishes.
-    - Medicinal: Traditionally used to alleviate fevers, coughs, and depression; borage oil, rich in gamma-linolenic acid (GLA), has anti-inflammatory properties. 
-    - Wildlife Attractor: Its nectar-rich flowers draw pollinators like bees and beneficial insects, enhancing biodiversity.
-    - Dynamic Accumulator: Accumulates minerals such as potassium in its leaves, enriching compost and improving soil fertility when the plant decomposes. 
-    - Pollinator Support: Provides a continuous nectar source, supporting pollinator populations throughout the growing season.
-    - Border Plant: With its attractive flowers and foliage, borage can define garden edges and add aesthetic appeal.
-    - Pest Management: Attracts beneficial insects that prey on common pests; may deter certain pests like tomato hornworms and cabbage worms.
+    Borage serves multiple functions in a permaculture system:
+
+    - Edible: Leaves and flowers are used in salads, teas, and herbal infusions.
+    - Medicinal: Traditionally used to support adrenal function, digestion, and skin health.
+    - Pollinator: Flowers attract bees, butterflies, and other beneficial pollinators.
+    - Wildlife Attractor: Provides nectar for pollinators and supports beneficial predatory insects.
+    - Mulcher: Large leaves decompose quickly, adding organic matter to the soil.
+    - Dynamic Accumulator: Draws up trace minerals such as potassium and calcium, enriching the surrounding soil.
+    - Erosion Control: Deep roots help improve soil structure and prevent erosion.
+    - Border Plant: Works well in garden borders and food forests, adding biodiversity.
+    - Pest Management: Attracts beneficial predatory insects such as hoverflies that help control aphids.
   companions: 
     - Tomato
-    - Squash
     - Strawberry
+    - Squash
     - Cabbage
-    - Basil
-    - Leek
-    - Pumpkin
-    - Kale
-    - Nasturtium
-    - Marigold
+    - Cucumber
   avoid:
-    - None reported
+    - None known
   pests: 
-    - Aphids
-    - Japanese Beetles
-    - Tomato Hornworms
-    - Cabbage Worms
+    - Aphid
+    - Leaf Miner
+    - Caterpillar

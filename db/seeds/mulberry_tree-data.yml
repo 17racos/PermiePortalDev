@@ -6,39 +6,65 @@
     - Red Mulberry (Morus rubra)
     - Black Mulberry (Morus nigra)
   family: Moraceae
-  zone:
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
+  zone: 4-10
+    :ideal_temp_min: 55
+    :ideal_temp_max: 85
+    :min_temp: -25
+    :max_temp: 110
   perennial: true
   layers:
-    - Canopy
-    - Sub-canopy
+    - Tree
   plant_function:
     - Edible
     - Medicinal
     - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Erosion Control
     - Animal Fodder
     - Windbreaker
     - Border Plant
   description: |-
-    Mulberry trees are fast-growing deciduous plants known for their sweet, blackberry-like fruits. They can reach heights of 6–15 meters (20–50 feet), with a spreading canopy that provides ample shade. The leaves are typically broad and serrated, varying in shape among species. Mulberries thrive in full sun and well-drained soil, preferring slightly acidic to neutral pH levels. They are drought-tolerant once established but benefit from regular watering during dry spells. Propagation is commonly achieved through hardwood cuttings taken during winter dormancy or by seed, though cuttings ensure the preservation of specific cultivars. Fruits ripen in late spring to early summer and should be harvested promptly to prevent loss to birds and ensure peak flavor.
+    Mulberry trees (Morus spp.) are fast-growing deciduous trees known for their sweet, nutritious berries and their ability to thrive in various climates. They produce an abundance of fruit, which is enjoyed fresh, dried, or made into jams and wines. The trees have deep roots, making them resilient to drought conditions and suitable for erosion control.
+
+    The leaves of some species, particularly Morus alba, are a primary food source for silkworms. Mulberries attract pollinators and wildlife, making them an excellent addition to food forests and permaculture designs.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Requires moderate to low watering; drought-tolerant once established.
+    - Adaptable to different soil types but thrives in well-draining, loamy soil.
+
+    ### Methods to Propagate
+    - Seeds: Requires cold stratification before planting.
+    - Cuttings: Can be propagated using softwood or hardwood cuttings.
+    - Grafting: Often grafted onto rootstock for improved growth.
+
+    ### When to Harvest
+    - Berries ripen in late spring to early summer.
+    - Fruit is ready when it turns deep red, purple, or black, depending on the variety.
+    - Harvest by gently shaking the branches; ripe berries fall easily.
   purpose: |-
-    - Edible: Mulberries produce abundant, sweet fruits enjoyed fresh or used in jams, wines, and desserts.
-    - Medicinal: Traditional uses include treatments for digestive issues and as a source of antioxidants.
-    - Wildlife Attractor: The fruits attract various bird species, supporting local biodiversity.
-    - Animal Fodder: Leaves serve as nutritious fodder for livestock, including rabbits and goats.
-    - Windbreaker: When planted in rows, mulberries can function as effective windbreaks due to their dense foliage.
-    - Border Plant: Suitable for property boundaries, providing both aesthetic appeal and functional barriers.
-  companions:
-    - Nitrogen Fixers
-    - Nasturtium
-    - Herbs
+    The mulberry tree serves multiple functions in a permaculture system:
+
+    - Edible: Produces sweet, nutrient-rich berries.
+    - Medicinal: Traditionally used for anti-inflammatory and antioxidant properties.
+    - Wildlife Attractor: Berries attract birds, bees, and beneficial insects.
+    - Mulcher: Leaves and pruned branches can be used as mulch.
+    - Dynamic Accumulator: Draws up nutrients and improves soil health.
+    - Erosion Control: Deep root system stabilizes soil and prevents erosion.
+    - Animal Fodder: Leaves and fruit provide nutritious feed for livestock.
+    - Windbreaker: Serves as a natural wind barrier in agroforestry systems.
+    - Border Plant: Functions as a hedge or boundary tree in diverse landscapes.
+  companions: 
+    - Elderberry
+    - Comfrey
+    - Clover
+    - Raspberry
+    - Strawberry
   avoid:
-    - Black Walnut
-  pests:
-    - Caterpillars
-    - Scale Insects
+    - Walnut
+  pests: 
+    - Aphid
+    - Whitefly
+    - Scale Insect
+    - Spider Mite

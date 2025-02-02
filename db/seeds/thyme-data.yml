@@ -2,48 +2,66 @@
   picture: thyme.jpg
   scientific_name: Thymus vulgaris
   aka:
-  - Common Thyme
-  - Garden Thyme
-  - Creeping Thyme (Thymus serpyllum)
+    - Common Thyme
+    - Garden Thyme
   family: Lamiaceae
-  zone: 
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
+  zone: 4-9
+    :ideal_temp_min: 60
+    :ideal_temp_max: 75
+    :min_temp: -30
+    :max_temp: 95
   perennial: true
   layers:
-  - Groundcover
+    - Herbaceous
+    - Ground Cover
   plant_function:
-  - Edible
-  - Medicinal
-  - Pollinator
-  - Wildlife Attractor
-  - Border Plant
-  - Pest Management
+    - Edible
+    - Medicinal
+    - Pollinator
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Border Plant
+    - Pest Management
   description: |-
-    Thyme is a low-growing, woody perennial herb that typically reaches 15–30 cm (6–12 inches) in height. It has small, aromatic, gray-green leaves and clusters of pink or purple flowers that bloom in late spring and summer. Native to the Mediterranean region, thyme thrives in full sun and well-drained, sandy, or rocky soils. It is drought-tolerant once established and requires minimal watering.
-    Propagation can be done through seeds, cuttings, or division. Seeds are slow to germinate, typically taking 2–3 weeks. Cuttings or division is faster and more reliable. Leaves can be harvested throughout the growing season, and the best flavor is achieved just before flowering.
+    Thyme is a low-growing, aromatic perennial herb with woody stems and small, fragrant leaves. It thrives in well-drained soil and full sun, making it an excellent choice for borders, rock gardens, and companion planting. The plant produces small purple or pink flowers that attract pollinators such as bees and butterflies.
+
+    This hardy herb is drought-tolerant and adapts well to poor soils, making it a low-maintenance addition to gardens. Thyme has antimicrobial properties and is commonly used in culinary dishes, herbal teas, and natural medicine.
+
+    ### Sun and Water Requirements
+    - Prefers full sun (6-8 hours of direct sunlight daily).
+    - Thrives in dry, well-drained sandy or loamy soil.
+    - Drought-tolerant; requires minimal watering once established.
+
+    ### Methods to Propagate
+    - **Seeds**: Sow indoors in early spring or direct sow after the last frost.
+    - **Cuttings**: Take softwood cuttings in spring and root in moist soil.
+    - **Division**: Separate mature plants in early spring or fall.
+
+    ### When to Harvest
+    - Harvest leaves throughout the growing season.
+    - Best flavor is achieved just before flowering.
+    - Cut stems and dry them for long-term storage.
   purpose: |-
-    Thyme has multiple uses in permaculture and sustainable systems:
-    - Edible: Used as a culinary herb in various dishes, marinades, and teas; also acts as a natural preservative.
-    - Medicinal: Known for its antibacterial, antifungal, and anti-inflammatory properties; used in remedies for respiratory and digestive issues.
-    - Pollinator: Flowers attract bees and other beneficial pollinators.
-    - Wildlife Attractor: Provides nectar and habitat for beneficial insects.
-    - Border Plant: Its compact growth habit makes it suitable for edging garden beds and pathways.
-    - Pest Management: Repels certain pests, including cabbage worms and whiteflies, making it a valuable companion plant.
+    Thyme serves multiple roles in permaculture systems:
+
+    - Edible: Used fresh or dried in culinary dishes.
+    - Medicinal: Has antibacterial, antifungal, and immune-boosting properties.
+    - Pollinator: Attracts bees and butterflies.
+    - Wildlife Attractor: Provides nectar for beneficial insects.
+    - Mulcher: Can be used as a ground cover to retain moisture.
+    - Dynamic Accumulator: Draws minerals from the soil and enriches compost.
+    - Border Plant: Helps define garden edges and pathways.
+    - Pest Management: Repels cabbage worms, mosquitoes, and other pests.
   companions: 
-    - Rosemary
-    - Sage
-    - Lavender
-    - Tomato
-    - Brassicas  
+    - Cabbage
+    - Tomatoes
+    - Strawberries
+    - Eggplant
+    - Roses
   avoid:
-  - Legumes
-  - Carrot
-  - Cucumber
+    - Onions
   pests: 
-  - Spider Mites
-  - Aphids
-  - Whiteflies
+    - Aphids
+    - Spider Mites
+    - Whiteflies

@@ -1,69 +1,65 @@
 - common_name: Pigeon Pea
-  picture: pigeonpea.jpg
+  picture: pigeon_pea.jpg
   scientific_name: Cajanus cajan
   aka:
     - Red Gram
-    - Tur
-    - Arhar
+    - Congo Pea
+    - Gungo Pea
   family: Fabaceae
-  zone:
-    - '10'
-    - '11'
+  zone: 9-13
+    :ideal_temp_min: 70
+    :ideal_temp_max: 95
+    :min_temp: 32
+    :max_temp: 100
   perennial: true
   layers:
     - Shrub
-    - Groundcover
+    - Understory
   plant_function:
     - Edible
-    - Medicinal
     - Nitrogen Fixer
-    - Wildlife Attractor
     - Mulcher
     - Dynamic Accumulator
     - Erosion Control
     - Animal Fodder
+    - Wildlife Attractor
     - Windbreaker
-    - Pollinator
-    - Border Plant
-    - Pest Management
   description: |-
-    Pigeon Pea is a perennial leguminous shrub native to the Indian subcontinent. It typically grows between 1 to 4 meters tall, featuring woody stems near the base and trifoliate leaves with a silvery-grayish-green hue. The plant produces clusters of small, pea-like flowers that can be white, pink, or purple, followed by elongated pods containing edible seeds. Pigeon Pea is known for its resilience, drought tolerance, and ability to improve soil fertility through nitrogen fixation. It thrives in tropical and subtropical climates and is often used in agroforestry systems for its multiple benefits. :contentReference[oaicite:0]{index=0}
+    Pigeon Pea (Cajanus cajan) is a fast-growing, drought-resistant shrub that can reach up to 3-5 meters (10-16 feet) tall. It produces small, oval green to brown pods containing edible seeds, commonly used in traditional dishes. The plant is highly resilient, thriving in poor soils and restoring fertility through nitrogen fixation. It is valued for its ability to improve degraded land and its use as a windbreak.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but can tolerate partial shade.
+    - Grows best in well-drained, sandy or loamy soils.
+    - Drought-tolerant but benefits from occasional deep watering during dry periods.
+
+    ### Methods to Propagate
+    - **Seed**: Direct sowing is the most common method, with seeds germinating in 10-15 days.
+    - **Cuttings**: Can be propagated from semi-hardwood cuttings for faster establishment.
+
+    ### When to Harvest
+    - Pods mature 4-6 months after planting.
+    - Young green pods can be harvested for fresh consumption.
+    - Dried seeds are ready for harvest when the pods turn brown and brittle.
   purpose: |-
-    - Edible: Seeds are consumed in various culinary dishes, especially in tropical regions.
-    - Medicinal: Used in traditional medicine for its anti-inflammatory and antioxidant properties.
-    - Nitrogen Fixer: Enhances soil fertility by converting atmospheric nitrogen into a form usable by plants.
-    - Wildlife Attractor: Flowers attract bees and other pollinators; seeds are a food source for birds.
-    - Mulcher: Leaves and stems can be used as mulch to improve soil health.
-    - Dynamic Accumulator: Deep roots access nutrients unavailable to shallow-rooted plants.
-    - Erosion Control: Root system stabilizes soil, preventing erosion.
-    - Animal Fodder: Leaves and pods are used as feed for livestock.
-    - Windbreaker: Tall growth provides wind protection for other crops.
-    - Pollinator: Flowers attract beneficial insects, aiding in pollination.
-    - Border Plant: Can be used to define garden beds or pathways.
-    - Pest Management: Attracts beneficial insects that prey on harmful pests.
-  companions:
-    - Corn
-    - Squash
-    - Lettuce
-    - Melons
-    - Tomato
-    - Chili Peppers
-    - Okra
-    - Sweet Potatoe
-    - Spinach
-    - Cucumber
+    Pigeon Pea serves multiple functions in a permaculture system:
+
+    - Edible: Provides high-protein peas that can be eaten fresh, dried, or ground into flour.
+    - Nitrogen Fixer: Enriches soil by converting atmospheric nitrogen into a usable form.
+    - Mulcher: Produces abundant biomass that can be used for mulch and composting.
+    - Dynamic Accumulator: Draws up deep soil nutrients and makes them available to surrounding plants.
+    - Erosion Control: Stabilizes slopes and prevents soil loss with its deep root system.
+    - Animal Fodder: Leaves and stems are an excellent protein source for livestock.
+    - Wildlife Attractor: Provides food and shelter for pollinators and beneficial insects.
+    - Windbreaker: Acts as a natural wind barrier to protect more delicate crops.
+  companions: 
+    - Banana
+    - Moringa
+    - Sweet Potato
+    - Cassava
   avoid:
-    - Beans
-    - Peas
-    - Garlic
     - Onion
-    - Leeks
-    - Shallots
-    - Chives
-    - Asparagus
-    - Cabbage
-    - Cauliflower
-  pests:
-    - Cutworms
+    - Garlic
+  pests: 
     - Aphids
-    - Whiteflies
+    - Pod Borer
+    - Root-knot Nematodes

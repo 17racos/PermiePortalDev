@@ -2,53 +2,66 @@
   picture: moringa.jpg
   scientific_name: Moringa oleifera
   aka:
-    - Drumstick tree
-    - Horseradish tree
-    - Miracle tree
+    - Drumstick Tree
+    - Horseradish Tree
+    - Ben Oil Tree
   family: Moringaceae
-  zone:
-    - 9
-    - 10
-    - 11
+  zone: 9-11
+    :ideal_temp_min: 70
+    :ideal_temp_max: 95
+    :min_temp: 32
+    :max_temp: 120
   perennial: true
   layers:
-    - Canopy
-    - Sub-canopy
-    - Shrub
+    - Tree
   plant_function:
     - Edible
     - Medicinal
     - Nitrogen Fixer
-    - Pollinator
+    - Mulcher
+    - Dynamic Accumulator
     - Erosion Control
     - Animal Fodder
     - Windbreaker
-    - Border Plant
-    - Pest Management
-    - Dynamic Accumulator
   description: |-
-    Moringa oleifera, commonly known as Moringa, is a fast-growing, drought-resistant tree native to the Indian subcontinent. It typically reaches a height of 10–12 meters (33–39 feet) with a trunk diameter of 45 centimeters (1.5 feet). The tree features feathery, fern-like leaves and produces fragrant white flowers, followed by slender, pendulous seed pods up to 45 centimeters (18 inches) long. Moringa thrives in full sun and well-drained sandy or loamy soils with a pH between 6.3 and 7.0. It requires minimal water once established but benefits from regular watering during prolonged dry periods. Propagation is commonly achieved through seeds or cuttings. Seeds should be planted 1.5 centimeters (0.6 inches) deep in moist soil, while cuttings should be 1–2 meters (3–6.5 feet) long and planted directly into the ground. Harvesting of leaves can commence as early as 6–8 weeks after planting, with regular harvesting promoting bushier growth. Seed pods are typically harvested when they reach full size but are still tender.
+    Moringa (Moringa oleifera) is a fast-growing, drought-resistant tree that can reach up to 12 meters (40 feet) in height. It has feathery, fern-like leaves that are highly nutritious and used as a food source. The tree produces long, drumstick-shaped pods that contain seeds, which can be eaten or used for oil extraction. Moringa thrives in warm, tropical and subtropical climates and is known for its resilience and ability to grow in poor soil conditions.
+
+    It is widely cultivated for its leaves, pods, and seeds, all of which have culinary, medicinal, and agricultural benefits. The tree also improves soil fertility by fixing nitrogen and accumulating essential nutrients.
+
+    ### Sun and Water Requirements
+    - Prefers full sun (6+ hours per day).
+    - Requires well-draining soil and is drought-tolerant once established.
+    - Benefits from moderate watering but does not tolerate waterlogged conditions.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow seeds in warm soil, germinates in 1-2 weeks.
+    - Cuttings: Can be propagated from branch cuttings placed directly in soil.
+    - Transplanting: Young seedlings can be transplanted but must be handled carefully.
+
+    ### When to Harvest
+    - Leaves can be harvested once the tree reaches 1.5 meters (5 feet) in height.
+    - Pods should be picked when young and tender (about 30-45 cm or 12-18 inches long).
+    - Seeds can be collected once pods are fully mature and dried.
   purpose: |-
-    - Edible: All parts of the Moringa tree are edible, including leaves, pods, seeds, and flowers, providing a rich source of vitamins and minerals.
-    - Medicinal: Moringa has been used traditionally to treat various ailments due to its anti-inflammatory and antioxidant properties.
-    - Nitrogen Fixer: Enhances soil fertility by fixing atmospheric nitrogen.
-    - Pollinator: Its flowers attract pollinators such as bees and butterflies.
-    - Erosion Control: The extensive root system helps prevent soil erosion.
-    - Animal Fodder: Leaves and pods serve as nutritious fodder for livestock.
-    - Windbreaker: When planted in rows, Moringa trees act as effective windbreaks.
-    - Border Plant: Suitable for creating living fences or property boundaries.
-    - Pest Management: Certain compounds in Moringa can repel pests, aiding in integrated pest management strategies.
-    - Dynamic Accumulator: Moringa is considered a valuable dynamic accumulator. Its deep roots pull up nutrients from the soil, which can then be used as mulch or compost to enrich the soil. The leaves are nutrient-dense, providing essential minerals like calcium, potassium, and iron, making them perfect for composting and enhancing soil health.
-  companions:
-    - Sweet Potatoe
-    - Marigold
-    - Basil
-    - Legumes
+    Moringa serves multiple functions in a permaculture system:
+
+    - Edible: Leaves, pods, and seeds are highly nutritious and used in cooking.
+    - Medicinal: Known for anti-inflammatory and immune-boosting properties.
+    - Nitrogen Fixer: Improves soil fertility by fixing nitrogen.
+    - Mulcher: Leaves and branches can be chopped and used as mulch.
+    - Dynamic Accumulator: Draws up nutrients from deep soil layers.
+    - Erosion Control: Deep root system stabilizes soil in degraded areas.
+    - Animal Fodder: Leaves and pods serve as nutrient-rich feed for livestock.
+    - Windbreaker: Acts as a protective barrier in agroforestry systems.
+  companions: 
+    - Banana
+    - Papaya
+    - Legume Tree
+    - Sweet Potato
   avoid:
-    - Shallow-Rooted Plants
-    - Fig Tree
-    - Mango Tree
-  pests:
-    - Aphids
-    - Caterpillars
-    - Mites
+    - None documented
+  pests: 
+    - Aphid
+    - Spider Mite
+    - Caterpillar
+    - Whitefly
