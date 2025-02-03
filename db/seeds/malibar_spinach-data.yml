@@ -1,5 +1,5 @@
 - common_name: Malabar Spinach
-  picture: malabar.jpg
+  picture: malibar.jpg
   scientific_name: Basella alba
   aka:
     - Ceylon Spinach
@@ -7,10 +7,10 @@
     - Indian Spinach
   family: Basellaceae
   zone: 9-12
-    :ideal_temp_min: 65
-    :ideal_temp_max: 95
-    :min_temp: 50
-    :max_temp: 100
+  ideal_temp_min: 65
+  ideal_temp_max: 95
+  min_temp: 50
+  max_temp: 100
   perennial: true (grown as an annual in cooler climates)
   layers:
     - Climber

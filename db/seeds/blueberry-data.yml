@@ -7,10 +7,10 @@
     - Rabbiteye Blueberry (Vaccinium virgatum)
   family: Ericaceae
   zone: 3-10
-    :ideal_temp_min: 35
-    :ideal_temp_max: 80
-    :min_temp: -40
-    :max_temp: 100
+  ideal_temp_min: 35
+  ideal_temp_max: 80
+  min_temp: -40
+  max_temp: 100
   perennial: true
   layers:
     - Shrub

@@ -6,10 +6,10 @@
     - Giant Sunflower
   family: Asteraceae
   zone: 2-11
-    :ideal_temp_min: 65
-    :ideal_temp_max: 85
-    :min_temp: 25
-    :max_temp: 100
+  ideal_temp_min: 65
+  ideal_temp_max: 85
+  min_temp: 25
+  max_temp: 100
   perennial: false
   layers:
     - Herbaceous

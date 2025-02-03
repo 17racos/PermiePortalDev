@@ -6,10 +6,10 @@
     - Wild Strawberry (Fragaria vesca)
   family: Rosaceae
   zone: 3-10
-    :ideal_temp_min: 60
-    :ideal_temp_max: 80
-    :min_temp: -30
-    :max_temp: 95
+  ideal_temp_min: 60
+  ideal_temp_max: 80
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
     - Ground Cover

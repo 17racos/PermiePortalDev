@@ -7,10 +7,10 @@
     - Black Mulberry (Morus nigra)
   family: Moraceae
   zone: 4-10
-    :ideal_temp_min: 55
-    :ideal_temp_max: 85
-    :min_temp: -25
-    :max_temp: 110
+  ideal_temp_min: 55
+  ideal_temp_max: 85
+  min_temp: -25
+  max_temp: 110
   perennial: true
   layers:
     - Tree

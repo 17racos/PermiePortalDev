@@ -6,10 +6,10 @@
     - Chinese Cabbage
   family: Brassicaceae
   zone: 2-11
-    :ideal_temp_min: 45
-    :ideal_temp_max: 75
-    :min_temp: 25
-    :max_temp: 95
+  ideal_temp_min: 45
+  ideal_temp_max: 75
+  min_temp: 25
+  max_temp: 95
   perennial: false
   layers:
     - Herbaceous

@@ -26,8 +26,6 @@ def load_file_data(file_path, format)
   end
 end
 
-
-# Map attributes for plants
 def map_plant_attributes(data)
   {
     common_name: data['common_name'],
@@ -43,7 +41,11 @@ def map_plant_attributes(data)
     purpose: data['purpose'],
     companions: data['companions'],
     avoid: data['avoid'],
-    pests: data['pests']
+    pests: data['pests'],
+    min_temp: data['min_temp'],
+    max_temp: data['max_temp'],
+    ideal_temp_max: data['ideal_temp_min'],
+    ideal_temp_max: data['ideal_temp_max'],
   }
 end
 

@@ -1,5 +1,5 @@
 - common_name: Pigeon Pea
-  picture: pigeon_pea.jpg
+  picture: pigeonpea.jpg
   scientific_name: Cajanus cajan
   aka:
     - Red Gram
@@ -7,10 +7,10 @@
     - Gungo Pea
   family: Fabaceae
   zone: 9-13
-    :ideal_temp_min: 70
-    :ideal_temp_max: 95
-    :min_temp: 32
-    :max_temp: 100
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 32
+  max_temp: 100
   perennial: true
   layers:
     - Shrub

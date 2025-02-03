@@ -6,10 +6,10 @@
     - Asian Pear (Pyrus pyrifolia)
   family: Rosaceae
   zone: 4-9
-    :ideal_temp_min: 35
-    :ideal_temp_max: 85
-    :min_temp: -30
-    :max_temp: 100
+  ideal_temp_min: 35
+  ideal_temp_max: 85
+  min_temp: -30
+  max_temp: 100
   perennial: true
   layers:
     - Canopy

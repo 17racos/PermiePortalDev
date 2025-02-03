@@ -5,10 +5,10 @@
     - Balm Mint
   family: Lamiaceae
   zone: 4-9
-    :ideal_temp_min: 55
-    :ideal_temp_max: 85
-    :min_temp: -20
-    :max_temp: 100
+  ideal_temp_min: 55
+  ideal_temp_max: 85
+  min_temp: -20
+  max_temp: 100
   perennial: true
   layers:
     - Herbaceous

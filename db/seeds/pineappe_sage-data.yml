@@ -5,10 +5,10 @@
     - Tangerine Sage
   family: Lamiaceae
   zone: 8-11
-    :ideal_temp_min: 60
-    :ideal_temp_max: 85
-    :min_temp: 20
-    :max_temp: 100
+  ideal_temp_min: 60
+  ideal_temp_max: 85
+  min_temp: 20
+  max_temp: 100
   perennial: true
   layers:
     - Herbaceous

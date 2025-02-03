@@ -6,10 +6,10 @@
     - Dew of the Sea
   family: Lamiaceae
   zone: 7-10
-    :ideal_temp_min: 50
-    :ideal_temp_max: 80
-    :min_temp: 20
-    :max_temp: 100
+  ideal_temp_min: 50
+  ideal_temp_max: 80
+  min_temp: 20
+  max_temp: 100
   perennial: true
   layers:
     - Shrub

@@ -6,10 +6,10 @@
     - Garden Thyme
   family: Lamiaceae
   zone: 4-9
-    :ideal_temp_min: 60
-    :ideal_temp_max: 75
-    :min_temp: -30
-    :max_temp: 95
+  ideal_temp_min: 60
+  ideal_temp_max: 75
+  min_temp: -30
+  max_temp: 95
   perennial: true
   layers:
     - Herbaceous

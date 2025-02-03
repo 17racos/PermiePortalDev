@@ -7,10 +7,10 @@
     - Bitter Herb
   family: Rutaceae
   zone: 4-10
-    :ideal_temp_min: 50
-    :ideal_temp_max: 80
-    :min_temp: -30
-    :max_temp: 100
+  ideal_temp_min: 50
+  ideal_temp_max: 80
+  min_temp: -30
+  max_temp: 100
   perennial: true
   layers:
     - Herbaceous

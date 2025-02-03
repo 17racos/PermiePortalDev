@@ -6,10 +6,10 @@
     - Edible Fig
   family: Moraceae
   zone: 7-11
-    :ideal_temp_min: 50
-    :ideal_temp_max: 90
-    :min_temp: 15
-    :max_temp: 105
+  ideal_temp_min: 50
+  ideal_temp_max: 90
+  min_temp: 15
+  max_temp: 105
   perennial: true
   layers:
     - Tree

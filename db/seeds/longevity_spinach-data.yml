@@ -7,10 +7,10 @@
     - Leaves of the Gods
   family: Asteraceae
   zone: 9-12
-    :ideal_temp_min: 65
-    :ideal_temp_max: 90
-    :min_temp: 45
-    :max_temp: 100
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 45
+  max_temp: 100
   perennial: true
   layers:
     - Ground Cover

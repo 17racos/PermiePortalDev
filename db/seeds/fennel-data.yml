@@ -7,10 +7,10 @@
     - Bronze Fennel
   family: Apiaceae
   zone: 4-10
-    :ideal_temp_min: 50
-    :ideal_temp_max: 85
-    :min_temp: 25
-    :max_temp: 95
+  ideal_temp_min: 50
+  ideal_temp_max: 85
+  min_temp: 25
+  max_temp: 95
   perennial: true (grown as an annual in cooler climates)
   layers:
     - Herbaceous

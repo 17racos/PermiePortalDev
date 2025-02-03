@@ -6,7 +6,14 @@ class CreatePlants < ActiveRecord::Migration[7.0]
       t.string :scientific_name
       t.text :aka, array: true, default: []
       t.string :family
-      t.integer :zone, array: true, default: []
+      t.string :zone
+
+      # New temperature fields
+      t.string :ideal_temp_min
+      t.string :ideal_temp_max
+      t.string :min_temp
+      t.string :max_temp
+
       t.boolean :perennial
       t.text :layers, array: true, default: []
       t.text :plant_function, array: true, default: []
@@ -14,12 +21,6 @@ class CreatePlants < ActiveRecord::Migration[7.0]
       t.text :purpose
       t.text :avoid, array: true, default: []
       t.text :companions, array: true, default: []
-
-      # New temperature fields
-      t.integer :ideal_temp_min # Optimal minimum growing temperature (°F)
-      t.integer :ideal_temp_max # Optimal maximum growing temperature (°F)
-      t.integer :min_temp       # Cold tolerance (°F)
-      t.integer :max_temp       # Heat tolerance (°F)
 
       t.timestamps
     end

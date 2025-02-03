@@ -6,10 +6,10 @@
     - Carnation Clover
   family: Fabaceae
   zone: 6-9
-    :ideal_temp_min: 40
-    :ideal_temp_max: 75
-    :min_temp: 15
-    :max_temp: 95
+  ideal_temp_min: 40
+  ideal_temp_max: 75
+  min_temp: 15
+  max_temp: 95
   perennial: false (grown as an annual or biennial)
   layers:
     - Herbaceous

@@ -6,10 +6,10 @@
     - Lao Coriander
   family: Apiaceae
   zone: 2-11
-    :ideal_temp_min: 50
-    :ideal_temp_max: 80
-    :min_temp: 25
-    :max_temp: 100
+  ideal_temp_min: 50
+  ideal_temp_max: 80
+  min_temp: 25
+  max_temp: 100
   perennial: false (grown as an annual)
   layers:
     - Herbaceous

@@ -9,8 +9,14 @@ class Plant < ApplicationRecord
   validates :description, length: { maximum: 65_535 }, allow_blank: true
   validates :purpose, length: { maximum: 65_535 }
   validates :perennial, inclusion: { in: [true, false] }
-  validates :ideal_temp_min, :ideal_temp_max, :min_temp, :max_temp,
-            presence: true, numericality: true
+  #validates :ideal_temp_min, :ideal_temp_max, :min_temp, :max_temp, presence: true
+  validates :zone, presence: true
+
+
+
+  # Make sure `layers` and `plant_function` are always arrays
+  validates :layers, presence: true, allow_blank: true
+  validates :plant_function, presence: true, allow_blank: true
 
   # === Scopes ===
 
@@ -62,14 +68,14 @@ class Plant < ApplicationRecord
   end
 
   # Display Ideal Temp Range in Both Fahrenheit & Celsius
-  def ideal_temp_range
-    "#{ideal_temp_min}°F – #{ideal_temp_max}°F (#{self.class.f_to_c(ideal_temp_min)}°C – #{self.class.f_to_c(ideal_temp_max)}°C)"
-  end
+  #def ideal_temp_range
+  #  "#{ideal_temp_min}°F – #{ideal_temp_max}°F (#{self.class.f_to_c(ideal_temp_min)}°C – #{self.class.f_to_c(ideal_temp_max)}°C)"
+  #end
 
   # Display Min & Max Temperature Tolerance in Both Units
-  def temperature_extremes
-    "❄️ #{min_temp}°F (#{self.class.f_to_c(min_temp)}°C) – 🔥 #{max_temp}°F (#{self.class.f_to_c(max_temp)}°C)"
-  end
+  #def temperature_extremes
+  #  "❄️ #{min_temp}°F (#{self.class.f_to_c(min_temp)}°C) – 🔥 #{max_temp}°F (#{self.class.f_to_c(max_temp)}°C)"
+  #end
 
   # === Class Methods ===
 

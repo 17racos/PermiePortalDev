@@ -7,10 +7,10 @@
     - Thai Basil (Ocimum basilicum var. thyrsiflora)
   family: Lamiaceae
   zone: 9-11
-    :ideal_temp_min: 50
-    :ideal_temp_max: 85
-    :min_temp: 32
-    :max_temp: 100
+  ideal_temp_min: 50
+  ideal_temp_max: 85
+  min_temp: 32
+  max_temp: 100
   perennial: false
   layers:
     - Herbaceous

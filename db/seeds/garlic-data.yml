@@ -7,10 +7,10 @@
     - Softneck Garlic (Allium sativum var. sativum)
   family: Amaryllidaceae
   zone: 3-10
-    :ideal_temp_min: 32
-    :ideal_temp_max: 80
-    :min_temp: -20
-    :max_temp: 100
+  ideal_temp_min: 32
+  ideal_temp_max: 80
+  min_temp: -20
+  max_temp: 100
   perennial: false (grown as an annual)
   layers:
     - Herbaceous

@@ -30,11 +30,11 @@
         <strong>🌿 Family:</strong> 
         <%= link_to h(@plant.family), "/guides/plant-families##{h(@plant.family.downcase.gsub(/\s+/, '-'))}", class: "text-blue-600 hover:underline", data: { turbo: false } %>
       </p>      
-        <p><strong>🌍 Zone:</strong> <%= @plant.zone.join(", ") %></p>
-        <p><strong>🌡️ Ideal Temperature Range:</strong> <%= @plant.ideal_temp_min %>°F – <%= @plant.ideal_temp_max %>°F</p>
-        <p><strong>🔥 Heat Tolerance:</strong> Up to <%= @plant.max_temp %>°F</p>
-        <p><strong>❄️ Cold Tolerance:</strong> Down to <%= @plant.min_temp %>°F</p>
-        <p><strong>🌱 Type:</strong> <%= h(@plant.perennial ? "Perennial" : "Annual") %></p>
+      <p><strong>🗺️ Zone:</strong> <%= @plant.zone %></p>
+      <p><strong>🌡️ Ideal Temperature Range:</strong> <%= @plant.ideal_temp_min %>°F – <%= @plant.ideal_temp_max %>°F</p>
+      <p><strong>🔥 Heat Tolerance:</strong> Up to <%= @plant.max_temp %>°F</p>
+      <p><strong>❄️ Cold Tolerance:</strong> Down to <%= @plant.min_temp %>°F</p>
+      <p><strong>🌱 Type:</strong> <%= h(@plant.perennial ? "Perennial" : "Annual") %></p>      
 
         <!-- Layers -->
         <h3 class="text-lg font-semibold text-green-600 mb-2 mt-4">Layers</h3>

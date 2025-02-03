@@ -1,15 +1,15 @@
 - common_name: Pomegranate Tree
-  picture: pomegranate_tree.jpg
+  picture: pomegranate.jpg
   scientific_name: Punica granatum
   aka:
     - Anar
     - Grenadier
   family: Lythraceae
   zone: 7-11
-    :ideal_temp_min: 40
-    :ideal_temp_max: 100
-    :min_temp: 10
-    :max_temp: 110
+  ideal_temp_min: 40
+  ideal_temp_max: 100
+  min_temp: 10
+  max_temp: 110
   perennial: true
   layers:
     - Shrub

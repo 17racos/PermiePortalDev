@@ -8,10 +8,10 @@
     - Apple Mint (Mentha suaveolens)
   family: Lamiaceae
   zone: 3-11
-    :ideal_temp_min: 55
-    :ideal_temp_max: 75
-    :min_temp: -20
-    :max_temp: 100
+  ideal_temp_min: 55
+  ideal_temp_max: 75
+  min_temp: -20
+  max_temp: 100
   perennial: true
   layers:
     - Herbaceous

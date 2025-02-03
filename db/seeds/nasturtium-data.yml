@@ -6,10 +6,10 @@
     - Monk’s Cress
   family: Tropaeolaceae
   zone: 9-11
-    :ideal_temp_min: 50
-    :ideal_temp_max: 85
-    :min_temp: 30
-    :max_temp: 100
+  ideal_temp_min: 50
+  ideal_temp_max: 85
+  min_temp: 30
+  max_temp: 100
   perennial: false
   layers:
     - Herbaceous

@@ -6,10 +6,10 @@
     - Collard Greens
   family: Brassicaceae
   zone: 7-10
-    :ideal_temp_min: 40
-    :ideal_temp_max: 75
-    :min_temp: 20
-    :max_temp: 90
+  ideal_temp_min: 40
+  ideal_temp_max: 75
+  min_temp: 20
+  max_temp: 90
   perennial: false (grown as an annual or biennial)
   layers:
     - Herbaceous

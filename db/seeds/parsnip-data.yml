@@ -5,10 +5,10 @@
     - Wild Parsnip
   family: Apiaceae
   zone: 2-9
-    :ideal_temp_min: 45
-    :ideal_temp_max: 85
-    :min_temp: 0
-    :max_temp: 100
+  ideal_temp_min: 45
+  ideal_temp_max: 85
+  min_temp: 0
+  max_temp: 100
   perennial: false
   layers:
     - Herbaceous

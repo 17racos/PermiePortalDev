@@ -6,10 +6,10 @@
     - Wild Celery (Apium graveolens var. graveolens)
   family: Apiaceae
   zone: 2-10
-    :ideal_temp_min: 55
-    :ideal_temp_max: 75
-    :min_temp: 20
-    :max_temp: 95
+  ideal_temp_min: 55
+  ideal_temp_max: 75
+  min_temp: 20
+  max_temp: 95
   perennial: false
   layers:
     - Herbaceous

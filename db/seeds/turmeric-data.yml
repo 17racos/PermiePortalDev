@@ -5,10 +5,10 @@
     - Indian Saffron
   family: Zingiberaceae
   zone: 8-11
-    :ideal_temp_min: 68
-    :ideal_temp_max: 95
-    :min_temp: 50
-    :max_temp: 100
+  ideal_temp_min: 68
+  ideal_temp_max: 95
+  min_temp: 50
+  max_temp: 100
   perennial: true
   layers:
     - Herbaceous

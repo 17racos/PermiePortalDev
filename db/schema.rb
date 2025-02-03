@@ -92,7 +92,11 @@ ActiveRecord::Schema[7.2].define(version: 2025_01_13_201936) do
     t.string "scientific_name"
     t.text "aka", default: [], array: true
     t.string "family"
-    t.integer "zone", default: [], array: true
+    t.string "zone"
+    t.string "ideal_temp_min"
+    t.string "ideal_temp_max"
+    t.string "min_temp"
+    t.string "max_temp"
     t.boolean "perennial"
     t.text "layers", default: [], array: true
     t.text "plant_function", default: [], array: true
