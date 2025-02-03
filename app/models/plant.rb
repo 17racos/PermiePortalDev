@@ -2,7 +2,7 @@ class Plant < ApplicationRecord
   # === Associations ===
   has_many :plant_pests, dependent: :destroy
   has_many :pests, through: :plant_pests
-
+  
   # === Validations ===
   validates :common_name, presence: true, uniqueness: { case_sensitive: false }
   validates :scientific_name, :zone, :layers, :plant_function, :purpose, presence: true

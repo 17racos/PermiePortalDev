@@ -1,0 +1,4 @@
+heroku config:set BUCKETEER_ACCESS_KEY_ID=AKIAVZH4SBSYS6HIOSQP
+heroku config:set BUCKETEER_SECRET_ACCESS_KEY=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
+heroku config:set BUCKETEER_REGION=us-east-1
+heroku config:set BUCKETEER_BUCKET_NAME=bucketeer-5750d194-fe41-4c3c-84db-cb3b60d3e0d8

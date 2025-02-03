@@ -25,8 +25,8 @@ Rails.application.configure do
   # Disable asset pipeline fallback for missing precompiled assets
   config.assets.compile = false
 
-  # Use local storage for active storage, but consider switching to cloud storage (like S3) in production
-  config.active_storage.service = :local
+  # Use S3 for ActiveStorage in production
+  config.active_storage.service = :S3
 
   # Ensure SSL in production (consider enabling this for better security)
   config.force_ssl = true if ENV['RAILS_ENV'] == 'production'

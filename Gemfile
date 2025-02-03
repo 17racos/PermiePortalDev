@@ -58,6 +58,11 @@ gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 # Boot performance improvements
 gem "bootsnap", require: false
 
+# ActiveStorage for file uploads
+gem 'activestorage'
+
+gem 'aws-sdk-s3', require: false
+
 # Groups for development and testing
 group :development, :test do
   gem "debug", platforms: %i[mri mingw x64_mingw] # Debugging tools

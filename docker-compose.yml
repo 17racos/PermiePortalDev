@@ -7,19 +7,17 @@ services:
       dockerfile: Dockerfile.dev
     volumes:
       - ".:/app"
+      - "./storage:/app/storage"
     ports:
       - "3000:3000"
     depends_on:
       - db
     env_file:
       - .env
-    environment:
-      - SECRET_KEY_BASE=${SECRET_KEY_BASE}
     command: >
       bash -c "
       rm -f tmp/pids/server.pid && rails db:create && rails db:migrate && rails db:seed && rails server -b 0.0.0.0"
      
-
   db:
     image: postgres:15
     environment:
@@ -28,13 +26,11 @@ services:
       POSTGRES_DB: ${POSTGRES_DB}
       PGDATA: /var/lib/postgresql/data
     ports:
-      - "5432:5432"
+      - "5432:5432"  # Remove this if you don't need external access
     volumes:
       - db_data:/var/lib/postgresql/data
     restart: always
 
 volumes:
   db_data:
-    driver: local
-  app_data:
     driver: local

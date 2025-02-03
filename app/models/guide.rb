@@ -5,4 +5,5 @@ class Guide < ApplicationRecord
   validates :title, presence: true
   validates :body, presence: true
   validates :image, presence: true # Validating the image column
+
 end

@@ -26,6 +26,18 @@ def load_file_data(file_path, format)
   end
 end
 
+# Attach the image file to a record if the image attribute is present
+#def attach_image(record, image_filename)
+#  return unless image_filename.present?
+#
+#  image_path = Rails.root.join('db', 'seeds', 'images', image_filename) # Adjust this path if necessary
+#  if File.exist?(image_path)
+#    record.picture.attach(io: File.open(image_path), filename: image_filename)
+#  else
+#    puts "Image #{image_filename} not found for #{record.class.name}."
+#  end
+#end
+
 def map_plant_attributes(data)
   {
     common_name: data['common_name'],

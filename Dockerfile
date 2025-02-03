@@ -14,34 +14,25 @@ RUN apt-get update -qq && apt-get install -y --no-install-recommends \
     libssl-dev \
     libffi-dev \
     libpq-dev \
-    curl \
-    nodejs \
-    yarn && \
+    curl && \
+    curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
+    apt-get install -y nodejs && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Copy the Gemfile and Gemfile.lock to the container
-COPY Gemfile Gemfile.lock ./
+# Install Yarn and TailwindCSS globally
+RUN npm install -g yarn && npm install -g tailwindcss
 
-# Install Ruby dependencies
+# Copy application code
+COPY . .
+
+# Remove conflicting Tailwind CSS gem
+RUN sed -i '/gem "tailwindcss-rails"/d' Gemfile Gemfile.lock
+
+# Configure bundler and install gems
 RUN bundle config set force_ruby_platform true && \
     bundle install --without development test && \
     bundle lock --add-platform x86_64-linux
-
-# Copy the package.json and yarn.lock for Node dependencies
-COPY package.json yarn.lock ./
-
-# Install Node.js dependencies
-RUN yarn install
-
-# Copy the rest of the application code
-COPY . .
-
-# Precompile assets using TailwindCSS and Rails
-RUN yarn build && \
-    bundle exec rake assets:precompile
-
-# Expose the port
+    
+# Expose port and start the application
 EXPOSE 3000
-
-# Start the application
 CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
