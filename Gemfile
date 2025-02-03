@@ -60,7 +60,7 @@ gem "bootsnap", require: false
 
 # ActiveStorage for file uploads
 gem 'activestorage'
-
+gem 'bucketeer'
 gem 'aws-sdk-s3', require: false
 
 # Groups for development and testing
