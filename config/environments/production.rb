@@ -38,7 +38,7 @@ Rails.application.configure do
 
   # Use default logging formatter
   config.log_formatter = ::Logger::Formatter.new
-  config.log_level = :info  # Adjust logging level if needed
+  config.log_level = :debug  # Adjust logging level if needed
   config.log_tags = [:request_id]
 
   # Use stdout logging if configured via ENV
@@ -55,7 +55,13 @@ Rails.application.configure do
   config.cache_store = :memory_store, { size: 64.megabytes }
 
   # Enable asset fingerprinting for caching purposes
+  
   config.assets.digest = true
+  #Rails.logger.debug "S3 Access Key: #{ENV['BUCKETEER_ACCESS_KEY_ID']}"
+  Rails.logger.debug "S3 Secret Key: #{ENV['BUCKETEER_SECRET_ACCESS_KEY']}"
+  Rails.logger.debug "S3 Bucket: #{ENV['BUCKETEER_BUCKET_NAME']}"
+  Rails.logger.debug "S3 Region: #{ENV['BUCKETEER_REGION']}"
+  
 
   # Consider additional performance tuning options for better efficiency:
   config.assets.js_compressor = :uglifier  # For JavaScript minification

@@ -7,9 +7,9 @@ production:
   access_key_id: <%= ENV['BUCKETEER_ACCESS_KEY_ID'] %>
   secret_access_key: <%= ENV['BUCKETEER_SECRET_ACCESS_KEY'] %>
   region: <%= ENV['BUCKETEER_REGION'] %>
-  bucket: <%= ENV['BUCKETEER_BUCKET'] %>  # Ensure this matches the environment variable
-  path: 'prod/'  # Directory in the bucket for production environment
-  # Remove `path_style` if you are using standard AWS S3 or compatible services
+  bucket: <%= ENV['BUCKETEER_BUCKET_NAME'] %>
+  path: 'prod/'
+
 
 # Add the local storage service to avoid errors for local file access in development
 local:

@@ -1,5 +1,13 @@
 build:
+  # Install dependencies and precompile assets
   docker:
-    web: Dockerfile
+    - run: bundle install
+    - run: RAILS_ENV=production bundle exec rake assets:precompile
+
+release:
+  # Any commands to run after the app is deployed (for example, database migrations)
+  docker:
+    - run: bundle exec rake db:migrate
+
 run:
   web: bundle exec rails server -b 0.0.0.0 -p $PORT

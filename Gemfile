@@ -20,6 +20,8 @@ gem "puma", "~> 6.5"
 
 # JavaScript dependencies via import maps
 gem "importmap-rails"
+gem 'uglifier', '>= 1.3.0'
+
 
 # Hotwire components
 gem "turbo-rails"
@@ -44,7 +46,7 @@ gem "pg_search"
 gem "activeadmin"
 
 # CSS preprocessor
-gem "sassc", "~> 2.2.1"
+gem "sassc", "~> 2.4.0"
 
 # Tailwind CSS framework
 gem "tailwindcss-rails"
