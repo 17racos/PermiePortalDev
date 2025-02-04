@@ -57,12 +57,9 @@ Rails.application.configure do
   # Enable asset fingerprinting for caching purposes
   
   config.assets.digest = true
-  #Rails.logger.debug "S3 Access Key: #{ENV['BUCKETEER_ACCESS_KEY_ID']}"
-  Rails.logger.debug "S3 Secret Key: #{ENV['BUCKETEER_SECRET_ACCESS_KEY']}"
-  Rails.logger.debug "S3 Bucket: #{ENV['BUCKETEER_BUCKET_NAME']}"
-  Rails.logger.debug "S3 Region: #{ENV['BUCKETEER_REGION']}"
-  
 
   # Consider additional performance tuning options for better efficiency:
-  config.assets.js_compressor = :uglifier  # For JavaScript minification
+  config.assets.js_compressor = :esbuild
+
+
 end

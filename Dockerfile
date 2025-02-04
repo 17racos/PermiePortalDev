@@ -21,7 +21,8 @@ RUN apt-get update -qq && apt-get install -y --no-install-recommends \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install Yarn and TailwindCSS globally
-RUN npm install -g yarn && npm install -g tailwindcss
+RUN curl -o- -L https://yarnpkg.com/install.sh | bash
+RUN npm install npm install -g tailwindcss
 
 # Copy application code
 COPY . .

@@ -5,7 +5,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.3.6"
 
 # Rails framework
-gem "rails", "~> 7.2"
+gem "rails", "~> 7.2.2.1"
 
 # Asset pipeline
 gem "sprockets-rails"
@@ -20,8 +20,10 @@ gem "puma", "~> 6.5"
 
 # JavaScript dependencies via import maps
 gem "importmap-rails"
-gem 'uglifier', '>= 1.3.0'
 
+#js stuff
+#gem 'esbuild', '>= 0.2.2'
+gem 'concurrent-ruby', '>= 1.3.1'
 
 # Hotwire components
 gem "turbo-rails"
