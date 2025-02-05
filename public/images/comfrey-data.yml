@@ -1,0 +1,65 @@
+- common_name: Comfrey
+  picture: comfrey.jpg
+  scientific_name: Symphytum officinale
+  aka:
+    - Knitbone
+    - Bone Set
+    - Russian Comfrey (Symphytum × uplandicum)
+  family: Boraginaceae
+  zone: 3-9
+  ideal_temp_min: 40
+  ideal_temp_max: 85
+  min_temp: -40
+  max_temp: 100
+  perennial: true
+  layers:
+    - Herbaceous
+  plant_function:
+    - Medicinal
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Erosion Control
+    - Animal Fodder
+    - Border Plant
+  description: |-
+    Comfrey (Symphytum officinale) is a fast-growing herbaceous perennial known for its deep roots and high biomass production. It grows up to 1.2 meters (4 feet) tall and has large, rough, lance-shaped leaves covered in fine hairs. The plant produces clusters of bell-shaped purple, pink, or white flowers that attract pollinators.
+
+    Comfrey thrives in moist, well-drained soil and can tolerate a range of conditions, including poor soil. It is often used in regenerative agriculture and permaculture systems due to its ability to mine nutrients from deep within the soil and cycle them back into the upper layers.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Thrives in well-drained, moist soil but can adapt to drier conditions.
+    - Requires moderate watering; deep roots allow it to be drought-resistant once established.
+
+    ### Methods to Propagate
+    - Root Cuttings: The most effective method, as comfrey propagates easily from root fragments.
+    - Crown Division: Dividing established plants in spring or fall helps spread the plant.
+    - Seeds: Rarely used, as most cultivated comfrey varieties (such as Russian Comfrey) are sterile.
+
+    ### When to Harvest
+    - Leaves can be harvested multiple times per season, every 4–6 weeks.
+    - Cut back to 5 cm (2 inches) above the ground for regrowth.
+    - Roots can be harvested in late fall for medicinal preparations.
+  purpose: |-
+    Comfrey serves multiple functions in a permaculture system:
+
+    - Medicinal: Used topically to aid wound healing, reduce inflammation, and relieve joint pain.
+    - Wildlife Attractor: Flowers attract bees, butterflies, and other pollinators.
+    - Mulcher: High biomass production allows for chop-and-drop mulching to improve soil health.
+    - Dynamic Accumulator: Mines deep nutrients such as potassium, calcium, and phosphorus, making them available to nearby plants.
+    - Erosion Control: Deep root system stabilizes slopes and prevents soil erosion.
+    - Animal Fodder: High in protein and minerals, comfrey is used as supplemental feed for livestock.
+    - Border Plant: Grows well along pathways and edges of food forests, marking garden boundaries.
+  companions: 
+    - Apple
+    - Pear
+    - Plum
+    - Walnut
+    - Tomato
+  avoid:
+    - None known
+  pests: 
+    - Slug
+    - Snail
+    - Leaf Miner

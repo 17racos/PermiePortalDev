@@ -1,44 +1,53 @@
 FROM ruby:3.3.6-bullseye
 
-# Set environment variables
-ENV PATH="/usr/local/bundle/bin:/usr/local/bin:${PATH}" \
-    RAILS_ENV=production \
-    NODE_ENV=production
-
-# Set working directory
 WORKDIR /app
 
-# Install system dependencies, Node.js, and npm
-RUN apt-get update -qq && apt-get install -y --no-install-recommends \
+# Install dependencies
+RUN apt-get update -qq && apt-get install -y \
     build-essential \
-    libssl-dev \
-    libffi-dev \
     libpq-dev \
-    curl && \
-    curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
+    curl
+# Keep Node.js 18, but force npm 10.x (not 11)
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
     apt-get install -y nodejs && \
-    apt-get install -y libsass-dev && \
-    apt-get clean && rm -rf /var/lib/apt/lists/*
+    npm install -g npm@10
 
-# Install Yarn and TailwindCSS globally
-RUN curl -o- -L https://yarnpkg.com/install.sh | bash
-RUN npm install npm install -g tailwindcss
+# Verify Node.js and npm versions
+RUN node -v && npm -v
+
+# Install Yarn (Optional)
+RUN npm install -g yarn
 
 # Copy application code
 COPY . .
 
-# Remove conflicting Tailwind CSS gem if not using it with the gem
-RUN sed -i '/gem "tailwindcss-rails"/d' Gemfile Gemfile.lock
+# ✅ Clean npm cache and remove old dependencies
+RUN rm -rf node_modules package-lock.json && npm cache clean --force
 
-# Configure bundler and install gems
-RUN bundle config set force_ruby_platform true && \
-    bundle install --without development test && \
-    bundle lock --add-platform x86_64-linux
+# Install Node dependencies
+RUN npm install --force
 
-# Install node dependencies (yarn install) and precompile assets
-RUN yarn install --check-files && \
-    RAILS_ENV=production bundle exec rake assets:precompile
+# Install TailwindCSS and PostCSS dependencies
+RUN npm install --save-dev tailwindcss postcss autoprefixer
 
-# Expose port and start the application
+# Ensure TailwindCSS is initialized
+RUN [ -f tailwind.config.js ] || npx tailwindcss init -p
+
+# Ensure assets directory exists before compiling Tailwind
+RUN mkdir -p app/assets/builds
+
+# Ensure correct Tailwind input file
+RUN test -f app/assets/stylesheets/application.tailwind.css || echo "@tailwind base;\n@tailwind components;\n@tailwind utilities;" > app/assets/stylesheets/application.tailwind.css
+
+# ✅ Build TailwindCSS (use --postcss flag to avoid errors)
+RUN npx tailwindcss -i app/assets/stylesheets/application.tailwind.css -o app/assets/builds/tailwind.css --minify --postcss
+
+# ✅ Install gems
+RUN bundle config set force_ruby_platform true
+RUN bundle install --jobs=4 --retry=3
+
+# Expose port
 EXPOSE 3000
-CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
+
+# Start the application
+CMD ["bash", "-c", "rm -f tmp/pids/server.pid && bundle exec rails server -b '0.0.0.0' -e production"]

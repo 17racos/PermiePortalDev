@@ -1,0 +1,62 @@
+- common_name: Ginger
+  picture: ginger.jpg
+  scientific_name: Zingiber officinale
+  aka:
+    - Common Ginger
+    - Culinary Ginger
+  family: Zingiberaceae
+  zone: 8-12
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 50
+  max_temp: 100
+  perennial: true
+  layers:
+    - Herbaceous
+  plant_function:
+    - Edible
+    - Medicinal
+    - Mulcher
+    - Dynamic Accumulator
+    - Border Plant
+  description: |-
+    Ginger (Zingiber officinale) is a tropical, herbaceous perennial known for its underground rhizomes, which are used in cooking and medicine. It grows up to 1 meter (3 feet) tall, with narrow, lance-shaped leaves and small yellow-green flowers with purple streaks.
+
+    Ginger thrives in warm, humid climates and requires rich, well-drained soil. It can be grown in the ground or in containers, making it versatile for home gardens. The plant's rhizomes spread underground, forming dense clusters that can be divided for propagation.
+
+    ### Sun and Water Requirements
+    - Prefers partial shade to full sun.
+    - Requires moist, well-drained, fertile soil rich in organic matter.
+    - Needs consistent watering but should not be waterlogged.
+
+    ### Methods to Propagate
+    - Rhizomes: Plant sections of rhizomes with at least one growth bud.
+    - Division: Established plants can be divided and replanted.
+    - No seeds: Typically does not produce viable seeds.
+
+    ### When to Harvest
+    - Harvest rhizomes 8–10 months after planting when leaves start to yellow and die back.
+    - Young ginger (baby ginger) can be harvested earlier for a milder flavor.
+    - Cut and store rhizomes in a cool, dry place or refrigerate for fresh use.
+  purpose: |-
+    Ginger serves multiple functions in a permaculture system:
+
+    - Edible: Rhizomes are widely used in cooking, teas, and flavoring.
+    - Medicinal: Known for anti-inflammatory, digestive, and immune-boosting properties.
+    - Mulcher: Leaves and stems break down easily, enriching soil with organic matter.
+    - Dynamic Accumulator: Helps improve soil fertility by accumulating minerals.
+    - Border Plant: Used to define planting areas in food forests and gardens.
+  companions: 
+    - Turmeric
+    - Lemon Grass
+    - Banana
+    - Citrus
+    - Moringa
+  avoid:
+    - Onion
+    - Garlic
+  pests: 
+    - Root-Knot Nematode
+    - Aphid
+    - Spider Mite
+    - Fungal Root Rot

@@ -5,7 +5,6 @@ Rails.application.configure do
   config.consider_all_requests_local = true
   config.action_controller.perform_caching = true
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
-  config.assets.compile = false
   config.log_level = :debug
   config.log_tags = [:request_id]
   config.action_mailer.perform_caching = false

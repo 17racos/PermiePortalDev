@@ -1,0 +1,65 @@
+- common_name: Lavender
+  picture: lavender.jpg
+  scientific_name: Lavandula angustifolia
+  aka:
+    - True Lavender
+    - English Lavender
+  family: Lamiaceae
+  zone: 5-9
+  ideal_temp_min: 50
+  ideal_temp_max: 85
+  min_temp: -10
+  max_temp: 100
+  perennial: true
+  layers:
+    - Herbaceous
+  plant_function:
+    - Medicinal
+    - Pollinator
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Border Plant
+    - Pest Management
+  description: |-
+    Lavender (Lavandula angustifolia) is a perennial, aromatic herb known for its fragrant purple flowers and gray-green foliage. It grows up to 60–90 cm (2–3 feet) tall and is widely cultivated for essential oil production, medicinal uses, and as an ornamental plant.
+
+    This drought-tolerant plant thrives in full sun and well-drained, sandy or loamy soils. It attracts pollinators, repels certain pests, and adds beneficial organic matter to the soil when used as mulch.
+
+    ### Sun and Water Requirements
+    - Requires full sun with at least 6–8 hours of direct sunlight daily.
+    - Prefers well-drained, sandy or rocky soil; does not tolerate heavy clay.
+    - Drought-tolerant once established; water sparingly to prevent root rot.
+
+    ### Methods to Propagate
+    - Seeds: Start indoors 8–10 weeks before the last frost; germination is slow.
+    - Cuttings: Softwood cuttings in spring or hardwood cuttings in fall.
+    - Division: Established plants can be divided and replanted.
+
+    ### When to Harvest
+    - Flowers should be harvested when buds are fully formed but before full bloom for the highest essential oil content.
+    - Cut stems early in the morning when oils are most concentrated.
+    - Dry in a shaded, well-ventilated area for long-term storage.
+  purpose: |-
+    Lavender serves multiple functions in a permaculture system:
+
+    - Medicinal: Used for relaxation, sleep aid, wound healing, and skin care.
+    - Pollinator: Flowers attract bees, butterflies, and other beneficial insects.
+    - Wildlife Attractor: Provides nectar for pollinators and improves biodiversity.
+    - Mulcher: Dried lavender leaves break down into the soil, adding organic matter.
+    - Dynamic Accumulator: Helps improve soil structure and aeration.
+    - Border Plant: Works well in garden edges, pathways, and herbal beds.
+    - Pest Management: Repels moths, mosquitoes, fleas, and aphids with its strong fragrance.
+  companions: 
+    - Rosemary
+    - Sage
+    - Thyme
+    - Echinacea
+    - Oregano
+  avoid:
+    - Mint
+    - Moisture-loving plants (e.g., Basil, Cilantro)
+  pests: 
+    - Root Rot (caused by overwatering)
+    - Spittlebug
+    - Whitefly

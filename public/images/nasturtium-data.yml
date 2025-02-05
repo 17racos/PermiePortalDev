@@ -1,0 +1,60 @@
+- common_name: Nasturtium
+  picture: nasturtium.jpg
+  scientific_name: Tropaeolum majus
+  aka:
+    - Indian Cress
+    - Monk’s Cress
+  family: Tropaeolaceae
+  zone: 9-11
+  ideal_temp_min: 50
+  ideal_temp_max: 85
+  min_temp: 30
+  max_temp: 100
+  perennial: false
+  layers:
+    - Herbaceous
+    - Ground Cover
+  plant_function:
+    - Edible
+    - Medicinal
+    - Pollinator
+    - Wildlife Attractor
+    - Pest Management
+    - Border Plant
+  description: |-
+    Nasturtium (Tropaeolum majus) is a fast-growing, low-maintenance flowering plant known for its bright orange, red, or yellow edible flowers and round, peppery leaves. It is often used as a companion plant due to its ability to repel pests and attract beneficial insects. The plant thrives in poor soil conditions, making it an excellent choice for ground cover in challenging areas.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Requires moderate watering but is drought-tolerant once established.
+    - Thrives in well-drained, slightly sandy soil with low fertility.
+
+    ### Methods to Propagate
+    - Seeds: Easily grown from seed; best sown directly in the garden.
+    - Cuttings: Can be propagated from stem cuttings but less common.
+    
+    ### When to Harvest
+    - Leaves and flowers can be harvested once the plant is mature, typically within 4-6 weeks of planting.
+    - Seeds can be collected for pickling or propagation after the flowers fade.
+  purpose: |-
+    Nasturtium is a highly versatile plant in permaculture systems:
+
+    - Edible: Leaves, flowers, and seeds are all edible with a peppery flavor, used in salads and as garnishes.
+    - Medicinal: Traditionally used for its antimicrobial properties and as an immune booster.
+    - Pollinator: Bright flowers attract bees, butterflies, and hummingbirds.
+    - Wildlife Attractor: Provides nectar and shelter for beneficial insects.
+    - Pest Management: Acts as a trap crop for aphids and whiteflies, protecting other plants.
+    - Border Plant: Can be used along garden edges to define spaces and suppress weeds.
+  companions: 
+    - Tomato
+    - Cabbage
+    - Cucumber
+    - Squash
+    - Radish
+  avoid:
+    - Potato
+  pests: 
+    - Aphid
+    - Whitefly
+    - Cabbage Worm
+    - Spider Mite

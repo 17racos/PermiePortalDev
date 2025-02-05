@@ -1,0 +1,63 @@
+- common_name: Fennel
+  picture: fennel.jpg
+  scientific_name: Foeniculum vulgare
+  aka:
+    - Sweet Fennel
+    - Florence Fennel
+    - Bronze Fennel
+  family: Apiaceae
+  zone: 4-10
+  ideal_temp_min: 50
+  ideal_temp_max: 85
+  min_temp: 25
+  max_temp: 95
+  perennial: true (grown as an annual in cooler climates)
+  layers:
+    - Herbaceous
+  plant_function:
+    - Edible
+    - Medicinal
+    - Pollinator
+    - Wildlife Attractor
+    - Dynamic Accumulator
+    - Border Plant
+  description: |-
+    Fennel (Foeniculum vulgare) is a tall, aromatic, and feathery-leaved perennial herb that grows up to 1.8 meters (6 feet) tall. It produces umbrella-shaped clusters of small yellow flowers in summer, which attract beneficial insects.
+
+    This plant thrives in well-drained, fertile soil and is highly drought-resistant once established. It is commonly used for its edible bulbs, seeds, and leaves, as well as for medicinal purposes.
+
+    ### Sun and Water Requirements
+    - Prefers full sun and thrives in warm climates.
+    - Requires well-drained, loamy, or sandy soil.
+    - Drought-tolerant once established but benefits from occasional deep watering.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow in early spring or fall, as fennel does not transplant well.
+    - Self-seeding: Readily reseeds if flower heads are left to mature.
+    - No division: Root division is not commonly used for propagation.
+
+    ### When to Harvest
+    - Leaves can be harvested anytime during the growing season.
+    - Bulbs should be harvested when they reach 8–10 cm (3–4 inches) in diameter.
+    - Seeds are collected in late summer when flower heads dry and turn brown.
+  purpose: |-
+    Fennel serves multiple functions in a permaculture system:
+
+    - Edible: Bulbs, seeds, and leaves are used in cooking, herbal teas, and natural remedies.
+    - Medicinal: Traditionally used for digestion, colic relief, and as a mild expectorant.
+    - Pollinator: Flowers attract bees, butterflies, and predatory wasps.
+    - Wildlife Attractor: Provides food for swallowtail butterfly larvae.
+    - Dynamic Accumulator: Extracts minerals such as sulfur and potassium, enriching nearby soil.
+    - Border Plant: Used as a visual and functional garden divider.
+  companions: 
+    - Best grown alone
+  avoid:
+    - Tomato
+    - Bean
+    - Carrot
+    - Dill
+    - Coriander
+  pests: 
+    - Aphid
+    - Whitefly
+    - Swallowtail Caterpillar

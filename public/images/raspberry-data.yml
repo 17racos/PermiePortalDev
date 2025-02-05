@@ -1,0 +1,63 @@
+- common_name: Raspberry
+  picture: raspberry.jpg
+  scientific_name: Rubus idaeus
+  aka:
+    - Red Raspberry
+    - Black Raspberry (Rubus occidentalis)
+    - Golden Raspberry
+  family: Rosaceae
+  zone: 3-9
+  ideal_temp_min: 55
+  ideal_temp_max: 75
+  min_temp: -20
+  max_temp: 95
+  perennial: true
+  layers:
+    - Shrub
+  plant_function:
+    - Edible
+    - Medicinal
+    - Pollinator
+    - Wildlife Attractor
+    - Erosion Control
+  description: |-
+    Raspberry (Rubus idaeus) is a deciduous perennial shrub that produces small, aggregate fruit composed of multiple drupelets. The plant has upright or trailing canes that can grow up to 1.8 m (6 ft) tall, and many varieties have thorny stems. It is highly valued for its sweet and tart berries, which are rich in antioxidants and vitamins.
+
+    Raspberries grow best in well-draining, slightly acidic soil with high organic matter. They require a period of winter dormancy to produce fruit and thrive in regions with cool winters and mild summers. They spread via underground runners and can form dense thickets if not maintained.
+
+    ### Sun and Water Requirements
+    - Prefers full sun for maximum fruit production.
+    - Requires well-draining, fertile soil with moderate moisture.
+    - Avoid overly wet or waterlogged conditions, as roots are prone to rot.
+
+    ### Methods to Propagate
+    - Cuttings: Root cuttings taken from healthy canes can be transplanted.
+    - Suckers: New shoots that emerge from the root system can be dug up and replanted.
+    - Seeds: Less common due to slow germination and genetic variability.
+
+    ### When to Harvest
+    - Fruits ripen from mid-summer to early fall, depending on variety.
+    - Harvest when berries are fully colored and easily detach from the stem.
+    - Pick regularly to encourage continued production.
+  purpose: |-
+    Raspberry serves multiple functions in a permaculture system:
+
+    - Edible: The fruit is widely consumed fresh, dried, or processed into jams, juices, and baked goods.
+    - Medicinal: Raspberry leaves are used in herbal teas to support reproductive health and digestive function.
+    - Pollinator: Raspberry flowers attract bees and other pollinators, improving fruit set.
+    - Wildlife Attractor: Provides food and habitat for birds and beneficial insects.
+    - Erosion Control: Dense root systems help stabilize soil and prevent erosion on slopes.
+  companions: 
+    - Chive
+    - Garlic
+    - Clover
+    - Comfrey
+  avoid:
+    - Potato
+    - Tomato
+    - Eggplant
+  pests: 
+    - Japanese Beetles
+    - Spider Mites
+    - Cane Borers
+    - Aphids

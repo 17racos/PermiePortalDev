@@ -1,0 +1,408 @@
+- name: "Aphids"
+  picture: aphids.jpg
+  scientific_name: Aphidoidea
+  description: "Aphids are small, soft-bodied insects that come in various colors, such as green, black, yellow, or pink. They are typically found on the undersides of leaves or on new plant growth. Aphids feed on plant sap, which can weaken plants and cause leaves to curl or yellow."
+  characteristics: "Aphids have pear-shaped bodies and are often less than 1/8 inch long. They have long, slender mouthparts designed for piercing plant tissue and sucking out sap. Some species have wings, which they use to migrate to other plants. Aphids excrete a sticky substance called honeydew, which can attract ants and promote sooty mold growth, further harming plants."
+  control_methods: "To control aphids organically, start by spraying plants with a strong jet of water to dislodge them. Introduce beneficial insects like ladybugs or lacewings to your garden. Apply neem oil, insecticidal soap, or a homemade solution of water and a few drops of dish soap to affected plants. Prevent aphid infestations by encouraging plant health through proper watering, fertilizing, and avoiding excessive nitrogen, which can attract aphids. For severe infestations, remove and destroy heavily infested plant parts."
+  natural_enemies: "Ladybugs, lacewings, parasitic wasps, hoverfly larvae, and predatory beetles are all natural enemies of aphids and help control their populations in a garden setting."
+
+
+- name: "Spider Mites"
+  picture: spider_mites.jpg
+  scientific_name: Tetranychidae
+  description: "Spider mites are tiny arachnids, often red, yellow, or green in color, that can be difficult to see without magnification. They are commonly found on the undersides of leaves, where they spin fine webs to protect themselves and their eggs. Spider mites feed on plant sap, causing leaves to develop yellow spots, become mottled, or drop prematurely."
+  characteristics: "Spider mites are very small, measuring less than 1 mm in size. They have eight legs and a body shape similar to that of spiders. Their distinctive webbing is often the first sign of their presence. Spider mites thrive in hot, dry conditions and reproduce quickly, with populations exploding in just a few weeks. Their feeding weakens plants, reduces photosynthesis, and can lead to plant death if untreated."
+  control_methods: "To organically control spider mites, regularly spray plants with water to remove mites and disrupt their webs. Increase humidity around plants to create an unfavorable environment for them. Apply insecticidal soap, neem oil, or horticultural oils directly to affected areas. Introduce predatory insects like ladybugs or predatory mites to help manage their population. Prevent infestations by regularly inspecting plants, removing infested leaves, and maintaining proper watering and plant care practices."
+  natural_enemies: "Predatory mites, ladybugs, lacewing larvae, and minute pirate bugs are natural predators of spider mites and can help control their populations."
+
+- name: "Codling Moth"
+  picture: codling_moth.jpg
+  scientific_name: Cydia pomonella
+  description: "Codling moths are small gray-brown moths whose larvae burrow into apples, pears, and other fruits. They are most noticeable by the damage their larvae cause, which includes small entry holes and frass (sawdust-like droppings) on fruit."
+  characteristics: "Adults are about 1/2 inch long, with mottled wings. Larvae are cream-colored with a dark head, growing up to 1/2 inch. Their tunneling damages fruit and promotes rot."
+  control_methods: "Use pheromone traps to disrupt mating and monitor populations. Apply neem oil or Bt (Bacillus thuringiensis) to trees. Bag individual fruits to prevent infestation. Remove fallen fruit promptly."
+  natural_enemies: "Parasitic wasps, tachinid flies, and predatory beetles."
+
+- name: Apple Maggot
+  picture: apple_maggot.jpg
+  scientific_name: Rhagoletis pomonella
+  description: "Apple maggots are small fly larvae that tunnel through apples, leaving brown trails and making the fruit inedible."
+  characteristics: "Adults are small flies with distinctive black and white markings on their wings. Larvae are white, legless, and burrow inside fruit. Damaged fruit may become misshapen and rot."
+  control_methods: "Use red sticky traps to catch adult flies. Apply kaolin clay to deter egg-laying. Remove and destroy fallen fruit to break the life cycle."
+  natural_enemies: "Parasitic wasps, predatory beetles, and birds."
+
+- name: Fire Blight
+  picture: fire_blight.jpg
+  scientific_name: Erwinia amylovora
+  description: "Fire blight is a bacterial disease that affects apples, pears, and other members of the rose family. It causes blackened, scorched-looking branches and fruit."
+  characteristics: "Infected areas appear black or brown, often with a 'shepherd's crook' bend. Bacteria spread rapidly in warm, wet conditions."
+  control_methods: "Prune infected branches well below the visible damage and sterilize tools between cuts. Apply copper-based sprays during dormant seasons. Avoid excessive nitrogen fertilization."
+  natural_enemies: "No specific natural enemies; rely on preventative measures."
+
+- name: Apple Scab
+  picture: apple_scab.jpg
+  scientific_name: Venturia inaequalis
+  description: "Apple scab is a fungal disease causing dark, scabby spots on leaves and fruit, reducing their quality."
+  characteristics: "Leaves develop olive-green to black spots, and fruits may crack and deform. It thrives in wet conditions."
+  control_methods: "Prune to improve air circulation. Apply sulfur-based fungicides. Clean up fallen leaves and debris in the fall."
+  natural_enemies: "None directly, but beneficial soil microbes can improve plant resistance."
+
+- name: Whiteflies
+  picture: whiteflies.jpg
+  scientific_name: Aleyrodidae
+  description: "Whiteflies are small, white-winged insects that feed on plant sap, causing leaves to yellow and drop."
+  characteristics: "They congregate on the undersides of leaves, producing a sticky honeydew that can lead to sooty mold growth."
+  control_methods: "Use yellow sticky traps. Spray plants with insecticidal soap or neem oil. Introduce natural predators."
+  natural_enemies: "Ladybugs, lacewings, and parasitic wasps."
+
+- name: Slugs
+  picture: slugs.jpg
+  scientific_name: Gastropoda
+  description: "Slugs are soft-bodied mollusks that feed on tender plant parts, leaving large holes and slime trails."
+  characteristics: "They are nocturnal and prefer damp conditions. Slugs can grow up to several inches long."
+  control_methods: "Use beer traps or diatomaceous earth. Remove hiding spots like mulch. Handpick at night with a flashlight."
+  natural_enemies: "Ground beetles, birds, and toads."
+
+- name: Powdery Mildew
+  picture: powdery_mildew.jpg
+  scientific_name: Erysiphales
+  description: "Powdery mildew is a fungal disease that appears as white, powdery spots on leaves, stems, and fruit."
+  characteristics: "Leaves may curl and turn yellow. It thrives in warm, humid conditions."
+  control_methods: "Apply sulfur or potassium bicarbonate sprays. Remove infected leaves. Increase air circulation and avoid overhead watering."
+  natural_enemies: "Beneficial fungi and bacteria in healthy soil."
+
+- name: Leafhoppers
+  picture: leafhoppers.jpg
+  scientific_name: Cicadellidae
+  description: "Leafhoppers are small, wedge-shaped insects that feed on plant sap, causing stippling, yellowing, and stunted growth."
+  characteristics: "They are quick-moving and jump or fly when disturbed. Leafhoppers can transmit plant diseases."
+  control_methods: "Apply neem oil or insecticidal soap. Use reflective mulches to deter them. Remove weeds near crops."
+  natural_enemies: "Ladybugs, lacewings, and predatory spiders."
+
+- name: Blueberry Maggot
+  picture: blueberry_maggot.jpg
+  scientific_name: Rhagoletis mendax
+  description: "Blueberry maggots are the larvae of small flies that infest blueberries, making them unmarketable."
+  characteristics: "Adults resemble small houseflies with banded wings. Larvae are white and feed inside the fruit."
+  control_methods: "Use yellow sticky traps. Apply kaolin clay. Remove and destroy infested fruit."
+  natural_enemies: "Parasitic wasps and predatory beetles."
+
+- name: Tomato Hornworms
+  picture: tomato_hornworms.jpg
+  scientific_name: Manduca quinquemaculata
+  description: "Tomato hornworms are large green caterpillars that strip leaves and damage fruit on tomato plants."
+  characteristics: "They are bright green with white stripes and a horn-like tail. They can grow up to 4 inches long."
+  control_methods: "Handpick and remove hornworms. Introduce beneficial insects like parasitic wasps. Use Bt sprays."
+  natural_enemies: "Parasitic wasps, birds, and predatory bugs."
+
+- name: Cabbage Worms
+  picture: cabbage_worms.jpg
+  scientific_name: Pieris rapae
+  description: "Cabbage worms are green larvae of white butterflies that feed on cabbage and other brassicas, creating holes in leaves."
+  characteristics: "They are velvety green and blend in with plant leaves, making them hard to spot."
+  control_methods: "Handpick worms. Apply Bt or neem oil. Use row covers to prevent butterfly access."
+  natural_enemies: "Parasitic wasps, birds, and predatory beetles."
+
+- name: Carrot Rust Fly
+  picture: carrot_rust_fly.jpg
+  scientific_name: Psila rosae
+  description: "Carrot rust fly larvae feed on carrot roots, causing tunnels and making them unmarketable."
+  characteristics: "Adults are small, black flies, while larvae are legless and yellowish-white."
+  control_methods: "Use row covers. Rotate crops and avoid planting carrots near infested areas. Apply beneficial nematodes."
+  natural_enemies: "Ground beetles and parasitic wasps."
+
+- name: Root-Knot Nematodes
+  picture: root_knot_nematodes.jpg
+  scientific_name: Meloidogyne spp.
+  description: "Root-knot nematodes are microscopic roundworms that cause galls or knots on plant roots, reducing nutrient uptake."
+  characteristics: "Affected plants show stunted growth, yellowing, and wilting despite adequate water."
+  control_methods: "Plant resistant varieties. Use cover crops like marigolds to suppress nematodes. Apply beneficial nematodes."
+  natural_enemies: "Fungi and predatory nematodes."
+
+- name: Carrot Weevil
+  picture: carrot_weevil.jpg
+  scientific_name: Listronotus oregonensis
+  description: "Carrot weevils are small beetles whose larvae burrow into carrot roots, causing damage."
+  characteristics: "Adults are dark brown with a snout-like head. Larvae are legless and cream-colored."
+  control_methods: "Remove plant debris. Rotate crops. Use trap crops like dill to lure adults away."
+  natural_enemies: "Parasitic wasps and predatory beetles."
+
+- name: Leaf Blight
+  picture: leaf_blight.jpg
+  scientific_name: Alternaria spp.
+  description: "Leaf blight is a fungal disease causing brown or black spots on leaves, often with yellow halos."
+  characteristics: "It thrives in warm, wet conditions and can lead to leaf drop and reduced yield."
+  control_methods: "Apply copper-based fungicides. Remove infected leaves. Improve air circulation and avoid overhead watering."
+  natural_enemies: "Beneficial microbes in healthy soil."
+
+- name: Celery Leaf Miner
+  picture: celery_leaf_miner.jpg
+  scientific_name: Liriomyza trifolii
+  description: "Celery leaf miners are small flies whose larvae create tunnels in celery leaves, reducing their quality."
+  characteristics: "Adults are tiny black and yellow flies. Larvae are white and feed inside leaves."
+  control_methods: "Remove infested leaves. Use row covers. Apply neem oil to deter egg-laying."
+  natural_enemies: "Parasitic wasps and predatory beetles."
+
+- name: Snails
+  picture: snails.jpg
+  scientific_name: Gastropoda
+  description: "Snails are soft-bodied mollusks with shells that feed on leaves, stems, and fruits, leaving irregular holes."
+  characteristics: "They are most active at night and in wet conditions, leaving slime trails behind."
+  control_methods: "Use beer traps or copper barriers. Remove snails by hand. Encourage natural predators."
+  natural_enemies: "Ducks, toads, and ground beetles."
+
+- name: Thrips
+  picture: thrips.jpg
+  scientific_name: Thysanoptera
+  description: "Thrips are tiny, slender insects that feed on plant sap by scraping the surface of leaves and flowers, causing damage that appears as silvery streaks or spots."
+  characteristics: "Thrips are less than 2 mm long and often yellow, brown, or black. They can transmit plant viruses and leave behind black specks of excrement."
+  control_methods: "Use insecticidal soaps or neem oil. Encourage natural predators by planting diverse flowers. Remove and destroy heavily infested plant parts."
+  natural_enemies: "Lacewings, ladybugs, and predatory mites."
+
+- name: Clover Weevils
+  picture: clover_weevils.jpg
+  scientific_name: Hypera punctata
+  description: "Clover weevils are small beetles that feed on the leaves of clover and other legumes, causing irregular holes and weakening plants."
+  characteristics: "Adults are brownish-gray with a long snout, and larvae are legless, white grubs that feed on roots."
+  control_methods: "Rotate crops and maintain healthy soil. Use row covers to protect young plants. Handpick adults when possible."
+  natural_enemies: "Parasitic wasps and predatory beetles."
+
+- name: Flea Beetles
+  picture: flea_beetles.jpg
+  scientific_name: Chrysomelidae
+  description: "Flea beetles are small, jumping insects that feed on plant leaves, leaving tiny round holes and stunting growth."
+  characteristics: "They are shiny black or metallic and less than 3 mm long. They jump like fleas when disturbed."
+  control_methods: "Apply diatomaceous earth around plants. Use floating row covers. Plant trap crops like radishes to draw them away."
+  natural_enemies: "Parasitic wasps, lacewings, and birds."
+
+- name: Cabbage Root Maggots
+  picture: cabbage_root_maggots.jpg
+  scientific_name: Delia radicum
+  description: "Cabbage root maggots are white, legless larvae that feed on the roots of cabbage and other brassicas, causing wilting and plant death."
+  characteristics: "Adults are small gray flies that lay eggs near plant stems. Larvae burrow into roots, creating tunnels."
+  control_methods: "Use row covers to prevent egg-laying. Apply beneficial nematodes. Rotate crops and remove infested plants."
+  natural_enemies: "Ground beetles, parasitic wasps, and birds."
+
+- name: Parsley Worms
+  picture: parsley_worms.jpg
+  scientific_name: Papilio polyxenes
+  description: "Parsley worms are the larvae of the black swallowtail butterfly. They feed on parsley, dill, and other plants in the carrot family."
+  characteristics: "They are green with black and yellow stripes and can grow up to 2 inches long. Despite their appearance, they turn into beneficial pollinators."
+  control_methods: "Handpick worms if infestations are severe. Encourage natural predators. Plant extra parsley to share with them."
+  natural_enemies: "Parasitic wasps and birds."
+
+- name: Armyworms
+  picture: armyworms.jpg
+  scientific_name: Spodoptera spp.
+  description: "Armyworms are caterpillars that feed on a wide range of crops, leaving skeletonized leaves and damaged fruit."
+  characteristics: "They are green, brown, or black with stripes and can grow up to 1.5 inches long. They travel in groups, hence the name."
+  control_methods: "Use Bt (Bacillus thuringiensis) or neem oil. Handpick and destroy caterpillars. Remove weeds to eliminate breeding sites."
+  natural_enemies: "Parasitic wasps, ground beetles, and birds."
+
+- name: Dill Worms
+  picture: dill_worms.jpg
+  scientific_name: Anethraecium spp.
+  description: "Dill worms are caterpillars that feed on dill and other umbelliferous plants, often causing significant defoliation."
+  characteristics: "They are green or striped caterpillars that blend in with foliage, making them hard to spot."
+  control_methods: "Handpick worms from plants. Use Bt or neem oil. Encourage natural predators by planting diverse flowers."
+  natural_enemies: "Parasitic wasps and predatory beetles."
+
+- name: Clover Mites
+  picture: clover_mites.jpg
+  scientific_name: Bryobia praetiosa
+  description: "Clover mites are tiny red or brown arachnids that feed on grass and ornamental plants, causing yellowing or wilting."
+  characteristics: "They are smaller than a pinhead and leave red streaks when crushed. They often invade homes in large numbers."
+  control_methods: "Reduce grass and weeds near buildings. Apply diatomaceous earth. Spray infested plants with insecticidal soap."
+  natural_enemies: "Predatory mites and spiders."
+
+- name: Borers
+  picture: borers.jpg
+  scientific_name: Various (e.g., Ostrinia nubilalis, Synanthedon spp.)
+  description: "Borers are larvae that tunnel into tree trunks and stems, weakening plants and disrupting nutrient flow."
+  characteristics: "They are often cream-colored, legless larvae. Signs of infestation include sawdust-like frass and wilting."
+  control_methods: "Prune and destroy infested branches. Apply beneficial nematodes. Use pheromone traps for adults."
+  natural_enemies: "Woodpeckers, parasitic wasps, and predatory beetles."
+
+- name: Root-Knot Nematodes
+  picture: root_knot_nematodes.jpg
+  scientific_name: Meloidogyne spp.
+  description: "Root-knot nematodes are microscopic worms that cause galls or knots on plant roots, stunting growth."
+  characteristics: "Plants show yellowing, wilting, and poor yield despite adequate water and nutrients."
+  control_methods: "Plant resistant varieties. Use cover crops like marigolds. Apply beneficial nematodes."
+  natural_enemies: "Fungi and predatory nematodes."
+
+- name: Onion Thrips
+  picture: onion_thrips.jpg
+  scientific_name: Thrips tabaci
+  description: "Onion thrips are tiny insects that feed on onion leaves, causing silvery streaks and reduced bulb size."
+  characteristics: "They are yellow to brown and less than 2 mm long. Damage includes distorted leaves and reduced growth."
+  control_methods: "Use insecticidal soap or neem oil. Avoid planting onions near infested areas. Introduce natural predators."
+  natural_enemies: "Predatory mites and lacewings."
+
+- name: Leek Moth
+  picture: leek_moth.jpg
+  scientific_name: Acrolepiopsis assectella
+  description: "Leek moths are small moths whose larvae feed on allium plants, causing leaf mines and weakening crops."
+  characteristics: "Adults are small brown moths, and larvae are green caterpillars that tunnel into leaves."
+  control_methods: "Use row covers to protect plants. Rotate crops and remove infested leaves. Apply Bt for severe infestations."
+  natural_enemies: "Parasitic wasps and predatory beetles."
+
+- name: Nematodes
+  picture: nematodes.jpg
+  scientific_name: Various
+  description: "Nematodes are microscopic roundworms, some of which are harmful to plants by feeding on roots."
+  characteristics: "They cause stunted growth, yellowing, and reduced yield, often forming galls or lesions on roots."
+  control_methods: "Plant resistant varieties. Rotate crops and use organic matter to promote beneficial nematodes."
+  natural_enemies: "Beneficial nematodes and fungi."
+
+- name: White Rot
+  picture: white_rot.jpg
+  scientific_name: Sclerotium cepivorum
+  description: "White rot is a fungal disease affecting onions, garlic, and leeks, causing decay and white fungal growth."
+  characteristics: "Plants wilt and rot at the base, often with a fluffy white fungus and black sclerotia."
+  control_methods: "Use disease-free seed. Rotate crops and apply organic fungicides. Avoid planting in infested soil."
+  natural_enemies: "Beneficial soil microbes."
+
+- name: Spittlebugs
+  picture: spittlebugs.jpg
+  scientific_name: Cercopidae
+  description: "Spittlebugs are sap-sucking insects that create frothy 'spit' masses on stems to protect themselves."
+  characteristics: "Adults resemble leafhoppers, while nymphs are hidden in the frothy masses. Damage is minimal unless populations are high."
+  control_methods: "Spray plants with water to dislodge nymphs. Encourage natural predators. Remove spittle masses by hand."
+  natural_enemies: "Ladybugs, lacewings, and predatory wasps."
+
+- name: Mealybugs
+  picture: mealybugs.jpg
+  scientific_name: Pseudococcidae
+  description: "Mealybugs are small, soft-bodied insects covered in white, waxy filaments that feed on plant sap."
+  characteristics: "They cluster on stems and leaves, excreting honeydew that attracts sooty mold."
+  control_methods: "Use insecticidal soap or neem oil. Wipe off with a cotton swab dipped in alcohol. Introduce natural predators."
+  natural_enemies: "Ladybugs, lacewings, and parasitic wasps."
+
+- name: Caterpillars
+  picture: caterpillars.jpg
+  scientific_name: Lepidoptera larvae
+  description: "Caterpillars are the larval stage of butterflies and moths that feed on leaves, often causing significant damage."
+  characteristics: "They vary in size, color, and patterns but are generally elongated and soft-bodied."
+  control_methods: "Handpick caterpillars. Apply Bt or neem oil. Encourage natural predators like birds and parasitic wasps."
+  natural_enemies: "Parasitic wasps, birds, and predatory beetles."
+
+- name: Mites
+  picture: mites.jpg
+  scientific_name: Acari
+  description: "Mites are tiny arachnids that feed on plant sap, causing stippling, yellowing, and leaf drop."
+  characteristics: "They are difficult to see with the naked eye. Infestations often include fine webbing."
+  control_methods: "Spray plants with water to dislodge mites. Apply neem oil or insecticidal soap. Introduce predatory mites."
+  natural_enemies: "Predatory mites and lacewings."
+
+- name: Japanese Beetles
+  picture: japanese_beetles.jpg
+  scientific_name: Popillia japonica
+  description: "Japanese beetles are invasive pests that skeletonize leaves and damage flowers, fruit, and crops."
+  characteristics: "Adults are metallic green with bronze wings, while larvae are white grubs that feed on roots."
+  control_methods: "Handpick beetles and drop them in soapy water. Use traps sparingly. Apply beneficial nematodes for grubs."
+  natural_enemies: "Tachinid flies, birds, and ground beetles."
+
+- name: Cabbage White Butterflies
+  picture: cabbage_white_butterflies.jpg
+  scientific_name: Pieris rapae
+  description: "Cabbage white butterflies are common garden pests whose larvae feed on brassicas, causing holes in leaves and stunted growth."
+  characteristics: "Adults are white butterflies with black spots on their wings. Larvae are green caterpillars that blend with leaves, making them hard to spot."
+  control_methods: "Handpick caterpillars. Use row covers to prevent egg-laying. Apply Bt (Bacillus thuringiensis) or neem oil."
+  natural_enemies: "Parasitic wasps, predatory beetles, and birds."
+
+- name: Willow Beetles
+  picture: willow_beetles.jpg
+  scientific_name: Chrysomela spp.
+  description: "Willow beetles are small beetles that feed on willow leaves, causing defoliation and weakening the plant."
+  characteristics: "Adults are shiny, often metallic-colored beetles, while larvae are dark and slug-like. They skeletonize leaves, leaving only veins."
+  control_methods: "Handpick and destroy beetles and larvae. Prune and remove infested branches. Introduce natural predators."
+  natural_enemies: "Ladybugs, lacewings, and birds."
+
+- name: Parsnip Canker
+  picture: parsnip_canker.jpg
+  scientific_name: Itersonilia pastinacae
+  description: "Parsnip canker is a fungal disease that causes dark, sunken lesions on parsnip roots, leading to rotting."
+  characteristics: "It thrives in wet, poorly-drained soils. Affected roots show dark spots that spread and decay over time."
+  control_methods: "Plant resistant varieties. Rotate crops and improve soil drainage. Avoid overwatering."
+  natural_enemies: "Beneficial soil microbes help suppress fungal pathogens."
+
+- name: Pear Psylla
+  picture: pear_psylla.jpg
+  scientific_name: Cacopsylla pyricola
+  description: "Pear psylla are small sap-sucking insects that damage pear trees by causing leaf curling, yellowing, and reduced fruit quality."
+  characteristics: "Adults resemble small cicadas, and nymphs produce sticky honeydew, promoting sooty mold."
+  control_methods: "Spray trees with dormant oil in early spring. Use insecticidal soap or neem oil. Encourage natural predators."
+  natural_enemies: "Ladybugs, lacewings, and parasitic wasps."
+
+- name: Persimmon Psylla
+  picture: persimmon_psylla.jpg
+  scientific_name: Trioza diospyri
+  description: "Persimmon psylla are small insects that feed on persimmon sap, causing leaf curling and reduced fruit yield."
+  characteristics: "They are tiny, winged insects. Their feeding causes leaves to curl and distort, and they excrete honeydew."
+  control_methods: "Prune infested branches. Apply neem oil or insecticidal soap. Encourage beneficial insects in the garden."
+  natural_enemies: "Parasitic wasps and predatory beetles."
+
+- name: Scale Insects
+  picture: scale_insects.jpg
+  scientific_name: Coccoidea
+  description: "Scale insects are small, immobile pests that attach to stems and leaves, sucking sap and weakening plants."
+  characteristics: "They appear as small bumps, often brown or white, and excrete honeydew, which attracts sooty mold."
+  control_methods: "Scrape off scales with a soft brush. Use horticultural oil or insecticidal soap. Prune heavily infested branches."
+  natural_enemies: "Ladybugs, lacewings, and parasitic wasps."
+
+- name: Twig Girdlers
+  picture: twig_girdlers.jpg
+  scientific_name: Oncideres spp.
+  description: "Twig girdlers are beetles whose larvae feed inside branches, causing them to break and fall from the tree."
+  characteristics: "Adults chew circular cuts around twigs to lay eggs, and larvae feed inside, weakening branches."
+  control_methods: "Prune and destroy infested branches. Remove fallen twigs to reduce breeding sites. Encourage natural predators."
+  natural_enemies: "Parasitic wasps and predatory beetles."
+
+- name: Leafrollers
+  picture: leafrollers.jpg
+  scientific_name: Tortricidae
+  description: "Leafrollers are caterpillars that roll and tie leaves together with silk, feeding on leaves and fruit."
+  characteristics: "Caterpillars are small, green or brown, and protected inside rolled leaves. Damage includes skeletonized leaves and scarred fruit."
+  control_methods: "Hand-remove rolled leaves and caterpillars. Apply Bt or neem oil. Encourage birds and other predators."
+  natural_enemies: "Parasitic wasps, birds, and predatory beetles."
+
+- name: Cutworms
+  picture: cutworms.jpg
+  scientific_name: Noctuidae
+  description: "Cutworms are caterpillars that cut young plants at the base, causing significant damage to seedlings."
+  characteristics: "They are nocturnal, fat, and smooth caterpillars, usually brown or gray, that hide in soil during the day."
+  control_methods: "Place collars around seedlings. Handpick at night. Use diatomaceous earth around plant bases."
+  natural_enemies: "Ground beetles, birds, and parasitic wasps."
+
+- name: Pomegranate Butterfly
+  picture: pomegranate_butterfly.jpg
+  scientific_name: Deudorix isocrates
+  description: "The pomegranate butterfly is a pest whose larvae burrow into pomegranates, causing internal damage and fruit rot."
+  characteristics: "The larvae are pinkish with a dark head and feed inside the fruit, leaving entry holes and frass."
+  control_methods: "Remove and destroy infested fruit. Use neem oil sprays. Cover fruits with protective bags."
+  natural_enemies: "Parasitic wasps and birds."
+
+- name: Cabbage Root Fly
+  picture: cabbage_root_fly.jpg
+  scientific_name: Delia radicum
+  description: "Cabbage root flies are pests whose larvae feed on the roots of cabbage and other brassicas, causing wilting and plant death."
+  characteristics: "Adults are small gray flies, and larvae are white, legless grubs that burrow into roots."
+  control_methods: "Use row covers. Apply beneficial nematodes. Rotate crops and remove infested plants."
+  natural_enemies: "Ground beetles and parasitic wasps."
+
+- name: Swede Midge
+  picture: swede_midge.jpg
+  scientific_name: Contarinia nasturtii
+  description: "Swede midge larvae feed on brassicas, causing distorted growth and damage to flower buds and stems."
+  characteristics: "Adults are small flies, and larvae are tiny, pale maggots that feed inside growing points."
+  control_methods: "Use row covers to prevent adult access. Rotate crops and destroy infested plants. Apply beneficial nematodes."
+  natural_enemies: "Parasitic wasps and predatory beetles."
+
+- name: Raspberry Beetle
+  picture: raspberry_beetle.jpg
+  scientific_name: Byturus tomentosus
+  description: "Raspberry beetles are small insects whose larvae damage raspberries by feeding on fruit and flower buds."
+  characteristics: "Adults are small, brown beetles, and larvae are cream-colored grubs found inside fruit."
+  control_methods: "Handpick beetles and larvae. Apply neem oil. Remove and destroy infested fruit."
+  natural_enemies: "Parasitic wasps and birds."

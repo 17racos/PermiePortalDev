@@ -1,0 +1,67 @@
+- common_name: Moringa
+  picture: moringa.jpg
+  scientific_name: Moringa oleifera
+  aka:
+    - Drumstick Tree
+    - Horseradish Tree
+    - Ben Oil Tree
+  family: Moringaceae
+  zone: 9-11
+  ideal_temp_min: 70
+  ideal_temp_max: 95
+  min_temp: 32
+  max_temp: 120
+  perennial: true
+  layers:
+    - Tree
+  plant_function:
+    - Edible
+    - Medicinal
+    - Nitrogen Fixer
+    - Mulcher
+    - Dynamic Accumulator
+    - Erosion Control
+    - Animal Fodder
+    - Windbreaker
+  description: |-
+    Moringa (Moringa oleifera) is a fast-growing, drought-resistant tree that can reach up to 12 meters (40 feet) in height. It has feathery, fern-like leaves that are highly nutritious and used as a food source. The tree produces long, drumstick-shaped pods that contain seeds, which can be eaten or used for oil extraction. Moringa thrives in warm, tropical and subtropical climates and is known for its resilience and ability to grow in poor soil conditions.
+
+    It is widely cultivated for its leaves, pods, and seeds, all of which have culinary, medicinal, and agricultural benefits. The tree also improves soil fertility by fixing nitrogen and accumulating essential nutrients.
+
+    ### Sun and Water Requirements
+    - Prefers full sun (6+ hours per day).
+    - Requires well-draining soil and is drought-tolerant once established.
+    - Benefits from moderate watering but does not tolerate waterlogged conditions.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow seeds in warm soil, germinates in 1-2 weeks.
+    - Cuttings: Can be propagated from branch cuttings placed directly in soil.
+    - Transplanting: Young seedlings can be transplanted but must be handled carefully.
+
+    ### When to Harvest
+    - Leaves can be harvested once the tree reaches 1.5 meters (5 feet) in height.
+    - Pods should be picked when young and tender (about 30-45 cm or 12-18 inches long).
+    - Seeds can be collected once pods are fully mature and dried.
+  purpose: |-
+    Moringa serves multiple functions in a permaculture system:
+
+    - Edible: Leaves, pods, and seeds are highly nutritious and used in cooking.
+    - Medicinal: Known for anti-inflammatory and immune-boosting properties.
+    - Nitrogen Fixer: Improves soil fertility by fixing nitrogen.
+    - Mulcher: Leaves and branches can be chopped and used as mulch.
+    - Dynamic Accumulator: Draws up nutrients from deep soil layers.
+    - Erosion Control: Deep root system stabilizes soil in degraded areas.
+    - Animal Fodder: Leaves and pods serve as nutrient-rich feed for livestock.
+    - Windbreaker: Acts as a protective barrier in agroforestry systems.
+  companions: 
+    - Banana
+    - Papaya
+    - Legume Tree
+    - Sweet Potato
+  avoid:
+    - None documented
+  pests: 
+    - Aphid
+    - Spider Mite
+    - Caterpillar
+    - Whitefly

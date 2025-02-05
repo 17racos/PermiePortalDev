@@ -1,0 +1,55 @@
+- common_name: Turmeric
+  picture: turmeric.jpg
+  scientific_name: Curcuma longa
+  aka:
+    - Indian Saffron
+  family: Zingiberaceae
+  zone: 8-11
+  ideal_temp_min: 68
+  ideal_temp_max: 95
+  min_temp: 50
+  max_temp: 100
+  perennial: true
+  layers:
+    - Herbaceous
+    - Rhizome
+  plant_function:
+    - Edible
+    - Medicinal
+    - Mulcher
+    - Dynamic Accumulator
+  description: |-
+    Turmeric is a tropical, rhizomatous herbaceous perennial plant that grows up to 1 meter (3 feet) tall. It produces large, oblong green leaves and stunning yellow or orange flowers. The underground rhizome is the most valued part of the plant and is commonly used as a spice, dye, and medicinal remedy.
+
+    Turmeric thrives in warm, humid conditions with consistent moisture and well-drained, fertile soil. It prefers partial to full sun exposure and can be grown in containers in cooler climates.
+
+    ### Sun and Water Requirements
+    - Prefers partial to full sun (4–6+ hours of sunlight).
+    - Requires well-drained, loamy soil rich in organic matter.
+    - Benefits from consistent moisture, but avoid waterlogging.
+
+    ### Methods to Propagate
+    - Rhizomes: Propagated by planting healthy rhizome pieces with at least one bud.
+    - Time: Plant in early spring after the last frost or when soil temperature is above 68°F (20°C).
+
+    ### When to Harvest
+    - Ready for harvest in 7–10 months when leaves turn yellow and begin to dry.
+    - Carefully dig up the rhizomes, clean, and cure them for storage.
+  purpose: |-
+    Turmeric is a valuable plant in permaculture systems due to its multiple functions:
+
+    - Edible: The rhizomes are used as a spice and natural food coloring.
+    - Medicinal: Known for its anti-inflammatory, antioxidant, and antimicrobial properties.
+    - Mulcher: Provides abundant leaf biomass that can be used as mulch.
+    - Dynamic Accumulator: Draws up nutrients from deeper soil layers and enriches the topsoil.
+  companions: 
+    - Ginger
+    - Lemongrass
+    - Banana
+    - Chili Pepper
+  avoid:
+    - None reported
+  pests: 
+    - Aphids
+    - Root-knot Nematodes
+    - Spider Mites

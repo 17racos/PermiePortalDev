@@ -1,0 +1,66 @@
+- common_name: Holy Basil
+  picture: holybasil.jpg
+  scientific_name: Ocimum tenuiflorum
+  aka:
+    - Tulsi
+    - Sacred Basil
+  family: Lamiaceae
+  zone: 9-12
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 50
+  max_temp: 100
+  perennial: true (grown as an annual in cooler climates)
+  layers:
+    - Herbaceous
+  plant_function:
+    - Edible
+    - Medicinal
+    - Pollinator
+    - Wildlife Attractor
+    - Dynamic Accumulator
+    - Border Plant
+    - Pest Management
+  description: |-
+    Holy Basil (Ocimum tenuiflorum) is a highly aromatic, bushy herb that grows between 30–90 cm (1–3 feet) tall. It produces small purple or white flowers that attract bees and other pollinators. The leaves have a strong, clove-like scent and are widely used in Ayurvedic medicine.
+
+    Holy Basil is a heat-loving plant that thrives in warm, humid environments with well-drained, fertile soil. It is often grown as a medicinal herb, companion plant, or natural pest deterrent.
+
+    ### Sun and Water Requirements
+    - Prefers full sun (at least 6–8 hours of direct sunlight daily).
+    - Requires well-drained, fertile soil with moderate water needs.
+    - Drought-tolerant once established but benefits from regular watering.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow after the last frost or start indoors 4–6 weeks before transplanting.
+    - Cuttings: Can be propagated from stem cuttings placed in water or soil.
+    - Self-seeding: Readily self-seeds in warm climates.
+
+    ### When to Harvest
+    - Harvest leaves regularly throughout the growing season for fresh use.
+    - Flowers should be pinched off to encourage bushier growth.
+    - Entire plants can be harvested before flowering for drying and medicinal use.
+  purpose: |-
+    Holy Basil serves multiple functions in a permaculture system:
+
+    - Edible: Used in herbal teas, cooking, and traditional medicine.
+    - Medicinal: Known for its adaptogenic properties, supporting stress relief and immune function.
+    - Pollinator: Flowers attract bees, butterflies, and beneficial insects.
+    - Wildlife Attractor: Provides nectar for beneficial insects.
+    - Dynamic Accumulator: Improves soil by accumulating minerals such as calcium and magnesium.
+    - Border Plant: Used as a natural edge plant in gardens and herbal beds.
+    - Pest Management: Repels mosquitoes, aphids, and whiteflies.
+  companions: 
+    - Tomato
+    - Pepper
+    - Eggplant
+    - Marigold
+    - Cilantro
+  avoid:
+    - Fennel
+    - Rue
+  pests: 
+    - Aphid
+    - Whitefly
+    - Leaf Miner
+    - Spider Mite

@@ -1,0 +1,60 @@
+- common_name: Persimmon Tree
+  picture: persimmon.jpg
+  scientific_name: Diospyros spp.
+  aka:
+    - Japanese Persimmon (Diospyros kaki)
+    - American Persimmon (Diospyros virginiana)
+  family: Ebenaceae
+  zone: 4-10
+  ideal_temp_min: 50
+  ideal_temp_max: 90
+  min_temp: -25
+  max_temp: 100
+  perennial: true
+  layers:
+    - Canopy
+    - Sub-Canopy
+  plant_function:
+    - Edible
+    - Wildlife Attractor
+    - Windbreaker
+    - Border Plant
+    - Erosion Control
+  description: |-
+    The Persimmon Tree (Diospyros spp.) is a deciduous fruit tree known for its sweet, vibrant orange fruits. The tree can grow between 4.5-20 meters (15-65 feet) tall, with a dense canopy and glossy, dark green leaves that turn orange in autumn. The fruit matures in late fall, with astringent varieties needing full ripening before consumption. Persimmons are high in vitamins A and C.
+
+    ### Sun and Water Requirements
+    - Requires full sun for optimal growth and fruit production.
+    - Prefers well-drained, loamy soil with a slightly acidic to neutral pH.
+    - Drought-tolerant once established but benefits from occasional deep watering.
+
+    ### Methods to Propagate
+    - Seed: Can be grown from seed, but offspring may vary from parent.
+    - Grafting: Commonly grafted onto rootstocks for faster production and better disease resistance.
+    - Cutting: Hardwood cuttings may be used for propagation with proper care.
+
+    ### When to Harvest
+    - Harvest season ranges from late fall to early winter.
+    - Astringent varieties must be fully soft before consumption.
+    - Non-astringent varieties can be eaten when firm.
+  purpose: |-
+    The Persimmon Tree has several functions in permaculture:
+
+    - Edible: Produces delicious, nutritious fruit that can be eaten fresh, dried, or processed.
+    - Wildlife Attractor: Provides food for birds, deer, and pollinators.
+    - Windbreaker: Can be used as a protective barrier in orchards or gardens.
+    - Border Plant: Effective for property lines and food forests.
+    - Erosion Control: The deep root system stabilizes slopes and prevents soil erosion.
+  companions: 
+    - Mulberry
+    - Clover
+    - Comfrey
+    - Elderberry
+  avoid:
+    - Walnut
+    - Fennel
+  pests: 
+    - Persimmon Borer
+    - Scale Insects
+    - Mealybugs
+    - Root Rot (in poorly drained soils)

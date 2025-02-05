@@ -1,0 +1,58 @@
+- common_name: Tithonia
+  picture: tithonia.jpg
+  scientific_name: Tithonia rotundifolia
+  aka:
+    - Mexican Sunflower
+    - Bolivian Sunflower
+  family: Asteraceae
+  zone: 8-11
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 50
+  max_temp: 100
+  perennial: true
+  layers:
+    - Herbaceous
+    - Shrub
+  plant_function:
+    - Pollinator
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Border Plant
+  description: |-
+    Tithonia, commonly known as Mexican Sunflower, is a fast-growing, heat-tolerant flowering plant that produces vibrant orange-red blooms. It reaches heights of 1.5–3 meters (5–10 feet) and spreads widely, making it an excellent choice for borders and hedgerows. The plant thrives in full sun and well-drained soil, showing remarkable drought resistance.
+
+    The large flowers attract pollinators such as butterflies, bees, and hummingbirds, making it a valuable plant for biodiversity. It is also an excellent biomass producer, contributing rich organic matter when used as a green mulch or compost.
+
+    ### Sun and Water Requirements
+    - Prefers full sun (6+ hours of direct sunlight).
+    - Well-drained, moderately fertile soil is ideal.
+    - Drought-tolerant but benefits from occasional deep watering in dry conditions.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow after the last frost or start indoors and transplant.
+    - Cuttings: Can be propagated from semi-hardwood cuttings.
+
+    ### When to Harvest
+    - Blooms continuously in warm seasons.
+    - Cut flowers for arrangements or seed collection when mature.
+  purpose: |-
+    Tithonia serves multiple roles in permaculture systems:
+
+    - Pollinator: Attracts butterflies, bees, and hummingbirds.
+    - Wildlife Attractor: Provides nectar and habitat for beneficial insects.
+    - Mulcher: Produces abundant biomass for green manure and composting.
+    - Dynamic Accumulator: Absorbs nutrients and enriches the soil.
+    - Border Plant: Used as a natural hedge to define garden spaces.
+  companions: 
+    - Corn
+    - Tomatoes
+    - Beans
+    - Sunflower
+  avoid:
+    - None reported
+  pests: 
+    - Aphids
+    - Spider Mites
+    - Whiteflies

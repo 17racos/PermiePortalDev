@@ -7,9 +7,6 @@ ruby "3.3.6"
 # Rails framework
 gem "rails", "~> 7.2.2.1"
 
-# Asset pipeline
-gem "sprockets-rails"
-
 # Database adapter for PostgreSQL
 gem "pg", "~> 1.5"
 
@@ -22,8 +19,8 @@ gem "puma", "~> 6.5"
 gem "importmap-rails"
 
 #js stuff
-#gem 'esbuild', '>= 0.2.2'
 gem 'concurrent-ruby', '>= 1.3.1'
+gem 'closure-compiler'
 
 # Hotwire components
 gem "turbo-rails"
@@ -47,11 +44,11 @@ gem "pg_search"
 # CMS-like admin interface
 gem "activeadmin"
 
-# CSS preprocessor
-gem "sassc", "~> 2.4.0"
-
+#gem 'postcss-rails', git: 'https://github.com/rstacruz/postcss-asset-url-rails'
 # Tailwind CSS framework
-gem "tailwindcss-rails"
+#gem 'tailwindcss-rails', '>= 4.0.0'
+gem 'tailwindcss-ruby', '>= 4.0.0'
+
 
 # SEO Friendly Titles
 gem 'friendly_id', '~> 5.4.2'

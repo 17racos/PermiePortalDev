@@ -19,14 +19,9 @@ Rails.application.configure do
   # This is handled by NGINX/Apache in production
   config.public_file_server.enabled = ENV["RAILS_SERVE_STATIC_FILES"].present?
 
-  # Compress CSS using the default preprocessor (Sass)
-  config.assets.css_compressor = :sass
-
-  # Disable asset pipeline fallback for missing precompiled assets
-  config.assets.compile = false
-
   # Use S3 for ActiveStorage in production
-  config.active_storage.service = :S3
+  config.active_storage.service = :bucketeer
+
 
   # Ensure SSL in production (consider enabling this for better security)
   config.force_ssl = true if ENV['RAILS_ENV'] == 'production'
@@ -54,12 +49,6 @@ Rails.application.configure do
   # Caching configuration (can be adjusted for efficiency)
   config.cache_store = :memory_store, { size: 64.megabytes }
 
-  # Enable asset fingerprinting for caching purposes
-  
-  config.assets.digest = true
-
   # Consider additional performance tuning options for better efficiency:
-  config.assets.js_compressor = :esbuild
-
 
 end

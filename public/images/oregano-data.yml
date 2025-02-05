@@ -1,0 +1,66 @@
+- common_name: Oregano
+  picture: oregano.jpg
+  scientific_name: Origanum vulgare
+  aka:
+    - Wild Marjoram
+    - Origanum hirtum (Greek Oregano)
+  family: Lamiaceae
+  zone: 4-10
+  ideal_temp_min: 50
+  ideal_temp_max: 80
+  min_temp: -30
+  max_temp: 100
+  perennial: true
+  layers:
+    - Herbaceous
+    - Ground Cover
+  plant_function:
+    - Edible
+    - Medicinal
+    - Pollinator
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Border Plant
+    - Pest Management
+  description: |-
+    Oregano (Origanum vulgare) is a hardy, aromatic perennial herb native to the Mediterranean. It grows in clumps with small, dark green leaves and produces clusters of purple to pink flowers that attract pollinators. The plant is well-suited for dry, well-drained soils and is highly drought-tolerant once established. Known for its strong, pungent flavor, oregano is a staple in Mediterranean cuisine.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Thrives in well-drained, sandy or loamy soil.
+    - Drought-tolerant once established; requires moderate watering.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow or start indoors 6-8 weeks before the last frost.
+    - Cuttings: Stem cuttings root easily in water or soil.
+    - Division: Established plants can be divided and transplanted.
+
+    ### When to Harvest
+    - Harvest leaves once the plant reaches at least 10 cm (4 in) tall.
+    - Cut stems just before flowering for the strongest flavor.
+    - Best harvested in the morning when oils are most concentrated.
+  purpose: |-
+    Oregano plays several important roles in permaculture systems:
+
+    - Edible: Used fresh or dried in cooking, adding flavor to a variety of dishes.
+    - Medicinal: Contains antibacterial and antifungal properties; used in herbal medicine for respiratory and digestive issues.
+    - Pollinator: Flowers attract bees, butterflies, and other beneficial insects.
+    - Wildlife Attractor: Provides nectar for pollinators.
+    - Mulcher: Can be chopped and used as a mulch to retain soil moisture.
+    - Dynamic Accumulator: Extracts minerals from the soil and improves soil health.
+    - Border Plant: Useful as a low-growing border in garden beds.
+    - Pest Management: The strong scent deters pests like aphids and cabbage moths.
+  companions: 
+    - Basil
+    - Tomato
+    - Pepper
+    - Rosemary
+    - Lavender
+    - Thyme
+  avoid:
+    - Cucumber
+  pests: 
+    - Spider Mite
+    - Aphid
+    - Whitefly

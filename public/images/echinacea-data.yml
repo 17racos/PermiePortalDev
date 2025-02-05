@@ -1,0 +1,65 @@
+- common_name: Echinacea
+  picture: echinacea.jpg
+  scientific_name: Echinacea purpurea
+  aka:
+    - Purple Coneflower
+    - American Coneflower
+  family: Asteraceae
+  zone: 3-9
+  ideal_temp_min: 40
+  ideal_temp_max: 85
+  min_temp: -40
+  max_temp: 100
+  perennial: true
+  layers:
+    - Herbaceous
+  plant_function:
+    - Edible
+    - Medicinal
+    - Pollinator
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Border Plant
+  description: |-
+    Echinacea (Echinacea purpurea) is a hardy perennial herbaceous plant known for its striking purple-pink daisy-like flowers with spiky, cone-shaped centers. It grows up to 90 cm (3 feet) tall, with dark green, lance-shaped leaves. The plant is widely used for its medicinal benefits and as an ornamental flower in gardens.
+
+    Echinacea is drought-tolerant and thrives in well-drained, sandy, or loamy soils. It attracts pollinators such as bees, butterflies, and hummingbirds and is commonly grown in medicinal gardens, prairie restorations, and food forests.
+
+    ### Sun and Water Requirements
+    - Prefers full sun but tolerates partial shade.
+    - Requires well-drained soil; does well in sandy or loamy conditions.
+    - Drought-tolerant once established but benefits from occasional deep watering.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow in fall or cold stratify before planting in spring for better germination.
+    - Division: Established plants can be divided every 3–4 years in early spring.
+    - Cuttings: Root cuttings can be used to propagate new plants.
+
+    ### When to Harvest
+    - Flowers should be harvested when fully open for fresh use or drying.
+    - Leaves can be harvested anytime during the growing season.
+    - Roots are harvested in the plant’s second or third year for medicinal preparations.
+  purpose: |-
+    Echinacea serves multiple functions in a permaculture system:
+
+    - Edible: Petals and young leaves are used in teas, salads, and herbal infusions.
+    - Medicinal: Known for immune-boosting properties, used to fight infections and colds.
+    - Pollinator: Flowers attract bees, butterflies, and hummingbirds.
+    - Wildlife Attractor: Provides nectar for beneficial insects and birds.
+    - Mulcher: Spent plants and cuttings break down easily, adding organic matter to the soil.
+    - Dynamic Accumulator: Draws up nutrients such as calcium and magnesium to enrich the soil.
+    - Border Plant: Works well in garden borders, wildflower meadows, and permaculture guilds.
+  companions: 
+    - Yarrow
+    - Lavender
+    - Bee Balm
+    - Black-eyed Susan
+    - Coneflower
+  avoid:
+    - None known
+  pests: 
+    - Aphid
+    - Japanese Beetle
+    - Leaf Miner
+    - Powdery Mildew (in humid conditions)

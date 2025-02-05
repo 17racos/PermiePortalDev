@@ -1,0 +1,62 @@
+- common_name: Rue
+  picture: rue.jpg
+  scientific_name: Ruta graveolens
+  aka:
+    - Herb of Grace
+    - Garden Rue
+    - Bitter Herb
+  family: Rutaceae
+  zone: 4-10
+  ideal_temp_min: 50
+  ideal_temp_max: 80
+  min_temp: -30
+  max_temp: 100
+  perennial: true
+  layers:
+    - Herbaceous
+  plant_function:
+    - Medicinal
+    - Pollinator
+    - Wildlife Attractor
+    - Pest Management
+    - Border Plant
+  description: |-
+    Rue (Ruta graveolens) is a hardy, evergreen perennial herb known for its strong aroma and bitter-tasting leaves. It grows to a height of 60-90 cm (2-3 feet) and has blue-green, feathery foliage with small, yellow flowers that bloom in late spring and summer. The plant is drought-tolerant and thrives in poor, well-drained soils.
+
+    Rue is often grown as an ornamental herb, but it also has traditional medicinal uses. However, its leaves contain furanocoumarins, which can cause skin irritation in some people. It is best handled with gloves.
+
+    ### Sun and Water Requirements
+    - Prefers full sun (at least 6-8 hours of sunlight per day).
+    - Thrives in dry, well-drained soil with low to moderate watering.
+    - Tolerates drought but should not be overwatered.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow in spring or start indoors 6-8 weeks before the last frost.
+    - Cuttings: Take softwood cuttings in early summer and root in moist soil.
+    - Division: Can be divided in early spring or fall.
+
+    ### When to Harvest
+    - Harvest leaves as needed once the plant is well-established.
+    - Best flavor when harvested before flowering.
+    - Use gloves when handling to avoid skin irritation.
+  purpose: |-
+    Rue has multiple functions in permaculture and garden ecosystems:
+
+    - Medicinal: Traditionally used for digestive and anti-inflammatory properties, though it should be used with caution.
+    - Pollinator: The small yellow flowers attract bees and beneficial insects.
+    - Wildlife Attractor: Provides nectar and shelter for various insects.
+    - Pest Management: Repels flies, mosquitoes, and certain garden pests such as aphids.
+    - Border Plant: Often used in gardens for its strong scent to deter pests.
+  companions: 
+    - Rosemary
+    - Sage
+    - Oregano
+    - Thyme
+  avoid:
+    - Basil
+    - Cabbage
+    - Cucumbers
+  pests: 
+    - Aphids
+    - Spider Mites
+    - Leaf Miners

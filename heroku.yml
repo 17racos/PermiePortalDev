@@ -2,7 +2,9 @@ build:
   # Install dependencies and precompile assets
   docker:
     - run: bundle install
-    - run: RAILS_ENV=production bundle exec rake assets:precompile
+    - run: npx tailwindcss -i app/assets/stylesheets/application.tailwind.css -o app/assets/builds/tailwind.css --minify
+
+
 
 release:
   # Any commands to run after the app is deployed (for example, database migrations)

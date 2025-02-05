@@ -1,0 +1,68 @@
+- common_name: Dutch Clover
+  picture: dutchclover.jpg
+  scientific_name: Trifolium repens
+  aka:
+    - White Clover
+    - Ladino Clover
+    - Creeping Clover
+  family: Fabaceae
+  zone: 3-10
+  ideal_temp_min: 40
+  ideal_temp_max: 85
+  min_temp: -30
+  max_temp: 100
+  perennial: true
+  layers:
+    - Ground Cover
+  plant_function:
+    - Nitrogen Fixer
+    - Pollinator
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Erosion Control
+    - Animal Fodder
+    - Border Plant
+  description: |-
+    Dutch Clover (Trifolium repens) is a low-growing, creeping perennial that spreads through stolons, forming dense mats. It has trifoliate green leaves and produces small white or pinkish flowers that attract bees and other pollinators. It is highly adaptable and commonly used as a cover crop, living mulch, and ground cover in orchards and gardens.
+
+    This clover is valued for its nitrogen-fixing abilities, improving soil fertility while suppressing weeds. It thrives in well-drained, moderately fertile soils and is drought-tolerant once established. Dutch Clover is also used as forage for livestock.
+
+    ### Sun and Water Requirements
+    - Prefers full sun to partial shade.
+    - Thrives in moist, well-drained soil but tolerates poor conditions.
+    - Drought-resistant once established, but regular watering promotes lush growth.
+
+    ### Methods to Propagate
+    - Seeds: Direct sow in early spring or fall for best germination.
+    - Self-seeding: Readily reseeds itself if allowed to flower.
+    - Stolons: Spreads naturally by creeping stems that root at nodes.
+
+    ### When to Harvest
+    - Can be cut throughout the growing season for mulch or animal fodder.
+    - Flowers can be harvested when fully open for medicinal or culinary uses.
+    - Grazing animals can forage year-round in suitable climates.
+  purpose: |-
+    Dutch Clover serves multiple functions in a permaculture system:
+
+    - Nitrogen Fixer: Improves soil fertility by converting atmospheric nitrogen into plant-available forms.
+    - Pollinator: Produces nectar-rich flowers that attract bees and butterflies.
+    - Wildlife Attractor: Provides habitat and food for beneficial insects.
+    - Mulcher: Acts as a living mulch, reducing evaporation and suppressing weeds.
+    - Dynamic Accumulator: Draws up minerals like phosphorus and potassium, making them available to surrounding plants.
+    - Erosion Control: Spreading root system helps stabilize soil and prevent runoff.
+    - Animal Fodder: High-protein forage for livestock and poultry.
+    - Border Plant: Used in orchard understories, garden paths, and living ground covers.
+  companions: 
+    - Apple
+    - Pear
+    - Cherry
+    - Grape
+    - Tomato
+  avoid:
+    - Onion
+    - Garlic
+  pests: 
+    - Aphid
+    - Clover Mite
+    - Root Rot (in poorly drained soil)

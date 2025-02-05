@@ -1,8 +1,15 @@
 # Pin npm packages by running ./bin/importmap
-
-# Rails defaults
+# Pin core application scripts
 pin "application"
 
-pin "@hotwired/turbo", to: "@hotwired--turbo.js" # @8.0.12
-pin "@rails/actioncable/src", to: "@rails--actioncable--src.js" # @7.2.200
-pin "@hotwired/turbo-rails", to: "@hotwired--turbo-rails.js" # @8.0.12
+# Hotwired Turbo (for Turbo Drive & Turbo Streams)
+pin "@hotwired/turbo-rails", to: "https://cdn.jsdelivr.net/npm/@hotwired/turbo@7.3.0/dist/turbo.min.js", preload: true
+
+# ActionCable for real-time updates
+pin "@rails/actioncable", to: "https://cdn.jsdelivr.net/npm/@rails/actioncable@7.0.4/dist/actioncable.esm.js"
+
+# Stimulus (for interactive components)
+pin "@hotwired/stimulus", to: "https://cdn.jsdelivr.net/npm/@hotwired/stimulus@3.2.2/dist/stimulus.min.js", preload: true
+pin "@hotwired/stimulus-loading", to: "https://cdn.jsdelivr.net/npm/@hotwired/stimulus-loading@1.0.0/dist/stimulus-loading.js", preload: true
+
+# TailwindCSS (Tailwind does not need pinning, but ensuring proper setup)

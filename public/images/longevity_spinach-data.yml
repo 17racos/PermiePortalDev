@@ -1,0 +1,66 @@
+- common_name: Longevity Spinach
+  picture: longevity.jpg
+  scientific_name: Gynura procumbens
+  aka:
+    - Sambung Nyawa
+    - Mollucan Spinach
+    - Leaves of the Gods
+  family: Asteraceae
+  zone: 9-12
+  ideal_temp_min: 65
+  ideal_temp_max: 90
+  min_temp: 45
+  max_temp: 100
+  perennial: true
+  layers:
+    - Ground Cover
+  plant_function:
+    - Edible
+    - Medicinal
+    - Wildlife Attractor
+    - Mulcher
+    - Dynamic Accumulator
+    - Erosion Control
+    - Border Plant
+  description: |-
+    Longevity Spinach (Gynura procumbens) is a fast-growing, vining perennial green with highly nutritious, tender leaves. Native to Southeast Asia, it is commonly used in traditional medicine and as a food source due to its high antioxidant content and reported health benefits.
+
+    The plant spreads vigorously, making it excellent for ground cover in warm climates. It thrives in a variety of soil conditions but prefers rich, well-drained soil. It is highly adaptable and can be grown in containers, raised beds, or directly in the ground.
+
+    ### Sun and Water Requirements
+    - Prefers partial shade to full sun.
+    - Thrives in warm, humid conditions but can tolerate drier environments with sufficient watering.
+    - Requires well-draining, loamy, or sandy soil; does not tolerate waterlogging.
+
+    ### Methods to Propagate
+    - Cuttings: The easiest method; cut stems and root them in water or moist soil.
+    - Layering: Allow stems to touch the soil, where they will develop roots naturally.
+    - Seeds: Less commonly used as propagation is much faster via cuttings.
+
+    ### When to Harvest
+    - Leaves can be harvested year-round in warm climates.
+    - Regular pruning encourages bushier growth and prevents legginess.
+    - Young leaves are preferred for the best texture and flavor.
+  purpose: |-
+    Longevity Spinach serves multiple functions in a permaculture system:
+
+    - Edible: A nutritious leafy green used in salads, stir-fries, and soups.
+    - Medicinal: Traditionally used to lower blood sugar, cholesterol, and inflammation.
+    - Wildlife Attractor: Provides nectar for pollinators when flowering.
+    - Mulcher: Can be chopped and dropped to improve soil health.
+    - Dynamic Accumulator: Draws up beneficial minerals from the soil.
+    - Erosion Control: Its dense root system helps stabilize soil.
+    - Border Plant: Works well as an edging plant for vegetable and herb gardens.
+  companions: 
+    - Sweet Potato
+    - Ginger
+    - Turmeric
+    - Basil
+    - Lemongrass
+  avoid:
+    - Fennel
+  pests: 
+    - Aphid
+    - Whitefly
+    - Slug
+    - Snail
