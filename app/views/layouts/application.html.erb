@@ -6,8 +6,7 @@
     <%= csp_meta_tag %>
 
     <!-- Ensure only one stylesheet for Tailwind -->
-    <%= stylesheet_link_tag "tailwind", "data-turbo-track": "reload" %>
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "builds/tailwind", media: "all", "data-turbo-track": "reload" %>
 
     <!-- Meta Tags -->
     <meta charset="utf-8">

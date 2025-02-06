@@ -15,18 +15,21 @@ Rails.application.configure do
   # Enable server timing
   config.server_timing = true
 
-  
+  # ✅ Ensure Importmap watches the correct directory
+  config.importmap.cache_sweepers << Rails.root.join("vendor/javascript")
+
+  # ✅ Enable public file server for serving JavaScript & assets
+  config.public_file_server.enabled = true
+  config.public_file_server.headers = {
+    "Cache-Control" => "public, max-age=#{2.days.to_i}"
+  }
+
   # Enable/disable caching. By default, caching is disabled.
   # Run `rails dev:cache` to toggle caching.
   if Rails.root.join("tmp/caching-dev.txt").exist?
     config.action_controller.perform_caching = true
     config.action_controller.enable_fragment_cache_logging = true
-
     config.cache_store = :memory_store
-    config.public_file_server.enabled = true
-    config.public_file_server.headers = {
-      "Cache-Control" => "public, max-age=#{2.days.to_i}"
-    }
   else
     config.action_controller.perform_caching = false
     config.cache_store = :null_store
@@ -64,7 +67,4 @@ Rails.application.configure do
 
   # Allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
-
-  # ✅ Fix Web Console Whitelist (Array format required)
-  config.web_console.whitelisted_ips = ['192.168.1.142']
 end

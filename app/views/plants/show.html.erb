@@ -31,7 +31,13 @@
         <%= link_to h(@plant.family), "/guides/plant-families##{h(@plant.family.downcase.gsub(/\s+/, '-'))}", class: "text-blue-600 hover:underline", data: { turbo: false } %>
       </p>      
       <p><strong>🗺️ Zone:</strong> <%= @plant.zone %></p>
-      <p><strong>🌡️ Ideal Temperature Range:</strong> <%= @plant.ideal_temp_min %>°F – <%= @plant.ideal_temp_max %>°F</p>
+      <p><strong>🌡️ Ideal Temperature Range:</strong>
+      <% if @plant.ideal_temp_min.present? && @plant.ideal_temp_max.present? %>
+        <%= @plant.ideal_temp_min %>°F – <%= @plant.ideal_temp_max %>°F
+      <% else %>
+        Not Available
+      <% end %>
+      </p>  
       <p><strong>🔥 Heat Tolerance:</strong> Up to <%= @plant.max_temp %>°F</p>
       <p><strong>❄️ Cold Tolerance:</strong> Down to <%= @plant.min_temp %>°F</p>
       <p><strong>🌱 Type:</strong> <%= h(@plant.perennial ? "Perennial" : "Annual") %></p>      

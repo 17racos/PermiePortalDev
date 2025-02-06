@@ -362,7 +362,7 @@ DEPENDENCIES
   debug
   devise
   friendly_id (~> 5.4.2)
-  importmap-rails
+  importmap-rails (~> 2.1)
   jbuilder
   msgpack (~> 1.4.0)
   pg (~> 1.5)

@@ -1,15 +1,10 @@
 build:
-  # Install dependencies and precompile assets
   docker:
-    - run: bundle install
-    - run: npx tailwindcss -i app/assets/stylesheets/application.tailwind.css -o app/assets/builds/tailwind.css --minify
-
-
+    web: Dockerfile  # ✅ Ensure Heroku uses your Dockerfile
 
 release:
-  # Any commands to run after the app is deployed (for example, database migrations)
-  docker:
-    - run: bundle exec rake db:migrate
+  command:
+    - bundle exec rake db:migrate  # ✅ Ensures migrations run on deployment
 
 run:
-  web: bundle exec rails server -b 0.0.0.0 -p $PORT
+  web: bundle exec rails server -b 0.0.0.0 -p $PORT  # ✅ Starts the Rails server

@@ -16,7 +16,6 @@ gem 'date', '< 3.4.0'
 gem "puma", "~> 6.5"
 
 # JavaScript dependencies via import maps
-gem "importmap-rails"
 
 #js stuff
 gem 'concurrent-ruby', '>= 1.3.1'
@@ -77,3 +76,5 @@ group :test do
   gem "capybara"            # End-to-end testing
   gem "selenium-webdriver"  # Browser-based testing
 end
+
+gem "importmap-rails", "~> 2.1"
