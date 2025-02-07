@@ -13,29 +13,27 @@ RUN apt-get update -qq && apt-get install -y \
 # Install Node.js 18, npm 10, and Yarn (Required for ESBuild)
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
     apt-get install -y nodejs && \
-    npm install -g npm@10 yarn
+    npm install -g npm@10 yarn && \
+    rm -rf /var/lib/apt/lists/*
 
 # Verify Node.js, npm, and Yarn versions
 RUN node -v && npm -v && yarn -v
 
 # Copy application code
-COPY . . 
+COPY . .
 
-# ✅ Remove old `node_modules` and reinstall dependencies
-RUN rm -rf node_modules yarn.lock && yarn install --check-files
+# ✅ Install JavaScript dependencies (Production Mode)
+RUN yarn install --frozen-lockfile
 
-# ✅ Build JavaScript assets using ESBuild
+# ✅ Build JavaScript assets using ESBuild (before asset precompilation)
 RUN yarn build
 
 # ✅ Install Gems in production mode
 RUN bundle config set force_ruby_platform true
 RUN bundle install --jobs=4 --retry=3 --without development test
 
-# ✅ Precompile assets for production
-RUN bundle exec rails assets:precompile
-
 # ✅ Clean up to reduce image size
-RUN apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN apt-get clean && rm -rf /var/lib/apt/lists/* tmp/cache node_modules
 
 # ✅ Expose port 3000 for production
 EXPOSE 3000

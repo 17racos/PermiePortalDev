@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>PermiePortal | Your Hub for Permaculture Knowledge</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <title>PermiePortal | Your Hub for Permaculture Knowledge</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  <!-- Fix incorrect asset paths -->
+  <%= stylesheet_link_tag "builds/application", "data-turbo-track": "reload" %>
+  <%= javascript_include_tag "builds/application", type: "module", defer: true %>  
 
-    <!-- Make sure JavaScript is properly loaded -->
-    <%= javascript_include_tag "application", type: "module", defer: true %>
-    
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="PermiePortal: Your central resource for permaculture education and community networking.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PermiePortal: Your central resource for permaculture education and community networking.">
+</head>
 
   <body style="background-color: #f0fff4; font-family: Arial, sans-serif; color: #333;">
     <div style="min-height: 100vh; display: flex; flex-direction: column;">
 
-      <!-- Header Section -->
+      <!-- Header -->
       <header style="background: linear-gradient(to right, #4CAF50, #388E3C); color: white; padding: 15px; text-align: center;">
         <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
           <!-- Logo -->
@@ -41,10 +40,7 @@
 
       <!-- Main Content -->
       <main style="flex-grow: 1; max-width: 1200px; margin: 40px auto; padding: 20px;">
-        <div style="display: flex; flex-direction: column; min-height: 100vh;">
-          <!-- Yield to content in individual views -->
-          <%= yield %>
-        </div>
+        <%= yield %>
       </main>
 
       <!-- Footer -->
