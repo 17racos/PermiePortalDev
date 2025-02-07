@@ -1,15 +1,9 @@
 pin "application"
 
-# ✅ Hotwired
-pin "@hotwired/turbo-rails", to: "/assets/@hotwired--turbo-rails.js", preload: true
-pin "@hotwired/stimulus", to: "/assets/@hotwired--stimulus.js", preload: true
-pin "@hotwired/stimulus-loading", to: "/assets/@hotwired--stimulus-loading.js", preload: true
+# ✅ Hotwired (Fixing Incorrect Asset Path Issue)
+pin "@hotwired/turbo-rails", to: "https://ga.jspm.io/npm:@hotwired/turbo-rails@7.3.0/dist/turbo.es2017-esm.js"
+pin "@hotwired/stimulus", to: "https://ga.jspm.io/npm:@hotwired/stimulus@3.2.1/dist/stimulus.js"
+pin "@hotwired/stimulus-loading", to: "https://ga.jspm.io/npm:@hotwired/stimulus-loading@3.2.1/dist/stimulus-loading.js"
 
-# ✅ Rails ActionCable
-pin "@rails/actioncable", to: "/assets/@rails--actioncable.js", preload: true
-pin "@rails/actioncable/src", to: "/assets/@rails--actioncable--src.js", preload: true
-
-# ✅ Other JavaScript dependencies
-pin "tailwindcss", to: "/assets/tailwindcss.js", preload: true
-pin "postcss", to: "/assets/postcss.js", preload: true
-pin "autoprefixer", to: "/assets/autoprefixer.js", preload: true
+# ✅ Rails ActionCable (No Need to Pin `@rails/actioncable/src`)
+pin "@rails/actioncable", to: "https://ga.jspm.io/npm:@rails/actioncable@7.0.4/app/assets/javascripts/actioncable.esm.js"

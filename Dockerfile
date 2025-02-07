@@ -19,10 +19,10 @@ COPY . .
 
 # ✅ Install only production dependencies (omit dev dependencies)
 RUN rm -rf node_modules && npm cache clean --force
-RUN npm install --omit=dev  # ✅ Fix: Replace `npm ci` with `npm install --omit=dev`
+RUN npm install  # ✅ Fix: Replace `npm ci` with `npm install --omit=dev`
 
 # ✅ Install TailwindCSS & PostCSS dependencies
-RUN npm install --save-dev tailwindcss postcss autoprefixer
+RUN npm install --save-dev tailwindcss 
 
 # ✅ Ensure TailwindCSS is initialized
 RUN [ -f tailwind.config.js ] || npx tailwindcss init -p
