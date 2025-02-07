@@ -5,61 +5,57 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <!-- Ensure only one stylesheet for Tailwind -->
-    <%= stylesheet_link_tag "builds/tailwind", media: "all", "data-turbo-track": "reload" %>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Meta Tags -->
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+
+    <!-- Make sure JavaScript is properly loaded -->
+    <%= javascript_include_tag "application", type: "module", defer: true %>
+    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="PermiePortal: Your central resource for permaculture education and community networking.">
-    
-    <!-- Include JavaScript -->
-    <%= javascript_include_tag "application", defer: true %>
-  </head>
 
-  <body class="bg-green-50 font-sans text-gray-800">
-    <div class="min-h-screen flex flex-col">
+  <body style="background-color: #f0fff4; font-family: Arial, sans-serif; color: #333;">
+    <div style="min-height: 100vh; display: flex; flex-direction: column;">
 
       <!-- Header Section -->
-      <header class="bg-gradient-to-r from-green-600 to-green-500 text-white shadow-lg">
-        <div class="max-w-screen-lg mx-auto flex items-center justify-between py-4 px-4 sm:px-6 lg:px-8">
+      <header style="background: linear-gradient(to right, #4CAF50, #388E3C); color: white; padding: 15px; text-align: center;">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
           <!-- Logo -->
-          <h1 class="text-2xl font-extrabold tracking-wide">
-            <%= link_to 'PermiePortal', root_path, class: "hover:text-green-200 focus:text-green-300" %>
+          <h1 style="font-size: 1.5rem; font-weight: bold;">
+            <%= link_to 'PermiePortal', root_path, style: "color: white; text-decoration: none;" %>
           </h1>
 
           <!-- Navigation -->
-          <nav class="flex space-x-4 text-sm font-semibold">
+          <nav style="font-size: 0.9rem;">
             <% if user_signed_in? %>
               <span>Welcome, <%= current_user.email %>!</span>
-              <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: 'hover:text-green-200 focus:text-green-300' %>
+              <%= link_to 'Logout', destroy_user_session_path, method: :delete, style: "color: white; margin-left: 15px; text-decoration: none;" %>
             <% else %>
-              <%= link_to 'Login', new_user_session_path, class: 'hover:text-green-200 focus:text-green-300' %>
-              <%= link_to 'Sign Up', new_user_registration_path, class: 'hover:text-green-200 focus:text-green-300 ml-4' %>
+              <%= link_to 'Login', new_user_session_path, style: "color: white; margin-right: 15px; text-decoration: none;" %>
+              <%= link_to 'Sign Up', new_user_registration_path, style: "color: white; text-decoration: none;" %>
             <% end %>
           </nav>
         </div>
       </header>
 
       <!-- Main Content -->
-      <main class="flex-grow max-w-screen-lg mx-auto py-8 px-6 sm:px-8 lg:px-10">
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-12 min-h-screen">
+      <main style="flex-grow: 1; max-width: 1200px; margin: 40px auto; padding: 20px;">
+        <div style="display: flex; flex-direction: column; min-height: 100vh;">
           <!-- Yield to content in individual views -->
           <%= yield %>
         </div>
       </main>
 
       <!-- Footer -->
-      <footer class="bg-gray-800 text-white py-6">
-        <div class="max-w-screen-lg mx-auto text-center">
-          <p class="text-gray-400 text-sm">
-            &copy; <%= Time.current.year %> PermiePortal. All rights reserved.
-          </p>
-          <p class="text-gray-400 mt-2">
-            Explore more at:
-            <a href="https://permaculture.org" target="_blank" class="text-green-400 hover:text-green-300 focus:underline">Permaculture.org</a>
-          </p>
-        </div>
+      <footer style="background: #333; color: white; text-align: center; padding: 20px;">
+        <p style="font-size: 0.9rem; color: #ccc;">
+          &copy; <%= Time.current.year %> PermiePortal. All rights reserved.
+        </p>
+        <p style="margin-top: 5px;">
+          Explore more at:
+          <a href="https://permaculture.org" target="_blank" style="color: #4CAF50; text-decoration: none;">Permaculture.org</a>
+        </p>
       </footer>
 
     </div>

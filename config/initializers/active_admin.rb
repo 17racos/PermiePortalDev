@@ -5,7 +5,7 @@ end
 
 ActiveAdmin.setup do |config|
   # Use Webpacker (or Tailwind/PostCSS)
-  config.use_webpacker = true if defined?(Webpacker)
+  config.use_webpacker = false if defined?(Webpacker)
 
   # Register stylesheets and JavaScripts safely
   config.register_stylesheet 'active_admin.css' if Rails.root.join('app/assets/stylesheets/active_admin.css').exist?

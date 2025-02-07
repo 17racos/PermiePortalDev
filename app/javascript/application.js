@@ -1,14 +1,12 @@
 import * as Turbo from "@hotwired/turbo-rails";
 import { Application } from "@hotwired/stimulus";
-import { eagerLoadControllersFrom } from "@hotwired/stimulus-loading";
 
-console.log("ESBuild is now handling JavaScript!");
-
-// ✅ Start Stimulus application
+// ✅ Auto-load controllers
 const application = Application.start();
-window.Stimulus = application;
+const context = require.context("./controllers", true, /_controller\.js$/);
+context.keys().forEach((key) => application.load(context(key).default));
 
-// ✅ Auto-load all controllers from `app/javascript/controllers`
-eagerLoadControllersFrom(import.meta.glob("./controllers/**/*_controller.js"), application);
+window.Stimulus = application;
+console.log("ESBuild is now handling JavaScript!");
 
 export { application };
