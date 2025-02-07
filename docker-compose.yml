@@ -20,11 +20,8 @@ services:
       if ! rails db:version > /dev/null 2>&1; then rails db:create; fi &&
       rails db:migrate &&
       rails db:seed &&
-      npm install tailwindcss &&
-      bin/importmap json:build &&
-      npx tailwindcss -i app/assets/stylesheets/application.tailwind.css -o public/builds/tailwind.css --minify --postcss &&
       rails server -b 0.0.0.0"
-     
+      
   db:
     image: postgres:15
     environment:

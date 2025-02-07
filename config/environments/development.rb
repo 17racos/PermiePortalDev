@@ -15,8 +15,6 @@ Rails.application.configure do
   # Enable server timing
   config.server_timing = true
 
-  # ✅ Ensure Importmap watches the correct directory
-  config.importmap.cache_sweepers << Rails.root.join("vendor/javascript")
 
   # ✅ Enable public file server for serving JavaScript & assets
   config.public_file_server.enabled = true
