@@ -1,3 +1,5 @@
+version: "3.8"
+
 services:
   app:
     build:
@@ -10,9 +12,13 @@ services:
     ports:
       - "3000:3000"
     depends_on:
-      - db
-    env_file:
-      - .env
+      db:
+        condition: service_healthy
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: permieportal_dev
+      DATABASE_URL: "postgres://postgres:password@db:5432/permieportal_dev"
     command: >
       bash -c "
       rm -f tmp/pids/server.pid &&
@@ -23,16 +29,21 @@ services:
       
   db:
     image: postgres:15
+    restart: always
     environment:
-      POSTGRES_USER: ${POSTGRES_USER}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: permieportal_dev
       PGDATA: /var/lib/postgresql/data
     ports:
       - "5432:5432"
     volumes:
       - db_data:/var/lib/postgresql/data
-    restart: always
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 5s
+      retries: 5
+      timeout: 3s
 
 volumes:
   db_data:

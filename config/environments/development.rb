@@ -50,7 +50,4 @@ Rails.application.configure do
 
   # Uncomment to annotate rendered views with filenames
   # config.action_view.annotate_rendered_view_with_filenames = true
-
-  # Uncomment to allow Action Cable from any origin
-  # config.action_cable.disable_request_forgery_protection = true
 end

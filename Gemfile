@@ -4,32 +4,26 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # Specify Ruby version
 ruby "3.3.6"
 
-# Rails framework and Asset Pipline and storage
+# Rails framework, Asset Pipeline (Propshaft) & Storage
 gem "rails", "~> 7.2.2.1"
 gem "propshaft", "~> 1.1"
-
-#Remove aws-sdk-s3 unless using S3 for ActiveStorage
-gem "aws-sdk-s3", require: false
 
 # Database adapter for PostgreSQL
 gem "pg", "~> 1.5"
 
-gem 'date', '< 3.4.0'
-
-# Puma web server
-gem "puma", "~> 6.5"
-
-#s3 Storage
+# S3 Storage (Bucketeer)
 gem "bucketeer", "~> 0.1.0"
+gem 'aws-sdk-s3'
 
-# JavaScript & Frontend tools
-gem "jsbundling-rails"   # ✅ Required for ESBuild
-gem "cssbundling-rails"  # ✅ Required for Tailwind/PostCSS
-gem "turbo-rails"
-gem "stimulus-rails"
+# Web server
+gem "puma", "~> 6.5"
 
 # JSON API builder
 gem "jbuilder"
+
+# Turbo & Stimulus for Hotwire
+gem "turbo-rails"
+gem "stimulus-rails"
 
 # Authentication
 gem "devise"
@@ -37,39 +31,21 @@ gem "devise"
 # Full-text search in PostgreSQL
 gem "pg_search"
 
-# CMS-like admin interface (✅ Ensure it works without Sprockets)
+# Admin Dashboard
 gem "activeadmin"
 
-# SEO Friendly Titles
+# SEO Friendly URLs
 gem 'friendly_id', '~> 5.4.2'
-
-# Time zone data for Windows and similar platforms
-gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 
 # Boot performance improvements
 gem "bootsnap", require: false
 
-# ✅ Optional: Redis for caching & ActionCable (real-time updates)
-gem "redis", "~> 5.0" if ENV['USE_REDIS'] == 'true'
-
-# ✅ Remove aws-sdk-s3 unless using S3 for ActiveStorage
-gem "aws-sdk-s3", require: false
-
-# Groups for development and testing
+# Development & Test
 group :development, :test do
-  gem "debug", platforms: %i[mri mingw x64_mingw]
+  gem "capybara"
+  gem "selenium-webdriver"
 end
 
 group :development do
   gem "web-console"
 end
-
-group :test do
-  gem "capybara"
-  gem "selenium-webdriver"
-end
-
-
-
-
-gem "propshaft", "~> 1.1"
