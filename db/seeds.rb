@@ -56,7 +56,7 @@ def map_plant_attributes(data)
     pests: data['pests'],
     min_temp: data['min_temp'],
     max_temp: data['max_temp'],
-    ideal_temp_max: data['ideal_temp_min'],
+    ideal_temp_min: data['ideal_temp_min'],
     ideal_temp_max: data['ideal_temp_max'],
   }
 end
