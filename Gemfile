@@ -4,8 +4,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # Specify Ruby version
 ruby "3.3.6"
 
-# Rails framework
+# Rails framework and Asset Pipline and storage
 gem "rails", "~> 7.2.2.1"
+gem "propshaft", "~> 1.1"
+
+#Remove aws-sdk-s3 unless using S3 for ActiveStorage
+gem "aws-sdk-s3", require: false
 
 # Database adapter for PostgreSQL
 gem "pg", "~> 1.5"
@@ -14,6 +18,9 @@ gem 'date', '< 3.4.0'
 
 # Puma web server
 gem "puma", "~> 6.5"
+
+#s3 Storage
+gem "bucketeer", "~> 0.1.0"
 
 # JavaScript & Frontend tools
 gem "jsbundling-rails"   # ✅ Required for ESBuild
@@ -46,7 +53,7 @@ gem "bootsnap", require: false
 gem "redis", "~> 5.0" if ENV['USE_REDIS'] == 'true'
 
 # ✅ Remove aws-sdk-s3 unless using S3 for ActiveStorage
-gem "aws-sdk-s3", require: false if ENV['USE_S3'] == 'true'
+gem "aws-sdk-s3", require: false
 
 # Groups for development and testing
 group :development, :test do
@@ -63,4 +70,6 @@ group :test do
 end
 
 
-gem "bucketeer", "~> 0.1.0"
+
+
+gem "propshaft", "~> 1.1"

@@ -22,12 +22,6 @@ RUN node -v && npm -v && yarn -v
 # Copy application code
 COPY . .
 
-# ✅ Install JavaScript dependencies (Production Mode)
-RUN yarn install --frozen-lockfile
-
-# ✅ Build JavaScript assets using ESBuild (before asset precompilation)
-RUN yarn build
-
 # ✅ Install Gems in production mode
 RUN bundle config set force_ruby_platform true
 RUN bundle install --jobs=4 --retry=3 --without development test

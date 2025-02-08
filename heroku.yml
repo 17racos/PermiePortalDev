@@ -4,7 +4,8 @@ build:
 
 release:
   command:
-    - bundle exec rake db:migrate  # ✅ Ensures migrations run on deployment
+    - bundle exec rails db:migrate  # ✅ Ensures migrations run on deployment
+    - bundle exec rails assets:precompile  # ✅ Ensures assets are compiled on release
 
 run:
   web: bundle exec rails server -b 0.0.0.0 -p $PORT  # ✅ Starts the Rails server
