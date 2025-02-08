@@ -55,3 +55,8 @@
 # Coverage reports
 /coverage/
 vendor/bundle
+
+# Sensitive files
+ .s3setup.sh
+ .env
+ .env.production
