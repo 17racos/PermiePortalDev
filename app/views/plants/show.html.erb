@@ -2,12 +2,16 @@
   <div class="max-w-screen-lg mx-auto bg-green-50 shadow-md rounded-lg p-8 space-y-8">
     
     <!-- Plant Image -->
-    <div class="text-center">
-      <% if @plant.picture.present? %>
-        <%= image_tag @plant.picture, alt: h(@plant.common_name), class: "w-full h-64 object-cover rounded-md mb-6 shadow-lg" %>
-      <% else %>
-        <p>No image available for this plant.</p>
-      <% end %>
+    <% if @plant.picture.present? %>
+      <%= image_tag asset_path(@plant.picture), alt: h(@plant.common_name), class: "w-full h-64 object-cover rounded-md mb-6 shadow-lg" %>
+    <% else %>
+    <% if @plant.picture.present? %>
+      <%= image_tag asset_path(@plant.picture), 
+       alt: h(@plant.common_name), 
+       class: "w-full h-64 object-cover rounded-md mb-6 shadow-lg" %>
+    <% else %>
+      <p>No image available for this plant.</p>
+    <% end %>
     </div>
 
     <!-- Plant Name and Scientific Name -->

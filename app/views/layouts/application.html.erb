@@ -6,7 +6,6 @@
   <%= csp_meta_tag %>
 
   <%= stylesheet_link_tag "application", media: "all", "data-turbo-track": "reload", debug: true %>
-  <%= javascript_include_tag "application", type: "module", "data-turbo-track": "reload" %> 
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +14,7 @@
 
   <body style="background-color: #f0fff4; font-family: Arial, sans-serif; color: #333;">
     <div style="min-height: 100vh; display: flex; flex-direction: column;">
-
+    <%= javascript_include_tag "application", type: "module", "data-turbo-track": "reload" %> 
       <!-- Header -->
       <header style="background: linear-gradient(to right, #4CAF50, #388E3C); color: white; padding: 15px; text-align: center;">
         <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">

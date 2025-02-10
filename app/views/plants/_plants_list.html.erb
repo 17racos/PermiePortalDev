@@ -2,7 +2,9 @@
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
     <% plants.each do |plant| %>
       <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition">
-        <%= image_tag(plant.picture.presence || 'default_plant_image.jpg', alt: plant.common_name, class: "w-full h-40 object-cover rounded-md mb-4") %>
+      <%= image_tag asset_path(plant.picture.presence || 'default_plant_image.jpg'), 
+      alt: plant.common_name, 
+      class: "w-full h-40 object-cover rounded-md mb-4" %>
         <h2 class="text-xl font-semibold text-green-700 hover:text-green-500">
         <%= link_to plant.common_name, plant_path(plant.common_name) %>
         </h2>

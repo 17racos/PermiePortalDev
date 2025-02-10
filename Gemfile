@@ -41,11 +41,8 @@ gem 'friendly_id', '~> 5.4.2'
 gem "bootsnap", require: false
 
 # Development & Test
-group :development, :test do
-  gem "capybara"
-  gem "selenium-webdriver"
-end
-
 group :development do
   gem "web-console"
+  gem "capybara"
+  gem "selenium-webdriver"
 end
