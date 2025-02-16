@@ -1,10 +1,9 @@
 <%= turbo_frame_tag "plants-list" do %>
   <!-- Filter Form -->
-  <%= form_with url: plants_path, method: :get, local: false do %>
+  <%= form_with url: plants_path, method: :get, turbo_frame: "plants-list" do %>
     <%= render partial: "plants/filters" %>
   <% end %>
 
   <!-- Plant List or Results -->
   <%= render partial: "plants/plants_list", locals: { plants: @plants } %>
 <% end %>
-

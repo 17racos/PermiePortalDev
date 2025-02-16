@@ -7,15 +7,12 @@
 
     <%= stylesheet_link_tag "application.tailwind", "data-turbo-track": "reload" %>
     <!-- Make sure JavaScript is properly loaded -->
-    <%= javascript_include_tag "application", "data-turbo-track": "reload" %>
-
-    
-    
-
+    <%= javascript_include_tag "application", defer: true, "data-turbo-track": "reload" %>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="PermiePortal: Your central resource for permaculture education and community networking.">
-
+  </head>
+  
   <body style="background-color: #f0fff4; font-family: Arial, sans-serif; color: #333;">
     <div style="min-height: 100vh; display: flex; flex-direction: column;">
 
