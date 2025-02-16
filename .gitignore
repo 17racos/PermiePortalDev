@@ -55,3 +55,4 @@
 # Coverage reports
 /coverage/
 vendor/bundle
+config/master.key
