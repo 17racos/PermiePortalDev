@@ -10,7 +10,7 @@ RUN apt-get update -qq && apt-get install -y \
     curl \
     git
 
-# Install Node.js 18, npm 10, and Yarn (Required for ESBuild)
+# Install Node.js 18, npm 10, and Yarn (Required for Sprockets)
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
     apt-get install -y nodejs && \
     npm install -g npm@10 yarn
@@ -19,19 +19,26 @@ RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
 RUN node -v && npm -v && yarn -v
 
 # Copy application code
-COPY . . 
+COPY . .
 
 # ✅ Remove old `node_modules` and reinstall dependencies
 RUN rm -rf node_modules yarn.lock && yarn install --check-files
 
 # ✅ Install Gems in production mode
-RUN bundle config set force_ruby_platform true
+RUN bundle config set force_ruby_platform false
 RUN bundle install --jobs=4 --retry=3 --without development test
 
-# ✅ Precompile assets for production
-RUN bundle exec rails assets:precompile
+# ✅ Manually install the TailwindCSS CLI binary
+RUN curl -fsSL https://github.com/tailwindlabs/tailwindcss/releases/download/v3.4.0/tailwindcss-linux-x64 -o /usr/local/bin/tailwindcss && chmod +x /usr/local/bin/tailwindcss
 
-# ✅ Clean up to reduce image size
+# ✅ Verify TailwindCSS Installation
+RUN tailwindcss --help
+
+# ✅ Precompile assets (Tailwind first)
+RUN bin/rails assets:clobber
+RUN bin/rails assets:precompile
+
+# ✅ Clean up system to reduce image size
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # ✅ Expose port 3000 for production

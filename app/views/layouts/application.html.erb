@@ -5,8 +5,8 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag "application.tailwind", "data-turbo-track": "reload" %>
-    <!-- Make sure JavaScript is properly loaded -->
+    <!-- Make sure JavaScript and CSS is properly loaded -->
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", defer: true, "data-turbo-track": "reload" %>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

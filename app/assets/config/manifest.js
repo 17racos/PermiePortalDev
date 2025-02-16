@@ -3,3 +3,4 @@
 //= link_directory ../javascripts .js
 //= link application.js
 //= link application.css
+//= link_tree ../builds

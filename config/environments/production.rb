@@ -45,14 +45,4 @@ Rails.application.configure do
   # ✅ Background job queueing (Set to `:inline` if not using Sidekiq or similar)
   config.active_job.queue_adapter = :inline
 
-  # ✅ Ensure ActionCable is enabled (Fixes "uninitialized constant" issue)
-  config.action_cable.mount_path = "/cable"
-  config.action_cable.url = ENV["CABLE_URL"] || "wss://#{ENV['APP_HOST']}/cable"
-  config.action_cable.allowed_request_origins = [ "https://#{ENV['APP_HOST']}", "http://#{ENV['APP_HOST']}" ]
-
-  # ✅ Ensure ActionCable uses Redis if available
-  if ENV["REDIS_URL"].present?
-    config.action_cable.url = ENV["REDIS_URL"]
-    config.action_cable.adapter = :redis
-  end
-end
+  

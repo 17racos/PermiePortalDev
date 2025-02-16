@@ -16,9 +16,12 @@ gem 'date', '< 3.4.0'
 gem "puma", "~> 6.5"
 
 # JavaScript & Frontend tools
-gem "cssbundling-rails"  # ✅ Required for Tailwind/PostCSS
 gem "turbo-rails"
 gem "stimulus-rails"
+
+#CSS Setup
+gem "tailwindcss-rails", "~> 2.0"
+
 
 #Asset Pipline
 gem "sprockets-rails", "~> 3.5"
@@ -26,6 +29,7 @@ gem "sprockets-rails", "~> 3.5"
 # SASS for Rails asset pipeline
 gem "sass-rails", "~> 6.0"
 gem "sassc-rails", "~> 2.1.2"
+
 
 # Dependencies required for SASS
 gem "sassc", "~> 2.4.0"
@@ -48,17 +52,11 @@ gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 # Boot performance improvements
 gem "bootsnap", require: false
 
-# ✅ Optional: Redis for caching & ActionCable (real-time updates)
-gem "redis", "~> 5.0" if ENV['USE_REDIS'] == 'true'
-
 group :development do
   gem "web-console"
 end
 
-group :test do
-  gem "capybara"
-  gem "selenium-webdriver"
-end
+
 
 
 
