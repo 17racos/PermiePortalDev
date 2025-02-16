@@ -5,10 +5,11 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-
+    <%= stylesheet_link_tag "application.tailwind", "data-turbo-track": "reload" %>
     <!-- Make sure JavaScript is properly loaded -->
-    <%= javascript_include_tag "application", type: "module", defer: true %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload" %>
+
+    
     
 
     <meta charset="utf-8">

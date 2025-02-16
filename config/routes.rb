@@ -27,9 +27,6 @@ Rails.application.routes.draw do
   # Pest routes
   resources :pests, param: :slug, only: [:index, :show]
 
-  # ✅ Mount Active Storage for serving uploaded images via Bucketeer
-  mount ActiveStorage::Engine => "/rails/active_storage"
-
   # ✅ Serve Static Images Locally (ONLY in Development)
   if Rails.env.development?
     get '/images/:filename', to: proc { |env|

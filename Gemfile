@@ -16,22 +16,28 @@ gem 'date', '< 3.4.0'
 gem "puma", "~> 6.5"
 
 # JavaScript & Frontend tools
-gem "jsbundling-rails"   # ✅ Required for ESBuild
 gem "cssbundling-rails"  # ✅ Required for Tailwind/PostCSS
 gem "turbo-rails"
 gem "stimulus-rails"
+
+#Asset Pipline
+gem "sprockets-rails", "~> 3.5"
+
+# SASS for Rails asset pipeline
+gem "sass-rails", "~> 6.0"
+gem "sassc-rails", "~> 2.1.2"
+
+# Dependencies required for SASS
+gem "sassc", "~> 2.4.0"
+gem "tilt", "~> 2.6.0"
+gem "ffi", "~> 1.17.1"
+
 
 # JSON API builder
 gem "jbuilder"
 
 # Authentication
 gem "devise"
-
-# Full-text search in PostgreSQL
-gem "pg_search"
-
-# CMS-like admin interface (✅ Ensure it works without Sprockets)
-gem "activeadmin"
 
 # SEO Friendly Titles
 gem 'friendly_id', '~> 5.4.2'
@@ -45,14 +51,6 @@ gem "bootsnap", require: false
 # ✅ Optional: Redis for caching & ActionCable (real-time updates)
 gem "redis", "~> 5.0" if ENV['USE_REDIS'] == 'true'
 
-# ✅ Remove aws-sdk-s3 unless using S3 for ActiveStorage
-gem "aws-sdk-s3", require: false if ENV['USE_S3'] == 'true'
-
-# Groups for development and testing
-group :development, :test do
-  gem "debug", platforms: %i[mri mingw x64_mingw]
-end
-
 group :development do
   gem "web-console"
 end
@@ -63,4 +61,4 @@ group :test do
 end
 
 
-gem "bucketeer", "~> 0.1.0"
+

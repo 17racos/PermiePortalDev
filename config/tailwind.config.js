@@ -1,10 +1,9 @@
-module.exports = {
+odule.exports = {
   content: [
-    './app/views/**/*.{html.erb,html.haml,html.slim}', // Include all view templates
-    './app/helpers/**/*.rb',                          // Include Rails helper files
-    './app/javascript/**/*.js',                       // Include JavaScript files
-    './app/assets/stylesheets/**/*.css',              // Include CSS files
-    './app/assets/javascripts/**/*.js',               // Include JS files from assets
+    './app/views/**/*.html.erb',
+    './app/helpers/**/*.rb',
+    './app/assets/stylesheets/**/*.css',
+    './app/javascript/**/*.js'
   ],
   theme: {
     extend: {

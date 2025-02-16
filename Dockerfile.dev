@@ -24,9 +24,6 @@ COPY . .
 # ✅ Remove old `node_modules` and reinstall dependencies
 RUN rm -rf node_modules yarn.lock && yarn install --check-files
 
-# ✅ Build JavaScript assets using ESBuild
-RUN yarn build
-
 # ✅ Install Gems
 RUN bundle config set force_ruby_platform true
 RUN bundle install --jobs=4 --retry=3
