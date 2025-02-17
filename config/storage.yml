@@ -3,23 +3,13 @@ development:
   root: <%= Rails.root.join("storage") %>  # Local storage path
 
 production:
-  service: S3
-  access_key_id: <%= ENV['BUCKETEER_ACCESS_KEY_ID'] %>
-  secret_access_key: <%= ENV['BUCKETEER_SECRET_ACCESS_KEY'] %>
-  region: <%= ENV['BUCKETEER_REGION'] %>
-  bucket: <%= ENV['BUCKETEER_BUCKET_NAME'] %>
-  path: 'prod/'
+service: Disk
+  root: <%= Rails.root.join("storage") %>
+
 
 
 # Add the local storage service to avoid errors for local file access in development
 local:
   service: Disk
   root: <%= Rails.root.join("storage") %>
-
-bucketeer:
-  service: S3
-  access_key_id: <%= ENV['BUCKETEER_AWS_ACCESS_KEY_ID'] %>
-  secret_access_key: <%= ENV['BUCKETEER_AWS_SECRET_ACCESS_KEY'] %>
-  region: <%= ENV['BUCKETEER_AWS_REGION'] %>
-  bucket: <%= ENV['BUCKETEER_BUCKET_NAME'] %>
 
