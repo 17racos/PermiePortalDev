@@ -1,8 +1,8 @@
 class ResourcesController < ApplicationController
   # Action for the Resources index page
   def index
-    @resources = Resource.all
-  end
+    @resources = Resource.search(params[:query])
+  end  
 
   # Action for the "What is Permaculture?" page
   def whatisperm

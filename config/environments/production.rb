@@ -22,9 +22,6 @@ Rails.application.configure do
   # ✅ Serve static files only if required by ENV variable (for Heroku)
   config.public_file_server.enabled = ENV["RAILS_SERVE_STATIC_FILES"].present?
 
-  # ✅ Active Storage configuration (Set to `:local` if not using S3)
-  config.active_storage.service = :local
-
   # ✅ Force SSL in production (Recommended for security)
   config.force_ssl = true
 
@@ -44,5 +41,5 @@ Rails.application.configure do
 
   # ✅ Background job queueing (Set to `:inline` if not using Sidekiq or similar)
   config.active_job.queue_adapter = :inline
-
+end
   
