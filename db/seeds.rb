@@ -135,8 +135,6 @@ rescue StandardError => e
   puts "An error occurred during seeding: #{e.message}"
 end
 
-# Run the seeds
-run_seeds
 
 # db/seeds.rb
 
@@ -171,8 +169,12 @@ guides = [
 guides.each do |guide|
   Guide.find_or_create_by(title: guide[:title]) do |g|
     g.body = guide[:body]
-    g.image = guide[:image]  # Just assigning the image filename as a string
+    g.image = guide[:image] # Store only the filename, not a full path
   end
 end
 
 puts "#{guides.size} guides have been added or updated."
+
+# Run the seeds
+run_seeds
+

@@ -8,25 +8,26 @@ class GuidesController < ApplicationController
 
   # GET /guides/:slug
   def show
-    custom_view = Rails.root.join("app", "views", "guides", "#{@guide.slug}.html.erb")
-  
-    if File.exist?(custom_view)
-      render template: "guides/#{@guide.slug}"
+    if @guide
+      custom_view = Rails.root.join("app", "views", "guides", "#{@guide.slug}.html.erb")
+
+      if File.exist?(custom_view)
+        render template: "guides/#{@guide.slug}"
+      else
+        render :show
+      end
     else
-      render :show
+      redirect_to guides_path, alert: 'Guide not found.'
     end
   end
 
   private
 
-  # Use friendly_id to find the guide by slug
   def set_guide
-    @guide = Guide.friendly.find(params[:slug])
-  rescue ActiveRecord::RecordNotFound
-    redirect_to guides_path, alert: 'Guide not found.'
+    @guide = Guide.friendly.find_by(slug: params[:slug])
+    redirect_to guides_path, alert: 'Guide not found.' unless @guide
   end
 
-  # Strong parameters for guide creation and updates
   def guide_params
     params.require(:guide).permit(:title, :body, :image, :slug)
   end

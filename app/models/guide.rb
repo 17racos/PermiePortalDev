@@ -4,6 +4,10 @@ class Guide < ApplicationRecord
 
   validates :title, presence: true
   validates :body, presence: true
-  validates :image, presence: true # Validating the image column
+  validates :image, presence: true, allow_blank: true
 
+  # ✅ Define the image URL method
+  def image_url
+    "/assets/guides/#{image}" if image.present?
+  end
 end

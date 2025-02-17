@@ -9,9 +9,9 @@ Rails.application.routes.draw do
   root 'home#index'
 
   # Dynamic guides routes using slugs
-  resources :guides, param: :slug
+  resources :guides, param: :slug  # Ensures guides are found by slug, not ID
 
-  # Plant routes, using common_name as the URL param
+ # Plant routes, using common_name as the URL param
   resources :plants, param: :common_name, only: [:index, :show]
 
   # Resources routes
